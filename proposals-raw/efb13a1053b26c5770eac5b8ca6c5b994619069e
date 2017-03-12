@@ -1,0 +1,36 @@
+**Intro**
+
+@Cybnate - below called "the operator" - will run a PyBot on Poloniex and Bittrex. The liquidity is being broadcast using a custodial address to allow tracking the liquidity situation of the bot. The operator promises to send all funds to a FLOT multisig address upon request of a majority of the FLOT members or by a passed NSR holder motion.
+The spread is fixed to 1.4%. The maximum fillside is 2000 NBT on Poloniex and 1000 NBT on Bittrex. 
+
+**Availability**
+
+The operator checks for Pybot's operation on a daily bases. This translates in a response time of at least 24 hours worst case.
+
+**Begin of operation**
+
+Operation begins on the day this proposal passes.
+
+**End of operation**
+
+Operation is ceased by request of withdrawal of all funds or if operator sends all funds to FLOT multisig address(es).
+The remaining grant fees will be burned or send to a FLOT's NBT address.
+If for any reason the operator has to stop PyBot for a period of time or permanently before the end of the contract, it will be communicated at least 7 days in advance.
+
+**Modes of withdrawal**
+
+NSR holders can request withdrawal by motion.
+FLOT members can request withdrawal to a FLOT multisig address for which they are signer by posting in the forum.
+The number of FLOT members to request a deposit to a FLOT multisig address equals the number of FLOT members to execute transactions from this address. The operator may withdraw funds to a FLOT multisig address by discretion.
+
+**Compensation scheme**
+
+The operator @cybnate charges 129 NBT for **90 days** of operation in advance. This term saves another round of voting for a relative small amount. 
+
+**Reasoning for compensation**
+
+PyBot will be running on an existing VPS together with other PyBots used to monitor LiquidBits operations. The compensation is mainly for weekly (or less) manual withdrawals and general monitoring of operations of the bot.
+
+---
+
+[Proposal](https://daology.org/p/efb13a1053b26c5770eac5b8ca6c5b994619069e) created with [Daology.org](https://daology.org) by [cybnate](https://daology.org/u/cybnate) for [Nu](https://daology.org/o/Nu)

@@ -1,0 +1,26 @@
+=##=##=##=##=##=## Motion hash starts with this line ##=##=##=##=##=##=
+
+Fund development of NuBox, a Peerbox fork (peerbox.me) with Peerbox functionality extended to cover all Nu specifics like motion voting and data feeds.
+
+When motion passes, I will start working on this and within 4 weeks I will deliver:
+
+* Standards compliant, GPG signed Debian repository for NuBox (arm and x86_64)
+* Signed Nu wallet binaries with accompanying tools
+* Port of **peerbox** command with extended, Nu specific commands
+* Documentation on how to install and use NuBox
+* Any feature that users need but I have possibly omitted in this post with condition that it is communicated in first two weeks since motion passes and is not excessive/unrealistic
+* Source code for the full product.
+* Nu version updates for a period of 1 year, as long as they are compatible with existing codebase and don't require major architectural overhauls.
+* After this period new motion will be started to extend maintenance period.
+* Nu will pay me 4000 NBT upfront for this project.
+
+I will not be dealing with marketing, logo design and website. I propose that the same designer of all other Nu logos design this one too and that projects website is integrated into the rest of the project properly.
+
+Address: BJ8vw82j8CTQwzi4QLocyddkgVtPkrcHXz
+Amount: 4000 NBT
+
+=##=##=##=##=##=## Motion hash ends with this line ##=##=##=##=##=##=
+
+---
+
+[Proposal](https://daology.org/p/a9af78ba19f16c956dcd5ca3e4d3bb455543f50c) created with [Daology.org](https://daology.org) by [peerchemist](https://daology.org/u/peerchemist) for [Nu](https://daology.org/o/Nu)

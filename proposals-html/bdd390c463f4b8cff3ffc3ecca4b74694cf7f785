@@ -1,0 +1,349 @@
+<!-- extend base layout -->
+
+<!doctype html>
+<html lang="">
+  <head>
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Daology</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/static/public/images/favicon.ico">
+
+    
+  
+  
+
+    
+      <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic|Lato:400,700|Inconsolata' rel='stylesheet' type='text/css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/highlight.js/latest/styles/github.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/flick/jquery-ui.css">
+      <link rel="stylesheet" href="/static/assets/stylesheets/_vendor/jquery.tagit.min.css">
+
+      <link rel="stylesheet" href="/static/public/stylesheets/dao.min.css">
+    
+
+    
+
+    
+
+  
+
+    
+  
+  
+
+    
+
+    
+      <script src="/static/assets/javascripts/vendor/moment.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/contrib/auto-render.min.js"></script>
+    
+
+    
+
+  
+
+  </head>
+  <body role="document">
+    <div id="fullpage_wrapper">
+    
+      <div id="app-navbar">
+  <nav class="navbar" role="navigation">
+    <div class="container-fluid">
+      <div class="brand-bar row">
+        <div class="col-md-12">
+          <button id="menu-toggle" type="button" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar bar1"></span>
+            <span class="icon-bar bar2"></span>
+            <span class="icon-bar bar3"></span>
+          </button>
+          <a class="word_mark" href="/" name="home_link">daology</a>
+          
+        </div>
+      </div>
+      <div class="primary_nav row">
+        <div class="col-md-12">
+          <div class="collapse navbar-collapse" id="app-navbar-collapse">
+            <ul class="subnav">
+              <li class="subnav-item"><a href="/organizations/" name="dao_list_link">Organizations</a></li>
+              <li class="subnav-item"><a href="/articles" name="dao_list_link">Articles</a></li>
+              <li class="subnav-item"><a href="/proposals" name="dao_list_link">Proposals</a></li>
+              
+              <li class="subnav-item"><a href="/login" name="login_link" class="signin_btn">Sign in with Github</a></li>
+              
+
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+</div>
+      
+  
+  
+
+
+      
+
+  
+
+  
+
+  
+
+  
+
+
+
+      <div class="main row">
+        <div class="container">
+          <header class="row page_title">
+            
+            <div class="row">
+              <div class="page_actions col-md-12 pull-right">
+                <ul>
+                
+  <li class="action_btn"><a href="/proposals/bdd390c463f4b8cff3ffc3ecca4b74694cf7f785/raw" target="_blank" class="btn btn-sm btn-primary">Raw</a></li>
+  
+
+
+                
+                  
+
+
+                
+                </ul>
+              </div>
+            </div>
+            
+            
+            <div class="col-xs-9 col-md-11">
+              <span class="supertitle">
+                
+  Proposal  <span style="breadcrumb-separator">// </span><a href="/organizations/Nu">Nu</a> <span style="breadcrumb-separator">/</span> <a href="/organizations/Nu/NuBits">NuBits</a> 
+
+              </span>
+              <h1>
+                
+  NuPool 7
+
+              </h1>
+            </div>
+          </header>
+          <section class="row page_content">
+            <div class="col-md-12">
+              
+<div class="row container">
+
+  <div class="col-md-4 sidebar">
+
+    <div class="scroll_title">
+      <p class="supertitle">Proposal  <span style="breadcrumb-separator">//</span> Nu <span style="breadcrumb-separator">/</span> NuBits</p>
+      <p class="title">NuPool 7</p>
+      <p class="author">By
+        inuitwallet
+        
+      </p>
+      <p class="meta_text date">
+        <script>
+document.write(moment("2015-12-24T19:57:57 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+        &nbsp;|&nbsp;&nbsp;<span class="updated">Updated: <script>
+document.write(moment("2015-12-31T09:05:33 Z").calendar());
+</script></span>
+        
+      </p>
+      <hr>
+      <div class="content-toc"></div>
+    </div>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="meta_text">
+          <a href="/u/inuitwallet/">
+            <img src="https://avatars.githubusercontent.com/u/7223589?v=3" class="profile">
+            <div class="authorname_block">
+                <div class="nolink">By inuitwallet</div>
+                <div class="nickname">@inuitwallet</div>
+              </div>
+            
+          </a>
+        </p>
+        <div class="row">
+          <div class="col-md-12">
+          <p class="meta_text date">
+            <script>
+document.write(moment("2015-12-24T19:57:57 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+            
+            &nbsp;|&nbsp;&nbsp;
+            
+            <span class="updated">Updated: <script>
+document.write(moment("2015-12-31T09:05:33 Z").calendar());
+</script></span>
+            
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="sidebar_title">Text Hash ( RIPEMD-160 )</p>
+        <p class="meta_text hash">cf4a9e6b7f8b14737584a601f9ab508780c6e566  </p>
+      </div>
+    </div>
+    
+
+    
+
+    
+    
+
+  
+    <hr>
+    <div class="row meta_element">
+        <div class="col-md-12">
+          <span class="sidebar_title">
+            Grant
+          </span>
+          <p class="meta_text">4,100 NBT</p>
+        </div>
+    </div>
+    <hr>
+    <div class="row meta_element">
+        <div class="col-md-12">
+          <span class="sidebar_title">
+            Grant Address
+          </span>
+          <p class="meta_text">BLn12cB6vag2B4Q1nJeKf3gyt4Zivz84zv</p>
+        </div>
+    </div>
+
+  
+
+
+
+  </div>
+
+  
+  
+    <div class="content_body col-md-8">
+  
+
+
+
+
+    
+    <div class="reading-time-wrapper" data-target="bdd390c463f4b8cff3ffc3ecca4b74694cf7f785">
+    <span class="reading-time"></span> read (<span class="word-count"></span> words)
+  </div>
+
+    <article class="rtCalc no-fouc" id="bdd390c463f4b8cff3ffc3ecca4b74694cf7f785">
+      
+        <p>Hi Shareholders.</p>
+<p>Despite saying that the new version of the ALP  software would be ready for the next operation of NuPool, it now looks like that won't be the case. As such, I would like to extend the current operation of NuPool for another 30 days. 
+The parameters will remain the same as the current operation.</p>
+<p>The work on the new version of the software is going well. You can keep tabs on the state in the chat room here <a href="https://gitter.im/inuitwallet/ALP-Server">https://gitter.im/inuitwallet/ALP-Server</a> and on the github repo here <a href="https://github.com/inuitwallet/ALP-Server">https://github.com/inuitwallet/ALP-Server</a>.</p>
+<p>We currently have funds for another 9 days (approx) of operation. If this proposal doesn't pass within that time, I am willing to fund the pool myself for a few extra days.</p>
+<p>The proposal:</p>
+<p>NuPool will operate on Poloniex and Bittrex for a 30 day period. The total target of the operation will be 50,000 NBT split 4:1 between the two supported exchanges in favour of Poloniex. This gives a target of 40,000 NBT split equally between bid and ask on Poloniex and a target of 10,000 NBT split equally between bid and ask on Bittrex.</p>
+<p>The pool reward will be lowered to 0.24% per day which translates to 7.2% for the duration of the operation.</p>
+<p>The figures are:</p>
+<p>Duration: 30 Days
+Daily Rate: 0.24%
+Total Rate: 7.2%</p>
+<p>Poloniex: 40,000 NBT &gt; 20,000 BID | 20,000 ASK
+Bittrex: 10,000 NBT &gt; 5,000 BID | 5,000 ASK</p>
+<p>Server Tolerance: 0.0105 or 1.05%
+Spread After Fees:
+Poloniex (fee = 0.2%) - 1.1% SAF
+Bittrex (fee = 0.25%) - 1% SAF</p>
+<p>Grant Amount: 50,000 x 7.2% = 3600 NBT
+Pool Fee: 50,000 x 1% = 500 NBT</p>
+<p>Total Grant Requested: 4100 NBT</p>
+<hr>
+<p><a href="https://daology.org/p/bdd390c463f4b8cff3ffc3ecca4b74694cf7f785">Proposal</a> created with <a href="https://daology.org">Daology.org</a> by <a href="https://daology.org/u/inuitwallet">inuitwallet</a> for <a href="https://daology.org/o/Nu">Nu</a></p>
+
+      
+    </article>
+  </div>
+</div>
+
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div id="app-footer">
+  <footer class="footer footer-branded">
+
+    <div class="container">
+      <nav class="pull-left col-xs-12 col-md-10">
+        <ul>
+          <li role="presentation"><a href="/about">About Daology</a></li>
+          <li role="presentation"><a href="/terms">Terms</a></li>
+          <li role="presentation"><a href="/privacy">Privacy</a></li>
+          <li role="presentation"><a href="/cookies">Cookies</a></li>
+          <li role="presentation"><a href="/support">Support</a></li>
+        </ul>
+      </nav>
+      <div class="copyright col-xs-12 col-md-2 pull-right">
+        &copy; 2017 Daology, LLC
+      </div>
+    </div>
+  </footer>
+</div>
+    </div>
+      
+
+
+  
+  
+
+    
+
+    
+
+    
+      <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+      <script src="//code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/highlight.js/latest/highlight.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+      <script src="/static/public/javascripts/dao.min.js"></script>
+    
+
+  
+
+
+
+  <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='https://www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-62932153-1','auto');ga('send','pageview');
+  </script>
+
+  </body>
+  
+  
+</html>

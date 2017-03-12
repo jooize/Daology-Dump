@@ -1,0 +1,62 @@
+**Funding request to operate Liquidbits.net, an automatic liquidity pool for NuBits.**
+
+The independent automatic liquidity pool (ALP, also known as TLLP) will provide liquidity on the EUR/NBT, USD/NBT and BTC/NBT markets on CCEDK.com. A target of 6,000 NBT on the bid and ask side of the order books will be provided by the pool split over 3 currency pairs and 1 exchange, resulting in a total maximum compensated liquidity of 12,000 NBT. The operation will end after sixty (60) days when a motion or grant to continue operations haven't passed before.
+
+**Liquidity provided by users will be compensated as follows:**
+
+with up to 5.7% per month (**0.19%** per day) on CCEDK’s **NBT/EUR** pair on both sell and buy side to a maximum of 2,500 NBT on each side ( max pay-out  285 NBT/60 days)
+
+with up to 5.1% per month (**0.17%** per day) on CCEDK’s **NBT/USD** pair on both sell and buy side to a maximum of 2,500 NBT on each side (max pay-out  285 NBT/60 days)
+
+with on average 7.2% per month (**0.24%** per day) per month on CCEDK's **NBT/BTC** pair to a maximum of 1000 NBT in total but split as follows:
+
+- 0.19% per day up to 500 NBT on sell side ( max pay-out 57 NBT/60 days)
+- 0.29% per day up to 500 NBT on buy side ( max pay-out 87 NBT/60 days)
+
+using the pool’s calculations based on the Dutch auction model to allow a fair distribution of returns amongst liquidity providers. 714.00 NBT of the requested amount in this grant will be held as reserve to make pay-outs to connected users.
+
+**Breakdown grant amount**
+
+The current grant has 915 NBT left as of 30 Jan UTC with about 10 days to go at a current payout rate of 20 NBT on average. 10 * 20 = 200 NBT. Therefore there will be approx.  915- 200 = 715  NBT left for rollover.
+
+###### 
+###### > Total required:
+###### >  714 + 300 (fee) - 715 (rollover) =  299 NBT for 2 months.
+
+
+-----
+**Terms and conditions**
+
+Pay-outs take place every 24 hours. The minimum pay-out is 1 NBT. The spread continues to be 2% on either side with 0.0085 tolerance. Operations and pay-outs will start within 5 days after the custodial grant has passed successfully. The pool will continue to operate under the name LiquidBits.net. Remaining funds will be settled with future grants or when the pool is discontinued, burned.
+
+**Fee**
+
+The pool 2 month fee is a one-off 300 NBT and serves as a contribution for the effort of supporting the pool, the website, reporting, supporting the users and the monthly costs of operating the server including Cloudflare protection with SSL certificates.
+
+**Instructions**
+Instructions on how to participate in the pool can be found here: http://cybnate.github.io/index-liquidbits.html
+
+**Disclaimer and risks**
+The provisioning of the pool is based on best efforts. No claims can be made by users when the pool server or client software is not available or not working properly.
+
+Liquidity providers remain in full control of their funds throughout the operation of the pool. The pool operator won’t have access to any of the funds hence the reference to trust less liquidity pool. Therefore liquidity providers bear the full risk having their funds on the exchange and won’t be compensated by this pool on an exchange default or inability to withdraw their funds.
+
+Liquidity providers are exposed to the risks of speculators hedging against them on other pairs than NBT/USD like NBT/EUR with the NBT/BTC pairs a particular high risk due to BTC's high volatility. Therefore the compensation on the riskier pairs is higher. 
+
+Finally, please be reminded of the following:
+
+**Don’t risk more than you can afford to lose!**
+
+
+
+**Key changes from term 6**
+- Reduced maximum from 5000 NBT to 2500 NBT on NBT/USD pair
+- Reduced maximum from 1000 NBT to 500 NBT on NBT/BTC pair
+- Reduced payout from 0.18% to 0.17% for NBT/USD pair
+- Reduced payout from 0.20% to 0.19% for NBT/EUR pair
+
+The changes are made to further reduce the liquidity cost for Nu on pairs without a lot of volume.
+
+---
+
+[Proposal](https://daology.org/p/8bbc95f76e5942018daa4b811b19308ed424c7b0) created with [Daology.org](https://daology.org) by [cybnate](https://daology.org/u/cybnate) for [Nu](https://daology.org/o/Nu)

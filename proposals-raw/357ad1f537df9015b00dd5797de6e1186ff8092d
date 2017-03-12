@@ -1,0 +1,47 @@
+Hi Shareholders, 
+
+First off I would like to apologise for the overrunning of the 7th NuPool operation. As I explained, factors external to Nu have been taking up increasing amounts of my time and made it difficult to develop the new software and manage the existing concurrently.   
+The new software is ready now and, assuming no major issues over the next few days, the new version of NuBot will be released very soon.   
+That means that it is time to start voting on the new grant for the new operation.  
+  
+As you are no doubt aware the new ALP software uses a new reward mechanism which has been dubbed CRFR. This is a fixed reward mechanism meaning that the same amount of reward is given each minute. The reward is shared out amongst participants based on the percentage of the total liquidity that they have provided. The only time this isn't true is when the targetted liquidity amount hasn't been reached. In this case the percentage of the target that has been reached dictates the percentage of the reward that is split amongst the participants. These two factors together mean that there is incentive both to provide the most liquidity (to get a larger share of the reward) and ensure that the target is reached (so that the maximum amount if reward is payed out).   
+  
+  
+  
+ALP v2 uses a database for all operation so there should be no more missed payments if the pool restarts and reporting will be much much easier.   
+The software hooks into the same price streaming server used by NuBot so there should eventually be less discrepancy of price across ALP supported exchanges.   
+  
+The new system will also allow for different rewards to be set for different tolerance bands (termed 'ranks' in the software), asymmetrical rewards on different sides and dynamic updating of pool parameters during an operation. I believe that these features will provide a powerful toolbox for shareholders to direct liquidity where it is needed.   
+For this first outing though I intend to keep things simple with balanced sides and static parameters.  
+  
+With the recent performance of NuPool and the combined factors of FLOT/NuBot gateways providing a safety net and me becoming a risk due to time constraints I would like to propose a reduction in the target that NuPool aims for.   
+  
+The proposed parameters for the new operation are:  
+  
+Operation duration: **30 days**  
+  
+Poloniex:  
+Target: **15000 NBT**  
+Tolerance: **0.0105** (submitted liquidity will only be considered for reward if it lies within 1.05% of the peg price)   
+Reward: **0.02431 NBT** / minute (1050 NBT over 30 days or **7%**)  
+Fee: **150 NBT**  
+Total Requested: **1200 NBT**  
+  
+Bittrex:  
+Target: **2000 NBT**  
+Tolerance: **0.0105**   
+Reward: **0.003241 NBT** / minute (140 NBT over 30 days or **7%**)  
+Fee: **20 NBT**  
+Total Requested: **160 NBT**  
+  
+**Total Requested for both exchanges: 1360 NBT**  
+
+
+
+
+
+
+
+---
+
+[Proposal](https://daology.org/p/357ad1f537df9015b00dd5797de6e1186ff8092d) created with [Daology.org](https://daology.org) by [inuitwallet](https://daology.org/u/inuitwallet) for [Nu](https://daology.org/o/Nu)

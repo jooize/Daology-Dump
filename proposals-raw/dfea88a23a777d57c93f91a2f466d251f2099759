@@ -1,0 +1,25 @@
+Here is my proposal to become a reputed signer for signing B&C exchange transactions.
+
+I propose to start with just some basic infrastructure. I'm seeing a beta phase during which I provide best effort services. Once B&C really takes off and signifcant amounts start to be traded I will upgrade the configuration to a more professional setup, higher availability and adding further assets on demand.
+
+Therefore I plan to start with a standard server with the clients running behind ToR. Future configurations may extent to VPS or hybrid models once it has been proven that stable and secure communications can take place.
+
+The server will be multi-core running Linux with plenty of storage in a raid-1 configuration. Will add CPU cores, memory, UPS and resilient internet connection once B&C usage increases and services become profitable. Will still aim to provide better than 95% service availability during beta period. This is about 8 hours/week on average or 18.25 days/year downtime. This allows for technical failures and holidays without internet access while server fails.
+
+**Coins supporting:**
+I'm prepared to support the following assets when trading becomes possible:
+BKS, BKC, NSR, NBT, PPC and BTC.
+
+**Credentials:**
+I have been around in Peercoin community since late 2013. Supported several marketing initiatives and have been an active contributor and PPC stakeholder. Also invested in Nu with several initiatives such as maintaining a datafeed, project managing the NuDroid App and hosting liquidity provisioning with LiquidBits.net. Besides that I have been an active contributor to the nubits.com forum which includes B&C discussions.
+
+**Signer's vision and potential contribution:**
+Being a B&C shareholder I'm keen to see the product becoming alive rather sooner than later, but also accept that this might not happen at all given we still don't have access to the B&C development funds. It is even unclear whether they still exist and what their value is. This appears to depend on getting NuBits pegged and healthy which haven't been successful to date due to a large stubborn shareholder or small group of shareholders.
+I will open to other funding rounds if this is required. I'm also good to contribute my project management skills and being part of a multi-sig group to keep funds on shareholders' behalf.
+
+Voting address:
+8ZzENdnyZLDvsZPJmZhQYtdzaBwSKDLXGX
+
+---
+
+[Proposal](https://daology.org/p/dfea88a23a777d57c93f91a2f466d251f2099759) created with [Daology.org](https://daology.org) by [cybnate](https://daology.org/u/cybnate) for [B&C Exchange](https://daology.org/o/B&C Exchange)

@@ -1,0 +1,21 @@
+Operator: @Nagalim  
+Type: 2 Fixed Cost ALPs  
+Pool and Term:  NuPond Term 10  
+Exchange: Bter.com  
+Pair:  NBT/CNY & NBT/BTC  
+Start:  May 1st  
+End: May 31st  
+Tolerance: 1% for Both  
+Spread After Fees: 1% for Both  
+Bid/Ask Reward Rate for BTC: 2 NBT/day  
+Bid/Ask Reward Rate for CNY: 2 NBT/day  
+Total Grant Without Operator Fees: 248 NBT  
+Previous Operator Fees: 100 NBT  
+Rollover Funds: 20 NBT  
+Current Total Operator Fees for Next Term: 100 NBT  
+  
+NuPond may switch to ALP v2 when the operator is confident of the implimentation.  Targets of 200 nbt total for each pool will be used for the CRFC model.
+
+---
+
+[Proposal](https://daology.org/p/00eb5ba730239d1b6de89abd555f239de52de10d) created with [Daology.org](https://daology.org) by [nagalim](https://daology.org/u/nagalim) for [Nu](https://daology.org/o/Nu)

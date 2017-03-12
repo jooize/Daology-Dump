@@ -1,0 +1,147 @@
+*Let us talk NuBits with Pascal Hamonic (cryptog) - Video interview conducted by Schalk Dormehl - Preliminary Q/A - 02FEB16*
+
+Author: [Pascal Hideki Hamonic](https://www.linkedin.com/in/uploada/ja) (handlename: [cryptog](https://twitter.com/cryptog1))
+Date: 07FEB16
+
+Disclaimer: I am a shareholder of Nu who does not mind going public.
+Below is only my understanding of how NuBits works but I hope it is close enough to what most shareholders have in mind.
+This is limited to my own knowledge of how the network works but I have been following the project since inception so I am confident I can provide reliable information.
+
+
+
+-----
+**What are NuBits?**
+
+NuBits are stable crypto-currencies pegged to stable instruments or relatively stable instruments such FIAT money or SDRs.
+Right now, NuBits are pegged to USD but the network (Nu) has recently decided to create other pegs such as to the Yuan, Euro and SDRs.
+NuBits will be renamed US-NBT, and other pegs will have a prefix indicating the country.
+
+
+**What are NuShares?**
+
+NuShares are shares of Nu, the network managing NuBits, which is also a decentralized autonomous corporation or organization. NuShares are by nature volatile because their price depends on the dividends the network can bring to shareholders.
+A Nu shareholder is someone that owns NuShares.
+By holding NuShares (you need more than 10k), you can vote for any motion, custodial grant, transactions fee and parking rates.
+
+**Tell us of the black magic that keeps the peg in place?**
+
+The peg is kept by setting large buy and sell walls on markets. Essentially, you make sure that anybody that wants to sell 1 NBT for less than 1USD will lose money because there will always be someone willing to buy it for 1USD. Conversely, you make sure that anybody that wants to buy 1 NBT for less than 1USD will find no sellers because there will always be someone willing to buy 1NBT for 1USD.
+These walls are kept by liquidity providers who are incentivized by Nu to do so.
+At the beginning it was essentially single providers that did that job but nowadays these walls are kept by liquidity pools.
+
+**That's amazing who's the bright spark who came up with that!?**
+
+Thank you. So far the peg was kept perfectly and NuBits’s liquidity provision has proven to be the only feasible and sustainable working way to maintain a peg.
+Of course other ways might show up but right now this is the best way.
+
+**Isn't offering interest for parking like running a Ponzi, since future interest seekers could end up paying out present day parkers?**
+
+Good question. Well it would be a Ponzi if the network is not actually making revenues, which means sales. A bank paying interests on depositor’s money would be regarded as a Ponzi scheme if the interests were paid by previous depositors. Fortunately, the interests are paid by the bank from the revenues it makes when it lends that money to borrowers.
+
+**Why PoS? **
+
+Because the sustainability of PoW is uncertain and because PoS is perfectly adapted to owning shares in a network.
+In Peercoin, the code from which Nu is derived (more exactly Nu is derived from a template called Peershares which is a fork of Peercoin), the stake is equivalent to owning coins, and by holding a stake you mint and get rewards.
+It is actually not obvious what the shares of the Peercoin’s network represent, however, in case of Nu, the notion of stake fits perfectly.
+You own NuShares, that represent ownership of the network. By holding NuShares you mint, meaning you vote, which makes you eligible for a reward, as a result of your work as a shareholder.
+In other words, the notion of stake fits perfectly the framework of DAC (Decentralized Autonomous Corporation) or DAO (Decentralized Autonomous Organization), which Nu is one instance. 
+Peershares is in fact a template to build any DAC or DAO.
+
+**Not worried about Long Range / Nothing@Stake?**
+
+No, I am convinced that it is a false problem because there is no economic incentive to do so.
+The fact that peercoin which has been created in July 2012 has not undergone any attacks is a proof that such attack does not give sufficient incentives to mint on 2 separate chains at the same time.
+In order to completely nullify such incentive, Nu has implemented by the end of 2014 a double minting detection mechanism which punishes minters for using twice the same stake on 2 different chains.
+
+**Why are div's not payed out in NuX?**
+
+Good question. Right now you can distribute dividends only in peercoin (this is one of features of Peershares). But there is a poll that shows that more than 50% of shareholders would want to have the choice between peercoin and bitcoin. In fact, a fork of Nu, called B&C Exchange which is a project half funded by Nu, aiming at created a decentralized exchange in a blockchain, being developed by the same developers as Nu would distribute dividends in bitcoin.
+But I am digressing.
+Paying dividends in NuBits would destabilize the money supply mechanism.
+NuBits have to be issued and burned by the decentralized central bank that Nu is. 
+If dividends were distributed in NuBits, it would entail that Nu creates a product and feed itself by the same very product, creating some kind of positive feedback loop, that could make the system unstable.
+
+**What's your transaction rate (for those into Blocksize drama)?**
+
+You mean the number of transactions per day? Right now I think it is between 25 and 75 tx per day.
+
+**When will NuYuan be up? **
+
+There is no specific date but the logos are ready. Nu should be able very soon to create the first symbolic NuYuan in the blockchain. Hopefully within the first half of this year.
+
+**How do you think the Chinese government might respond to this since they are quite serious about their peg?**
+
+Well actually NuYuan is only following closely the value of the Yuan. So people buying NuYuan from Yuan are only strengthening the value of the Yuan.
+So I do not think it poses a problem in terms of Yuan’s devaluation. It is more a problem of money laundering or capital fleeing the country I think.
+
+**What is the status of the NuDroid wallet?**
+
+The NuDroid wallet is being improved regularly. Recently variable tx fees caused an issue that has been fixed through some of sort of bandaid solution.
+That will be totally fixed once the new version of Nu is up and running.
+
+**Please explain how NuDroid works briefly?**
+
+The basic function is a wallet for NuBits. It connects to a server that actually contains the whole blockchain.
+Of course it does not send the private keys to the server.
+On top of that it integrates a conversion feature via ShapeShift that lets you pay with nubits any merchants that accepts only bitcoin or any other crypto-currency that ShapeShift can handle.
+
+
+**Does it support HD wallets?**
+
+I ve checked about them and yes it can support HD wallets with some adjustement.
+
+**How far is the iOS wallet?**
+
+There is no plan right now for such wallet but I would love to have such a wallet as an iOS user.
+
+**Do you have any ideas of what your usage figure in Zimbabwe or other dollarized countries are? **
+
+Absolutely no idea.
+
+**What do you think adding a city like Harare would do for Nu and for Harare?**
+
+It would be great for Harare’s population since they would be able to use a stable currency with very low tx fees. No need for credentials to create a wallet. So it would do a lot of good for the unbanked.
+For Nu, it will create create a huge demand for NuBits of course.
+There are 1.6m people living in the city.
+So assuming that each person gets 1nbt in his or her wallet, first of all Nu would need to create 1.6m NuBits from scratch which is very easy to do. Just pass a custodial motion vote.
+Then sell those nubits for bitcoin or ideally dollars. 
+Then Nu gets the proceeds and holds them in decentralized reserves.
+Then of course Nu would need to maintain the peg by providing liquidity.
+
+
+**Who is paying for your ads since I've seen some?**
+
+Nu, by passing custodial grant votes.
+
+**If transaction volumes increase beyond the network's capacity what is the preferred off chain transaction system?**
+
+This is totally unknown and not that important right now since there are only between 25 and 75 tx per day but some shareholders talk about using open transactions.
+That protocol would be implemented by reputed signers’ wallets in the decentralized exchange B and C exchange that is being developed.
+
+-----
+If we get to it;
+**What are your thoughts on Ethereum?**
+
+I think it is very ambitious project and that is very interesting. Implementing a Turing complete language inside the blockchain to specify any type of smart contracts is certainly a tour de force.
+However I think overall it tries to do too many things at the same time and at the end it might not be able to even do one single thing well.
+The fact that we have not seen concrete working applications so far goes into this direction.
+That is a bit worrying.
+Comparatively at Nu, which by the way can be seen as a smart contract system dedicated to the activity of a central bank does only one thing and so far it has been doing it well.
+This is the philosophy of Peershares from which derives Nu: one blockchain for each application.
+
+**Will you be able to use a SPV gateway (like BTC-relay and Dogeum) to and from Ethereum or are those not workable with PoS?**
+
+By SPV you mean special purpose vehicle? I think I am not enough tech-savvy to answer your question for sure but I do not see any reason why it should not be possible.
+You “just” specify a smart contract to simulate the verification of a Nu block inside the Ethereum blockchain.
+Since Ethereum is Turing complete, there should not be any problem theoretically but in practice it might not be viable, I suspect.
+
+**Would it be possible to freeze Nu and start it's final state up as a contract on Ethereum?**
+
+I think it would be possible to do it theoretically for all the internal states and smart contracts inside Nu. But would it be viable from a practical stand point? I doubt it.
+One single bug inside Ethereum would compromise Nu.
+In terms of scalability, I doubt Ethereum can sustain it.
+But the biggest problem which is probably not solvable is all the pegging mechanism..
+I think there is no smart contract that can simulate such mechanism.
+Why? Because it involves a lot of economics. You need to incentivize actual liquidity providers.
+Economics is not something you can automatize by algorithm because it involves human psychology.
+In Nu, we think that providing liquidity by incentivizing providers with financial reward will be the best way to create a stable crypto-currency for a long time.

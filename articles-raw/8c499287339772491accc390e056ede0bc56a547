@@ -1,0 +1,118 @@
+## What is Daology?
+
+Daology wants to help distributed organizations operate more efficiently, and communicate more effectively. The site is still a work in progress and we haven't added all the great features we have lined up, but we think there's a great base to build from in meeting the above goal. 
+
+### Organizations are driven by people and ideas
+
+ Organizations are driven by people and their ideas. So, first and foremost Daology is a place for people to create and share those ideas. We want to help content creators have the best tools that  allow them to create rich, expressive content. The two main content items that you can create are [Articles](https://daology.org/articles) and [Proposals](https://daology.org/proposals). 
+ 
+  #### Proposals
+ 
+ Proposals are intended to make some change within an organization. When creating proposals on Daology you first select the organization that it's intended for. This will make it really easy for members or followers of that organization to find it. It shows up right on their [organization page](https://daology.org/organizations/). Some organizations have specific proposal types and we try to work with communities on offering proposals types that fit within their organizational structure. Such as [Custodian](https://daology.org/proposals/new/Nu/custodian) proposals for the [Nu organization](https://daology.org/organizations/Nu). Proposals will have a lot of tie-ins to other site functionality that isn't quite ready yet, but we hope to roll them out as soon as possible.
+ 
+ #### Articles 
+ 
+ The key difference between an article and proposal is articles don't need to request a change. They could be used to share an opinion on proposed changes, or share general information/data relevant to an organization. When creating an article on Daology you can target which organization you're writing about assuring it will be seen by its intended audience. You don't have to target an organization though. We welcome writers to use Daology as a place to share their ideas on whatever subject they see fit, so articles are free some the organization selection constraint.
+ 
+## Creating content
+
+### Markdown
+
+ Daology is a content creation platform first, and so we have (and will continue to) put a focus on giving writers the best tools to make their content awesome. Our editor is based on extended [Markdown](https://help.github.com/articles/markdown-basics/) to make formatting simpler.
+ 
+Markdown lets you format things quickly like create headers to organize your content.
+
+This:
+```
+# Header 1
+## Header 2
+### Header 3
+#### Header 4
+```
+
+
+Turns into this:
+# Header 1
+## Header 2
+### Header 3
+#### Header 4
+ 
+ 
+ ### Table of contents
+ 
+ We take headers a bit further on the desktop site. On the left side you will see Daology automatically generates a table of contents when you use Markdown headers in your content. (Up to H3, after that they are ignored.)
+ 
+ 
+ ### Extended markdown
+ 
+ We support extended Markdown which means you can also do things like creating tables.
+ 
+ This:
+ ```
+header 1 | header 2  
+------- | --------  
+row 1, column 1 | row 1, column 2  
+row 2, column 1 | row 2, column 2  
+  ```
+  
+  Turns into this:  
+    
+header 1 | header 2  
+-------   |   --------  
+row 1, column 1 | row 1, column 2  
+row 2, column 1 | row 2, column 2  
+    
+
+### KaTeX
+
+We hope daology will be useful for academic/scientific communities and organizations. One feature we've added to our editor is [KaTeX](https://github.com/Khan/KaTeX) to assist those that are more mathmatically inclined. KaTeX is a math markup language that takes plain text and renders it into mathmatical equations.
+
+It turns this:
+
+```
+$$$
+c = \\pm\\sqrt{a^2 + b^2}
+$$$
+```
+
+Into this: 
+
+$$$
+c = \\pm\\sqrt{a^2 + b^2}
+$$$
+  
+You can also do add it inline with text using two $:
+
+```
+Like  $$c = \\pm\\sqrt{a^2 + b^2}$$  This
+```
+
+Like  $$c = \\pm\\sqrt{a^2 + b^2}$$  This
+
+### Content ID
+
+Every content item on daology is given a unique ID which is displayed in the URL when looking at the content. For intance the ID for this article is 8c499287339772491accc390e056ede0bc56a547. This is what uniqely identifies your content on Daology and is used for other features of the site.
+
+### Content status
+
+When creating content there are different status states which you can assign to the content. Each state will change the visibility and presentation of your content.
+
+Status | Effects  
+----- | -----  
+Private |  Private content is only visible by the creator. This is the default status when you create new content.  
+Unlisted |  Unlisted content is publicly visible, but will not show up in any public listings on Daology. This is a good option if you would like to share the content with a few people.  
+Draft |   Draft content is publicly visible and shows up in all relevant public listings on Daology. It is marked as a draft and informs readers that content is not finalized.
+Published |  Published content is publicly visible and shows up in all relevant public listings on Daology. Published content is considered finalized.
+ Archived | Archived content is publicly visible but only shows up in a users archived listing.
+ 
+   ### Tags
+   
+   Tags offer more granular organization of your content. All of the tags used on proposals and articles can be found on the [tags page](https://daology.org/tags). You can enter up to eight tags, lowercase, without spaces. 
+   
+   ### Responses
+   
+   On the content editor screen you'll see a "Response to" field. You can enter in the content ID of an article or proposal that your new content is in response to. When an article or proposalshas responses you'll be able to see them by clicking the responses button at the top of the page (the button will only show up is responses exist). This can be useful for submitting counter proposals or writing an article about existing content.
+   
+   ### Raw view
+   
+   By adding /raw to the end of a content URL you can see the pure Markdown text of your content. For instance you can see the raw view of this article [here](https://daology.org/u/coingame/articles/8c499287339772491accc390e056ede0bc56a547/raw)

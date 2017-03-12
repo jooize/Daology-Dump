@@ -1,0 +1,31 @@
+**Intro**  
+@Cybnate - below called "the operator" - will run a PyBot on Poloniex and Bittrex. The liquidity is being broadcast using the custodial address of this grant to allow tracking of the liquidity situation of the bots. 
+The spread is fixed to the maximum spread (1%) allowed and broadcast by the LiquidBits operations. The maximum fillside is 2000 NBT on Poloniex and 1000 NBT on Bittrex. Only the fillside is propagated as Tier 1 liquidity.
+
+**Availability**  
+The operator offers to check for Pybot's operation on a daily bases. This translates in a response time of 24 hours worst case.
+
+**Begin of operation**  
+Operation begins on 1 October 2016 or on passing of this proposal using existing funds from the previous grant for this operation.
+
+**End of operation**
+
+1. Operation is ceased or paused on request of withdrawal of all funds by motion or if operator sends all funds to a multisig address(es). The remaining grant fees will be burned or transferred to an agreed address.
+2. Operations may cease when the 90 days period has passed and a new grant or motion haven't passed.
+3. If for any reason the operator has to stop PyBot for a period of time or permanently before the end of the contract, it will be communicated at least 7 days in advance.
+
+**Modes of withdrawal**  
+NSR holders can request withdrawal by motion at any time.
+When the sell side funds are increased AND the total amount of funds across both exchanges exceeds 15,000 USNBT, the equivalent in BTC will be transferred to an agreed BTC address.
+
+**Compensation scheme**  
+The operator @cybnate charges 129 NBT for **90 days** of operation in advance. This terms reduces the amount of voting for a relative small amount. 
+
+**Reasoning for compensation**  
+PyBot will be running on an existing VPS potentially together with other PyBots used to monitor LiquidBits operations. The compensation is mainly for weekly (or less) manual withdrawals and general monitoring of operations of the bot.
+
+
+
+---
+
+[Proposal](https://daology.org/p/726c1b2b31f34f993b5a74366355db43f6e75fec) created with [Daology.org](https://daology.org) by [cybnate](https://daology.org/u/cybnate) for [Nu](https://daology.org/o/Nu)

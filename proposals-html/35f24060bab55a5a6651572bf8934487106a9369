@@ -1,0 +1,344 @@
+<!-- extend base layout -->
+
+<!doctype html>
+<html lang="">
+  <head>
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Daology</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/static/public/images/favicon.ico">
+
+    
+  
+  
+
+    
+      <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic|Lato:400,700|Inconsolata' rel='stylesheet' type='text/css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/highlight.js/latest/styles/github.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/flick/jquery-ui.css">
+      <link rel="stylesheet" href="/static/assets/stylesheets/_vendor/jquery.tagit.min.css">
+
+      <link rel="stylesheet" href="/static/public/stylesheets/dao.min.css">
+    
+
+    
+
+    
+
+  
+
+    
+  
+  
+
+    
+
+    
+      <script src="/static/assets/javascripts/vendor/moment.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/contrib/auto-render.min.js"></script>
+    
+
+    
+
+  
+
+  </head>
+  <body role="document">
+    <div id="fullpage_wrapper">
+    
+      <div id="app-navbar">
+  <nav class="navbar" role="navigation">
+    <div class="container-fluid">
+      <div class="brand-bar row">
+        <div class="col-md-12">
+          <button id="menu-toggle" type="button" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar bar1"></span>
+            <span class="icon-bar bar2"></span>
+            <span class="icon-bar bar3"></span>
+          </button>
+          <a class="word_mark" href="/" name="home_link">daology</a>
+          
+        </div>
+      </div>
+      <div class="primary_nav row">
+        <div class="col-md-12">
+          <div class="collapse navbar-collapse" id="app-navbar-collapse">
+            <ul class="subnav">
+              <li class="subnav-item"><a href="/organizations/" name="dao_list_link">Organizations</a></li>
+              <li class="subnav-item"><a href="/articles" name="dao_list_link">Articles</a></li>
+              <li class="subnav-item"><a href="/proposals" name="dao_list_link">Proposals</a></li>
+              
+              <li class="subnav-item"><a href="/login" name="login_link" class="signin_btn">Sign in with Github</a></li>
+              
+
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+</div>
+      
+  
+  
+
+
+      
+
+  
+
+  
+
+  
+
+  
+
+
+
+      <div class="main row">
+        <div class="container">
+          <header class="row page_title">
+            
+            <div class="row">
+              <div class="page_actions col-md-12 pull-right">
+                <ul>
+                
+  <li class="action_btn"><a href="/proposals/35f24060bab55a5a6651572bf8934487106a9369/raw" target="_blank" class="btn btn-sm btn-primary">Raw</a></li>
+  
+
+
+                
+                  
+
+
+                
+                </ul>
+              </div>
+            </div>
+            
+            
+            <div class="col-xs-9 col-md-11">
+              <span class="supertitle">
+                
+  Proposal  <span style="breadcrumb-separator">// </span><a href="/organizations/Nu">Nu</a> <span style="breadcrumb-separator">/</span> <a href="/organizations/Nu/NuBits">NuBits</a> 
+
+              </span>
+              <h1>
+                
+  NuPond Term 9
+
+              </h1>
+            </div>
+          </header>
+          <section class="row page_content">
+            <div class="col-md-12">
+              
+<div class="row container">
+
+  <div class="col-md-4 sidebar">
+
+    <div class="scroll_title">
+      <p class="supertitle">Proposal  <span style="breadcrumb-separator">//</span> Nu <span style="breadcrumb-separator">/</span> NuBits</p>
+      <p class="title">NuPond Term 9</p>
+      <p class="author">By
+        nagalim
+        
+      </p>
+      <p class="meta_text date">
+        <script>
+document.write(moment("2016-03-16T14:46:31 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+        &nbsp;|&nbsp;&nbsp;<span class="updated">Updated: <script>
+document.write(moment("2016-03-16T14:50:32 Z").calendar());
+</script></span>
+        
+      </p>
+      <hr>
+      <div class="content-toc"></div>
+    </div>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="meta_text">
+          <a href="/u/nagalim/">
+            <img src="https://avatars.githubusercontent.com/u/12321025?v=3" class="profile">
+            <div class="authorname_block">
+                <div class="nolink">By nagalim</div>
+                <div class="nickname">@nagalim</div>
+              </div>
+            
+          </a>
+        </p>
+        <div class="row">
+          <div class="col-md-12">
+          <p class="meta_text date">
+            <script>
+document.write(moment("2016-03-16T14:46:31 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+            
+            &nbsp;|&nbsp;&nbsp;
+            
+            <span class="updated">Updated: <script>
+document.write(moment("2016-03-16T14:50:32 Z").calendar());
+</script></span>
+            
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="sidebar_title">Text Hash ( RIPEMD-160 )</p>
+        <p class="meta_text hash">ee85c799d173af4494953ecbce22c7ac8d237654  </p>
+      </div>
+    </div>
+    
+
+    
+
+    
+    
+
+  
+    <hr>
+    <div class="row meta_element">
+        <div class="col-md-12">
+          <span class="sidebar_title">
+            Grant
+          </span>
+          <p class="meta_text">450 NBT</p>
+        </div>
+    </div>
+    <hr>
+    <div class="row meta_element">
+        <div class="col-md-12">
+          <span class="sidebar_title">
+            Grant Address
+          </span>
+          <p class="meta_text">BEv74GNRYyAeRJbXxjQvbbS48E7YvDgfs6</p>
+        </div>
+    </div>
+
+  
+
+
+
+  </div>
+
+  
+  
+    <div class="content_body col-md-8">
+  
+
+
+
+
+    
+    <div class="reading-time-wrapper" data-target="35f24060bab55a5a6651572bf8934487106a9369">
+    <span class="reading-time"></span> read (<span class="word-count"></span> words)
+  </div>
+
+    <article class="rtCalc no-fouc" id="35f24060bab55a5a6651572bf8934487106a9369">
+      
+        <p>Operator: @Nagalim<br>
+Type: 2 Fixed Cost ALPs<br>
+Pool and Term:  NuPond Term 9<br>
+Exchange: Bter.com<br>
+Pair:  NBT/CNY &amp; NBT/BTC<br>
+Start:  April 1st<br>
+End: April 30th<br>
+Tolerance: 1.5% CNY &amp; 1% BTC<br>
+Spread After Fees: 1% for Both<br>
+Bid/Ask Reward Rate for BTC: 2 NBT/day<br>
+Bid/Ask Reward Rate for CNY: 5 NBT/day<br>
+Total Grant Without Operator Fees: 420 NBT<br>
+Previous Operator Fees: 100 NBT<br>
+Rollover Funds: 70 NBT<br>
+Current Total Operator Fees for Next Term: 100 NBT</p>
+<p>NuPond may switch to ALP v2 when the operator is confident of the implimentation.  Targets of 500 nbt total for the CNY pool and 200 nbt total for the BTC pool will be used for the CRFC model.  1 week of warning will be given to LPs using the normal channels.  NuPond may switch back to ALP v1 at will if confidence is lost.</p>
+<hr>
+<p><a href="https://daology.org/p/35f24060bab55a5a6651572bf8934487106a9369">Proposal</a> created with <a href="https://daology.org">Daology.org</a> by <a href="https://daology.org/u/nagalim">nagalim</a> for <a href="https://daology.org/o/Nu">Nu</a></p>
+
+      
+    </article>
+  </div>
+</div>
+
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div id="app-footer">
+  <footer class="footer footer-branded">
+
+    <div class="container">
+      <nav class="pull-left col-xs-12 col-md-10">
+        <ul>
+          <li role="presentation"><a href="/about">About Daology</a></li>
+          <li role="presentation"><a href="/terms">Terms</a></li>
+          <li role="presentation"><a href="/privacy">Privacy</a></li>
+          <li role="presentation"><a href="/cookies">Cookies</a></li>
+          <li role="presentation"><a href="/support">Support</a></li>
+        </ul>
+      </nav>
+      <div class="copyright col-xs-12 col-md-2 pull-right">
+        &copy; 2017 Daology, LLC
+      </div>
+    </div>
+  </footer>
+</div>
+    </div>
+      
+
+
+  
+  
+
+    
+
+    
+
+    
+      <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+      <script src="//code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/highlight.js/latest/highlight.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+      <script src="/static/public/javascripts/dao.min.js"></script>
+    
+
+  
+
+
+
+  <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='https://www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-62932153-1','auto');ga('send','pageview');
+  </script>
+
+  </body>
+  
+  
+</html>

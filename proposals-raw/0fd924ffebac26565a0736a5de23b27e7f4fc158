@@ -1,0 +1,21 @@
+Intro@huafei- below called "the operator" - will run a single sided NuBot on Bter.com The liquidity is being broadcast using a custodial address to allow tracking the liquidity situation of the bot. The operator promises to send all funds to a FLOT multisig address upon request of a majority of the FLOT members or by a passed NSR holder motion.
+
+Spread: 2%
+
+Availability: The operator offers to check for NuBot's operation on a daily bases. This translates in a response time of at least 24 hours worst case.
+
+Begin of operation: Operation begins on the day NuBot puts the first NBT deposit of funds by FLOT on the Bter.com order book
+
+End of operation:
+Operation is ceased by request of withdrawal of all funds or if operator sends all funds to FLOT multisig address(es). The remaining grant fees will be burned or send to a FLOT's NBT address. If for any reason the operator has to stop NuBot for a period of time or permanently before the end of the contract, it will be communicated at least 7 days in advance.
+
+Modes of withdrawal:
+NSR holders can request withdrawal by motion.FLOT members can request withdrawal to a FLOT multisig address for which they are signer by posting in the forum.The number of FLOT members to request a deposit to a FLOT multisig address equals the number of FLOT members to execute transactions from this address.Once a week the operator may withdraw BTC to a FLOT multisig address,usually during weekends.Compensation: The operator charges 50 NBT for 30 days of operation. To be paid at the end of the period.
+
+Reasoning for compensation NuBot will be running on a private linux server. The compensation is mainly for the weekly manual withdrawals and general monitoring of operations.
+
+Premature activationIf the FLOT deposits funds at the operator's exchange account, they will be used by the operator as if this motion already passed.
+
+---
+
+[Proposal](https://daology.org/p/0fd924ffebac26565a0736a5de23b27e7f4fc158) created with [Daology.org](https://daology.org) by [huafei117](https://daology.org/u/huafei117) for [Nu](https://daology.org/o/Nu)

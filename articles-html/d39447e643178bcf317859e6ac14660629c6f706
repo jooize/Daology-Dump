@@ -1,0 +1,303 @@
+<!-- extend base layout -->
+
+<!doctype html>
+<html lang="">
+  <head>
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Daology</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/static/public/images/favicon.ico">
+
+    
+  
+  
+
+    
+      <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic|Lato:400,700|Inconsolata' rel='stylesheet' type='text/css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/highlight.js/latest/styles/github.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/flick/jquery-ui.css">
+      <link rel="stylesheet" href="/static/assets/stylesheets/_vendor/jquery.tagit.min.css">
+
+      <link rel="stylesheet" href="/static/public/stylesheets/dao.min.css">
+    
+
+    
+
+    
+
+  
+
+    
+  
+  
+
+    
+
+    
+      <script src="/static/assets/javascripts/vendor/moment.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/contrib/auto-render.min.js"></script>
+    
+
+    
+
+  
+
+  </head>
+  <body role="document">
+    <div id="fullpage_wrapper">
+    
+      <div id="app-navbar">
+  <nav class="navbar" role="navigation">
+    <div class="container-fluid">
+      <div class="brand-bar row">
+        <div class="col-md-12">
+          <button id="menu-toggle" type="button" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar bar1"></span>
+            <span class="icon-bar bar2"></span>
+            <span class="icon-bar bar3"></span>
+          </button>
+          <a class="word_mark" href="/" name="home_link">daology</a>
+          
+        </div>
+      </div>
+      <div class="primary_nav row">
+        <div class="col-md-12">
+          <div class="collapse navbar-collapse" id="app-navbar-collapse">
+            <ul class="subnav">
+              <li class="subnav-item"><a href="/organizations/" name="dao_list_link">Organizations</a></li>
+              <li class="subnav-item"><a href="/articles" name="dao_list_link">Articles</a></li>
+              <li class="subnav-item"><a href="/proposals" name="dao_list_link">Proposals</a></li>
+              
+              <li class="subnav-item"><a href="/login" name="login_link" class="signin_btn">Sign in with Github</a></li>
+              
+
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+</div>
+      
+  
+  
+
+
+      
+
+  
+
+  
+
+  
+
+  
+
+
+
+      <div class="main row">
+        <div class="container">
+          <header class="row page_title">
+            
+            <div class="row">
+              <div class="page_actions col-md-12 pull-right">
+                <ul>
+                
+  
+
+
+                
+                  
+
+
+
+                
+                </ul>
+              </div>
+            </div>
+            
+            
+            <div class="col-xs-9 col-md-11">
+              <span class="supertitle">
+                
+  Article  <span style="breadcrumb-separator">// </span> <a href="/organizations/Nu">Nu</a>
+
+              </span>
+              <h1>
+                
+  T4 Zoology
+
+              </h1>
+            </div>
+          </header>
+          <section class="row page_content">
+            <div class="col-md-12">
+                
+<div class="row container">
+  
+  <div class="col-md-4 sidebar">
+
+    <div class="scroll_title">
+      <p class="supertitle">Article  <span style="breadcrumb-separator">//</span> Nu</p>
+      <p class="title">T4 Zoology</p>
+      <p class="author">By 
+        nagalim
+        
+      </p>
+      <p class="meta_text date">
+        <script>
+document.write(moment("2015-12-10T06:11:58 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+        &nbsp;|&nbsp;&nbsp;<span class="updated">Updated: <script>
+document.write(moment("2015-12-10T06:13:49 Z").calendar());
+</script></span>
+        
+      </p>
+      <hr>
+      <div class="content-toc"></div>
+    </div>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="meta_text">
+          <a href="/u/nagalim/">
+            <img src="https://avatars.githubusercontent.com/u/12321025?v=3" class="profile">
+            <div class="authorname_block">
+                <div class="nolink">By nagalim</div> 
+                <div class="nickname">@nagalim</div>
+              </div>
+            
+          </a>
+        </p>
+        <div class="row">
+          <div class="col-md-12">
+            <p class="meta_text date">
+              <script>
+document.write(moment("2015-12-10T06:11:58 Z").format("MMM D YYYY, h:mm A"));
+</script>
+              
+              &nbsp;|&nbsp;&nbsp;
+              
+              <span class="updated">Updated: <script>
+document.write(moment("2015-12-10T06:13:49 Z").calendar());
+</script></span>
+              
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    
+  </div>
+  
+
+
+  
+    <div class="content_body col-md-8">
+  
+
+    
+    <div class="reading-time-wrapper" data-target="d39447e643178bcf317859e6ac14660629c6f706">
+    <span class="reading-time"></span> read (<span class="word-count"></span> words)
+  </div>
+
+    <article class="rtCalc no-fouc" id="d39447e643178bcf317859e6ac14660629c6f706">
+      
+        <p>The buy side of the peg should be kept tight using non-network assets in reserve.  I will talk about cryptocurrency assets because they all have similar properties, but other forms of currency have been mentioned, such as USD sitting on exchange.  I am attempting to cultivate a general set of rules for any cryptocurrency shareholders wish to hold in T4 reserve.</p>
+<ol>
+<li><p>Multisig.  There are technical challenges associated with any new blockchain.  It might be best to open up a SLOT (second liquidity operations team) to handle the multisig and blockchain for each new crypto.</p>
+</li>
+<li><p>Max % of circulating NBT.  If the reserve exceeds this value, an overflow will be used to buy BTC similar to how share buybacks are done.</p>
+</li>
+<li><p>Min % of circulating NBT.  This is actually an open question.  It is tempting to say "if the reserve drops below this value, start buying" but that means we subject ourselves to every black swan on the market.  Instead, we should only buy altcoins with the BTC overflow.</p>
+</li>
+</ol>
+<p>The end result looks something like this:
+Each week the T4 people all figure out how they are relative to their targets.  Any altcoin with overflow sells for BTC.  If BTC has overflow, it gets divided into different streams.  The streams can be updated by motion each time a new SLOT is formed.  For example, 10% of the BTC overflow could be used like this:
+5% NSR, 2% PPC, 2% LTC, 1% BKS
+Now, this would have a very interesting effect because if both the altcoin and BTC are overflowing, T4 custodians will end up buying and selling a coin at the same time.  However, this is preferred because there is the possibility that they will both buy and sell at a spread rather than simply to each other.</p>
+<p>And finally:<br>
+4) If T4 BTC funds drop below x%, start mortgaging altcoins.</p>
+
+      
+    </article>
+  </div>
+</div>
+
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div id="app-footer">
+  <footer class="footer footer-branded">
+
+    <div class="container">
+      <nav class="pull-left col-xs-12 col-md-10">
+        <ul>
+          <li role="presentation"><a href="/about">About Daology</a></li>
+          <li role="presentation"><a href="/terms">Terms</a></li>
+          <li role="presentation"><a href="/privacy">Privacy</a></li>
+          <li role="presentation"><a href="/cookies">Cookies</a></li>
+          <li role="presentation"><a href="/support">Support</a></li>
+        </ul>
+      </nav>
+      <div class="copyright col-xs-12 col-md-2 pull-right">
+        &copy; 2017 Daology, LLC
+      </div>
+    </div>
+  </footer>
+</div>
+    </div>
+      
+
+
+  
+  
+
+    
+
+    
+
+    
+      <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+      <script src="//code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/highlight.js/latest/highlight.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+      <script src="/static/public/javascripts/dao.min.js"></script>
+    
+
+  
+
+
+
+  <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='https://www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-62932153-1','auto');ga('send','pageview');
+  </script>
+
+  </body>
+  
+  
+</html>

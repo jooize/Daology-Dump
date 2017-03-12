@@ -1,0 +1,336 @@
+<!-- extend base layout -->
+
+<!doctype html>
+<html lang="">
+  <head>
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Daology</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/static/public/images/favicon.ico">
+
+    
+  
+  
+
+    
+      <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic|Lato:400,700|Inconsolata' rel='stylesheet' type='text/css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/highlight.js/latest/styles/github.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/flick/jquery-ui.css">
+      <link rel="stylesheet" href="/static/assets/stylesheets/_vendor/jquery.tagit.min.css">
+
+      <link rel="stylesheet" href="/static/public/stylesheets/dao.min.css">
+    
+
+    
+
+    
+
+  
+
+    
+  
+  
+
+    
+
+    
+      <script src="/static/assets/javascripts/vendor/moment.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/contrib/auto-render.min.js"></script>
+    
+
+    
+
+  
+
+  </head>
+  <body role="document">
+    <div id="fullpage_wrapper">
+    
+      <div id="app-navbar">
+  <nav class="navbar" role="navigation">
+    <div class="container-fluid">
+      <div class="brand-bar row">
+        <div class="col-md-12">
+          <button id="menu-toggle" type="button" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar bar1"></span>
+            <span class="icon-bar bar2"></span>
+            <span class="icon-bar bar3"></span>
+          </button>
+          <a class="word_mark" href="/" name="home_link">daology</a>
+          
+        </div>
+      </div>
+      <div class="primary_nav row">
+        <div class="col-md-12">
+          <div class="collapse navbar-collapse" id="app-navbar-collapse">
+            <ul class="subnav">
+              <li class="subnav-item"><a href="/organizations/" name="dao_list_link">Organizations</a></li>
+              <li class="subnav-item"><a href="/articles" name="dao_list_link">Articles</a></li>
+              <li class="subnav-item"><a href="/proposals" name="dao_list_link">Proposals</a></li>
+              
+              <li class="subnav-item"><a href="/login" name="login_link" class="signin_btn">Sign in with Github</a></li>
+              
+
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+</div>
+      
+  
+  
+
+
+      
+
+  
+
+  
+
+  
+
+  
+
+
+
+      <div class="main row">
+        <div class="container">
+          <header class="row page_title">
+            
+            <div class="row">
+              <div class="page_actions col-md-12 pull-right">
+                <ul>
+                
+  <li class="action_btn"><a href="/proposals/a8bb5e317723403d8e84bdacb3279b3c2f877bb3/raw" target="_blank" class="btn btn-sm btn-primary">Raw</a></li>
+  
+
+
+                
+                  
+
+
+                
+                </ul>
+              </div>
+            </div>
+            
+            
+            <div class="col-xs-9 col-md-11">
+              <span class="supertitle">
+                
+  Proposal  <span style="breadcrumb-separator">// </span><a href="/organizations/Nu">Nu</a> <span style="breadcrumb-separator">/</span> <a href="/organizations/Nu/NuBits">NuBits</a> 
+
+              </span>
+              <h1>
+                
+  Reducing Minimum Spread
+
+              </h1>
+            </div>
+          </header>
+          <section class="row page_content">
+            <div class="col-md-12">
+              
+<div class="row container">
+
+  <div class="col-md-4 sidebar">
+
+    <div class="scroll_title">
+      <p class="supertitle">Proposal  <span style="breadcrumb-separator">//</span> Nu <span style="breadcrumb-separator">/</span> NuBits</p>
+      <p class="title">Reducing Minimum Spread</p>
+      <p class="author">By
+        nagalim
+        
+      </p>
+      <p class="meta_text date">
+        <script>
+document.write(moment("2016-03-28T13:56:56 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+        &nbsp;|&nbsp;&nbsp;<span class="updated">Updated: <script>
+document.write(moment("2016-03-29T02:05:23 Z").calendar());
+</script></span>
+        
+      </p>
+      <hr>
+      <div class="content-toc"></div>
+    </div>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="meta_text">
+          <a href="/u/nagalim/">
+            <img src="https://avatars.githubusercontent.com/u/12321025?v=3" class="profile">
+            <div class="authorname_block">
+                <div class="nolink">By nagalim</div>
+                <div class="nickname">@nagalim</div>
+              </div>
+            
+          </a>
+        </p>
+        <div class="row">
+          <div class="col-md-12">
+          <p class="meta_text date">
+            <script>
+document.write(moment("2016-03-28T13:56:56 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+            
+            &nbsp;|&nbsp;&nbsp;
+            
+            <span class="updated">Updated: <script>
+document.write(moment("2016-03-29T02:05:23 Z").calendar());
+</script></span>
+            
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="sidebar_title">Text Hash ( RIPEMD-160 )</p>
+        <p class="meta_text hash">DRAFT  </p>
+      </div>
+    </div>
+    
+
+    
+
+    
+    
+
+  
+
+  
+
+
+
+  </div>
+
+  
+  
+    <div class="content_body col-md-8 draft">
+      <div class="status_callout well">
+        <p>The author has made a <strong>DRAFT VERSION</strong> of the proposal available for review. The final published version may contain different content.</p>
+      </div>
+  
+
+
+
+
+    
+    <div class="reading-time-wrapper" data-target="a8bb5e317723403d8e84bdacb3279b3c2f877bb3">
+    <span class="reading-time"></span> read (<span class="word-count"></span> words)
+  </div>
+
+    <article class="rtCalc no-fouc" id="a8bb5e317723403d8e84bdacb3279b3c2f877bb3">
+      
+        <h2>Definitions</h2>
+<h3>Price Feed and Deviation</h3>
+<p>The price of a NuBit in some exchange currency is determined via best-efforts of a directly elected custodian.  Generally, this is done with reference to high-volume exchange prices and local economic factors.  After placing a custodial market order, if the price feed changes by an amount determined by the <strong>deviation</strong>, custodial software will seek to delete and replace that order.</p>
+<h3>ALP and Tolerance</h3>
+<p>Automated liquidity pools, or ALPs, are defined by a software relationship between an operator, who verifies and pays, and a liquidity provider, who takes on risk and gets paid.  The price feed in an ALP must be agreed upon between the provider and operator within a margin of error.  The <strong>tolerance</strong> defines the window about the price feed that the operator will compensate.</p>
+<h3>Spread</h3>
+<p>The difference between an ask and a bid price divided by the price feed (usually the average of those two prices).  Spread can be <strong>individual</strong> referring to one's own instance of software, or <strong>collective</strong> referring to actual spreads that occur on the order books of an exchange, which can be measured via mechanisms like those ALix employs.</p>
+<h3>SAF</h3>
+<p>Spread-after-fees, or SAF, is the individual spread minus twice the exchange fee (once for ask and once for bid).  Bot software is not universal and fluctuates in terminology, but often times the spread is equal to twice the <strong>offset</strong>.  Therefore, SAF = 2*(offset - fees) in many cases.</p>
+<h2>Collective Spread Minimum</h2>
+<p>If we ignore all non-custodial market orders, the question of appropriate minimum tolerance should be a fully solvable problem.  In such an instance, a collective spread of 0% acts as the condition for providers trading with each other automatically, a situation which should be avoided.  This motion will postulate a minimum collective spread of 0.2%.  Another way of phrasing this:  Nu will not overtly encourage custodians to buy us-nbt at more than $0.999 or sell at less than $1.001.</p>
+<h2>Individual to Collective</h2>
+<p>If we assume all providers agree on the price feed (which is the case for ALPs) then the minimum reasonable tolerance can be found explicitly.  Here we will take f% and d% to refer to the offset and the deviation respectively.</p>
+<p>The minimum collective spread requirement gives us:</p>
+<p>0.2% = 2f% - d%</p>
+<p>We can see here that the offset separates the orders to either side of the price feed (hence the prefactor of 2), but the price can only deviate in one direction (so d% has a prefactor of 1).
+Therefore maximum collective spread gives us our minimum tolerance:</p>
+<p>t% = d% + f% = 0.1% + 3/2 d%</p>
+<p>With a deviation of 0.25%, for example, the minimum practical tolerance would be 0.475%.</p>
+<h2>SAF from tolerance</h2>
+<p>If an exchange charges symmetric bid/ask fees of x%, the total SAF will be:</p>
+<p>SAF = 2(f% - x%) = 0.2% + d% - 2x%</p>
+<p>As an example, with a deviation of 0.25% and a fee of 0.2%, the resultant SAF would be 0.05%.</p>
+<hr>
+<p><a href="https://daology.org/p/a8bb5e317723403d8e84bdacb3279b3c2f877bb3">Proposal</a> created with <a href="https://daology.org">Daology.org</a> by <a href="https://daology.org/u/nagalim">nagalim</a> for <a href="https://daology.org/o/Nu">Nu</a></p>
+
+      
+    </article>
+  </div>
+</div>
+
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div id="app-footer">
+  <footer class="footer footer-branded">
+
+    <div class="container">
+      <nav class="pull-left col-xs-12 col-md-10">
+        <ul>
+          <li role="presentation"><a href="/about">About Daology</a></li>
+          <li role="presentation"><a href="/terms">Terms</a></li>
+          <li role="presentation"><a href="/privacy">Privacy</a></li>
+          <li role="presentation"><a href="/cookies">Cookies</a></li>
+          <li role="presentation"><a href="/support">Support</a></li>
+        </ul>
+      </nav>
+      <div class="copyright col-xs-12 col-md-2 pull-right">
+        &copy; 2017 Daology, LLC
+      </div>
+    </div>
+  </footer>
+</div>
+    </div>
+      
+
+
+  
+  
+
+    
+
+    
+
+    
+      <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+      <script src="//code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/highlight.js/latest/highlight.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+      <script src="/static/public/javascripts/dao.min.js"></script>
+    
+
+  
+
+
+
+  <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='https://www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-62932153-1','auto');ga('send','pageview');
+  </script>
+
+  </body>
+  
+  
+</html>

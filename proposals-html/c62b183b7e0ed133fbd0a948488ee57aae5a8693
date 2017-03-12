@@ -1,0 +1,344 @@
+<!-- extend base layout -->
+
+<!doctype html>
+<html lang="">
+  <head>
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Daology</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/static/public/images/favicon.ico">
+
+    
+  
+  
+
+    
+      <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic|Lato:400,700|Inconsolata' rel='stylesheet' type='text/css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/highlight.js/latest/styles/github.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/flick/jquery-ui.css">
+      <link rel="stylesheet" href="/static/assets/stylesheets/_vendor/jquery.tagit.min.css">
+
+      <link rel="stylesheet" href="/static/public/stylesheets/dao.min.css">
+    
+
+    
+
+    
+
+  
+
+    
+  
+  
+
+    
+
+    
+      <script src="/static/assets/javascripts/vendor/moment.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/contrib/auto-render.min.js"></script>
+    
+
+    
+
+  
+
+  </head>
+  <body role="document">
+    <div id="fullpage_wrapper">
+    
+      <div id="app-navbar">
+  <nav class="navbar" role="navigation">
+    <div class="container-fluid">
+      <div class="brand-bar row">
+        <div class="col-md-12">
+          <button id="menu-toggle" type="button" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar bar1"></span>
+            <span class="icon-bar bar2"></span>
+            <span class="icon-bar bar3"></span>
+          </button>
+          <a class="word_mark" href="/" name="home_link">daology</a>
+          
+        </div>
+      </div>
+      <div class="primary_nav row">
+        <div class="col-md-12">
+          <div class="collapse navbar-collapse" id="app-navbar-collapse">
+            <ul class="subnav">
+              <li class="subnav-item"><a href="/organizations/" name="dao_list_link">Organizations</a></li>
+              <li class="subnav-item"><a href="/articles" name="dao_list_link">Articles</a></li>
+              <li class="subnav-item"><a href="/proposals" name="dao_list_link">Proposals</a></li>
+              
+              <li class="subnav-item"><a href="/login" name="login_link" class="signin_btn">Sign in with Github</a></li>
+              
+
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+</div>
+      
+  
+  
+
+
+      
+
+  
+
+  
+
+  
+
+  
+
+
+
+      <div class="main row">
+        <div class="container">
+          <header class="row page_title">
+            
+            <div class="row">
+              <div class="page_actions col-md-12 pull-right">
+                <ul>
+                
+  <li class="action_btn"><a href="/proposals/c62b183b7e0ed133fbd0a948488ee57aae5a8693/raw" target="_blank" class="btn btn-sm btn-primary">Raw</a></li>
+  
+
+
+                
+                  
+
+
+                
+                </ul>
+              </div>
+            </div>
+            
+            
+            <div class="col-xs-9 col-md-11">
+              <span class="supertitle">
+                
+  Proposal  <span style="breadcrumb-separator">// </span><a href="/organizations/Nu">Nu</a> <span style="breadcrumb-separator">/</span> <a href="/organizations/Nu/NuShares">NuShares</a> 
+
+              </span>
+              <h1>
+                
+  Standard and Core
+
+              </h1>
+            </div>
+          </header>
+          <section class="row page_content">
+            <div class="col-md-12">
+              
+<div class="row container">
+
+  <div class="col-md-4 sidebar">
+
+    <div class="scroll_title">
+      <p class="supertitle">Proposal  <span style="breadcrumb-separator">//</span> Nu <span style="breadcrumb-separator">/</span> NuShares</p>
+      <p class="title">Standard and Core</p>
+      <p class="author">By
+        nagalim
+        
+      </p>
+      <p class="meta_text date">
+        <script>
+document.write(moment("2016-04-10T16:05:32 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+        &nbsp;|&nbsp;&nbsp;<span class="updated">Updated: <script>
+document.write(moment("2016-04-16T15:24:43 Z").calendar());
+</script></span>
+        
+      </p>
+      <hr>
+      <div class="content-toc"></div>
+    </div>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="meta_text">
+          <a href="/u/nagalim/">
+            <img src="https://avatars.githubusercontent.com/u/12321025?v=3" class="profile">
+            <div class="authorname_block">
+                <div class="nolink">By nagalim</div>
+                <div class="nickname">@nagalim</div>
+              </div>
+            
+          </a>
+        </p>
+        <div class="row">
+          <div class="col-md-12">
+          <p class="meta_text date">
+            <script>
+document.write(moment("2016-04-10T16:05:32 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+            
+            &nbsp;|&nbsp;&nbsp;
+            
+            <span class="updated">Updated: <script>
+document.write(moment("2016-04-16T15:24:43 Z").calendar());
+</script></span>
+            
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="sidebar_title">Text Hash ( RIPEMD-160 )</p>
+        <p class="meta_text hash">392b89104ac63202baa11df9b4844db5f91532ed  </p>
+      </div>
+    </div>
+    
+
+    
+
+    
+    
+
+  
+
+  
+
+
+
+  </div>
+
+  
+  
+    <div class="content_body col-md-8">
+  
+
+
+
+
+    
+    <div class="reading-time-wrapper" data-target="c62b183b7e0ed133fbd0a948488ee57aae5a8693">
+    <span class="reading-time"></span> read (<span class="word-count"></span> words)
+  </div>
+
+    <article class="rtCalc no-fouc" id="c62b183b7e0ed133fbd0a948488ee57aae5a8693">
+      
+        <h2>Dependencies</h2>
+<p>65CB60D096508A7FA9ECC2017B38BC3AFEB5663D - Tiered Liquidity Structure</p>
+<p>7b4955e91781e0e32f1e0c0c974fd4a7a9f972a3 - NuShare Buybacks</p>
+<p>b1ef96aed5c7f9dec482467b254b40c82bf66d23  - Circulating NuBits</p>
+<p>6311782b5d731cd45dd6873b24bcd6e62846fb2d - Peercoin FLOT Reserve</p>
+<p>25d8226a7aeb47370e8db0c2035296fb7e2c4095 - Bitcoin Reserve</p>
+<h2>Background and Definitions</h2>
+<p>The goal of this motion is to provide a Tier 6 (T6) source for recovering the T4 network when it falters.  Toward this end, strict definition for the ebb and flow of T4 reserves needs to be found.  Fortunately, precedence can already be found in the aforementioned motions.  The number corresponding to the weekly buyback amount in US-NBT is a powerful tool, allowing both a positive and negative result.  This motion will attempt to use that number to specify amounts for NSR dilution events.</p>
+<p><strong>The Standard</strong> will be adopted as a naming convention for the number previously referred to as the buyback amount.  This will be done to reflect the positive and negative nature of that number and to provide a convenient means by which shareholders and investors can monitor the health of the Nu Network.</p>
+<h2>Core Calculation</h2>
+<p>The standard (ST) is calculated each week by estimating the core T4 bitcoin reserve value in units of US-NBT, subtracting 15% of the Circulating NuBits (CN) in the network, and multiplying the difference by 5%.  These two numbers are called the <strong>reserve target</strong> (15%) and the <strong>reserve velocity</strong> (5%) respectively.</p>
+<p>ST = 0.05 x (T4BTC - 0.15 x CN)</p>
+<h2>Standard Thresholds</h2>
+<p>When the standard exceeds 2,500 US-NBT, the FLOT should seek to buy an amount of NSR within the next week equal to the standard.  Similarly, when the standard is below -2,500 US-NBT, the FLOT should seek to sell an amount of NSR within the next week equal to the standard (using sources such as exchange markets to achieve a best-guess spot price or moving average for NSR in terms of US-NBT).  The method of purchase and sale is at the discretion of FLOT, however it will be noted that in the past a market executor has been elected to perform buybacks while dilutions were performed using a blind auction model.</p>
+<p>If ST &gt; 2500, buy ST amount of NSR</p>
+<p>If ST &lt; -2500, sell ST amount of NSR</p>
+<h2>Auxiliary Dynamic Reserves</h2>
+<h3>Parameters</h3>
+<p>T4 reserves other than the core Bitcoin reserve should interact with the standard as well.  Discovering a balance for NSR buybacks and investment diversification is a daunting task for a decentralized organization, and a generally applied method should be used.  Each reserve will have a target, a velocity, and a threshold; the Peercoin reserve is the first auxiliary dynamic reserve with a PPC target of 5% (PPCTR), a PPC velocity of 10% (PPCV), and a PPC threshold of $1000 (PPCTH).</p>
+<h3>Flow</h3>
+<p>As a mathematical aid, the <strong>auxiliary reserve flow</strong> will be defined as the ratio of targets multiplied by velocities for the auxiliary reserve compared with the bitcoin reserve.  So the peercoin flow is (5%/15%)x(10%/5%) = 2/3.</p>
+<p>F = (PPCTR / BTCTR) x (PPCV / BTCV)</p>
+<h3>Calculation</h3>
+<p>During the weekly core calculation, an auxiliary dynamic reserve is given the standard times the flow for that reserve, subject to the reserve threshold.  For example, if the standard were $1,500 then no NSR buybacks would occur but $1,000 would be given to the PPC executor.  A negative standard will trigger sales of dynamic reserves.  If no executor is available or some other unexpected occurrence greatly increases the risk of market actions, T4 supervisors have the authority to skip those market actions for the week.</p>
+<p>If ST &gt; (F x PPCTH), buy (F x ST) amount of PPC</p>
+<p>If ST &lt; -(F x PPCTH), sell (F x ST) amount of PPC</p>
+<h3>Overflow</h3>
+<p>During the weekly core calculation, if a reserve would be given funding over its target, restrict the funding to the bring the reserve only up to target.  If a reserve is over target, the surplus will be sold similarly to bitcoin overflow using the target, velocity, and threshold to determine the rate of market action.  A concept of an auxiliary standard (such as the Peercoin standard - PPCST) is mathematically helpful in this stage.</p>
+<p>PPCST = PPCV x (T4PPC - PPCTR x CN)</p>
+<p>If PPCST &gt; PPCTH, sell PPCST amount of PPC</p>
+<h2>Antiquation</h2>
+<p>The following motions are considered effectively replaced by this motion and will have no bearing in the future actions of the network except as examples of appropriate behavior:</p>
+<p>e91340fdbda5c2a7a1362c66eece05b9c67d2496 (NSR sale and NBT burn)</p>
+<p>dadd35b4132ab497772fc71a28ab5afb6ba3a8a5 (Make auction size adjustable)</p>
+<hr>
+<p><a href="https://daology.org/p/c62b183b7e0ed133fbd0a948488ee57aae5a8693">Proposal</a> created with <a href="https://daology.org">Daology.org</a> by <a href="https://daology.org/u/nagalim">nagalim</a> for <a href="https://daology.org/o/Nu">Nu</a></p>
+
+      
+    </article>
+  </div>
+</div>
+
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div id="app-footer">
+  <footer class="footer footer-branded">
+
+    <div class="container">
+      <nav class="pull-left col-xs-12 col-md-10">
+        <ul>
+          <li role="presentation"><a href="/about">About Daology</a></li>
+          <li role="presentation"><a href="/terms">Terms</a></li>
+          <li role="presentation"><a href="/privacy">Privacy</a></li>
+          <li role="presentation"><a href="/cookies">Cookies</a></li>
+          <li role="presentation"><a href="/support">Support</a></li>
+        </ul>
+      </nav>
+      <div class="copyright col-xs-12 col-md-2 pull-right">
+        &copy; 2017 Daology, LLC
+      </div>
+    </div>
+  </footer>
+</div>
+    </div>
+      
+
+
+  
+  
+
+    
+
+    
+
+    
+      <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+      <script src="//code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/highlight.js/latest/highlight.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+      <script src="/static/public/javascripts/dao.min.js"></script>
+    
+
+  
+
+
+
+  <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='https://www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-62932153-1','auto');ga('send','pageview');
+  </script>
+
+  </body>
+  
+  
+</html>

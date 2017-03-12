@@ -1,0 +1,316 @@
+<!-- extend base layout -->
+
+<!doctype html>
+<html lang="">
+  <head>
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Daology</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/static/public/images/favicon.ico">
+
+    
+  
+  
+
+    
+      <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic|Lato:400,700|Inconsolata' rel='stylesheet' type='text/css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/highlight.js/latest/styles/github.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/flick/jquery-ui.css">
+      <link rel="stylesheet" href="/static/assets/stylesheets/_vendor/jquery.tagit.min.css">
+
+      <link rel="stylesheet" href="/static/public/stylesheets/dao.min.css">
+    
+
+    
+
+    
+
+  
+
+    
+  
+  
+
+    
+
+    
+      <script src="/static/assets/javascripts/vendor/moment.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/contrib/auto-render.min.js"></script>
+    
+
+    
+
+  
+
+  </head>
+  <body role="document">
+    <div id="fullpage_wrapper">
+    
+      <div id="app-navbar">
+  <nav class="navbar" role="navigation">
+    <div class="container-fluid">
+      <div class="brand-bar row">
+        <div class="col-md-12">
+          <button id="menu-toggle" type="button" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar bar1"></span>
+            <span class="icon-bar bar2"></span>
+            <span class="icon-bar bar3"></span>
+          </button>
+          <a class="word_mark" href="/" name="home_link">daology</a>
+          
+        </div>
+      </div>
+      <div class="primary_nav row">
+        <div class="col-md-12">
+          <div class="collapse navbar-collapse" id="app-navbar-collapse">
+            <ul class="subnav">
+              <li class="subnav-item"><a href="/organizations/" name="dao_list_link">Organizations</a></li>
+              <li class="subnav-item"><a href="/articles" name="dao_list_link">Articles</a></li>
+              <li class="subnav-item"><a href="/proposals" name="dao_list_link">Proposals</a></li>
+              
+              <li class="subnav-item"><a href="/login" name="login_link" class="signin_btn">Sign in with Github</a></li>
+              
+
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+</div>
+      
+  
+  
+
+
+      
+
+  
+
+  
+
+  
+
+  
+
+
+
+      <div class="main row">
+        <div class="container">
+          <header class="row page_title">
+            
+            <div class="row">
+              <div class="page_actions col-md-12 pull-right">
+                <ul>
+                
+  
+
+
+                
+                  
+
+
+
+                
+                </ul>
+              </div>
+            </div>
+            
+            
+            <div class="col-xs-9 col-md-11">
+              <span class="supertitle">
+                
+  Article  <span style="breadcrumb-separator">// </span> <a href="/organizations/Nu">Nu</a> <span style="breadcrumb-separator">/</span> <a href="/organizations/Nu/NuShares">NuShares</a>
+
+              </span>
+              <h1>
+                
+  Stability Is Not the Hot Button Issue of Crypto Anymore. Governance Is.
+
+              </h1>
+            </div>
+          </header>
+          <section class="row page_content">
+            <div class="col-md-12">
+                
+<div class="row container">
+  
+  <div class="col-md-4 sidebar">
+
+    <div class="scroll_title">
+      <p class="supertitle">Article  <span style="breadcrumb-separator">//</span> Nu <span style="breadcrumb-separator">/</span> NuShares</p>
+      <p class="title">Stability is not the hot button issue of crypto anymore. Governance is.</p>
+      <p class="author">By 
+        coingame
+        
+      </p>
+      <p class="meta_text date">
+        <script>
+document.write(moment("2016-01-26T16:00:30 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+        &nbsp;|&nbsp;&nbsp;<span class="updated">Updated: <script>
+document.write(moment("2016-01-26T16:32:12 Z").calendar());
+</script></span>
+        
+      </p>
+      <hr>
+      <div class="content-toc"></div>
+    </div>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="meta_text">
+          <a href="/u/coingame/">
+            <img src="https://avatars.githubusercontent.com/u/7383066?v=3" class="profile">
+            <div class="authorname_block">
+                <div class="nolink">By coingame</div> 
+                <div class="nickname">@coingame</div>
+              </div>
+            
+          </a>
+        </p>
+        <div class="row">
+          <div class="col-md-12">
+            <p class="meta_text date">
+              <script>
+document.write(moment("2016-01-26T16:00:30 Z").format("MMM D YYYY, h:mm A"));
+</script>
+              
+              &nbsp;|&nbsp;&nbsp;
+              
+              <span class="updated">Updated: <script>
+document.write(moment("2016-01-26T16:32:12 Z").calendar());
+</script></span>
+              
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <hr>
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="sidebar_title">Tags</p>
+        
+        <script data-type="tagDataVar">
+    
+      var tagList = ["nushares", "marketing"];
+    
+  </script>
+  <ul class="readonly_tag_wrapper">
+  </ul>
+
+      </div>
+    </div>
+    
+
+    
+  </div>
+  
+
+
+  
+    <div class="content_body col-md-8">
+  
+
+    
+    <div class="reading-time-wrapper" data-target="bd3e6ac9cc5c46148097c74365535826b6e717c1">
+    <span class="reading-time"></span> read (<span class="word-count"></span> words)
+  </div>
+
+    <article class="rtCalc no-fouc" id="bd3e6ac9cc5c46148097c74365535826b6e717c1">
+      
+        <p>Since launch in 2014 we have put a lot of emphasis on our networks core product NuBits. At launch it was an idea that went against the cryptocurrency zeitgeist. It was an idea that needed to be proven, and proven it has. We have gone from a project that was routinely overlooked in cryptocurrency discussions to being <a href="http://www.cato.org/blog/theoretical-fedcoin-meet-operational-nubits">analysed by associates of one of the leading libertarians think-tanks</a>. Nobody discusses stable digital currencies without mentioning NuBits now. It shows the great resolve of the developers, community, and the core idea behind the project itself.</p>
+<p>Unfortunately stability is now old hat. It's not a sexy topic anymore. There are various projects that have their own implementations. It's still a battle, but we no longer have to struggle for the recognition that we once did and it's no longer a taboo subject.</p>
+<p>The new topic that will be the theme of 2016 is governance, and once again it's because of the failures of bitcoin. Bitcoin is the clear example of struggling.<a href="https://www.reddit.com/r/Bitcoin/comments/3zbswe/bitcoin_foundation_where_did_all_the_money_go/"> Their foundation is a total disaster</a>. <a href="https://www.reddit.com/r/btc/comments/42nx74/unmasking_the_blockstream_business_plan/">It's coming to light that core developers of bitcoin are potentially complicit in directing the development course of the project for their own personal gain</a>.</p>
+<p>While there aren't many projects that have implemented governance mechanisms in their code (besides the basic protocol) this is an area where some projects are doing far better. BitShares has somewhat of a governance system with their delegates and DPoS. Where funds can be directed through certain individuals to perform functions for the network. <a href="https://www.youtube.com/watch?v=HwCZHIP_gmI">DASH has implemented some very unique governance models through their masternode system and received a nice video about it from The Daily Decrypt</a>. There are probably some more but these are the ones i'm most familiar with. I'm sure Ethereum will have various assets and smart-contracts which support a lot of what has been implemented in the former.</p>
+<p>Another project has also been doing an excellent job on the governance front. Ours. Nu. Since launch NuShares holders have been able to vote directly on motions, custodial grants, and park rates. Fee voting has been recently added, <a href="https://discuss.nubits.com/t/passed-finalized-motion-for-protocol-changes/372">by passing a motion vote</a>. Protocol voting is a passive trigger in the client that lets users decide on protocol upgrades based on the client they use. Even the ability to distribute dividends directly to investors. All this giving users rather than developers an opportunity to decide on how the organization conducts business.</p>
+<p>Even heavily contentious decisions among investors can and have been decided through a vote. Sometimes they take time<a href="https://discuss.nubits.com/t/passed-motion-to-make-the-nu-source-code-available/1083/377">. Up to four months in the case of the open source motion to pass</a>. Some are less contentious, passing very quickly like <a href="https://discuss.nubits.com/t/passed-motion-to-permit-nushare-custodians-and-burning-transactions/1155">adding currency burning</a>.</p>
+<p>Our network has the ability to reach a consensus on topics directly from investors, provide funding through grants,and vote on elements that would usually be hard governed by the protocol. It's incredibly flexible as a whole, far more than anything that the projects I mentioned above are doing. Did I mention we've had all of this for over a year?</p>
+<p>Far more flexible than other project implementations with <a href="https://docs.nubits.com/history/">over a years worth of history and examples of it solving problems</a> and helping our network to evolve and pivot quickly as the landscape changes. I say all this because I feel NuShares has been a side discussion since launch.  Pretty much all of our marketing has been focused on NuBits since launch, the stable coin. Rightfully so. Bitcoin made it the issue to discuss in recent years. Their failures drive much of the crypto narrative as their successes have. Our website is NuBits.com, Most of the information on the site is related to stability. NuShares has one small link with three sections on the front page. We have been pushing for exchanges to supports NuBits while only two (that are regularly used) support NuShares. Our social media channels have the name NuBits in them.</p>
+<p>NuShares hasn't really gotten much love in our marketing, which I think should change for 2016. I think this is the year where more people will not just be looking for something to invest in, but also desire a seat at the table in managing that investment. We should be using the current panic and anger of governance of bitcoin to advertise the virtues of NuShares the same way we did with stability and NuBits.  The Bitcoin network is run by the miners, not the asset holders. As all these different forks of bitcoins (<a href="http://www.coindesk.com/bitcoin-software-forked-in-bid-to-resolve-scalability-issue/">BitcoinXT</a>, <a href="http://www.coindesk.com/bitcoin-miners-bitcoin-classic-scaling-debate-evolves/">Bitcoin Classic</a>, etc..) gain momentum the debate on consensus and governance will only heat up throughout the year. It will drive a lot of people away (especially if some unseen catastrophe occurs) looking for refuge where people have resolved those issues.</p>
+<p>Right now we don't have a lot of materials focused on explaining our system of governance. Random forum posts which require lots of digging will not make it easy for people to catch up and understand to get involved. @willy has proposed created a NuLaws page which explains the current constraints related to elements of the network which have been passed through motions. I think it's a great idea. There's a lot more we could be doing to make our governance model more transparent and easier to understand for outsiders in 2016, and I think NBT we spend putting more marketing focus on NuShares will be worthwhile by years end. I have some ideas that I will be implementing on my own personal time (when I find some free :P ), but more organized solutions should take place as well.</p>
+<p>Just my .02 NBT.</p>
+<p>EDIT: <a href="https://www.reddit.com/r/dashpay/comments/42rvjy/im_quitting_bitcoin_and_joining_dash/">Prime example of the bitcoin migration starting and people looking for more agile projects. He looked and found DASH and Ethereum. Why not Nu and NuShares?</a></p>
+
+      
+    </article>
+  </div>
+</div>
+
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div id="app-footer">
+  <footer class="footer footer-branded">
+
+    <div class="container">
+      <nav class="pull-left col-xs-12 col-md-10">
+        <ul>
+          <li role="presentation"><a href="/about">About Daology</a></li>
+          <li role="presentation"><a href="/terms">Terms</a></li>
+          <li role="presentation"><a href="/privacy">Privacy</a></li>
+          <li role="presentation"><a href="/cookies">Cookies</a></li>
+          <li role="presentation"><a href="/support">Support</a></li>
+        </ul>
+      </nav>
+      <div class="copyright col-xs-12 col-md-2 pull-right">
+        &copy; 2017 Daology, LLC
+      </div>
+    </div>
+  </footer>
+</div>
+    </div>
+      
+
+
+  
+  
+
+    
+
+    
+
+    
+      <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+      <script src="//code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/highlight.js/latest/highlight.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+      <script src="/static/public/javascripts/dao.min.js"></script>
+    
+
+  
+
+
+
+  <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='https://www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-62932153-1','auto');ga('send','pageview');
+  </script>
+
+  </body>
+  
+  
+</html>

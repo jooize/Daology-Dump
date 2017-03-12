@@ -1,0 +1,348 @@
+<!-- extend base layout -->
+
+<!doctype html>
+<html lang="">
+  <head>
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Daology</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/static/public/images/favicon.ico">
+
+    
+  
+  
+
+    
+      <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic|Lato:400,700|Inconsolata' rel='stylesheet' type='text/css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/highlight.js/latest/styles/github.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/flick/jquery-ui.css">
+      <link rel="stylesheet" href="/static/assets/stylesheets/_vendor/jquery.tagit.min.css">
+
+      <link rel="stylesheet" href="/static/public/stylesheets/dao.min.css">
+    
+
+    
+
+    
+
+  
+
+    
+  
+  
+
+    
+
+    
+      <script src="/static/assets/javascripts/vendor/moment.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/contrib/auto-render.min.js"></script>
+    
+
+    
+
+  
+
+  </head>
+  <body role="document">
+    <div id="fullpage_wrapper">
+    
+      <div id="app-navbar">
+  <nav class="navbar" role="navigation">
+    <div class="container-fluid">
+      <div class="brand-bar row">
+        <div class="col-md-12">
+          <button id="menu-toggle" type="button" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar bar1"></span>
+            <span class="icon-bar bar2"></span>
+            <span class="icon-bar bar3"></span>
+          </button>
+          <a class="word_mark" href="/" name="home_link">daology</a>
+          
+        </div>
+      </div>
+      <div class="primary_nav row">
+        <div class="col-md-12">
+          <div class="collapse navbar-collapse" id="app-navbar-collapse">
+            <ul class="subnav">
+              <li class="subnav-item"><a href="/organizations/" name="dao_list_link">Organizations</a></li>
+              <li class="subnav-item"><a href="/articles" name="dao_list_link">Articles</a></li>
+              <li class="subnav-item"><a href="/proposals" name="dao_list_link">Proposals</a></li>
+              
+              <li class="subnav-item"><a href="/login" name="login_link" class="signin_btn">Sign in with Github</a></li>
+              
+
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+</div>
+      
+  
+  
+
+
+      
+
+  
+
+  
+
+  
+
+  
+
+
+
+      <div class="main row">
+        <div class="container">
+          <header class="row page_title">
+            
+            <div class="row">
+              <div class="page_actions col-md-12 pull-right">
+                <ul>
+                
+  <li class="action_btn"><a href="/proposals/bebf9f4a411907f898593a968d2eb92a18d234a9/raw" target="_blank" class="btn btn-sm btn-primary">Raw</a></li>
+  
+
+
+                
+                  
+
+
+                
+                </ul>
+              </div>
+            </div>
+            
+            
+            <div class="col-xs-9 col-md-11">
+              <span class="supertitle">
+                
+  Proposal  <span style="breadcrumb-separator">// </span><a href="/organizations/Nu">Nu</a> <span style="breadcrumb-separator">/</span> <a href="/organizations/Nu/NuBits">NuBits</a> 
+
+              </span>
+              <h1>
+                
+  NuPool 9
+
+              </h1>
+            </div>
+          </header>
+          <section class="row page_content">
+            <div class="col-md-12">
+              
+<div class="row container">
+
+  <div class="col-md-4 sidebar">
+
+    <div class="scroll_title">
+      <p class="supertitle">Proposal  <span style="breadcrumb-separator">//</span> Nu <span style="breadcrumb-separator">/</span> NuBits</p>
+      <p class="title">NuPool 9</p>
+      <p class="author">By
+        inuitwallet
+        
+      </p>
+      <p class="meta_text date">
+        <script>
+document.write(moment("2016-05-12T06:35:10 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+        &nbsp;|&nbsp;&nbsp;<span class="updated">Updated: <script>
+document.write(moment("2016-05-16T08:38:05 Z").calendar());
+</script></span>
+        
+      </p>
+      <hr>
+      <div class="content-toc"></div>
+    </div>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="meta_text">
+          <a href="/u/inuitwallet/">
+            <img src="https://avatars.githubusercontent.com/u/7223589?v=3" class="profile">
+            <div class="authorname_block">
+                <div class="nolink">By inuitwallet</div>
+                <div class="nickname">@inuitwallet</div>
+              </div>
+            
+          </a>
+        </p>
+        <div class="row">
+          <div class="col-md-12">
+          <p class="meta_text date">
+            <script>
+document.write(moment("2016-05-12T06:35:10 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+            
+            &nbsp;|&nbsp;&nbsp;
+            
+            <span class="updated">Updated: <script>
+document.write(moment("2016-05-16T08:38:05 Z").calendar());
+</script></span>
+            
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="sidebar_title">Text Hash ( RIPEMD-160 )</p>
+        <p class="meta_text hash">c982cc84896e859eda3dc7e5bb338191b1d0659b  </p>
+      </div>
+    </div>
+    
+
+    
+
+    
+    
+
+  
+    <hr>
+    <div class="row meta_element">
+        <div class="col-md-12">
+          <span class="sidebar_title">
+            Grant
+          </span>
+          <p class="meta_text">1,280 NBT</p>
+        </div>
+    </div>
+    <hr>
+    <div class="row meta_element">
+        <div class="col-md-12">
+          <span class="sidebar_title">
+            Grant Address
+          </span>
+          <p class="meta_text">BRsLYtJhPhz7QdkKK54HkoizUrNk64wFwf</p>
+        </div>
+    </div>
+
+  
+
+
+
+  </div>
+
+  
+  
+    <div class="content_body col-md-8">
+  
+
+
+
+
+    
+    <div class="reading-time-wrapper" data-target="bebf9f4a411907f898593a968d2eb92a18d234a9">
+    <span class="reading-time"></span> read (<span class="word-count"></span> words)
+  </div>
+
+    <article class="rtCalc no-fouc" id="bebf9f4a411907f898593a968d2eb92a18d234a9">
+      
+        <p>Hi Shareholders,</p>
+<p>It's time to start the voting on the next NuPool operation.<br>
+After bit of a flaky start (flakier than I had hoped) the ALPv2 software came into use and after a few adjustments is now in a very stable position. I've not had to touch the software for ~15 days so I am happy that it is in a good place for running the liquidity pool.</p>
+<p>For this  next operation we would like to keep the parameters the same as for the last operation. Thanks to Muchgusto we not only easily made target but also have a view on the profitability of liquidity operations. I would hope that by continuing with the same parameters, we can attract a similar level of support.  As the software is stable we would like to extend the operation period to 60 days.  (Edit. in light of liquidity discussions , the parameters are in fact changing).<br>
+The one problem that we are still experiencing is with the Bittrex connection in NuBot. I have found it difficult to diagnose the issue as all my attempts to replicate the issue have failed. There is definitely at least one other user who is using Bittrex successfully so I'm not sure if  it's a wrapper issue or an issue with their API. Either way, I would like to explore that a little more to try and get liquidity flowing there too.<br>
+My other aim for this period is to explore automatic updates to the pool configuration. The pool config is reloaded before each credit round which provides an opportunity to assess the condition of the liquidity on the exchange and adjust the parameters accordingly. This could be used to tune the rewards so that unsupported sides become more attractive to providers and give initiative to balance the sides. I would be very interested in the thoughts of Shareholders on this. What triggers should the pool watch for and what action should it take? I have a few ideas but  feel that it is a good opportunity for shareholders to agree a set of rules around liquidity.</p>
+<p>The parameters for the next operation are as follows:</p>
+<p>&gt; Poloniex:<br>
+<em>Reward</em>: <strong>0.02 NBT / minute</strong> (864 NBT total)<br>
+<em>Tolerance</em>: <strong>0.01</strong> (1%)<br>
+<em>Target</em>: <strong>5000 NBT</strong></p>
+<p>&gt;Bittrex:<br>
+<em>Reward</em>: <strong>0.003 NBT / minute</strong> (216 NBT total)<br>
+<em>Tolerance</em>: <strong>0.01</strong> (1%)<br>
+<em>Target</em>: <strong>1000 NBT</strong></p>
+<p>&gt;Pool<br>
+<em>Period</em>: <strong>30 days</strong><br>
+<em>Fee</em>: <strong>200 NBT</strong> (Pay for the server, maintenance and support queries)</p>
+<p><em>Total Requested</em>: <strong>1280</strong></p>
+<p>Custodial address: BRsLYtJhPhz7QdkKK54HkoizUrNk64wFwf</p>
+<hr>
+<p><a href="https://daology.org/p/bebf9f4a411907f898593a968d2eb92a18d234a9">Proposal</a> created with <a href="https://daology.org">Daology.org</a> by <a href="https://daology.org/u/inuitwallet">inuitwallet</a> for <a href="https://daology.org/o/Nu">Nu</a></p>
+
+      
+    </article>
+  </div>
+</div>
+
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div id="app-footer">
+  <footer class="footer footer-branded">
+
+    <div class="container">
+      <nav class="pull-left col-xs-12 col-md-10">
+        <ul>
+          <li role="presentation"><a href="/about">About Daology</a></li>
+          <li role="presentation"><a href="/terms">Terms</a></li>
+          <li role="presentation"><a href="/privacy">Privacy</a></li>
+          <li role="presentation"><a href="/cookies">Cookies</a></li>
+          <li role="presentation"><a href="/support">Support</a></li>
+        </ul>
+      </nav>
+      <div class="copyright col-xs-12 col-md-2 pull-right">
+        &copy; 2017 Daology, LLC
+      </div>
+    </div>
+  </footer>
+</div>
+    </div>
+      
+
+
+  
+  
+
+    
+
+    
+
+    
+      <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+      <script src="//code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/highlight.js/latest/highlight.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+      <script src="/static/public/javascripts/dao.min.js"></script>
+    
+
+  
+
+
+
+  <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='https://www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-62932153-1','auto');ga('send','pageview');
+  </script>
+
+  </body>
+  
+  
+</html>

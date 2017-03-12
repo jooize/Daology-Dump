@@ -1,0 +1,341 @@
+<!-- extend base layout -->
+
+<!doctype html>
+<html lang="">
+  <head>
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Daology</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/static/public/images/favicon.ico">
+
+    
+  
+  
+
+    
+      <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic|Lato:400,700|Inconsolata' rel='stylesheet' type='text/css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/highlight.js/latest/styles/github.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/flick/jquery-ui.css">
+      <link rel="stylesheet" href="/static/assets/stylesheets/_vendor/jquery.tagit.min.css">
+
+      <link rel="stylesheet" href="/static/public/stylesheets/dao.min.css">
+    
+
+    
+
+    
+
+  
+
+    
+  
+  
+
+    
+
+    
+      <script src="/static/assets/javascripts/vendor/moment.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/contrib/auto-render.min.js"></script>
+    
+
+    
+
+  
+
+  </head>
+  <body role="document">
+    <div id="fullpage_wrapper">
+    
+      <div id="app-navbar">
+  <nav class="navbar" role="navigation">
+    <div class="container-fluid">
+      <div class="brand-bar row">
+        <div class="col-md-12">
+          <button id="menu-toggle" type="button" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar bar1"></span>
+            <span class="icon-bar bar2"></span>
+            <span class="icon-bar bar3"></span>
+          </button>
+          <a class="word_mark" href="/" name="home_link">daology</a>
+          
+        </div>
+      </div>
+      <div class="primary_nav row">
+        <div class="col-md-12">
+          <div class="collapse navbar-collapse" id="app-navbar-collapse">
+            <ul class="subnav">
+              <li class="subnav-item"><a href="/organizations/" name="dao_list_link">Organizations</a></li>
+              <li class="subnav-item"><a href="/articles" name="dao_list_link">Articles</a></li>
+              <li class="subnav-item"><a href="/proposals" name="dao_list_link">Proposals</a></li>
+              
+              <li class="subnav-item"><a href="/login" name="login_link" class="signin_btn">Sign in with Github</a></li>
+              
+
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+</div>
+      
+  
+  
+
+
+      
+
+  
+
+  
+
+  
+
+  
+
+
+
+      <div class="main row">
+        <div class="container">
+          <header class="row page_title">
+            
+            <div class="row">
+              <div class="page_actions col-md-12 pull-right">
+                <ul>
+                
+  <li class="action_btn"><a href="/proposals/213c7c064e1967000cf9cf29d543539a1d0f6315/raw" target="_blank" class="btn btn-sm btn-primary">Raw</a></li>
+  
+
+
+                
+                  
+
+
+                
+                </ul>
+              </div>
+            </div>
+            
+            
+            <div class="col-xs-9 col-md-11">
+              <span class="supertitle">
+                
+  Proposal  <span style="breadcrumb-separator">// </span><a href="/organizations/Nu">Nu</a> <span style="breadcrumb-separator">/</span> <a href="/organizations/Nu/NuShares">NuShares</a> 
+
+              </span>
+              <h1>
+                
+  [Voting] Motion Dual Side NuBot Gateway at Poloniex by masterOfDisaster
+
+              </h1>
+            </div>
+          </header>
+          <section class="row page_content">
+            <div class="col-md-12">
+              
+<div class="row container">
+
+  <div class="col-md-4 sidebar">
+
+    <div class="scroll_title">
+      <p class="supertitle">Proposal  <span style="breadcrumb-separator">//</span> Nu <span style="breadcrumb-separator">/</span> NuShares</p>
+      <p class="title">[Voting] Motion dual side NuBot gateway at Poloniex by masterOfDisaster</p>
+      <p class="author">By
+        lamz0rnewb
+        
+      </p>
+      <p class="meta_text date">
+        <script>
+document.write(moment("2016-04-27T09:52:41 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+        &nbsp;|&nbsp;&nbsp;<span class="updated">Updated: <script>
+document.write(moment("2016-05-08T19:24:07 Z").calendar());
+</script></span>
+        
+      </p>
+      <hr>
+      <div class="content-toc"></div>
+    </div>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="meta_text">
+          <a href="/u/lamz0rnewb/">
+            <img src="https://avatars.githubusercontent.com/u/5789219?v=3" class="profile">
+            <div class="authorname_block">
+                <div class="nolink">By lamz0rnewb</div>
+                <div class="nickname">@lamz0rnewb</div>
+              </div>
+            
+          </a>
+        </p>
+        <div class="row">
+          <div class="col-md-12">
+          <p class="meta_text date">
+            <script>
+document.write(moment("2016-04-27T09:52:41 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+            
+            &nbsp;|&nbsp;&nbsp;
+            
+            <span class="updated">Updated: <script>
+document.write(moment("2016-05-08T19:24:07 Z").calendar());
+</script></span>
+            
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="sidebar_title">Text Hash ( RIPEMD-160 )</p>
+        <p class="meta_text hash">b59c750a307160b4f1cb5bedfd6027e17b5a0ab4  </p>
+      </div>
+    </div>
+    
+
+    
+
+    
+    
+
+  
+
+  
+
+
+
+  </div>
+
+  
+  
+    <div class="content_body col-md-8">
+  
+
+
+
+
+    
+    <div class="reading-time-wrapper" data-target="213c7c064e1967000cf9cf29d543539a1d0f6315">
+    <span class="reading-time"></span> read (<span class="word-count"></span> words)
+  </div>
+
+    <article class="rtCalc no-fouc" id="213c7c064e1967000cf9cf29d543539a1d0f6315">
+      
+        <p>Intro<br>
+@masterOfDisaster - below called "the operator" - will run a NuBot on Poloniex. The liquidity is being broadcast using a custodial address to allow tracking the liquidity situation of the bot.
+The operator promises to send all funds to a FLOT multisig address upon request of a majority of the FLOT members or by a passed NSR holder motion.</p>
+<p>Availability<br>
+The operator offers to check for Nubot's good operation daily and holds replacement hardware available in case of hardware failure.
+As NuBot doesn't support the multi use of API credentials, this is no hot standby solution.
+Furthermore there's no guarantee.
+NuBot malfunctions, outages of the internet access or the security of the funds on the exchange are risks Nu needs to bear.
+The experience so far showed an extraordinary availability of both hardware and internet access.
+For security reasons VPS won't be used for this operation.</p>
+<p>Begin of operation<br>
+Operation begins on the day NuBot puts the first deposit of funds by FLOT on the order book.</p>
+<p>End of operation<br>
+Operation is ceased by request of withdrawal of all funds or if operator sends all funds to FLOT multisig address(es). NuBot is put on standby afterwards.</p>
+<p>Operation parameters, e.g. offset<br>
+NuBot operation parameters are intentionally not part of the motion to allow adjusments to market needs.
+The offset should be higher than the offset of ALP (NuPool) or MLP (NuLagoon) operations to effectively build a last line of defence.</p>
+<p>Modes of withdrawal<br>
+NSR holders can request withdrawal by motion.
+FLOT members can request withdrawal to a FLOT multisig address for which they are signer by posting in the forum.
+The number of FLOT members to request a deposit to a FLOT multisig address equals the number of FLOT members to execute transactions from this address.
+The operator may withdraw funds to a FLOT multisig address by discretion.</p>
+<p>Compensation scheme<br>
+The operator charges 90 NBT per 30 days of operation.
+Upon passing this contract will automatically be renewed unless FLOT majority (5 of 8) or NSR holder motion ceases the operation.
+The fee will be paid by FLOT, taken from funds on the exchange account if sufficient funds are available or raised by grant.</p>
+<p>Premature activation<br>
+If the FLOT deposits funds at the operator's exchange account, they will be used by the operator as if this motion already passed.</p>
+<p>Last words<br>
+This motion intends to replace motion <a href="https://discuss.nubits.com/t/passed-motion-to-permit-dual-side-nubot-on-poloniex/3333">https://discuss.nubits.com/t/passed-motion-to-permit-dual-side-nubot-on-poloniex/3333</a>.
+The former motion provides Nu with a Poloniex gateway as well, but unattended on standby and at a daily charge of 15 NBT if being activated.</p>
+<hr>
+<p><a href="https://daology.org/p/213c7c064e1967000cf9cf29d543539a1d0f6315">Proposal</a> created with <a href="https://daology.org">Daology.org</a> by <a href="https://daology.org/u/lamz0rnewb">lamz0rnewb</a> for <a href="https://daology.org/o/Nu">Nu</a></p>
+
+      
+    </article>
+  </div>
+</div>
+
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div id="app-footer">
+  <footer class="footer footer-branded">
+
+    <div class="container">
+      <nav class="pull-left col-xs-12 col-md-10">
+        <ul>
+          <li role="presentation"><a href="/about">About Daology</a></li>
+          <li role="presentation"><a href="/terms">Terms</a></li>
+          <li role="presentation"><a href="/privacy">Privacy</a></li>
+          <li role="presentation"><a href="/cookies">Cookies</a></li>
+          <li role="presentation"><a href="/support">Support</a></li>
+        </ul>
+      </nav>
+      <div class="copyright col-xs-12 col-md-2 pull-right">
+        &copy; 2017 Daology, LLC
+      </div>
+    </div>
+  </footer>
+</div>
+    </div>
+      
+
+
+  
+  
+
+    
+
+    
+
+    
+      <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+      <script src="//code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/highlight.js/latest/highlight.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+      <script src="/static/public/javascripts/dao.min.js"></script>
+    
+
+  
+
+
+
+  <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='https://www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-62932153-1','auto');ga('send','pageview');
+  </script>
+
+  </body>
+  
+  
+</html>

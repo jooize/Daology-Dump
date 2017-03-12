@@ -1,0 +1,389 @@
+<!-- extend base layout -->
+
+<!doctype html>
+<html lang="">
+  <head>
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Daology</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/static/public/images/favicon.ico">
+
+    
+  
+  
+
+    
+      <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic|Lato:400,700|Inconsolata' rel='stylesheet' type='text/css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/highlight.js/latest/styles/github.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/flick/jquery-ui.css">
+      <link rel="stylesheet" href="/static/assets/stylesheets/_vendor/jquery.tagit.min.css">
+
+      <link rel="stylesheet" href="/static/public/stylesheets/dao.min.css">
+    
+
+    
+
+    
+
+  
+
+    
+  
+  
+
+    
+
+    
+      <script src="/static/assets/javascripts/vendor/moment.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/contrib/auto-render.min.js"></script>
+    
+
+    
+
+  
+
+  </head>
+  <body role="document">
+    <div id="fullpage_wrapper">
+    
+      <div id="app-navbar">
+  <nav class="navbar" role="navigation">
+    <div class="container-fluid">
+      <div class="brand-bar row">
+        <div class="col-md-12">
+          <button id="menu-toggle" type="button" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar bar1"></span>
+            <span class="icon-bar bar2"></span>
+            <span class="icon-bar bar3"></span>
+          </button>
+          <a class="word_mark" href="/" name="home_link">daology</a>
+          
+        </div>
+      </div>
+      <div class="primary_nav row">
+        <div class="col-md-12">
+          <div class="collapse navbar-collapse" id="app-navbar-collapse">
+            <ul class="subnav">
+              <li class="subnav-item"><a href="/organizations/" name="dao_list_link">Organizations</a></li>
+              <li class="subnav-item"><a href="/articles" name="dao_list_link">Articles</a></li>
+              <li class="subnav-item"><a href="/proposals" name="dao_list_link">Proposals</a></li>
+              
+              <li class="subnav-item"><a href="/login" name="login_link" class="signin_btn">Sign in with Github</a></li>
+              
+
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+</div>
+      
+  
+  
+
+
+      
+
+  
+
+  
+
+  
+
+  
+
+
+
+      <div class="main row">
+        <div class="container">
+          <header class="row page_title">
+            
+            <div class="row">
+              <div class="page_actions col-md-12 pull-right">
+                <ul>
+                
+  <li class="action_btn"><a href="/proposals/dcda223aa190358023cc066208f820614df3f310/raw" target="_blank" class="btn btn-sm btn-primary">Raw</a></li>
+  
+
+
+                
+                  
+
+
+                
+                </ul>
+              </div>
+            </div>
+            
+            
+            <div class="col-xs-9 col-md-11">
+              <span class="supertitle">
+                
+  Proposal  <span style="breadcrumb-separator">// </span><a href="/organizations/Nu">Nu</a>
+
+              </span>
+              <h1>
+                
+  A Report on Peg Abandonment and How to Proceed From Here
+
+              </h1>
+            </div>
+          </header>
+          <section class="row page_content">
+            <div class="col-md-12">
+              
+<div class="row container">
+
+  <div class="col-md-4 sidebar">
+
+    <div class="scroll_title">
+      <p class="supertitle">Proposal  <span style="breadcrumb-separator">//</span> Nu</p>
+      <p class="title">A report on peg abandonment and how to proceed from here</p>
+      <p class="author">By
+        phoenixnubits
+        
+      </p>
+      <p class="meta_text date">
+        <script>
+document.write(moment("2016-06-28T01:42:13 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+        &nbsp;|&nbsp;&nbsp;<span class="updated">Updated: <script>
+document.write(moment("2016-06-29T03:00:08 Z").calendar());
+</script></span>
+        
+      </p>
+      <hr>
+      <div class="content-toc"></div>
+    </div>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="meta_text">
+          <a href="/u/phoenixnubits/">
+            <img src="https://avatars.githubusercontent.com/u/19893847?v=3" class="profile">
+            <div class="authorname_block">
+                <div class="nolink">By phoenixnubits</div>
+                <div class="nickname">@phoenixnubits</div>
+              </div>
+            
+          </a>
+        </p>
+        <div class="row">
+          <div class="col-md-12">
+          <p class="meta_text date">
+            <script>
+document.write(moment("2016-06-28T01:42:13 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+            
+            &nbsp;|&nbsp;&nbsp;
+            
+            <span class="updated">Updated: <script>
+document.write(moment("2016-06-29T03:00:08 Z").calendar());
+</script></span>
+            
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="sidebar_title">Text Hash ( RIPEMD-160 )</p>
+        <p class="meta_text hash">faafd2dea7c11fc27155118469140c0b0dd66eb3  </p>
+      </div>
+    </div>
+    
+
+    
+
+    
+    
+
+  
+
+  
+
+
+
+  </div>
+
+  
+  
+    <div class="content_body col-md-8">
+  
+
+
+
+
+    
+    <div class="reading-time-wrapper" data-target="dcda223aa190358023cc066208f820614df3f310">
+    <span class="reading-time"></span> read (<span class="word-count"></span> words)
+  </div>
+
+    <article class="rtCalc no-fouc" id="dcda223aa190358023cc066208f820614df3f310">
+      
+        <p>On May 27th, 2016, large NuBit sales were made by a single actor using a single address. In one day 14% of our entire money supply was sold. After these sales, our liquidity engine was functioning normally and was up to the task of replenishing our reserve, as is mandated by NuLaw in such a case. Shockingly, instead of refilling reserves using NSR sales and park rates, the entire liquidity engine was immediately shut down. Such an action had not been approved in any way by shareholders. It was a serious violation of many shareholder directives. It was the act of rogue and incompetent liquidity providers no longer acting as representatives of shareholders. @JordanLee was very vocal about his surprise at the shutting down of liquidity engine and loudly condemned the actions while suggesting a more prudent path aligned with previous plans, to no avail. On May 27th, he started a thread entitled "It is time for immediate use of tier 6 liquidity (NSR sales)."
+<a href="https://discuss.nubits.com/t/it-is-time-for-immediate-use-of-tier-6-liquidity-nsr-sales/3974">https://discuss.nubits.com/t/it-is-time-for-immediate-use-of-tier-6-liquidity-nsr-sales/3974</a></p>
+<p>Two week prior on May 15th, Jordan Lee issued a stern warning about destructive attitudes and beliefs among liquidity providers entitled "Lack of commitment to liquidity is our biggest threat now":</p>
+<p>"Perhaps the biggest surprise for me in the course of our monetary experiment is that a growing chorus of voices in the community are advocating policies of intentionally reduced liquidity as a part of planned operations. This surprises me because I would expect the community to understand that NuShares will only have value to the extent the network is viewed as reliable in maintaining liquidity, the quality of which is simply measured by the depth and spread of the liquidity. These proposals represent suicidal tendencies that strangely seem to be growing in our forum at the present time.
+Talk of keeping the peg during a time of declining demand by increasing the spread or increasing transaction fees are alarming to me to the extent that there is any acceptance of such techniques among shareholders. These are poorly disguised defaults. A NuShare is an asset that has its value based on giving the owner part ownership of a liquidity engine. It amazes me people involved in the project would propose to plan to dramatically reduce liquidity by choice. The network is supposed to defend liquidity with every fibre of its being. Its like there is some confusion about the identity of the network. This is a liquidity providing machine. Its value is determined by the quality and reliability of its liquidity. So, deliberate and official plans to reduce that liquidity would be deeply injurious to the value of NuShares. A perceived possibility that shareholders will support such reductions in liquidity is an existential threat to the network, and the most serious threat to the network at the present time in my opinion."
+<a href="https://discuss.nubits.com/t/lack-of-commitment-to-liquidity-is-our-biggest-threat-now/3902">https://discuss.nubits.com/t/lack-of-commitment-to-liquidity-is-our-biggest-threat-now/3902</a></p>
+<p>We can see from the events of the last month, that once again (like before the exchange defaults in February 2015), Jordan had his attention on the most important problem in the network and was trying to get others to pay attention to resolve it. Jordan Lee saw the potential for the crisis that has in fact occurred, and he warned everyone about it in a timely manner. Despite the fact that @masterOfDisaster was not mentioned in Jordan Lee's plea to the community, @masterOfDisaster chose to deal with Jordan Lee's professionally presented concerns by attacking and mocking Jordan Lee by starting a thread two days later entitled "Lack of commitment to development is our biggest threat now."
+<a href="https://discuss.nubits.com/t/lack-of-commitment-to-development-is-our-biggest-threat-now/3914">https://discuss.nubits.com/t/lack-of-commitment-to-development-is-our-biggest-threat-now/3914</a></p>
+<p>It should be clear to everyone at this point that Jordan Lee's thread was visionary, insightful and extremely relevant, while @masterOfDisaster's thread was immature, misguided and counterproductive.</p>
+<p>Let's take a closer look at the actions and actors that shut down the liquidity engine without the support of shareholders, and without any solid understanding of how to operate it.</p>
+<p>The liquidity engine was in pretty good shape on May 27th, although for weeks Standard and Core calculations indicated park rates were required (in actuality only low ones were instituted, and late) and NSR sales were needed according to the calculation on May 22nd. FLOT NSR did not conduct an NSR sale that week, in clear violation of NuLaw. It is important to make small, frequent and early corrections to any imbalance in the liquidity engine. The more unbalanced the system, the less confidence there is, which lowers NSR price and reduces NBT demand. Shareholders made a mistake by not offering park rates enough in May. FLOT NSR clearly broke NuLaw by not selling any NSR in the week beginning May 22nd.</p>
+<p>Hours after 14% of NuBits were sold, @masterOfDisaster said:</p>
+<p>"Just imagine Nu had to rely on operations at a very tight spread that can get emptied in the blink of an eye if BTC starts to go haywire.
+An increased offset is not after the fancy of the traders. They refrain from trading.
+That way the gateways can support the peg longer than T1.1 can.
+As long as they have funds (on the order book), the exchange rate can't get beyond their spread.
+The quality of the peg is of course perceived as worse than with funds on T1.1 available, but better have orders at an increased spread than no orders at all!
+It's still working, because it's economically sound."
+<a href="https://discuss.nubits.com/t/nubot-gateway-poloniex-zoro-sell-offset-0-25-buy-offset-5-stand-by/3480/244">https://discuss.nubits.com/t/nubot-gateway-poloniex-zoro-sell-offset-0-25-buy-offset-5-stand-by/3480/244</a></p>
+<p>Already we see a serious problem here that results from @masterOfDisaster's narrow focus. He is focusing on the quantity of tier 4 reserves and how to prevent them from running out. He appears unaware of how his actions interact with everything else in the liquidity engine. He also speaks of the quality of the peg. This demonstrates ignorance of how our system works. The peg either exists or it is broken. That is why Jordan Lee presented the system as being all or nothing in the original whitepaper, and predicted peg failure, were it to occur, would be total and complete. It appears Jordan Lee presumed the liquidity engine would be fully utilized whenever the peg was threatened. He did not envision it being abandoned at the first sign of trouble. What matters is not that you keep your tier 4 reserves. What matters is that you keep the peg, and ensure friction in the big engines of the peg (tier 4, 5 and 6) stays at a minimum. Tier 4 can always be refilled, so long as the liquidity engine is functioning. The integrity of the system is of paramount importance.
+Also on May 27th @Cybnate quotes part of @masterOfDisaster's  above confused thinking with the remark:</p>
+<p>"Very true. It has again been proven a few hours ago".
+<a href="https://discuss.nubits.com/t/nubot-gateway-poloniex-zoro-sell-offset-0-25-buy-offset-5-stand-by/3480/246">https://discuss.nubits.com/t/nubot-gateway-poloniex-zoro-sell-offset-0-25-buy-offset-5-stand-by/3480/246</a></p>
+<p>She is also confused about how our liquidity engine works.</p>
+<p>Within hours of the exceptional sales, we have multiple prominent liquidity providers advocating the abandonment of the peg as the solution, which they call a degraded or lower quality peg.</p>
+<p>Jordan Lee did the right thing and set the right example on May 27th. Besides loudly pushing immediate NSR sales on Poloniex, he emptied all tier 4 reserves in his possession in to tier 1 immediately, with the understanding more was to be gathered from tier 5 and 6 immediately.</p>
+<p>From Jordan Lee on May 27th:</p>
+<p>"I only have 26 shareholder BTC, and I am going to put that up on Tube in the coming minutes (probably in two transactions). We need additional action from FLOT or @Dhume to balance both Poloniex and Tube as soon as possible."
+<a href="https://discuss.nubits.com/t/current-liquidity/1239/1709">https://discuss.nubits.com/t/current-liquidity/1239/1709</a></p>
+<p>However, on May 27th @masterOfDisaster continues to push other liquidity providers to abandon the peg:
+@Nagalim suggests @zoro put up more liquidity "at the same close spreads". @masterOfDisaster replies:
+"To get them drained as well?
+I can only recommend to leave them at the increased spread"
+<a href="https://discuss.nubits.com/t/flot-btc-operations-buy-side/3117/615">https://discuss.nubits.com/t/flot-btc-operations-buy-side/3117/615</a></p>
+<p>@JordanLee replied immediately:
+"Widening spreads now is simply stiffing people who trusted us, demonstrating that we are not trustworthy. DON'T DO IT! There is no reason to do so. This kind of behavior is deeply injurious to the network."
+<a href="https://discuss.nubits.com/t/flot-btc-operations-buy-side/3117/617">https://discuss.nubits.com/t/flot-btc-operations-buy-side/3117/617</a></p>
+<p>He sees this is a default that will cause a chain reaction resulting in panic and destroyed trust, which is what actually occurred. @masterOfDisaster replies registering his disagreement with @JordanLee, once again showing he is only thinking of the size of tier 4 reserves, and is not considering the integrity of the entire system:</p>
+<p>"Having some funds at a 2% spread is better than having 0 funds at a 0.5% spread."
+<a href="https://discuss.nubits.com/t/flot-btc-operations-buy-side/3117/618">https://discuss.nubits.com/t/flot-btc-operations-buy-side/3117/618</a></p>
+<p>It is necessary, proper and possible to keep funds at a 0.5% spread by having FLOT NSR sell NuShares on Poloniex immediately. This did not occur, and it was one of the key failures of our liquidity providers. It was very important that NuShares be sold for as little as 80% to 90% of the market price on that very day, May 27th. This price drop would bring in trading volume. As long as selling is aggressive enough to keep buy walls up, the system remains intact and there is the confidence to purchase NuShares. The price of NuShares are very much of secondary importance. What matters is the integrity of the liquidity engine. If that holds, then the NuShare price will recover. If not, it goes down to the depths.
+Apparently @masterOfDisaster had tried widened spreads in the past without it destroying the system in January 2016:</p>
+<p>"I ended at spreads of 1.8% and 3% for the two gateways."
+<a href="https://discuss.nubits.com/t/current-liquidity/1239/1730">https://discuss.nubits.com/t/current-liquidity/1239/1730</a></p>
+<p>Probably the only reason the system didn't fail then was that not many noticed before it was restored.</p>
+<p>On May 28th, @masterOfDisaster pushes reducing the buy price again by pointing out that fewer buy side funds were consumed when @zoro lowered the buy price by increasing the spread:
+"@zoro's NuBot only traded $3,000 of the $9,000 on buy side.
+Can you see how an increased spread made his funds last longer?</p>
+<p>If you want the funds on Bittrex to last, increase the spread!"
+<a href="https://discuss.nubits.com/t/current-liquidity/1239/1734">https://discuss.nubits.com/t/current-liquidity/1239/1734</a></p>
+<p>This is a default, which causes a chain reaction of loss of confidence and massive desire to sell NuBits. On May 28th, @cryptog challenges @masterOfDisaster with the following excellent comments:</p>
+<p>"If we do not show that we can provide liquidity when there is demand for getting out of nubits, as it is the case now, we are failing the purpose of NuBits, which is to provide liquidity to hedgers, right now.
+I agree though that we need to be careful not to lose too much money in the short term but the bet is that it will increase confidence in the peg in the mid term which would create demand for getting in Nubits when there is bitcoin volatility in the opposite direction.
+It s painful to refill the Tube but as a startup we need to take that bet.
+That is why we need to refill the Tube as a first priority right now, i believe."
+<a href="https://discuss.nubits.com/t/flot-btc-operations-buy-side/3117/697">https://discuss.nubits.com/t/flot-btc-operations-buy-side/3117/697</a></p>
+<p>@cryptog was right. What was needed at this moment was filling many buy orders for NSR on Poloniex to keep walls up. As Chief Of Liquidity Operations, that is what I would have done.@masterOfDisaster responds to @cryptog with a message of defeat and surrender:
+"Face it: we can't [provide liquidity] at the moment. "
+<a href="https://discuss.nubits.com/t/flot-btc-operations-buy-side/3117/698">https://discuss.nubits.com/t/flot-btc-operations-buy-side/3117/698</a></p>
+<p>Yes, we can, but we need to temporarily sacrifice the NSR price to do so. If we do so, the NSR price recovers, if we don't, the NSR price drops and stays very low.</p>
+<p>From the time Standard and Core first indicated a NuShare sale was needed on May 22nd, until now (June 28th), only a about 5 million NuShares have been sold. That is little more that 0.5% of the entire NuShare supply. We advertised NuBits as being backed by NuShares, but in the last five weeks, that simply has proven false. Zero NuShares were sold prior to the abandonment of the peg. On May 28th, a time when we should have been frantically selling NuShares, we left large orders on the Poloniex NSR buy side. @mhps documents that on that day there was a single order for 21 BTC (among others) on the NSR buy side. As Chief of Liquidity Operations, I would have filled that buy order and put the BTC proceeds on the buy side at tight spread. In reality, this large order was left unfilled at this critical time for our network. Instead, we got the attitude of defeat and surrender embodied by @masterOfDisaster. We needed to make large NSR sales at that time, regardless of price. With the ~$40,000 we already had in tier 4 (that was being withheld), we could have offered more than $50,000 in buy side funds on tier 1. The next day after filling that 21 BTC order, we could have and should have sold even more NSR to keep the $50,000 buy wall thick. As long as we are succeeding in bringing liquidity to market, confidence in NuBits and NuShares will be high. That means we won't face a rush of NuBit sellers and we will be able to find NuShare buyers, even if we only get a reduced price. Temporarily sacrificing the NuShare price to bring good, constant liquidity was the best thing we could have done for the NuShare price long term. Instead, we refused to sell NSR for fear of lowering the price. Now NuShares are 80 satoshis, where they were 500 satoshis on May 27th. Clearly, refraining from selling NSR to support the NSR price was a massive failure, as could be easily and certainly predicted. If I had been Chief of Liquidity Operations, I am confident I could have guided the network through the adverse conditions of the last month while maintaining a peg of $1.00 at all times. I would have sold NSR at any price, if necessary, to accomplish that objective.</p>
+<p>Now that the exact events of how the peg was abandoned in the hours following the major NuBit sales by a single actor on May 27th have been detailed, let's consider the devastating results of setting asymmetrical offsets, as was done by @masterOfDisaster and @zoro. Let's examine its effect on the entire liquidity engine, instead of just focusing on holding on to tier 4 funds as @masterOfDisaster made the mistake of doing.</p>
+<p>As has been discussed on the forum multiple times, abandoning the peg breaks the entire liquidity engine. It requires a price that liquidity can be provided at. It also requires confidence, which abandoning the peg destroys. Tier 1 is basically broken because you aren't offering liquidity at the price we led customers to believe they could sell at. You are giving them a haircut of 5%. This makes everyone wish they could exit, but hesitant to take the haircut. Few if any will buy NuBits. You have ensured everyone wants out and no one wants in. Tier 2 is just funds on exchange as they transit between tier 1 and the lower tiers. Tier 3 is actually not yet implemented in our system. Which brings us to tier 4. These funds should always be promoted to Tier 1 as needed. That wasn't done here. Funds were frozen in tier 4, which means tier 4 is broken, because you aren't moving funds through.</p>
+<p>Next, consider tier 5, park rates. This tier is utterly destroyed by peg abandonment. Let's say I am interested in parking for 3 months for 5% actual premium, which was about what was being offered on May 27th. I pay $1.005 for a NuBit, and park it with a promise of getting $0.05 in three months. That will give me 1.05 NuBits that I can sell back. At $0.95, a slight loss occurs. But with the peg already lost in a system that was designed to go to zero in such a scenario, a rational observer would realize there is a very high chance they won't even be able to get $0.95 in three months. No one with even a little bit of sense will park under these circumstances, even at very high rates.</p>
+<p>Next, let's look at what peg abandonment does to tier 6, which is selling NSR to raise funds to put on the buy side. We saw our buy walls disappear and fall back more than 50% on May 28th. This is because a catastrophic peg failure was already mostly priced in, because a peg failure had in fact already occurred. To sell NuShares at a good price, you have to keep the peg, because only a kept peg bodes well for the future of the NSR price. As each day passed, it became clearer that the peg was broken, which caused a catastrophic fall in the NuShare price. Simply stated, you have to sell NuShares early and often enough in order to keep the peg, which makes NuShares valuable. Once the peg is surrendered, NuShares have little value and little power to raise funds. We did this in 2015, and it worked very well. So we have two completed experiments: selling NSR to support the peg early and often as we did quite successfully in 2015 and waiting until long after complete peg failure to begin selling NSR in the recent case, which has been a failure.</p>
+<p>This is why Jordan Lee made a frantic plea to put buy orders up at the regular price and sell NSR with abandon:
+<a href="https://discuss.nubits.com/t/withdrawn-make-firing-and-replacing-incompetent-liquidity-providers-our-top-priority/4036">https://discuss.nubits.com/t/withdrawn-make-firing-and-replacing-incompetent-liquidity-providers-our-top-priority/4036</a></p>
+<p>He knew that what mattered was the integrity of the system, and that abandonment of the peg destroys all the tools we use to support NuBits. It appears he expected the price to go straight to zero because he presumed shareholders and their agents would run the liquidity engine at full capacity, because not doing so would destroy NuShare equity. He did not anticipate that the liquidity engine would be shut off through incompetence and ignorance in this way.</p>
+<p>So, the correct conclusion is that the peg was abandoned due to incompetence and insubordination of liquidity providers to shareholder directives. The peg loss was not due to overwhelming market pressure. It was not due to having a lack of reserves (although more reserves creates more tolerance for incompetence and other suboptimal events). The failures were not fundamentally financial in nature. They were human failures caused by people who didn't understand how the system worked and made unlawful decisions that destroyed the system.</p>
+<p>By lowering the buy price to $0.95, all tiers of the liquidity engine were shut off. With the liquidity engine shut off and no reserves being used, there is no method to protect the peg. This type of failure will never occur with me as Chief of Liquidity Operations, because I am an expert in the operation of the liquidity engine as you can see from this report and my other writings. I will never surrender the peg until the NuShare price is zero and stays there. But why would it reach zero with an intact peg? That is unlikely.</p>
+<p>With a sell price of $1.005 and a buy price of around $0.95, few new buyers will enter the market because of the large loss imposed when selling. With Nu already in default, buying NuBits would be stupid. At this point everyone wants out and the fear and stampede mentality begin to spread, ensuring a flood of sell orders as soon as you raise the price. The only way to prevent this is to continue lowering the price, which is what actually happened. It was an extremely stupid course of action considering the excellent alternative: our meticulously created plan in the form of passed shareholder motions. Just as important, there were massive and widespread violations of NuLaw. NuLaw was written to protect the peg. It prevents actors like @masterOfDisaster from shutting down our liquidity engine, if the regulations are followed. They weren't.</p>
+<p>This was a foolish and unauthorized experiment that tested what would happen if we dropped the peg, all liquidity and all support, without bringing them back up again. Of course that would fail. It is difficult to understand why this experiment was conducted, but it is important we come to a good understanding of how and why it happened so it can be prevented in the future.</p>
+<p>With 20 months of using our liquidity engine, the evidence is clear it works. It has been proven in the field. Equally, not using it doesn't work, as we discovered. The trouble wasn't so much in how the liquidity engine works, as it was in keeping the engine on. Eliminating the peg turns the liquidity engine off. With it off, the only thing that can be done is to purchase NuBits on the open market using manual buy orders.</p>
+<p>My two conclusions are that the catastrophe of the last month was caused by incompetence and insubordination to NuLaw by our decentralized liquidity providers. To get better results, Nu must receive expert guidance on every day liquidity operations that is then implemented. This requires a hierarchical structure. Unpopular as that may be, I am confident it will work, so I believe shareholders will support it as a pragmatic approach. I am completely confident in my capacity to provide this expert guidance. It makes me sick that I could have saved the peg with well informed and compliant actions. Instead, incompetent actors chose not to listen to shareholder directives and not to listen to competent experts such as Jordan Lee. This was not a test of Jordan Lee's design, it was a test of some poorly articulated, poorly thought out system designed by @masterOfDisaster and others. The evidence is clear that Jordan Lee's system works while @masterOfDisaster's "system" has failed, making him @masterOfOurDisaster. Yes, the universe does have a sense of humor, doesn't it?</p>
+<p>What is needed is a return to Jordan Lee's system, which served us well for the entire 20 months that it was applied. That is what I will do as Chief of Liquidity Operations: restore the excellent and successful system designed by founder and architect Jordan Lee. This time liquidity will be less decentralized and much less expensive. We will not have incompetent or unlawful actions break the peg again because I will have the authority to control liquidity operations. I am not incompetent and I will follow all NuLaws. Moreover, I will dismiss any liquidity provider who displays contempt for NuLaw or incompetence. In this way we will keep the liquidity engine running smoothly.</p>
+<p>How will we return to the liquidity engine that Jordan Lee designed? It needs a pegged price to function, which we don't have right now. The best course of action is to try to restore the pegged price of $1.00 as quickly as possible so the liquidity engine can be engaged again. Some have said that the liquidity engine was too expensive. The reality is that a liquidity engine is far cheaper than reserves. Where our liquidity engine lies in ruins and confidence in Nu is shaken, we have to use much more reserve to restore confidence and make the operating environment for the liquidity engine less demanding and more fault tolerant. We will do just that. It will cost quite a bit. As we begin to support our currency again after the breakdown of the last month, confidence in NuBits will begin to rise. Instead of a stable currency, at the moment we promote it as a speculator's delight: it is an asset an entire organization is willing to make sacrifices to increase the price of and reduce the supply of. Most cryptocurrency enthusiasts hail Bitcoin and other networks for having a limited amount of inflation, a limited issuance of coins. But with NuBits at the present time, we go much further. We intend to reduce the number of NuBits in circulation at a rate of around 50% per year until the price is back to $1.00. People will buy it at $0.20 for the 400% return. We will keep pumping NuBits with NSR sales and NuBit burns until we accomplish our objective. As we make progress, as measured by the NuBit price, I believe we will see an increase in the NuShare price. A NuShare is a speculation on the probability of issuing NuBits in the future. As we support our currency, the value of a NuShare will go up, even if there are more of them out there. At least that is what I predict, and what I believe will happen.</p>
+<p>How will we get there? By aggressively selling NSR and burning US-NBT for now. Right now almost all NuBit buyers will be speculators. As the US-NBT price increases, there is less potential gain for a speculator, so each speculator will pick a different sell price where he percieves the risks to outweigh available remaining price appreciation. As the price rises, the more resistance we will get as the currency must pass from the hands of high risk speculators to users who just want a stable value. There won't be any peg lower than $1.00, just regular NuBit purchases and burning. As long as we can keep NuShares worth something, we will win with this approach sooner or later. As we approach $1.00, I expect volatility to become reduced. The price will slowly approach $1.00, with periodic swings and drops. Once it reaches $1.00, we begin to add liquidity and beef up our reserves aggressively. It is possible that shortly after we first return to $1.00, there will be a modest decline followed by a return to $1.00. I can't predict what other market participants will do, but I know what I will do as Chief of Liquidity Operations: keep selling NuShares until our peg and reserves are restored. That will be expensive and will be accomplished gradually. It will not be as expensive as having the market lose even more faith in our ability to support NuBits. I hope everyone has learned from the last month that confidence in the future, sustainability and integrity of our system is of paramount importance. The actual number of NuShares in circulation is considerably less important.</p>
+<p>This report closely examines the actions and events surrounding the abandonment of the peg on May 27th. By so doing we are able to understand what went wrong, and how we can do better in the future. There is no mystery in what happened or why it failed. The problems are clear. The solution is clear: to restore Jordan Lee's liquidity engine and peg using the guidance of a liquidity expert such as myself combined with strict adherance to NuLaw.</p>
+<p>Please vote for this motion so we can demonstrate to the world that what our liquidity providers did over the last month was not the will of shareholders. Passage will also demonstate there is shareholder agreement on the nature of the problem and the solution  moving forward. Shareholder directives were completely dismissed by important actors such as @masterOfDisaster and @Nagalim. It is time to put down the rebellion and restore order and discipline by passing this motion and electing @Phoenix Chief of Liquidity Operations. Things are bad right now, but the good news is that things don't have to improve very much to create an increase in the NuShare price. Please join me as I restore the peg and our credibility.</p>
+<hr>
+<p><a href="https://daology.org/p/dcda223aa190358023cc066208f820614df3f310">Proposal</a> created with <a href="https://daology.org">Daology.org</a> by <a href="https://daology.org/u/phoenixnubits">phoenixnubits</a> for <a href="https://daology.org/o/Nu">Nu</a></p>
+
+      
+    </article>
+  </div>
+</div>
+
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div id="app-footer">
+  <footer class="footer footer-branded">
+
+    <div class="container">
+      <nav class="pull-left col-xs-12 col-md-10">
+        <ul>
+          <li role="presentation"><a href="/about">About Daology</a></li>
+          <li role="presentation"><a href="/terms">Terms</a></li>
+          <li role="presentation"><a href="/privacy">Privacy</a></li>
+          <li role="presentation"><a href="/cookies">Cookies</a></li>
+          <li role="presentation"><a href="/support">Support</a></li>
+        </ul>
+      </nav>
+      <div class="copyright col-xs-12 col-md-2 pull-right">
+        &copy; 2017 Daology, LLC
+      </div>
+    </div>
+  </footer>
+</div>
+    </div>
+      
+
+
+  
+  
+
+    
+
+    
+
+    
+      <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+      <script src="//code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/highlight.js/latest/highlight.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+      <script src="/static/public/javascripts/dao.min.js"></script>
+    
+
+  
+
+
+
+  <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='https://www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-62932153-1','auto');ga('send','pageview');
+  </script>
+
+  </body>
+  
+  
+</html>

@@ -1,0 +1,14 @@
+I propose to provide regular macosx builds of all major releases of NuBits and B&C Exchange projects for a period of 6 months for 400NBT. New macosx builds will be produced as soon as new official  build for windows and linux becomes available, not later than 2 weeks after official release.
+
+Builds will have the following features:
+
+* 64bit x86 architecture
+* upnp support
+* qt4 gui framework
+* latest security updates of openssl and miniupnpc
+
+I will also provide technical support of said macosx builds on the official forum of nubits in appropriate thread.
+
+---
+
+[Proposal](https://daology.org/p/7886a5b66cc19fa3d862d92c3cad25c0917afb69) created with [Daology.org](https://daology.org) by [backpacker69](https://daology.org/u/backpacker69) for [Nu](https://daology.org/o/Nu)

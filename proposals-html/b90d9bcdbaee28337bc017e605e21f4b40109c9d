@@ -1,0 +1,486 @@
+<!-- extend base layout -->
+
+<!doctype html>
+<html lang="">
+  <head>
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Daology</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/static/public/images/favicon.ico">
+
+    
+  
+  
+
+    
+      <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic|Lato:400,700|Inconsolata' rel='stylesheet' type='text/css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/highlight.js/latest/styles/github.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/flick/jquery-ui.css">
+      <link rel="stylesheet" href="/static/assets/stylesheets/_vendor/jquery.tagit.min.css">
+
+      <link rel="stylesheet" href="/static/public/stylesheets/dao.min.css">
+    
+
+    
+
+    
+
+  
+
+    
+  
+  
+
+    
+
+    
+      <script src="/static/assets/javascripts/vendor/moment.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/contrib/auto-render.min.js"></script>
+    
+
+    
+
+  
+
+  </head>
+  <body role="document">
+    <div id="fullpage_wrapper">
+    
+      <div id="app-navbar">
+  <nav class="navbar" role="navigation">
+    <div class="container-fluid">
+      <div class="brand-bar row">
+        <div class="col-md-12">
+          <button id="menu-toggle" type="button" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar bar1"></span>
+            <span class="icon-bar bar2"></span>
+            <span class="icon-bar bar3"></span>
+          </button>
+          <a class="word_mark" href="/" name="home_link">daology</a>
+          
+        </div>
+      </div>
+      <div class="primary_nav row">
+        <div class="col-md-12">
+          <div class="collapse navbar-collapse" id="app-navbar-collapse">
+            <ul class="subnav">
+              <li class="subnav-item"><a href="/organizations/" name="dao_list_link">Organizations</a></li>
+              <li class="subnav-item"><a href="/articles" name="dao_list_link">Articles</a></li>
+              <li class="subnav-item"><a href="/proposals" name="dao_list_link">Proposals</a></li>
+              
+              <li class="subnav-item"><a href="/login" name="login_link" class="signin_btn">Sign in with Github</a></li>
+              
+
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+</div>
+      
+  
+  
+
+
+      
+
+  
+
+  
+
+  
+
+  
+
+
+
+      <div class="main row">
+        <div class="container">
+          <header class="row page_title">
+            
+            <div class="row">
+              <div class="page_actions col-md-12 pull-right">
+                <ul>
+                
+  <li class="action_btn"><a href="/proposals/b90d9bcdbaee28337bc017e605e21f4b40109c9d/raw" target="_blank" class="btn btn-sm btn-primary">Raw</a></li>
+  
+
+
+                
+                  
+
+
+                
+                </ul>
+              </div>
+            </div>
+            
+            
+            <div class="col-xs-9 col-md-11">
+              <span class="supertitle">
+                
+  Proposal  <span style="breadcrumb-separator">// </span><a href="/organizations/Nu">Nu</a> <span style="breadcrumb-separator">/</span> <a href="/organizations/Nu/NuBits">NuBits</a> 
+
+              </span>
+              <h1>
+                
+  NuDroid Upgrade to V5 (Apr-2016)
+
+              </h1>
+            </div>
+          </header>
+          <section class="row page_content">
+            <div class="col-md-12">
+              
+<div class="row container">
+
+  <div class="col-md-4 sidebar">
+
+    <div class="scroll_title">
+      <p class="supertitle">Proposal  <span style="breadcrumb-separator">//</span> Nu <span style="breadcrumb-separator">/</span> NuBits</p>
+      <p class="title">NuDroid upgrade to v5 (Apr-2016)</p>
+      <p class="author">By
+        cybnate
+        
+      </p>
+      <p class="meta_text date">
+        <script>
+document.write(moment("2016-03-20T04:52:43 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+        &nbsp;|&nbsp;&nbsp;<span class="updated">Updated: <script>
+document.write(moment("2016-04-16T03:17:43 Z").calendar());
+</script></span>
+        
+      </p>
+      <hr>
+      <div class="content-toc"></div>
+    </div>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="meta_text">
+          <a href="/u/cybnate/">
+            <img src="https://avatars.githubusercontent.com/u/6694926?v=3" class="profile">
+            <div class="authorname_block">
+                <div class="nolink">By cybnate</div>
+                <div class="nickname">@cybnate</div>
+              </div>
+            
+          </a>
+        </p>
+        <div class="row">
+          <div class="col-md-12">
+          <p class="meta_text date">
+            <script>
+document.write(moment("2016-03-20T04:52:43 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+            
+            &nbsp;|&nbsp;&nbsp;
+            
+            <span class="updated">Updated: <script>
+document.write(moment("2016-04-16T03:17:43 Z").calendar());
+</script></span>
+            
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="sidebar_title">Text Hash ( RIPEMD-160 )</p>
+        <p class="meta_text hash">c2468c36d0f6cc1408be978cd19210ff3da8e9e6  </p>
+      </div>
+    </div>
+    
+    <hr>
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="sidebar_title">Tags</p>
+        
+        <script data-type="tagDataVar">
+    
+      var tagList = ["nudroid", "marketing", "ethereum", "instant", "shapeshift", "nuseed"];
+    
+  </script>
+  <ul class="readonly_tag_wrapper">
+  </ul>
+
+      </div>
+    </div>
+    
+
+    
+
+    
+    
+
+  
+    <hr>
+    <div class="row meta_element">
+        <div class="col-md-12">
+          <span class="sidebar_title">
+            Grant
+          </span>
+          <p class="meta_text">16,000 NBT</p>
+        </div>
+    </div>
+    <hr>
+    <div class="row meta_element">
+        <div class="col-md-12">
+          <span class="sidebar_title">
+            Grant Address
+          </span>
+          <p class="meta_text">BDroid6QBUXXt7QFD51BixZzmEgwmTBMNX</p>
+        </div>
+    </div>
+
+  
+
+
+
+  </div>
+
+  
+  
+    <div class="content_body col-md-8">
+  
+
+
+
+
+    
+    <div class="reading-time-wrapper" data-target="b90d9bcdbaee28337bc017e605e21f4b40109c9d">
+    <span class="reading-time"></span> read (<span class="word-count"></span> words)
+  </div>
+
+    <article class="rtCalc no-fouc" id="b90d9bcdbaee28337bc017e605e21f4b40109c9d">
+      
+        <p>I'm proud to present to you this custodial grant proposal to significantly improve the NuDroid App in a bid to increase the demand for NuBits.</p>
+<p>The proposal is split up in 5 sections;</p>
+<ul>
+<li>Explanation and rationale<br>
+ what is NuDroid and why this proposal?  </li>
+<li>Overview releases, time and costs; </li>
+<li>Marketing</li>
+<li>Contractual context </li>
+<li>Detailed description of releases.</li>
+</ul>
+<p>Thanks for your consideration.</p>
+<hr>
+<p><img src="http://i.imgur.com/P3V9ZSi.gif" alt=""></p>
+<h6><strong>Explanation and Rationale</strong></h6>
+<p>For those who are new a brief overview what NuDroid is:</p>
+<p><strong>What is NuDroid?</strong><br>
+NuDroid is the first mobile and stable cryptocurrency wallet which can be used to pay for goods and services at the point of sale. Pay with your stable NuBits anywhere that Bitcoin is accepted without being exposed to Bitcoin's volatility.</p>
+<p>NuDroid is not an exchange and doesn't require the merchant to access an exchange. NuDroid just uses the popular Shapeshift.io service to easily and transparently exchange your NuBits to Bitcoin and other coins in seconds.</p>
+<p>NuDroid is open source, free of advertisements and no registration is required.</p>
+<p>More information about the current App can be found here: 
+<a href="https://nubits.com/resources/nudroid-mobile-wallet">https://nubits.com/resources/nudroid-mobile-wallet</a></p>
+<p><strong>Why this proposal?</strong><br>
+The main objective is to increase the demand for NuBits. By offering an universal but stable value wallet it is more likely that users will hold NuBits instead of Bitcoins or other coins. This proposal intends to make the wallet even more functional and attractive for regular use as their main mobile wallet. It holds value and can be used for payments and collecting funds in many cryptocurrencies. For merchants there is one less reason to use a payment provider. NuDroid can save them payment provider fees.</p>
+<p>The new wallet will instantly convert from and to other supported cryptocurrencies seamlessly using Shapeshift.io in the background. We are also adding cryptocurrencies to the list with exchange rates in the App, currently it has only fiat. This will make it easy to look for the latest rates and compare with what is offered by Shapeshift.io. Ethereum will be available to pay and receive with and the App will also transition to the new USNBT ticker name.</p>
+<p>A key new feature is instant synchronisation when starting the wallet. No more waiting for syncing. This is great for point of sale (PoS) transactions like buying your beer with Bitcoins using NuDroid.</p>
+<p>Last but not least an effort is made to bring the App in line with the Bitcoin sister App. This will support future developments. The developer of NuDroid will henceforth use the gradle build system and Android Studio which will make the proposed and future builds easier.</p>
+<p><img src="http://i.imgur.com/6fibq1d.png" alt=""></p>
+<h6><strong>Overview releases, time and cost</strong></h6>
+<p><strong>This proposal has two releases:</strong><br>
+Release 1 (8 weeks duration) 8,000 USNBT. This includes:<br>
+&gt;    A. Skipping headers for instant sync,<br>
+&gt;    B. Adds Ethereum support,<br>
+&gt;    C. Adds crypto currency exchange rates on the homepage<br>
+&gt;    D. Sync Nubitsj with Bitcoinj<br>
+&gt;    E. Change currency name to USNBT 
+&gt;    F. Addition of nuseed.nubitsexplorer.nu DNS seed.</p>
+<p>Release 2 (7 weeks duration) 7,650 USNBT. This includes:<br>
+&gt;    G. NuDroid's ability to receive other coins which will be instantly converted upon arrival to USNBT.</p>
+<p>More details on the new functionality below. Each release ends with a 2 week test period where users have the chance to find bugs before the final payment to the developer is made.</p>
+<p>The Developer is MatthewM. Upon passing of the grant Custodian Cybnate will enter into a contract with Developer for the delivery of the App according to the requirements and terms and conditions. Custodian will hold the funds until contractual obligations by the Developer are met as per payment schedule below.  More contractual details are in the section "Contractual context" below.</p>
+<p>The Custodial fee for holding the contract, posting updates, identified marketing activities and holding the custodial payment is 350 USNBT.</p>
+<p>&gt; <strong>Proposed cost of this grant is 16,000 USNBT for both release 1 and 2 including fees.</strong></p>
+<p>Proposed contractual payment schedule is as follows:</p>
+<p>Release 1 (8 weeks duration)<br>
+Initial payment of 4,000 USNBT (start of the contract)<br>
+Final payment of 4,000 USNBT (after delivery R1 and 2 weeks testing)</p>
+<p>Release 2 (7 weeks duration)<br>
+Initial payment of 4,000 USNBT  (start of development R2)
+Final payment of 3,650 USNBT (end of the contract after delivery R2 and 2 weeks testing)</p>
+<p><img src="http://i.imgur.com/PBEGjN1.png" alt=""></p>
+<hr>
+<h5><strong>Marketing</strong></h5>
+<p>The last NuDroid grant had a significant investment for marketing. This only appears to have worked moderately. However I believe we should still advertise the new functionality available just beyond our forum. I propose to use the unused amounts from the previous grant.</p>
+<p>The reason why they have been unused is because a gift from Shapeshift.io never occurred, the intended Reddit giveaway didn't succeed and a 3rd month of advertising never occured therefore. This leaves us with:<br>
+882.46 USNBT in B6tBUhTuetuZezgoJCwwqkJNXNQXPCiand and<br>
+262.87 USNBT in BAKuK27iCAaNxkM5LGbAYdoY8CXSCSP8A7<br>
+Total 1145.33 USNBT</p>
+<p>The folllowing activities are identified to take place within the above budget:</p>
+<ul>
+<li>Update of NuDroid Bitcoin thread <a href="https://bitcointalk.org/index.php?topic=1117925.0;all">https://bitcointalk.org/index.php?topic=1117925.0;all</a>  </li>
+<li>NuBits/NuDroid brand sponsorship on The Daily Decrypt (after delivery of R2)  </li>
+<li>One or two (sponsored) articles to get the NuDroid brand and functionality out there  </li>
+<li>Update of <a href="https://nubits.com/resources/nudroid-mobile-wallet">https://nubits.com/resources/nudroid-mobile-wallet</a>  </li>
+<li>Development of supporting graphics for use in Daily Decrypt and on websites.  </li>
+</ul>
+<h5><strong>Contractual context</strong></h5>
+<p>For this custodial grant MatthewM will be the Developer. Cybnate will be the Custodian. The Custodian holds the contract on behalf of the NuShareholders. The Custodian will have an agreed contract with the developer before the custodial grant is submitted for voting.</p>
+<p><strong>References</strong><br>
+Cybnate (@cybnate) has been working and gaining experience with cryptocoins since October 2013 and is a long-term Peercoin investor, NuShares and BKS shareholder. Cybnate has built a trustworthy reputation in the Nu and Peercoin communities. For the Peercoin community Cybnate has set up the Peercoin Marketing Fund with River333 and successfully convinced donators to fund this.<br>
+For the Nu community Cybnate is maintaining a recognised datafeed and running the liquidity supporting operation LiquidBits for almost a year. Finally Cybnate held the custodian role for the previous large NuDroid grant of March 2015 which basically brought NuDroid to its current state.</p>
+<p>MatthewM (@matthewM) has been the sole Developer of NuDroid to date. For the Peercoin community he delivered the Peercoin Android App including the underlying valued peercoinj libraries. For the Nu community he delivered NuDroid's precursor including nubitsj, the NuBits Android App and last year the NuDroid App as it is now available on Google Play with over 500 downloads. A visit to Google play also learns that he has published several other Android app in the last years.</p>
+<p><strong> Reporting</strong><br>
+The grant will be transferred into an account in control by the Custodian. The contractual payments to the developer will be published in a public thread on discuss.nubits.com. The current state of the grant can be verified at all times through the blockchain.</p>
+<p>Progress on development will occur at least on a fortnightly bases, either by the Developer or by the Custodian in a public thread on discuss.nubits.com.</p>
+<p><strong>Accountability </strong><br>
+This proposal, when passed by the Nu Shareholders will be considered binding and the Custodian will proceed with the execution of the proposal as described. If at any point during the operation Nu Shareholders deem the elected custodian to be conducting actions that they feel differ from what is described here, a fully certified motion (majority of votes cast) will be required to make amendments.</p>
+<p><strong> Unexpected termination of contract and remaining funds</strong><br>
+When this proposal is approved and the contract between Custodian and Developer is prematurely terminated for reasons beyond control of the Custodian all the NuBits including the Custodian's fee will be burned. When the remaining funds are a result of contractual underdelivery by the Developer the Custodian will use their discretion or consult the community whether to use the funds for Marketing or further Developments contributing to the outcomes of this grant and of benefit of the NuShareholders.  In the event of underdelivery by the Custodian the funds will be burnt.</p>
+<p>The details presented in this document should be used to gauge the perceived ability to meet the terms presented in this proposal, and voting-eligible members of the Nu community are encouraged to raise any questions, concerns, or recommendations for improvement prior to reaching their own personal decision.</p>
+<hr>
+<h6><strong>Detailed description of releases</strong></h6>
+<p>The updated App will be published on Google Play after each release has been tested successfully. An APK version will also be released for testing and final release on Github including the source code of the App and associated server applications. All release changes will be deployed on the existing server infrastructure which has been funded separately.</p>
+<h6>Release 1 (8 weeks)</h6>
+<p><strong>A. Skipping headers </strong></p>
+<p><strong>Description R1A</strong><br>
+This enables almost instant syncing when the wallet is started. This feature makes NuDroid compete with a WebWallet, no more synchronization waits. Almost instant payments and balance.
+It basically removes the loading of the headers. Especially for new installations this will save a lot of data traffic which can be important when on a mobile connection and saves hours of syncing. 
+This intends to significantly increase the NuDroid user experience.</p>
+<p><strong>Detailed Requirements R1A</strong><br>
+To skip the initial headers, the application will need to determine where to start downloading full blocks. To aid in this trusted servers will be able to provide a new method “/sync_init” which provides a block to begin synchronizing from. It will provide sufficient data to reconstruct the block header and provide the block height. This block will be the latest block the server has known. It shall be stored with the wallet data, so that when restoring wallets, or resynchronizing the blockchain, the app can start from the same block. Existing wallets will use Wallet.getEarliestKeyCreationTime() to determine the block to use, and will be updated on the first launch after the update.</p>
+<p>When obtaining the block data from the trusted server, the application will wait with a loading dialog, preventing the user from requesting coins before the wallet is ready. Each trusted server will be tried with a 5 second timeout, until 10 seconds have passed. If after 10 seconds has passed and no trusted server has provided a block, a dialog will be shown with the title “Sync Skip Failure” and a message “The app has been unable to download a recent block to skip the initial blockchain synchronization. Would you like to synchronize from the beginning or try again?”. The user can choose “Yes” and the app will do a synchronization from the genesis block, or the user can choose “Retry” and the process will start over again.</p>
+<p><strong>B. Ethereum support </strong></p>
+<p><strong>Description R1B</strong><br>
+Rationale to add this is that Ethereum has become increasingly popular and that there is a potential marketing benefit in supporting right now. The current value is mainly on trading/hedging on the NBT/ETH pair, at the time of writing I understand that ETH cannot be used yet for other purposes, but this is likely to be changed even though likely to be experimental.</p>
+<p><strong>Detailed Requirements R1B</strong><br>
+NuDroid will recognise Ethereum addresses which are in a hex format (eg 0xcd2a3d9f938e13cd947ec05abc7fe734df8dd826). When provided, the app will allow NuBits to be sent to this address through the Shapeshift exchange. The app will recognise and create URIs/QR codes in the format ether:0xcd2a3d9f938e13cd947ec05abc7fe734df8dd826.</p>
+<p><strong>C. Crypto currency exchange rates </strong><br>
+<strong>Description R1C</strong><br>
+This allows to user to look up the current exchange rates. With the addition of being able to receive coins (release 2a) an integrated option would be valuable. This allows to look up recent exchanges rates when using the Shapeshift functionality to pay or receive funds.</p>
+<p><strong>Detailed requirements R1C</strong><br>
+Exchange rates will be gathered from <a href="https://coinmarketcap-nexuist.rhcloud.com/api">https://coinmarketcap-nexuist.rhcloud.com/api</a>, and the following coins will be included: Bitcoin, Ethereum, Ripple, Litecoin, MaidSafeCoin, Dash, Dogecoin, Factom, Fedoracoin, Bytecoin, Stellar, Blackcoin, Peercoin, Emercoin, VPNcoin, Synereo, Namecoin, Primecoin and NuShares. Coins have been chosen based on high market cap, support by NuDroid and Shapeshift and finally relevancy.</p>
+<p><strong>D. Sync nubitsj with bitcoinj </strong><br>
+NuBitsj is an excellent building block for developers wanting to integrate with NuBits wallets. NuDroid is based on NuBitsj. In the last year BitcoinJ had many changes. The list of changes that would be taken from the Bitcoin app are that from 4.13 to 4.49. NuDroid will henceforth use the gradle build system. You can read the changes here:<br>
+<a href="https://github.com/bitcoin-wallet/bitcoin-wallet/blob/master/wallet/CHANGES">https://github.com/bitcoin-wallet/bitcoin-wallet/blob/master/wallet/CHANGES</a></p>
+<p>The Child-Pays-For-Parent functionality wont be necessary for Nu, so
+that wont be included, nor will the fee behaviour changes, and anything
+to do with sweeping wallets.</p>
+<p>A lot of it is bugfixes, performance improvements, and style changes
+with some small functionality improvements.</p>
+<p><strong>E. Change currency name to USNBT </strong><br>
+<strong>Description R1E</strong><br>
+This work transitions the currency unit from NBT to USNBT. The approach is to make resilient changes so no outage in Shapeshift supported services occurs. Therefore the order is to change the code to accept both old and new in the first place. Ask Shapeshift between R1 and R2 to make their changes in the API before the expected R2 date and when done clean up the code in R2.</p>
+<p><strong>Detailed requirements R1E</strong><br>
+In the event that a request to ShapeShift results in an error with the string “Coin Not Reconized" (This is a typo made by Shapeshift) or “Coin Not Recognized" (In case the typo is fixed), and the request used the “nbt” coin code, the “usnbt” coin code will be tried instead. Likewise, if this failed with the same error, “us-nbt” will be used. If this results in another error, no more coin codes will be tried and the usual error handling will be used.</p>
+<p><strong>F. Change currency name to USNBT </strong><br>
+<strong>Description R1F</strong><br>
+Nubits-seeder is a crawler for the nubits network, which exposes a list of reliable nodes via a built-in DNS server. This speeds up the discovery process for NuDroid significantly. Currently there is only one known DNS seed in the network. This item adds another instance to further increase the resilience of NuDroid.</p>
+<p><strong>Detailed Requirements R2F </strong> 
+Installation of the DNS seed software published here: <a href="https://github.com/bananenwilly/nubits-seeder">https://github.com/bananenwilly/nubits-seeder</a> on the current svr1.nubitsexplorer.nu server. The intended naming will be dnsseed.nubitsexplorer.nu.
+This item has been negotiated in as a best effort item only.</p>
+<h6>Release 2 (7 weeks)</h6>
+<p><strong>- G. NuDroid's ability to receive other coins </strong></p>
+<p><strong>Description R2G</strong><br>
+This is a must-have feature in my opinion and completes the vision of NuDroid being your only wallet you will ever need! It adds the functionality of being able to receive other coins with NuDroid. It works with Shapeshift so USNBT will continue to be the native coin in the wallet. All transfers will be instantly converted to NuBits upon arrival in the wallet. So it is not a multi-wallet like Coinomi.
+This release includes a function to be able to use scanned refund addresses. This is important when a transaction doesn't go through for some reason. When that happens the only way to release the transaction is to contact Shapeshift support, the refund address solves this problem.
+This release includes a code clean-up for the currency name change for Shapeshift.</p>
+<p><strong>Detailed Requirements R2G </strong><br>
+This release will allow users to receive NuBits by providing a payee with a different cryptocurrency address via shapeshift. For NuBits payments, the request activity will operate in the same way, however there will be dropdown selection input (Spinner) with a list of Shapeshift coins under the label “Request with”. The coins included will be the same coins supported for sending, and Nubits will always be selected by default.<br>
+If ShapeShift settles on a new coin code for US Nubits before this release has been submitted for testing for the final time, then the “nbt”, “usnbt” and “us-nbt” codes will be replaced with the new coin code which shall be the only coin code attempted.</p>
+<p>If a coin other than NuBits is selected, additional UI elements will be shown:</p>
+<p>An address input with the label “Refund address”, used to provide automated refunds if anything goes wrong. This is not a required field but highly recommended for users.
+QR button to scan refund addresses.<br>
+“Foreign Amount” and “Rate” fields much like in the send activity already.<br>
+Shapeshift status/error text with a link to <a href="https://shapeshift.zendesk.com/hc/en-us/requests/new">https://shapeshift.zendesk.com/hc/en-us/requests/new</a></p>
+<p>If a coin other than NuBits is selected, then the bluetooth checkbox will be hidden, because   bluetooth is not supported for shapeshift coins in this release.</p>
+<p>When a response is received from shapeshift, the app will show a QR code allowing payments through the selected coin. The URI provided by the copy menu item will take payment through the selected coin. There is no guarantee that the app will provide NFC interoperability with other cryptocurrency wallets. It might work with the Bitcoin and Peercoin sister Apps.</p>
+<p>The sendamount method will be used when specifying a Nubits amount, and the shift method will be used when specifying a foreign coin amount. As with the sending activity, sendamount requests will be refreshed every 5 minutes due to address expiry and shapeshift will be retried periodically after errors (20 seconds) or limit violations (30 seconds).</p>
+<hr>
+<p>Yes, you made it all the way to the end of this proposal. 
+Please add the grant address to your client if you like it.</p>
+<p>Thanks,
+Cybnate</p>
+<hr>
+<p><a href="https://daology.org/p/b90d9bcdbaee28337bc017e605e21f4b40109c9d">Proposal</a> created with <a href="https://daology.org">Daology.org</a> by <a href="https://daology.org/u/cybnate">cybnate</a> for <a href="https://daology.org/o/Nu">Nu</a></p>
+
+      
+    </article>
+  </div>
+</div>
+
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div id="app-footer">
+  <footer class="footer footer-branded">
+
+    <div class="container">
+      <nav class="pull-left col-xs-12 col-md-10">
+        <ul>
+          <li role="presentation"><a href="/about">About Daology</a></li>
+          <li role="presentation"><a href="/terms">Terms</a></li>
+          <li role="presentation"><a href="/privacy">Privacy</a></li>
+          <li role="presentation"><a href="/cookies">Cookies</a></li>
+          <li role="presentation"><a href="/support">Support</a></li>
+        </ul>
+      </nav>
+      <div class="copyright col-xs-12 col-md-2 pull-right">
+        &copy; 2017 Daology, LLC
+      </div>
+    </div>
+  </footer>
+</div>
+    </div>
+      
+
+
+  
+  
+
+    
+
+    
+
+    
+      <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+      <script src="//code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/highlight.js/latest/highlight.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+      <script src="/static/public/javascripts/dao.min.js"></script>
+    
+
+  
+
+
+
+  <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='https://www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-62932153-1','auto');ga('send','pageview');
+  </script>
+
+  </body>
+  
+  
+</html>

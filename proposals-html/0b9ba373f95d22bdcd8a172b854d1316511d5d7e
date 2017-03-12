@@ -1,0 +1,317 @@
+<!-- extend base layout -->
+
+<!doctype html>
+<html lang="">
+  <head>
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Daology</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/static/public/images/favicon.ico">
+
+    
+  
+  
+
+    
+      <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic|Lato:400,700|Inconsolata' rel='stylesheet' type='text/css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/highlight.js/latest/styles/github.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/flick/jquery-ui.css">
+      <link rel="stylesheet" href="/static/assets/stylesheets/_vendor/jquery.tagit.min.css">
+
+      <link rel="stylesheet" href="/static/public/stylesheets/dao.min.css">
+    
+
+    
+
+    
+
+  
+
+    
+  
+  
+
+    
+
+    
+      <script src="/static/assets/javascripts/vendor/moment.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/contrib/auto-render.min.js"></script>
+    
+
+    
+
+  
+
+  </head>
+  <body role="document">
+    <div id="fullpage_wrapper">
+    
+      <div id="app-navbar">
+  <nav class="navbar" role="navigation">
+    <div class="container-fluid">
+      <div class="brand-bar row">
+        <div class="col-md-12">
+          <button id="menu-toggle" type="button" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar bar1"></span>
+            <span class="icon-bar bar2"></span>
+            <span class="icon-bar bar3"></span>
+          </button>
+          <a class="word_mark" href="/" name="home_link">daology</a>
+          
+        </div>
+      </div>
+      <div class="primary_nav row">
+        <div class="col-md-12">
+          <div class="collapse navbar-collapse" id="app-navbar-collapse">
+            <ul class="subnav">
+              <li class="subnav-item"><a href="/organizations/" name="dao_list_link">Organizations</a></li>
+              <li class="subnav-item"><a href="/articles" name="dao_list_link">Articles</a></li>
+              <li class="subnav-item"><a href="/proposals" name="dao_list_link">Proposals</a></li>
+              
+              <li class="subnav-item"><a href="/login" name="login_link" class="signin_btn">Sign in with Github</a></li>
+              
+
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+</div>
+      
+  
+  
+
+
+      
+
+  
+
+  
+
+  
+
+  
+
+
+
+      <div class="main row">
+        <div class="container">
+          <header class="row page_title">
+            
+            <div class="row">
+              <div class="page_actions col-md-12 pull-right">
+                <ul>
+                
+  <li class="action_btn"><a href="/proposals/0b9ba373f95d22bdcd8a172b854d1316511d5d7e/raw" target="_blank" class="btn btn-sm btn-primary">Raw</a></li>
+  
+
+
+                
+                  
+
+
+                
+                </ul>
+              </div>
+            </div>
+            
+            
+            <div class="col-xs-9 col-md-11">
+              <span class="supertitle">
+                
+  Proposal  <span style="breadcrumb-separator">// </span><a href="/organizations/Nu">Nu</a> <span style="breadcrumb-separator">/</span> <a href="/organizations/Nu/NuBits">NuBits</a> 
+
+              </span>
+              <h1>
+                
+  NuBit Reserve Requirements
+
+              </h1>
+            </div>
+          </header>
+          <section class="row page_content">
+            <div class="col-md-12">
+              
+<div class="row container">
+
+  <div class="col-md-4 sidebar">
+
+    <div class="scroll_title">
+      <p class="supertitle">Proposal  <span style="breadcrumb-separator">//</span> Nu <span style="breadcrumb-separator">/</span> NuBits</p>
+      <p class="title">NuBit reserve requirements</p>
+      <p class="author">By
+        phoenixnubits
+        
+      </p>
+      <p class="meta_text date">
+        <script>
+document.write(moment("2016-09-18T02:47:14 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+        &nbsp;|&nbsp;&nbsp;<span class="updated">Updated: <script>
+document.write(moment("2016-09-21T13:13:02 Z").calendar());
+</script></span>
+        
+      </p>
+      <hr>
+      <div class="content-toc"></div>
+    </div>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="meta_text">
+          <a href="/u/phoenixnubits/">
+            <img src="https://avatars.githubusercontent.com/u/19893847?v=3" class="profile">
+            <div class="authorname_block">
+                <div class="nolink">By phoenixnubits</div>
+                <div class="nickname">@phoenixnubits</div>
+              </div>
+            
+          </a>
+        </p>
+        <div class="row">
+          <div class="col-md-12">
+          <p class="meta_text date">
+            <script>
+document.write(moment("2016-09-18T02:47:14 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+            
+            &nbsp;|&nbsp;&nbsp;
+            
+            <span class="updated">Updated: <script>
+document.write(moment("2016-09-21T13:13:02 Z").calendar());
+</script></span>
+            
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="sidebar_title">Text Hash ( RIPEMD-160 )</p>
+        <p class="meta_text hash">02258be1eb01b220b96e945b4d26f8af28fb2f1d  </p>
+      </div>
+    </div>
+    
+
+    
+
+    
+    
+
+  
+
+  
+
+
+
+  </div>
+
+  
+  
+    <div class="content_body col-md-8">
+  
+
+
+
+
+    
+    <div class="reading-time-wrapper" data-target="0b9ba373f95d22bdcd8a172b854d1316511d5d7e">
+    <span class="reading-time"></span> read (<span class="word-count"></span> words)
+  </div>
+
+    <article class="rtCalc no-fouc" id="0b9ba373f95d22bdcd8a172b854d1316511d5d7e">
+      
+        <p>Reserves are a source of risk. They may be lost, as @Benjamin <a href="https://discuss.nubits.com/t/100-usd-reserves-offers-zero-benefit-in-terms-of-peg-stability/917">pointed out</a>, and cannot be used to reliably support a peg. In fact, Nu's entire reserve, though small at the time, became inaccessible to shareholders at the end of May. Attempts to return it to shareholder control have been unsuccessful to date (September 18th), after more than 3 months have passed. This is a very good reason to avoid reliance on a reserve. Furthermore, reserves are very costly and are not the most efficient method of maintaining a peg.</p>
+<p>Also important in the decision to lower reserve requirements is the proven effectiveness of NSR sales to raise new reserves in large amounts quickly. In the two months after I became Chief of Liquidity Operations, approximately $300,000 USD were raised from NSR sales created by shareholder custodial grants. This was done with a NuShare market capitalization of around $400,000. This is about 75% of the market cap in 60 days. While specific circumstances will always have a material impact on our ability to sell NuShares to raise new reserves, there is good reason to think that if our market capitalization were 100 million, 75 million in new reserves could be raised in 60 days. The powerful and well demonstrated capacity of NuShare sales to create new reserves dramatically reduces our need to maintain a reserve. Essentially, the NuShare market cap acts like a reserve in some respects. However, when we speak of reserve here, it should not be understood to refer to the NuShare market cap.</p>
+<p>Furthermore, the US-NBT peg was restored from a starting point of just under $0.20 with absolutely zero use of reserves. This emperically proves we can accomplish the relatively difficult task of raising an asset price without using a reserve.</p>
+<p>What is really needed is liquidity, not reserves. Reserves can be used to create liquidity, but liquidity can be had without reserves. Zero reserves are the destiny and goal of Nu. However, current tested methods do not permit a reliable maintenance of liquidity without the use of reserves. Over a period of years, I expect development to occur that will facilitate the practice of zero reserve. Much of this is expected to come from the escrow products that we can expect B&amp;C Exchange to provide.</p>
+<p>Today, however, there is need of a reserve to ensure constant liquidity, or constant buy orders at 0.995, even in the presence of heavy selling pressure. The smaller the money supply, the greater the reserve percent should be. We had approximately 100,000 US-NBT likely sold by a single person on May 27th. To gracefully handle such events, the reserve percent needs to be larger if the money supply is low, such as 300,000. If the money supply is larger, like 10 million, such sales can be handled at a much lower reserve percent level. There is an economy of scale.</p>
+<p>In keeping with these observations, reserve shall be 50% at zero money supply and 25% at 2 million and greater. It should be blended between zero and 2 million. This means at a money supply of 1,000,000, the reserve requirement would be 37.5%.</p>
+<p>This isn't the final word on reserve requirements, but a further reduction from the above figures should be passed by motion.</p>
+<hr>
+<p><a href="https://daology.org/p/0b9ba373f95d22bdcd8a172b854d1316511d5d7e">Proposal</a> created with <a href="https://daology.org">Daology.org</a> by <a href="https://daology.org/u/phoenixnubits">phoenixnubits</a> for <a href="https://daology.org/o/Nu">Nu</a></p>
+
+      
+    </article>
+  </div>
+</div>
+
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div id="app-footer">
+  <footer class="footer footer-branded">
+
+    <div class="container">
+      <nav class="pull-left col-xs-12 col-md-10">
+        <ul>
+          <li role="presentation"><a href="/about">About Daology</a></li>
+          <li role="presentation"><a href="/terms">Terms</a></li>
+          <li role="presentation"><a href="/privacy">Privacy</a></li>
+          <li role="presentation"><a href="/cookies">Cookies</a></li>
+          <li role="presentation"><a href="/support">Support</a></li>
+        </ul>
+      </nav>
+      <div class="copyright col-xs-12 col-md-2 pull-right">
+        &copy; 2017 Daology, LLC
+      </div>
+    </div>
+  </footer>
+</div>
+    </div>
+      
+
+
+  
+  
+
+    
+
+    
+
+    
+      <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+      <script src="//code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/highlight.js/latest/highlight.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+      <script src="/static/public/javascripts/dao.min.js"></script>
+    
+
+  
+
+
+
+  <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='https://www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-62932153-1','auto');ga('send','pageview');
+  </script>
+
+  </body>
+  
+  
+</html>

@@ -1,0 +1,380 @@
+<!-- extend base layout -->
+
+<!doctype html>
+<html lang="">
+  <head>
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Daology</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/static/public/images/favicon.ico">
+
+    
+  
+  
+
+    
+      <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic|Lato:400,700|Inconsolata' rel='stylesheet' type='text/css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/highlight.js/latest/styles/github.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/flick/jquery-ui.css">
+      <link rel="stylesheet" href="/static/assets/stylesheets/_vendor/jquery.tagit.min.css">
+
+      <link rel="stylesheet" href="/static/public/stylesheets/dao.min.css">
+    
+
+    
+
+    
+
+  
+
+    
+  
+  
+
+    
+
+    
+      <script src="/static/assets/javascripts/vendor/moment.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/contrib/auto-render.min.js"></script>
+    
+
+    
+
+  
+
+  </head>
+  <body role="document">
+    <div id="fullpage_wrapper">
+    
+      <div id="app-navbar">
+  <nav class="navbar" role="navigation">
+    <div class="container-fluid">
+      <div class="brand-bar row">
+        <div class="col-md-12">
+          <button id="menu-toggle" type="button" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar bar1"></span>
+            <span class="icon-bar bar2"></span>
+            <span class="icon-bar bar3"></span>
+          </button>
+          <a class="word_mark" href="/" name="home_link">daology</a>
+          
+        </div>
+      </div>
+      <div class="primary_nav row">
+        <div class="col-md-12">
+          <div class="collapse navbar-collapse" id="app-navbar-collapse">
+            <ul class="subnav">
+              <li class="subnav-item"><a href="/organizations/" name="dao_list_link">Organizations</a></li>
+              <li class="subnav-item"><a href="/articles" name="dao_list_link">Articles</a></li>
+              <li class="subnav-item"><a href="/proposals" name="dao_list_link">Proposals</a></li>
+              
+              <li class="subnav-item"><a href="/login" name="login_link" class="signin_btn">Sign in with Github</a></li>
+              
+
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+</div>
+      
+  
+  
+
+
+      
+
+  
+
+  
+
+  
+
+  
+
+
+
+      <div class="main row">
+        <div class="container">
+          <header class="row page_title">
+            
+            <div class="row">
+              <div class="page_actions col-md-12 pull-right">
+                <ul>
+                
+  <li class="action_btn"><a href="/proposals/57800ee0f215483ebab071146c679767382be116/raw" target="_blank" class="btn btn-sm btn-primary">Raw</a></li>
+  
+
+
+                
+                  
+
+
+                
+                </ul>
+              </div>
+            </div>
+            
+            
+            <div class="col-xs-9 col-md-11">
+              <span class="supertitle">
+                
+  Proposal  <span style="breadcrumb-separator">// </span><a href="/organizations/Nu">Nu</a> <span style="breadcrumb-separator">/</span> <a href="/organizations/Nu/NuShares">NuShares</a> 
+
+              </span>
+              <h1>
+                
+  Performance Bonuses for Peg Restoration
+
+              </h1>
+            </div>
+          </header>
+          <section class="row page_content">
+            <div class="col-md-12">
+              
+<div class="row container">
+
+  <div class="col-md-4 sidebar">
+
+    <div class="scroll_title">
+      <p class="supertitle">Proposal  <span style="breadcrumb-separator">//</span> Nu <span style="breadcrumb-separator">/</span> NuShares</p>
+      <p class="title">Performance bonuses for peg restoration</p>
+      <p class="author">By
+        phoenixnubits
+        
+      </p>
+      <p class="meta_text date">
+        <script>
+document.write(moment("2016-10-18T19:23:32 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+        &nbsp;|&nbsp;&nbsp;<span class="updated">Updated: <script>
+document.write(moment("2016-10-23T20:39:29 Z").calendar());
+</script></span>
+        
+      </p>
+      <hr>
+      <div class="content-toc"></div>
+    </div>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="meta_text">
+          <a href="/u/phoenixnubits/">
+            <img src="https://avatars.githubusercontent.com/u/19893847?v=3" class="profile">
+            <div class="authorname_block">
+                <div class="nolink">By phoenixnubits</div>
+                <div class="nickname">@phoenixnubits</div>
+              </div>
+            
+          </a>
+        </p>
+        <div class="row">
+          <div class="col-md-12">
+          <p class="meta_text date">
+            <script>
+document.write(moment("2016-10-18T19:23:32 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+            
+            &nbsp;|&nbsp;&nbsp;
+            
+            <span class="updated">Updated: <script>
+document.write(moment("2016-10-23T20:39:29 Z").calendar());
+</script></span>
+            
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="sidebar_title">Text Hash ( RIPEMD-160 )</p>
+        <p class="meta_text hash">da2462af561a3d69a40ad0268793abc3ea533657  </p>
+      </div>
+    </div>
+    
+
+    
+
+    
+    
+
+  
+    <hr>
+    <div class="row meta_element">
+        <div class="col-md-12">
+          <span class="sidebar_title">
+            Grant
+          </span>
+          <p class="meta_text">173,100,000 NSR</p>
+        </div>
+    </div>
+    <hr>
+    <div class="row meta_element">
+        <div class="col-md-12">
+          <span class="sidebar_title">
+            Grant Address
+          </span>
+          <p class="meta_text">SNf4uyshit1fj8dWKVxHsKTgTrNR61RskY</p>
+        </div>
+    </div>
+
+  
+
+
+
+  </div>
+
+  
+  
+    <div class="content_body col-md-8">
+  
+
+
+
+
+    
+    <div class="reading-time-wrapper" data-target="57800ee0f215483ebab071146c679767382be116">
+    <span class="reading-time"></span> read (<span class="word-count"></span> words)
+  </div>
+
+    <article class="rtCalc no-fouc" id="57800ee0f215483ebab071146c679767382be116">
+      
+        <p>One important way to make the peg stronger in the future is to pass this bonus grant. It will set a precendent that those who stand by the peg and shareholders in troubled times will be well rewarded. With the recent surge of support for the motion to end all liquidity operations (to 44%), it is important that greater consensus be demonstrated for supporting our currencies, from the persective of successfully promoting our product. All of these recipients have demonstrated strong support for the peg, even in difficult and chaotic times. Passing the grant will empower this value and deliver a convincing defeat to the idea that liquidity operations should be halted, due to the minting power it will grant to those who most strongly support the peg. The quantity of  NSR in the grant is approxiamtely equal to 40% or NuShares currently minting. It is expected to succeed in marginalizing the constituency that wishes to impose a  default on US-NBT holders. This in turn is expected to increase confidence in our currencies, resulting in greater sales. It appears to offer an ROI to shareholders, although I don't know of any effective way to quantify how many additional currency sales will occur due to increased confidence in our currencies. Similarly, I don't know how much value it will bring by encouraging peg support in the future. Therefore, I can't be certain there will be an ROI.</p>
+<p>These bonuses are also intented to motivate and retain its recipients. Nu needs these few people to protect against peg abandonment in the future while ensuring shareholders stay in control.</p>
+<p>The proposed bonus recipients and amounts are as follows:</p>
+<p>Phoenix: 110 million NSR
+Jooize: 25 million NSR
+Woolly_Sammoth: 10 million NSR
+Henry: 10 million NSR
+Cryptog: 2 million NSR
+serfer: 1 million NSR
+Tony: 100,000 NSR
+Sigmike: 15 Million NSR, as potential fast release bonus</p>
+<p><strong>Cryptog's Contributions</strong></p>
+<p>As a member of FLOT, cryptog was regularly signing transactions to transfer liquidity operations funds according to NuLaw.  Having one additional signer like him instead of those who completely refused to sign transfers could have prevented the entire governance crisis.</p>
+<p><strong>Henry's Contributions</strong></p>
+<p>Henry runs NuLagoon, which has consisted of a number of very innovative pools and Tube. Like all of us, Henry lost a lot due to the incompentent administration of liquidity operations of late May and June. His business was receiving monthly revenue of about 5,000 US-NBT from sharheolders prior to that, but the abandonment of the peg in June halted that and threw his business into chaos, through no fault of his own. He was unable to return BTC deposited in the pools merely because the peg was lost. With a temporary complete loss of revenue, potentially angry pool customers, and no practical way to operate his business, Henry stayed professional and kept defending the peg. He did so by continuing to cooperate and facilitate efforts to remedy the situation responsibly. He prevented a large number of US-NBT from being sold at a vulnerable time. Currently, he is returning funds to pool users, making them whole. Henry speaks like a NuShare holder and defends the peg.</p>
+<p><strong>Woolly_Sammoth's Contributions</strong></p>
+<p>Woolly_Sammoth is the main developer of NuBot, the software we use to manage open market orders that keep the peg. It is mission critical software. Upon learning of our plans to release Chinese NuBits and later European NuBits, Woolly_Sammoth began developing to support it immediately. NuBot stands ready to support multiple currencies, except for work that cannot be completed until a Nu core client that supports the new currencies is developed. Thank you Woolly_Sammoth for your loyal support during a difficult time.</p>
+<p><strong>Jooize's Contributions</strong></p>
+<p>Besides Jordan Lee, Jooize was the most vocal proponent of the reliable liquidity model architected by Jordan Lee and embraced by shareholders in numerous passed motions. As incompetent decentralized liquidity providers were improvising in June and impulsively following their strong bear market emotions to doom, Jooize was steady under pressure. As a BTC and NSR FLOT signer, he always signed transfers that were consistent with the shareholder approved model to protect the value of NuBits. If one more FLOT signer would have done the same, we could have saved approximately 800 million NSR. Such steadiness and fidelity to NuLaw are phenominally precious to our network.</p>
+<p>It is important we place Jooize as a decision maker so the network can benefit from his steady adherance to NuLaw and fair practice when difficult events occur in the future. That is why I would like to promote him to a new position within Liquidity Operations: Vice Chief of Liquidity Operations. Essentially, the Vice Chief of Liquidity Operations has authority to determine very short term liquidity operations actions when the Chief of Liquidity Operations is unavailable. I expect the Vice Chief to exercize his authority for a number of hours when he notices sudden market events before the Chief does, such as an NSR spike or a huge NuBit sale. The Vice Chief has the authority to respond decisively to market events in the absence of the Chief.</p>
+<p>After I became Chief of Liquidity Operations, Jooize performed most open market operations on Poloniex and administered weekly auctions. He has been perfectly consistent in performing his daily responsibilities within liquidity operations. Jooize did more to restore the peg than any one besides myself. He did most of the operations within liquidity operations. He should be rewarded and retained.</p>
+<p><strong>Phoenix's Contributions</strong></p>
+<p>Since my appearance on June 12th, there were 11 custodial grants proposed and passed. Nine were mine. Shareholders chose to use me to handle their assets, almost exclusively, since early July. Of the eight motions proposed and passed since my appearance, seven were authored by me. The network was still welcoming the participation of others, but the vast majority of the participation shareholders found useful was my own. Since the governance crisis occured, shareholders found only my vision for how to proceed worth implementing.</p>
+<p>Here is a list of the passed motions authored by me:
+f8b9e060dc73a97fd28a62ecfdd419114892787a 
+Cap on NuBit money supply
+<a href="https://discuss.nubits.com/t/passed-temporarily-cap-nbt-supply-with-full-reserve/4107">https://discuss.nubits.com/t/passed-temporarily-cap-nbt-supply-with-full-reserve/4107</a></p>
+<p>57ee6c5da13b0c91ca05a4f32e1a7bf9b44811b4 
+Elect Phoenix Chief of Liquidity Operations
+<a href="https://discuss.nubits.com/t/passed-create-chief-of-liquidity-operations-position/4210">https://discuss.nubits.com/t/passed-create-chief-of-liquidity-operations-position/4210</a></p>
+<p>1118f2334d0ef45676b38ebe2daaf30a8a345a7f
+100% Reserve Required for NuBits 
+<a href="https://discuss.nubits.com/t/passed-temporarily-cap-nbt-supply-with-full-reserve/4107/190">https://discuss.nubits.com/t/passed-temporarily-cap-nbt-supply-with-full-reserve/4107/190</a></p>
+<p>faafd2dea7c11fc27155118469140c0b0dd66eb3
+A Report on Peg Abandonment and How to Proceed From Here
+<a href="https://discuss.nubits.com/t/passed-a-report-on-peg-abandonment-and-how-to-proceed-from-here/4248">https://discuss.nubits.com/t/passed-a-report-on-peg-abandonment-and-how-to-proceed-from-here/4248</a></p>
+<p>318410e7d808570f8a6d7389dee796234135aef8
+Make NSR Buyback and Sales Requirements a Guideline
+<a href="https://discuss.nubits.com/t/passed-make-nsr-buyback-and-sales-requirements-a-guideline/4357">https://discuss.nubits.com/t/passed-make-nsr-buyback-and-sales-requirements-a-guideline/4357</a></p>
+<p>94c2541e909b1240ac478571305809cd23295a21 
+B&amp;C Exchange should trade all US-NBT for NSR
+<a href="https://discuss.nubits.com/t/passed-b-c-exchange-should-trade-all-us-nbt-for-nsr/4450">https://discuss.nubits.com/t/passed-b-c-exchange-should-trade-all-us-nbt-for-nsr/4450</a></p>
+<p>02258be1eb01b220b96e945b4d26f8af28fb2f1d
+NuBit reserve policy
+<a href="https://discuss.nubits.com/t/voting-nubit-reserve-policy/4565">https://discuss.nubits.com/t/voting-nubit-reserve-policy/4565</a></p>
+<p>I have pushed the shareholder initiative to release Chinese NuBits, European NuBits and SDR NuBits forward quite a bit. I made changes to liquidity operations to make it affordable and feasible to provide liquidity for these currencies. I coordinated and paid for NuBot changes made by woolly-sammoth. I negotiated terms of involvement with sigmike in the effort and facilitated his proposal to provide development services for the multi-currency release. This is a major initiative moving successfully toward completion that has tremendous potential to increase the NuShare market cap.</p>
+<p>When I began campaigning to become Chief of Liquidity Operations, US-NBT was selling for around $0.20. The NuShare market cap was down about 85%. Most forum participants were saying everything had changed, and that the peg was a thing of the past. There was a high degree of consensus (among forum participants, but not shareholders) to entirely leave the currency business, in the form of stopping all liquidity operations, until some magical time in the future when a magical formula to acquire even more revenue than had already been identified was put forward by some unknown person. The situation was very dire and the social mood very poor. Nearly the only voices that stood against the unofficial permanent abandonment of NuBits were those of Jooize and my own. Nearly everyone involved in the project was against the peg once fear set in, even as shareholders continued to vigourously support the peg with their votes. It was a surprising and disappointing reality, but one where Jooize and I were incredibly valuable to shareholders. We should be incentivized to stay around to protect shareholder interests in the future.</p>
+<p>Most people are emotionally driven to be poor traders: it feels good to buy high and produces a sense of relief to sell low. We found that most community members were similarly betrayed by their own emotions, which inclined them to do precisely those actions that would produce large losses. Though I have the same emotions, I did an outstanding job of maintaining consistent policy throughout the crisis. Much discretion needed to be exercised to react to changing market conditions, and I exercised that discretion in a very rational and calculated manner on a consistent basis. I didn't ask for a protocol change. I didn't negotiate haircuts. I didn't change anything about our basic contract with customers. I continued to maintain that all that was needed was to follow the carefully laid plans approved by shareholders. I followed those plans and it worked. I provided continuity for the network.</p>
+<p>Despite the high degree of discontent due to all the losses imposed by the failure of FLOT and the hostile environment I was working in, I  was able to convince shareholders to do what they hate most: increase the NuShare supply. I used the granted NuShares to support the US NuBit price on a daily basis while permiting it to float. I had zero reserve, because shareholders lost control of the reserve. I was able to raise about $300,000 in my first 60 days as Chief of Liquidity Operations from the sale of NuShares. With a market cap hovering around $400,000, this was about 75% of the market cap. This was a remarkable demonstration of our network's capacity to support NuBit pricing even during sharp contractions in NuBit demand.</p>
+<p>Pegging requires a stable price, which we didn't have. Therefore, NuBits became a supported floating currency with a plan to transition back to firm pegging. Each day a significant sum of US-NBT was purchased in the open market and destroyed, steadily reducing the supply of US-NBT, even as the NSR supply expanded. While still technically still in transition from floating supported currency to firmly pegged currency, the $1.00 US-NBT price has been maintained continuously since September 13th. It is an accomplishment most forum participants were saying was not possible three months ago.</p>
+<p><strong>Sigmike</strong></p>
+<p>The allotment for sigmike is different than all the others. The 15 million NSR won't be given to him shortly after the grant is passed, as will be the case with all others receiving a bonus allotment. Rather, sigmike's allotment will serve as a performance bonus for quickly deploying a version of the Nu reference client that supports multiple currencies. Specifically, if the release is posted to the nubits.com website (Linux and Windows versions) within 14 days of when he received payment from shareholders officially authorizing payment for his work, he will receive the entire 15 million NSR bonus. Each additional day, the collectable bonus declines by 500,000. This means after 44 days no bonus will be offered. Sigmike's grant was passed on October 13, so the bonus will begin to decline on October 27. Unused NSR in sigmike's allotment will be burned.</p>
+<hr>
+<p><a href="https://daology.org/p/57800ee0f215483ebab071146c679767382be116">Proposal</a> created with <a href="https://daology.org">Daology.org</a> by <a href="https://daology.org/u/phoenixnubits">phoenixnubits</a> for <a href="https://daology.org/o/Nu">Nu</a></p>
+
+      
+    </article>
+  </div>
+</div>
+
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div id="app-footer">
+  <footer class="footer footer-branded">
+
+    <div class="container">
+      <nav class="pull-left col-xs-12 col-md-10">
+        <ul>
+          <li role="presentation"><a href="/about">About Daology</a></li>
+          <li role="presentation"><a href="/terms">Terms</a></li>
+          <li role="presentation"><a href="/privacy">Privacy</a></li>
+          <li role="presentation"><a href="/cookies">Cookies</a></li>
+          <li role="presentation"><a href="/support">Support</a></li>
+        </ul>
+      </nav>
+      <div class="copyright col-xs-12 col-md-2 pull-right">
+        &copy; 2017 Daology, LLC
+      </div>
+    </div>
+  </footer>
+</div>
+    </div>
+      
+
+
+  
+  
+
+    
+
+    
+
+    
+      <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+      <script src="//code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/highlight.js/latest/highlight.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+      <script src="/static/public/javascripts/dao.min.js"></script>
+    
+
+  
+
+
+
+  <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='https://www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-62932153-1','auto');ga('send','pageview');
+  </script>
+
+  </body>
+  
+  
+</html>

@@ -1,0 +1,77 @@
+![coinerella logo](https://alix.coinerella.com/volume/logos/hotlink-ok/coinerella_logo_really_small.png "coinerella logo")
+
+Fellow friends of Nu,
+
+I'm happy to announce, that Parkingyournubits.rocks has been a full success. The website had a total of 822 unique visitors since its launch on  May 1st, 2016. 
+You can read all about it [here.](https://discuss.nubits.com/t/ann-parking-rates-promotional-website-parkyournubits-com/3847?u=willy)
+
+
+**TL;DR**  
+This contract will entitle Nu all rights to the park rates promotional page Parkingyournubits.rocks.
+Further, it will allow Coinerella to deploy and run Parkingyournubits.rocks on the ALix and RAW.Coinerella high-availabiliy server structure. 
+
+**What's Parkingyournubits.rocks?**  
+Parkingyournubits.rocks is a promotional website to promote NuBits park rates. It features a FAQ section, a calculator and a tutorial how to park your NuBits.
+Furthermore, we created a Twitter bot, that tweets the current highest parking rate every 24 hours. 
+
+The website is created with HTML 5, CSS and AJAX and features responsive design. 
+
+
+**What's in for Nu?**  
+*Plain and simple: This website tries to gather information on NuBits parking on a single site to encourage people unfamiliar with Nu to buy NuBits and park them. *
+
+###### Cost report:
+1. Parkingyournubits.rocks promotional frontend:  **2000 NBT** 
+2. ALix Panel backend API Parkrates: **150 NBT** 
+3. Twitter Bot https://twitter.com/parkyournubits:  **250 NBT** 
+
+Software costs: 2400 NBT  
+
+Running costs: none, hosting is paid for with the ALix & RAW.Coinerella grant 
+
+Total sum: **2400 NBT**
+
+We would like to take a new approach here and split the grant between the two of us. 
+
+TheCrema's share: 1000 NBT - Grant address: **B5HdcqzVSXBfNccctUb1UEbdbQNnAB8joU**  
+willy's share: 1400 NBT - Grant address: **B5PP7FasPy7HncDPc3ryXxiTFU6rGZCNpe**  
+
+Please note that this contract is only valid, once both grants have passed. 
+
+###### Notes:
+
+- all items - This software will be open source. 
+- Item 1 & 2 - This software will be hosted on the ALix and RAW.Coinerella high-availability server structure. 
+
+###### Terms:
+
+§ 1 - Any future updates for Parkingyournubits.rocks require additional funding.    
+
+§ 2 - Nu will only need to pay for the software licenses once, as any funded software upgrade will create a new version number with a new license.   
+	
+§ 3 -  Coinerella is permitted and obliged to provide the afore mentioned software on the ALix and RAW.Coinerella high-availability structure. 
+	
+§ 4   
+(1) The start of the operation will be seamless after this grant passed. It will be announced in a separate thread.   
+(2) The source code for all items (see above) will be published on Github the same day the announcement thread is created. The software will be published under the Apache License.  
+
+§ 5 - Nu is permitted to revoke this contract, in case Coinerella becomes unresponsive to requests made through https://www.coinerella.com/index.php/Contact for more than 30 consecutive days.
+
+§ 6 - Coinerella will provide said services in all conscience.  Apache License (see https://github.com/bananenwilly/alix/blob/master/LICENSE) applies. Warranty and liability of any nature are excluded. 
+
+§ 7 - Parkingyournubits.rocks will be provided commercial-free. 
+
+###### FAQs:
+
+Q: What happens after the six month term for the ALix and RAW.Coinerella  high-availability server structure ends?  
+A: A new proposal will be needed to continue those operations.
+
+Q: Will Nu have to pay for the same software licenses twice?  
+A: No. Any funded software update will induce a version change with a new license, which will be valid until the next funded software update is published. 
+
+Q: What if this grant doesn't pass?  
+A: We will need to find other ways to finance this product. We might pause "Parkingyournubits.rocks" in the meantime. 
+
+---
+
+[Proposal](https://daology.org/p/a51c20270ce9fe085907e2a3334c0fdf3a429404) created with [Daology.org](https://daology.org) by [bananenwilly](https://daology.org/u/bananenwilly) for [Nu](https://daology.org/o/Nu)

@@ -1,0 +1,62 @@
+##Dependencies
+65CB60D096508A7FA9ECC2017B38BC3AFEB5663D - Tiered Liquidity Structure
+
+7b4955e91781e0e32f1e0c0c974fd4a7a9f972a3 - NuShare Buybacks
+
+b1ef96aed5c7f9dec482467b254b40c82bf66d23  - Circulating NuBits
+
+6311782b5d731cd45dd6873b24bcd6e62846fb2d - Peercoin FLOT Reserve
+
+25d8226a7aeb47370e8db0c2035296fb7e2c4095 - Bitcoin Reserve
+
+
+##Background and Definitions
+The goal of this motion is to provide a Tier 6 (T6) source for recovering the T4 network when it falters.  Toward this end, strict definition for the ebb and flow of T4 reserves needs to be found.  Fortunately, precedence can already be found in the aforementioned motions.  The number corresponding to the weekly buyback amount in US-NBT is a powerful tool, allowing both a positive and negative result.  This motion will attempt to use that number to specify amounts for NSR dilution events.
+
+**The Standard** will be adopted as a naming convention for the number previously referred to as the buyback amount.  This will be done to reflect the positive and negative nature of that number and to provide a convenient means by which shareholders and investors can monitor the health of the Nu Network.
+
+##Core Calculation
+The standard (ST) is calculated each week by estimating the core T4 bitcoin reserve value in units of US-NBT, subtracting 15% of the Circulating NuBits (CN) in the network, and multiplying the difference by 5%.  These two numbers are called the **reserve target** (15%) and the **reserve velocity** (5%) respectively.
+
+ST = 0.05 x (T4BTC - 0.15 x CN)
+
+##Standard Thresholds
+When the standard exceeds 2,500 US-NBT, the FLOT should seek to buy an amount of NSR within the next week equal to the standard.  Similarly, when the standard is below -2,500 US-NBT, the FLOT should seek to sell an amount of NSR within the next week equal to the standard (using sources such as exchange markets to achieve a best-guess spot price or moving average for NSR in terms of US-NBT).  The method of purchase and sale is at the discretion of FLOT, however it will be noted that in the past a market executor has been elected to perform buybacks while dilutions were performed using a blind auction model.
+
+If ST > 2500, buy ST amount of NSR
+
+If ST < -2500, sell ST amount of NSR
+
+##Auxiliary Dynamic Reserves
+###Parameters
+T4 reserves other than the core Bitcoin reserve should interact with the standard as well.  Discovering a balance for NSR buybacks and investment diversification is a daunting task for a decentralized organization, and a generally applied method should be used.  Each reserve will have a target, a velocity, and a threshold; the Peercoin reserve is the first auxiliary dynamic reserve with a PPC target of 5% (PPCTR), a PPC velocity of 10% (PPCV), and a PPC threshold of $1000 (PPCTH).
+
+###Flow
+As a mathematical aid, the **auxiliary reserve flow** will be defined as the ratio of targets multiplied by velocities for the auxiliary reserve compared with the bitcoin reserve.  So the peercoin flow is (5%/15%)x(10%/5%) = 2/3. 
+
+F = (PPCTR / BTCTR) x (PPCV / BTCV)
+
+###Calculation
+During the weekly core calculation, an auxiliary dynamic reserve is given the standard times the flow for that reserve, subject to the reserve threshold.  For example, if the standard were $1,500 then no NSR buybacks would occur but $1,000 would be given to the PPC executor.  A negative standard will trigger sales of dynamic reserves.  If no executor is available or some other unexpected occurrence greatly increases the risk of market actions, T4 supervisors have the authority to skip those market actions for the week.
+
+If ST > (F x PPCTH), buy (F x ST) amount of PPC
+
+If ST < -(F x PPCTH), sell (F x ST) amount of PPC
+
+###Overflow
+During the weekly core calculation, if a reserve would be given funding over its target, restrict the funding to the bring the reserve only up to target.  If a reserve is over target, the surplus will be sold similarly to bitcoin overflow using the target, velocity, and threshold to determine the rate of market action.  A concept of an auxiliary standard (such as the Peercoin standard - PPCST) is mathematically helpful in this stage. 
+
+PPCST = PPCV x (T4PPC - PPCTR x CN)
+
+If PPCST > PPCTH, sell PPCST amount of PPC
+
+##Antiquation
+The following motions are considered effectively replaced by this motion and will have no bearing in the future actions of the network except as examples of appropriate behavior:
+
+e91340fdbda5c2a7a1362c66eece05b9c67d2496 (NSR sale and NBT burn)
+
+dadd35b4132ab497772fc71a28ab5afb6ba3a8a5 (Make auction size adjustable)
+
+---
+
+[Proposal](https://daology.org/p/c62b183b7e0ed133fbd0a948488ee57aae5a8693) created with [Daology.org](https://daology.org) by [nagalim](https://daology.org/u/nagalim) for [Nu](https://daology.org/o/Nu)

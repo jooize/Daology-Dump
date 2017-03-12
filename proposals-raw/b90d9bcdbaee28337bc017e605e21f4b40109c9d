@@ -1,0 +1,225 @@
+I'm proud to present to you this custodial grant proposal to significantly improve the NuDroid App in a bid to increase the demand for NuBits.  
+
+The proposal is split up in 5 sections; 
+- Explanation and rationale  
+   what is NuDroid and why this proposal?  
+- Overview releases, time and costs; 
+- Marketing
+- Contractual context 
+- Detailed description of releases.
+
+Thanks for your consideration.
+
+-----
+
+![](http://i.imgur.com/P3V9ZSi.gif)
+
+###### **Explanation and Rationale**
+
+For those who are new a brief overview what NuDroid is:
+
+**What is NuDroid?**  
+NuDroid is the first mobile and stable cryptocurrency wallet which can be used to pay for goods and services at the point of sale. Pay with your stable NuBits anywhere that Bitcoin is accepted without being exposed to Bitcoin's volatility.
+
+NuDroid is not an exchange and doesn't require the merchant to access an exchange. NuDroid just uses the popular Shapeshift.io service to easily and transparently exchange your NuBits to Bitcoin and other coins in seconds.
+
+NuDroid is open source, free of advertisements and no registration is required.
+
+More information about the current App can be found here: 
+https://nubits.com/resources/nudroid-mobile-wallet
+
+
+**Why this proposal?**  
+The main objective is to increase the demand for NuBits. By offering an universal but stable value wallet it is more likely that users will hold NuBits instead of Bitcoins or other coins. This proposal intends to make the wallet even more functional and attractive for regular use as their main mobile wallet. It holds value and can be used for payments and collecting funds in many cryptocurrencies. For merchants there is one less reason to use a payment provider. NuDroid can save them payment provider fees.
+
+The new wallet will instantly convert from and to other supported cryptocurrencies seamlessly using Shapeshift.io in the background. We are also adding cryptocurrencies to the list with exchange rates in the App, currently it has only fiat. This will make it easy to look for the latest rates and compare with what is offered by Shapeshift.io. Ethereum will be available to pay and receive with and the App will also transition to the new USNBT ticker name.
+
+A key new feature is instant synchronisation when starting the wallet. No more waiting for syncing. This is great for point of sale (PoS) transactions like buying your beer with Bitcoins using NuDroid. 
+
+Last but not least an effort is made to bring the App in line with the Bitcoin sister App. This will support future developments. The developer of NuDroid will henceforth use the gradle build system and Android Studio which will make the proposed and future builds easier.
+
+![](http://i.imgur.com/6fibq1d.png)
+
+
+###### **Overview releases, time and cost**
+
+**This proposal has two releases:**  
+Release 1 (8 weeks duration) 8,000 USNBT. This includes:  
+>    A. Skipping headers for instant sync,   
+>    B. Adds Ethereum support,   
+>    C. Adds crypto currency exchange rates on the homepage  
+>    D. Sync Nubitsj with Bitcoinj  
+>    E. Change currency name to USNBT 
+>    F. Addition of nuseed.nubitsexplorer.nu DNS seed.
+
+Release 2 (7 weeks duration) 7,650 USNBT. This includes:  
+>    G. NuDroid's ability to receive other coins which will be instantly converted upon arrival to USNBT.
+
+More details on the new functionality below. Each release ends with a 2 week test period where users have the chance to find bugs before the final payment to the developer is made.
+
+The Developer is MatthewM. Upon passing of the grant Custodian Cybnate will enter into a contract with Developer for the delivery of the App according to the requirements and terms and conditions. Custodian will hold the funds until contractual obligations by the Developer are met as per payment schedule below.  More contractual details are in the section "Contractual context" below.
+
+The Custodial fee for holding the contract, posting updates, identified marketing activities and holding the custodial payment is 350 USNBT.
+
+> **Proposed cost of this grant is 16,000 USNBT for both release 1 and 2 including fees.**
+
+Proposed contractual payment schedule is as follows:
+  
+Release 1 (8 weeks duration)  
+Initial payment of 4,000 USNBT (start of the contract)  
+Final payment of 4,000 USNBT (after delivery R1 and 2 weeks testing)  
+  
+Release 2 (7 weeks duration)  
+Initial payment of 4,000 USNBT  (start of development R2)
+Final payment of 3,650 USNBT (end of the contract after delivery R2 and 2 weeks testing)    
+
+
+![](http://i.imgur.com/PBEGjN1.png)
+
+-----
+##### **Marketing**
+
+The last NuDroid grant had a significant investment for marketing. This only appears to have worked moderately. However I believe we should still advertise the new functionality available just beyond our forum. I propose to use the unused amounts from the previous grant.
+
+The reason why they have been unused is because a gift from Shapeshift.io never occurred, the intended Reddit giveaway didn't succeed and a 3rd month of advertising never occured therefore. This leaves us with:  
+882.46 USNBT in B6tBUhTuetuZezgoJCwwqkJNXNQXPCiand and  
+262.87 USNBT in BAKuK27iCAaNxkM5LGbAYdoY8CXSCSP8A7  
+Total 1145.33 USNBT
+
+The folllowing activities are identified to take place within the above budget:  
+- Update of NuDroid Bitcoin thread https://bitcointalk.org/index.php?topic=1117925.0;all  
+- NuBits/NuDroid brand sponsorship on The Daily Decrypt (after delivery of R2)  
+- One or two (sponsored) articles to get the NuDroid brand and functionality out there  
+- Update of https://nubits.com/resources/nudroid-mobile-wallet  
+- Development of supporting graphics for use in Daily Decrypt and on websites.  
+  
+  
+##### **Contractual context**  
+
+For this custodial grant MatthewM will be the Developer. Cybnate will be the Custodian. The Custodian holds the contract on behalf of the NuShareholders. The Custodian will have an agreed contract with the developer before the custodial grant is submitted for voting.
+
+**References**  
+Cybnate (@cybnate) has been working and gaining experience with cryptocoins since October 2013 and is a long-term Peercoin investor, NuShares and BKS shareholder. Cybnate has built a trustworthy reputation in the Nu and Peercoin communities. For the Peercoin community Cybnate has set up the Peercoin Marketing Fund with River333 and successfully convinced donators to fund this.  
+For the Nu community Cybnate is maintaining a recognised datafeed and running the liquidity supporting operation LiquidBits for almost a year. Finally Cybnate held the custodian role for the previous large NuDroid grant of March 2015 which basically brought NuDroid to its current state.  
+  
+MatthewM (@matthewM) has been the sole Developer of NuDroid to date. For the Peercoin community he delivered the Peercoin Android App including the underlying valued peercoinj libraries. For the Nu community he delivered NuDroid's precursor including nubitsj, the NuBits Android App and last year the NuDroid App as it is now available on Google Play with over 500 downloads. A visit to Google play also learns that he has published several other Android app in the last years.  
+  
+** Reporting**  
+The grant will be transferred into an account in control by the Custodian. The contractual payments to the developer will be published in a public thread on discuss.nubits.com. The current state of the grant can be verified at all times through the blockchain.  
+
+Progress on development will occur at least on a fortnightly bases, either by the Developer or by the Custodian in a public thread on discuss.nubits.com.  
+
+**Accountability **  
+This proposal, when passed by the Nu Shareholders will be considered binding and the Custodian will proceed with the execution of the proposal as described. If at any point during the operation Nu Shareholders deem the elected custodian to be conducting actions that they feel differ from what is described here, a fully certified motion (majority of votes cast) will be required to make amendments.  
+  
+** Unexpected termination of contract and remaining funds**  
+When this proposal is approved and the contract between Custodian and Developer is prematurely terminated for reasons beyond control of the Custodian all the NuBits including the Custodian's fee will be burned. When the remaining funds are a result of contractual underdelivery by the Developer the Custodian will use their discretion or consult the community whether to use the funds for Marketing or further Developments contributing to the outcomes of this grant and of benefit of the NuShareholders.  In the event of underdelivery by the Custodian the funds will be burnt.  
+
+The details presented in this document should be used to gauge the perceived ability to meet the terms presented in this proposal, and voting-eligible members of the Nu community are encouraged to raise any questions, concerns, or recommendations for improvement prior to reaching their own personal decision.  
+
+
+-----
+
+###### **Detailed description of releases**  
+  
+The updated App will be published on Google Play after each release has been tested successfully. An APK version will also be released for testing and final release on Github including the source code of the App and associated server applications. All release changes will be deployed on the existing server infrastructure which has been funded separately.  
+
+  
+###### Release 1 (8 weeks)  
+
+**A. Skipping headers **  
+
+**Description R1A**  
+This enables almost instant syncing when the wallet is started. This feature makes NuDroid compete with a WebWallet, no more synchronization waits. Almost instant payments and balance.
+It basically removes the loading of the headers. Especially for new installations this will save a lot of data traffic which can be important when on a mobile connection and saves hours of syncing. 
+This intends to significantly increase the NuDroid user experience.
+
+**Detailed Requirements R1A**  
+To skip the initial headers, the application will need to determine where to start downloading full blocks. To aid in this trusted servers will be able to provide a new method “/sync_init” which provides a block to begin synchronizing from. It will provide sufficient data to reconstruct the block header and provide the block height. This block will be the latest block the server has known. It shall be stored with the wallet data, so that when restoring wallets, or resynchronizing the blockchain, the app can start from the same block. Existing wallets will use Wallet.getEarliestKeyCreationTime() to determine the block to use, and will be updated on the first launch after the update.
+
+When obtaining the block data from the trusted server, the application will wait with a loading dialog, preventing the user from requesting coins before the wallet is ready. Each trusted server will be tried with a 5 second timeout, until 10 seconds have passed. If after 10 seconds has passed and no trusted server has provided a block, a dialog will be shown with the title “Sync Skip Failure” and a message “The app has been unable to download a recent block to skip the initial blockchain synchronization. Would you like to synchronize from the beginning or try again?”. The user can choose “Yes” and the app will do a synchronization from the genesis block, or the user can choose “Retry” and the process will start over again.
+
+
+**B. Ethereum support **  
+
+**Description R1B**  
+Rationale to add this is that Ethereum has become increasingly popular and that there is a potential marketing benefit in supporting right now. The current value is mainly on trading/hedging on the NBT/ETH pair, at the time of writing I understand that ETH cannot be used yet for other purposes, but this is likely to be changed even though likely to be experimental.
+
+**Detailed Requirements R1B**  
+NuDroid will recognise Ethereum addresses which are in a hex format (eg 0xcd2a3d9f938e13cd947ec05abc7fe734df8dd826). When provided, the app will allow NuBits to be sent to this address through the Shapeshift exchange. The app will recognise and create URIs/QR codes in the format ether:0xcd2a3d9f938e13cd947ec05abc7fe734df8dd826.
+
+**C. Crypto currency exchange rates **  
+**Description R1C**  
+This allows to user to look up the current exchange rates. With the addition of being able to receive coins (release 2a) an integrated option would be valuable. This allows to look up recent exchanges rates when using the Shapeshift functionality to pay or receive funds.
+
+**Detailed requirements R1C**  
+Exchange rates will be gathered from https://coinmarketcap-nexuist.rhcloud.com/api, and the following coins will be included: Bitcoin, Ethereum, Ripple, Litecoin, MaidSafeCoin, Dash, Dogecoin, Factom, Fedoracoin, Bytecoin, Stellar, Blackcoin, Peercoin, Emercoin, VPNcoin, Synereo, Namecoin, Primecoin and NuShares. Coins have been chosen based on high market cap, support by NuDroid and Shapeshift and finally relevancy.
+
+**D. Sync nubitsj with bitcoinj **  
+NuBitsj is an excellent building block for developers wanting to integrate with NuBits wallets. NuDroid is based on NuBitsj. In the last year BitcoinJ had many changes. The list of changes that would be taken from the Bitcoin app are that from 4.13 to 4.49. NuDroid will henceforth use the gradle build system. You can read the changes here:  
+https://github.com/bitcoin-wallet/bitcoin-wallet/blob/master/wallet/CHANGES
+
+The Child-Pays-For-Parent functionality wont be necessary for Nu, so
+that wont be included, nor will the fee behaviour changes, and anything
+to do with sweeping wallets.  
+
+A lot of it is bugfixes, performance improvements, and style changes
+with some small functionality improvements.  
+
+
+**E. Change currency name to USNBT **  
+**Description R1E**  
+This work transitions the currency unit from NBT to USNBT. The approach is to make resilient changes so no outage in Shapeshift supported services occurs. Therefore the order is to change the code to accept both old and new in the first place. Ask Shapeshift between R1 and R2 to make their changes in the API before the expected R2 date and when done clean up the code in R2.  
+
+**Detailed requirements R1E**  
+In the event that a request to ShapeShift results in an error with the string “Coin Not Reconized" (This is a typo made by Shapeshift) or “Coin Not Recognized" (In case the typo is fixed), and the request used the “nbt” coin code, the “usnbt” coin code will be tried instead. Likewise, if this failed with the same error, “us-nbt” will be used. If this results in another error, no more coin codes will be tried and the usual error handling will be used.  
+  
+**F. Change currency name to USNBT **  
+**Description R1F**  
+Nubits-seeder is a crawler for the nubits network, which exposes a list of reliable nodes via a built-in DNS server. This speeds up the discovery process for NuDroid significantly. Currently there is only one known DNS seed in the network. This item adds another instance to further increase the resilience of NuDroid.
+
+**Detailed Requirements R2F ** 
+Installation of the DNS seed software published here: https://github.com/bananenwilly/nubits-seeder on the current svr1.nubitsexplorer.nu server. The intended naming will be dnsseed.nubitsexplorer.nu.
+This item has been negotiated in as a best effort item only.
+
+###### Release 2 (7 weeks)  
+  
+
+**- G. NuDroid's ability to receive other coins **  
+
+**Description R2G**  
+This is a must-have feature in my opinion and completes the vision of NuDroid being your only wallet you will ever need! It adds the functionality of being able to receive other coins with NuDroid. It works with Shapeshift so USNBT will continue to be the native coin in the wallet. All transfers will be instantly converted to NuBits upon arrival in the wallet. So it is not a multi-wallet like Coinomi.
+This release includes a function to be able to use scanned refund addresses. This is important when a transaction doesn't go through for some reason. When that happens the only way to release the transaction is to contact Shapeshift support, the refund address solves this problem.
+This release includes a code clean-up for the currency name change for Shapeshift.
+  
+**Detailed Requirements R2G **  
+This release will allow users to receive NuBits by providing a payee with a different cryptocurrency address via shapeshift. For NuBits payments, the request activity will operate in the same way, however there will be dropdown selection input (Spinner) with a list of Shapeshift coins under the label “Request with”. The coins included will be the same coins supported for sending, and Nubits will always be selected by default.  
+If ShapeShift settles on a new coin code for US Nubits before this release has been submitted for testing for the final time, then the “nbt”, “usnbt” and “us-nbt” codes will be replaced with the new coin code which shall be the only coin code attempted.
+
+
+If a coin other than NuBits is selected, additional UI elements will be shown:  
+
+An address input with the label “Refund address”, used to provide automated refunds if anything goes wrong. This is not a required field but highly recommended for users.
+QR button to scan refund addresses.  
+“Foreign Amount” and “Rate” fields much like in the send activity already.  
+Shapeshift status/error text with a link to https://shapeshift.zendesk.com/hc/en-us/requests/new
+  
+If a coin other than NuBits is selected, then the bluetooth checkbox will be hidden, because   bluetooth is not supported for shapeshift coins in this release.   
+  
+When a response is received from shapeshift, the app will show a QR code allowing payments through the selected coin. The URI provided by the copy menu item will take payment through the selected coin. There is no guarantee that the app will provide NFC interoperability with other cryptocurrency wallets. It might work with the Bitcoin and Peercoin sister Apps.
+  
+The sendamount method will be used when specifying a Nubits amount, and the shift method will be used when specifying a foreign coin amount. As with the sending activity, sendamount requests will be refreshed every 5 minutes due to address expiry and shapeshift will be retried periodically after errors (20 seconds) or limit violations (30 seconds).    
+	
+	
+
+-----
+Yes, you made it all the way to the end of this proposal. 
+Please add the grant address to your client if you like it.
+
+Thanks,
+Cybnate
+
+
+---
+
+[Proposal](https://daology.org/p/b90d9bcdbaee28337bc017e605e21f4b40109c9d) created with [Daology.org](https://daology.org) by [cybnate](https://daology.org/u/cybnate) for [Nu](https://daology.org/o/Nu)

@@ -1,0 +1,417 @@
+<!-- extend base layout -->
+
+<!doctype html>
+<html lang="">
+  <head>
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Daology</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/static/public/images/favicon.ico">
+
+    
+  
+  
+
+    
+      <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic|Lato:400,700|Inconsolata' rel='stylesheet' type='text/css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/highlight.js/latest/styles/github.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/flick/jquery-ui.css">
+      <link rel="stylesheet" href="/static/assets/stylesheets/_vendor/jquery.tagit.min.css">
+
+      <link rel="stylesheet" href="/static/public/stylesheets/dao.min.css">
+    
+
+    
+
+    
+
+  
+
+    
+  
+  
+
+    
+
+    
+      <script src="/static/assets/javascripts/vendor/moment.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/contrib/auto-render.min.js"></script>
+    
+
+    
+
+  
+
+  </head>
+  <body role="document">
+    <div id="fullpage_wrapper">
+    
+      <div id="app-navbar">
+  <nav class="navbar" role="navigation">
+    <div class="container-fluid">
+      <div class="brand-bar row">
+        <div class="col-md-12">
+          <button id="menu-toggle" type="button" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar bar1"></span>
+            <span class="icon-bar bar2"></span>
+            <span class="icon-bar bar3"></span>
+          </button>
+          <a class="word_mark" href="/" name="home_link">daology</a>
+          
+        </div>
+      </div>
+      <div class="primary_nav row">
+        <div class="col-md-12">
+          <div class="collapse navbar-collapse" id="app-navbar-collapse">
+            <ul class="subnav">
+              <li class="subnav-item"><a href="/organizations/" name="dao_list_link">Organizations</a></li>
+              <li class="subnav-item"><a href="/articles" name="dao_list_link">Articles</a></li>
+              <li class="subnav-item"><a href="/proposals" name="dao_list_link">Proposals</a></li>
+              
+              <li class="subnav-item"><a href="/login" name="login_link" class="signin_btn">Sign in with Github</a></li>
+              
+
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+</div>
+      
+  
+  
+
+
+      
+
+  
+
+  
+
+  
+
+  
+
+
+
+      <div class="main row">
+        <div class="container">
+          <header class="row page_title">
+            
+            <div class="row">
+              <div class="page_actions col-md-12 pull-right">
+                <ul>
+                
+  <li class="action_btn"><a href="/proposals/94f54f27c0c406fb370c572dd51c27b7b01f140b/raw" target="_blank" class="btn btn-sm btn-primary">Raw</a></li>
+  
+
+
+                
+                  
+
+
+                
+                </ul>
+              </div>
+            </div>
+            
+            
+            <div class="col-xs-9 col-md-11">
+              <span class="supertitle">
+                
+  Proposal  <span style="breadcrumb-separator">// </span><a href="/organizations/Peercoin">Peercoin</a>
+
+              </span>
+              <h1>
+                
+  Prototype for a Cryptofund 
+
+              </h1>
+            </div>
+          </header>
+          <section class="row page_content">
+            <div class="col-md-12">
+              
+<div class="row container">
+
+  <div class="col-md-4 sidebar">
+
+    <div class="scroll_title">
+      <p class="supertitle">Proposal  <span style="breadcrumb-separator">//</span> Peercoin</p>
+      <p class="title">Prototype for a Cryptofund </p>
+      <p class="author">By
+        mh001
+        
+      </p>
+      <p class="meta_text date">
+        <script>
+document.write(moment("2017-01-09T09:48:41 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+        &nbsp;|&nbsp;&nbsp;<span class="updated">Updated: <script>
+document.write(moment("2017-01-09T10:23:05 Z").calendar());
+</script></span>
+        
+      </p>
+      <hr>
+      <div class="content-toc"></div>
+    </div>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="meta_text">
+          <a href="/u/mh001/">
+            <img src="https://avatars.githubusercontent.com/u/5444275?v=3" class="profile">
+            <div class="authorname_block">
+                <div class="nolink">By mh001</div>
+                <div class="nickname">@mh001</div>
+              </div>
+            
+          </a>
+        </p>
+        <div class="row">
+          <div class="col-md-12">
+          <p class="meta_text date">
+            <script>
+document.write(moment("2017-01-09T09:48:41 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+            
+            &nbsp;|&nbsp;&nbsp;
+            
+            <span class="updated">Updated: <script>
+document.write(moment("2017-01-09T10:23:05 Z").calendar());
+</script></span>
+            
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="sidebar_title">Text Hash ( RIPEMD-160 )</p>
+        <p class="meta_text hash">DRAFT  </p>
+      </div>
+    </div>
+    
+    <hr>
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="sidebar_title">Tags</p>
+        
+        <script data-type="tagDataVar">
+    
+      var tagList = ["fund", "etf"];
+    
+  </script>
+  <ul class="readonly_tag_wrapper">
+  </ul>
+
+      </div>
+    </div>
+    
+
+    
+
+    
+    
+
+  
+
+
+
+  </div>
+
+  
+  
+    <div class="content_body col-md-8 draft">
+      <div class="status_callout well">
+        <p>The author has made a <strong>DRAFT VERSION</strong> of the proposal available for review. The final published version may contain different content.</p>
+      </div>
+  
+
+
+
+
+    
+    <div class="reading-time-wrapper" data-target="94f54f27c0c406fb370c572dd51c27b7b01f140b">
+    <span class="reading-time"></span> read (<span class="word-count"></span> words)
+  </div>
+
+    <article class="rtCalc no-fouc" id="94f54f27c0c406fb370c572dd51c27b7b01f140b">
+      
+        <h6>Introduction</h6>
+<p>For an example of a cryptofund please read the Minimal Variance cryptound described in <a href="http://https://www.peercointalk.org/index.php?topic=4751.msg45174#msg45174">the peercointalk post</a>.</p>
+<p>The Fund is to be the product of a DAC (see <a href="daology.org/articles/3e58b5bafd12c6446104bb9def6bab9f3816434a">the daology article</a> for a description). The community should get involved in its definition, development, and operations.</p>
+<p>The following describes how a prototype system of several functional parts could work together to provide basic business services. This can form a starting point of more detailed definition and concrete development. The community's feedbacks are highly appreciated.</p>
+<p>There are several relatively independent parts or "agents"/"roles" in the prototype:</p>
+<p>Frontend Interface (FEI)
+Fund Manager (FM)
+Trader
+Accounting
+Basket Oracle</p>
+<h6>1 Frontend Interface (FEI)</h6>
+<p><strong>1.1 buy page</strong></p>
+<p>1.1.0 FEI shows to anyone on the Internet a secure web page that has a button "buy fund". When the button is clicked, FEI shows a btc address that accepts fund buyers' deposit, with purchase information, including rates, fee/commission, and "After you clicked the button, the only way to get your fund back is redeeming the Fund shares you have bought."</p>
+<p>[to do later] "Fund will be returned to the same address if buying is canceled, minus network tx fee and exchange fees and spread if transaction has been partially made and reversed."</p>
+<p>[later] KYC/AML strategy</p>
+<p><strong>1.2 "buy transaction"</strong></p>
+<p>1.2.0 FEI monitors the deposit address and act on it.</p>
+<p>1.2.1 When the arrival of fund is confirmed by the blockchain network, opens a "buy transaction" (BT) with a unique ID, shows a webpage for it, and</p>
+<p>1.2.2 sends a message to Fund Manager (FM) on the BT.</p>
+<p><strong>1.3 buy processing</strong></p>
+<p>1.3.0 For all open BTs, FEI queries the FM periodically, gets status of their specific rebalances, and updates their respective BT pages.</p>
+<p>1.3.1 If the status is successful, FEI shows the Fund Holding Certificate (FHC).</p>
+<p>1.3.2 If the status is failed/timeout, prints out a message of where to get help.</p>
+<p>[later]
+1.3.2 If the status is failed/timeout, FEI asks if the customer wants to try again or to cancel the BT and have the deposit back minus tx fee.
+1.3.2.1 If the customer wants to try again, goes to step 1.2.2
+1.3.2.2 If the customer wants to cancel and get fund back, sends a Refund Request on the BT to the FM.
+1.3.3 If the status is canceled, does nothing (besides updating the RT page).
+[/later]</p>
+<p><strong>1.4 redeem page</strong></p>
+<p>1.4.0 FEI shows to anyone on the Internet a secure webpage that has a button "Redeem fund".</p>
+<p>1.4.1 When the button is clicked, FE asks for the FHC ID, and a btc address where proceeds of redeeming will go, with a message "Proceeds will be sent to the address provided, minus network tx fee and spread costs."</p>
+<p>[later] KYC/AML strategy</p>
+<p>1.4.2 When the FHC ID and btc addresses are verified, opens a "redemption transaction" (RT) with a unique ID, shows a webpage for it, and</p>
+<p>1.4.3 sends a message to the Fund Manager on the RT.</p>
+<p><strong>1.5 redeem processing</strong></p>
+<p>1.5.0 For all open RTs, FEI queries the FM periodically, gets status of their specific rebalances, and updates their respective RT pages.</p>
+<p>1.5.1 If the status is successful, does nothing (besides updating the RT page).</p>
+<p>1.5.2 If the status is failed/timeout, FEI asks if the customer wants to try again or to cancel the RT.</p>
+<p>1.5.2.1 If the customer wants to try again, goes to step 1.4.3</p>
+<p>1.5.2.2 If the customer wants to cancel, close the RT and updates the page.</p>
+<p><strong>1.6 status page</strong></p>
+<p>1.6.0 FEI  shows to anyone on the Internet a webpage that shows the current Net Asset Value and total Fund shares in curculation, both obtained from the FM, and the current price of one Fund  share.</p>
+<p>1.6.1 On the same page one can query the status of a BT or RT, or verify an FHC ID.</p>
+<p>[later] A crypto token to substitute the FHC.</p>
+<h6>2 Fund Manager</h6>
+<p><strong>2.1 rebalance</strong></p>
+<p>2.1.0 Rebalances the fund routinely and automatically</p>
+<p>2.1.1 with a tool that listens to the Basket Oracle for current weights of every  constituent asset in the portfolio, issues trade request of the assets to Accounting, according to rebalancing strategy</p>
+<p>2.1.1 updates and maintains the transaction database (TDB).</p>
+<p><strong>2.2 buy</strong></p>
+<p>2.2 When receiving a BT message, logs it in the TDB and performs a "specific rebalance" by immediately issuing a set of trade requests to Accounting, according to the fund received, commission policy, and the latest weights.</p>
+<p>2.2.1 When the specific rebalance is complete FM produces a token in the form of a Fund Holding Certificate (FHC).</p>
+<p>2.2.2 The FHC is some text showing the amount of Fund shares bought, BT ID, etc. The FHC ID is a signature of the receipt text signed by a private key of the FM. FM sends the FHC to the FEI.</p>
+<p><strong>2.3 redeem</strong></p>
+<p>2.3.0 When receiving an RT message, logs it in the TDB and immediately issues trade requests to Accounting, according to the FHC received and the latest weights.</p>
+<p>2.3.1 When the sell completes, FM sends the Accounting a message of payment according to the status of liquidation, and logs the payment.</p>
+<p><strong>2.4 query</strong></p>
+<p>2.4 when receiving a BT or RT Status query, returns the latest status in the TDB.</p>
+<p>[later] 2.5 when receiving a Refund Request, cancels the specific rebalance request by sending an set of opposite trade requests to Accounting. When the "specific rebalance" and its opposite trade transactions are complete, sends the Accounting a message of payment according to the status of cancellation.</p>
+<h6>3 Accounting</h6>
+<p><strong>3.1 minimum</strong></p>
+<p>3.1.0 Accounting is a centralized authority to control fund flows into the Fund and out of the Fund. At the minimum it logs all transactions.</p>
+<p><strong>3.2 auditing</strong></p>
+<p>3.2.0 Periodically audits crypto coin assets of the Fund in the reserve, in the hot wallets, and in exchange accounts belonging to the Traders. Produces reports.</p>
+<p>3.2.1 Poll Traders' exchange accounts every minute to find out balances of each coin on exchange.</p>
+<p><strong>3.3 funding trade</strong></p>
+<p>3.3.0 When receiving trade requests from the FM, sends to-be-sold coins to Trader's exchange account from hot wallets.</p>
+<p>[later] Multisig tiered reserve.
+[later] Multiple FMs, each for a product.</p>
+<h6>4 Trader</h6>
+<p><strong>4.1 trading</strong></p>
+<p>4.1 Performs trading from one asset to another on the market using certain strategy. Trading happens against on-exchange accounts for exchanges with accounts, and against virtual accounts if Shapeshift-like exchanges are used.</p>
+<p><strong>4.2 reports</strong></p>
+<p>4.2.0 Reports current trading status including balances, unfinished trades, fees that have incurred, trade history of every trade request.</p>
+<p><strong>4.3 fund back</strong></p>
+<p>4.3.0 Sends fund back to accounting from exchange or virtual accounts.</p>
+<p><strong>4.4 cancellation</strong></p>
+<p>4.4.0 Cancels an unfinished trade request and returns fund to accounting, with a status report.</p>
+<p>[later] Consolidates multiple trading requests to save on fees and spread.</p>
+<h6>5 Basket Oracle</h6>
+<p><strong>5.1 weights</strong></p>
+<p>5.1.0 Provides ratios of constituent assets in a fund product when requested.</p>
+<p>5.1.1 Periodically gets coin price data from external sources. Updates and maintains the coin database.</p>
+<p>5.1.2 Applies asset selection and weighting logic to calculate ratios.</p>
+<p><strong>5.2 data</strong></p>
+<p>5.2.0 Provides data for basket and strategy reviews.</p>
+<hr>
+<p>v 0.2 formatted and typo fixes</p>
+<p>v0.1 peercoin.chat initial post</p>
+<hr>
+<p><a href="https://daology.org/p/94f54f27c0c406fb370c572dd51c27b7b01f140b">Proposal</a> created with <a href="https://daology.org">Daology.org</a> by <a href="https://daology.org/u/mh001">mh001</a> for <a href="https://daology.org/o/Peercoin">Peercoin</a></p>
+
+      
+    </article>
+  </div>
+</div>
+
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div id="app-footer">
+  <footer class="footer footer-branded">
+
+    <div class="container">
+      <nav class="pull-left col-xs-12 col-md-10">
+        <ul>
+          <li role="presentation"><a href="/about">About Daology</a></li>
+          <li role="presentation"><a href="/terms">Terms</a></li>
+          <li role="presentation"><a href="/privacy">Privacy</a></li>
+          <li role="presentation"><a href="/cookies">Cookies</a></li>
+          <li role="presentation"><a href="/support">Support</a></li>
+        </ul>
+      </nav>
+      <div class="copyright col-xs-12 col-md-2 pull-right">
+        &copy; 2017 Daology, LLC
+      </div>
+    </div>
+  </footer>
+</div>
+    </div>
+      
+
+
+  
+  
+
+    
+
+    
+
+    
+      <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+      <script src="//code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/highlight.js/latest/highlight.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+      <script src="/static/public/javascripts/dao.min.js"></script>
+    
+
+  
+
+
+
+  <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='https://www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-62932153-1','auto');ga('send','pageview');
+  </script>
+
+  </body>
+  
+  
+</html>

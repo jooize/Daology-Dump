@@ -1,0 +1,54 @@
+tldr; Instead of giving up maintaining the *NSR buyback and PPC reserve operation calculator* because there is too much work and too little fun, I think why not ask for a grant and let the shareholders see the need to pay for Nu automation, and maybe thereby inspire a lot of other development and improvement.
+
+> BFRhngri9DLUnatcnhSJrZDk5J7u3Mhu5H , 440 NBT
+
+-----------------------------
+
+Back in January @masterOfDisaster started the NSR buyback calculation thread and did manual calculation for several weeks. What it takes to do the calculation is to first understand what all the Nu liquidity fund components are and where to get the latest values, then get them from various sources, and do the calculation after understanding details like what percentage of which fund should be counted for what etc.
+
+For reason I fully understand now @masterOfDisaster [decided to end his free service](https://discuss.nubits.com/t/nsr-buyback-calculations/3347/20?u=mhps). I thought then a one-off script could solve the problem for good, and for free.
+
+As it turned out, after my calculator script was setup, which took on and off 6 - 8 hours, I find that buyback calculation not only takes  running/posting once during the weekend, but also demands constant attention and action to changes in parameters and formulas in operations. 
+
+Except for the simplest changes such as updating the value and format of a parameter, most changes took longer than anticipated because they entailed detailed understanding the underlying rule change, adding new calculation, often with refactoring, and verification. All changes need to be documented. In last weeken I spent ~12 hours to make v0.7 right, which at times felt like a beast to kill because of the complexity and subtleties in relevant motions. I am sure more experienced developers can do it faster  but for me this tips the balance. 
+
+I decide not to keep maintaining the calculator for free. To quote moD
+
+[quote="masterOfDisaster, post:38, topic:3577"]
+I think NSR should be confronted with fees for services more often.This way they can learn that valuable services might have a price - or won't be provided.
+[/quote]
+
+I don't write so much only about a calculator though. I hope this proposal will make shareholders see better the need to invest in Nu automation. 
+
+Nu can cut cost greatly by automating routine manual jobs. I believe this is critical for Nu's scalability and long-term survival. 
+
+For example FLOT operations can be simplified by [automatically generating sign'able tx to feed the gateways directly, based on current liquidity conditions](https://discuss.nubits.com/t/activated-at-2016-03-023-sell-side-gateway-at-hitbtc-by-masterofdisaster/3690/17?u=mhps). This should reduce recurring cost of FLOT by reducing their task to rubber-stamping in most cases where we already have the rules, not unlike B&C signers. 
+
+Other automation examples include [NSR buyback](https://discuss.nubits.com/t/automating-buybacks/3224), NSR auction, [T1+gateway liquidity report](https://gist.github.com/Lamz0rNewb/a76776a50fa8476667ea), improving ALP etc. Automating a task also increases transparency, reduces human error, and acts as a rigorous review of the rules.
+ 
+But who will do the automation? As I probably will get paid less as a FLOT member if I automate FLOT tx generation, there is a tangible reason for me NOT to automate it. Even I want to volunteer for altruistic reason, volunteering can only go so far. I don't look forward to losing a weekend days every time Nu has a liquidity evolution. I doubt how automating FLOT tx is doable as a volunteer project seeing how difficult to maintain the humble buyback calculator. 
+
+If developing and maintaining the automation tools are compensated, people will have incentives and assign these task a higher priority from "hobby project" to "obligation".
+
+
+So here is the deal, I am giving Nu 60% off of the starter rate of a software developer -
+
+1.
+I would like nushare holders to compensate for the "NSR buyback and PPC reserve operation calculator" development at 20 NBT/hour for 22 hours up to v0.7 (see [this](https://discuss.nubits.com/t/nsr-buyback-calculations/3347/141?u=mhps) and [this](https://discuss.nubits.com/t/passed-peercoin-flot-reserve/3337/94?u=mhps) output), which consists of 6 hours of initial development up to [v0.3](https://discuss.nubits.com/t/nsr-buyback-calculations/3347/56), and 9 weeks' (Febuary 6 to April 4) total development time of 16 hours, for a total of 440 NBT. Upon receiving the payment I will opensource v0.7, and put the calculator on github. I will bug-fix v0.7 and go on with the weekly NSR buyback and PPC reserve ops calculation until two weeks after the voting of this grant starts, after which point I won't do more abovementioned calculations until the payment is received.
+
+2.
+By approving the grant above shareholders also agree to pay up to 140 NBT per month at 20 NBT per hour  (the same average rate since [the initial release](https://discuss.nubits.com/t/nsr-buyback-calculations/3347/56) (22-6)/9*4) for me to:
+a)  continue maintaining and improving the NSR buyback and PPC reserve operation calculator for 3 months, starting on the day when the grant or this motion is approved, whichever is later. The payment will be made a grant proposal at the end of the 3-month term.
+b) perform the weekend calculation run and post the result free of charge.
+c) do my best to inform the shareholders if my service is unavailable 48 hours in advance.
+
+I will adjust the monthly rate for a possible renewal proposal for the next term based on work/time spent in this 3 month term.
+
+-------------
+If you support the proposal, please vote for
+
+> BFRhngri9DLUnatcnhSJrZDk5J7u3Mhu5H , 440 NBT
+
+---
+
+[Proposal](https://daology.org/p/ff7e11ad104255fe7be8aa3304e82190895e16bb) created with [Daology.org](https://daology.org) by [mh001](https://daology.org/u/mh001) for [Nu](https://daology.org/o/Nu)

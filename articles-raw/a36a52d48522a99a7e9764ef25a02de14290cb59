@@ -1,0 +1,139 @@
+#### Disclaimer: This is a repost of the Google [doc](https://docs.google.com/document/d/145dPveKCrOd6IQsWAu4pIebjAyuFfQ0iJyEawakNkoU) that I made back in January 2015.
+
+
+-----
+
+
+*or how to make NuBits become the first Internet currency, starting from Japan*
+
+
+
+author: [cryptog](https://twitter.com/cryptog1)
+
+first draft date: 06JAN15
+latest edition: 10APR15
+
+
+
+
+**Background**
+
+Bitcoin has sparked a huge revolution.
+The ability to transfer money with no middle man is a huge innovation for Humanity.
+This has been enabled by the blockchain technology which is a decentralized ledger.
+The problem is that bitcoin is not stable. So it is useless as a currency, at least for daily life transactions, though it has some utility as a value transfer instrument from one exchange to another.
+
+Links:
+http://www.cato.org/blog/bitcoin-might-not-be-money-cryptocurrencies-are-way-future
+http://www.coindesk.com/japanese-scholars-draft-proposal-better-bitcoin/
+
+So can we create a stable currency while keeping the benefits of decentralization?
+The answer is “yes” if we can somehow implement the good aspects of FIAT money into a blockchain.
+The good aspects of FIAT are the monetary policies issued by the central bank.
+
+
+
+**Nu**
+
+Therefore we need to find a way to create a decentralized central bank.
+In other words, we need to create a mechanism in which shareholders can vote for monetary policies in a decentralized fashion.
+
+This is exactly what Nu has created.
+https://nubits.com/
+Nu is a decentralized autonomous organization based on the blueprint offered by [Peershares](http://peershares.net/) that separates the volatile instrument, the shares called NuShares, from the stable instrument, the currency called NuBits.
+Each shareholder of NuShares can vote for monetary policies whose goal is to keep the peg of NuBit.
+But what peg? The current peg is to the US dollar. However, NuBit can be pegged to any FIAT currency or even a basket of commodities.
+
+
+
+**NBT/JPY exchange**
+
+In this business idea, the first service that would be created is an exchange in Japan in which Japanese people would be able to buy easily NuBits (NBT) with Japanese Yens (JPY). That means that the main trading pair of the exchange would be NBT/JPY.
+Since BTC is still used as a crypto-asset to provide liquidity for NuBit, NBT/BTC would be also included. In this case, enabling BTC/JPY would be useful since it would offer an additional way for traders to purchase NuBits.
+
+The typical way for a Japanese trader to buy NuBits would be to deposit Japanese Yens into the exchange, use the pair NBT/JPY and exchange Japanese Yens for NuBits.
+That assumes that the bot that manages the provision of NuBits liquidity on the various exchanges, called [NuBot](https://bitbucket.org/JordanLeePeershares/nubottrading) is able to deal with Japanese Yens.
+That means that NuBot needs to be able to be fed a USD/JPY rate feed, which is not the case right now.
+
+
+Alternatively, the Japanese trader could first purchase bitcoins using BTC/JPY and then exchange those bitcoins for NuBits using NBT/BTC.
+
+That service would be generating revenues for the business by taking trade fees.
+At the beginning, there would be zero fees to encourage traders to register and buy NuBits but gradually, the trade fees would be set to 0.2% for sell/buy orders.
+
+
+
+**Some benchmarks**
+
+[BtcBox](https://www.btcbox.co.jp/) has achieved almost 2000 BTC of daily trade volume as of 08APR15.
+That represents 500k USD of daily volume with 1BTC=250USD.
+That generates 2k USD of daily trade fees revenues, 60k USD monthly, 720k USD yearly.
+Please note that BtcBox has only 1 year of activity.
+Withdrawal fees are not included.
+
+Also, one would recall the daily trade volume of [CCEDK](https://www.ccedk.com/) at the latest peak of NuBits trade volume at the beginning of January 2015. It reached 1m USD of daily trade volume.
+The trade fee being 0.2%, if such a pace is maintained every day, that would represent 4k USD of daily trade fees revenues, 120k USD monthly, 1.44m USD yearly.
+Please note that CCEDK was the first exchange to adopt NuBits which was released in September 2014. So this kind of volume was reached only 4 months after release.
+
+With that in mind, one can imagine that a NuBits exchange can become rapidly profitable.
+
+
+
+**Japanese traders**
+
+At the beginning the only Japanese buyers of NBT would be Japanese traders that want to hedge their crypto asset positions and also Japanese traders that want to tap into BTC/USD markets which offer much more liquidity than BTC/JPY markets. Those traders would purchase NuBits locally with Japanese cash at our exchange, send those NuBits to overseas exchanges that offer BTC/NBT and virtually trade on BTC/USD using BTC/NBT.
+
+
+
+**Japanese remittance service**
+
+Once there is enough volume, besides the NBT/JPY exchange service, a second service would be launched, a remittance service in which Japanese users will be able to send their Japanese Yens to overseas countries using NuBits.
+That would be done basically by enabling Japanese remitters to buy NuBits using NBT/JPY after depositing Japanese Yens into our exchange. Then the remitters would choose an exchange located in Europe or USA for example, that has a liquid NBT/EUR or NBT/USD pair, send the desired amount of NuBits to the corresponding exchange and withdraw to a specific bank account after selling the NuBits for FIAT (here, EUR or USD).
+
+That would generate a lot of additional revenues since the service would be offering very competitive fees compared to traditional foreign remittance providers.
+Of course that assumes NBT/JPY is enough liquid in our exchange and there are enough exchanges worldwide that have NBT/FIAT enabled with a decent volume.
+
+
+
+**Japanese payment processor**
+
+Then, the next step would be the Japanese online consumer adoption of NuBit. A third service would be launched for that: a payment processor service in which Japanese online merchants would be able to accept payment in NuBits from Japanese online consumers that would want to pay in NuBits (because it is fast and cheap) while still being able to convert NuBits into Japanese Yens, if necessary.
+Of course, because of the stability of NuBit (1NBT=1USD), we do not expect merchants to convert systematically their NBT to JPY (via the first service of our business idea, the exchange service). So, here the payment processor service would much more a gateway that enables merchant to easily accept NuBits rather than an exchange service, as it is the case when we look at bitcoin payment processors. Also, since the FIAT currency involved here is JPY, there would be a need to convert NBT to JPY but then again the reason would not be the unstability of NBT but a foreign currency exchange need.
+
+Compared to credit cards, the fees will be extremely low, pushing a lot of Japanese online consumers and Japanese merchants to adopt NuBits using our payment processor.
+
+Once we get a lot of daily transactions for online payment, that would be the beginning of an era in which Japanese consumers would transact directly in NuBits without the need to cash out into Japanese Yens at any time.
+Those Japanese consumers would transact directly in NuBits.
+
+
+**Step---Service---User**
+
+1---NBT/JPY exchange---Japanese trader
+
+2---JPY remittance---Japanese remitter
+
+3---Online payment processor---Japanese online consumer
+
+
+
+
+**Going global**
+
+There is no particular reason why such an evolutive adoption of NuBits, step by step, cannot be applied to any FIAT currency different from JPY.
+Therefore, using the 3 steps mentioned above, NuBit could find a rapid adoption in any country of planet Earth.
+
+
+
+**Towards the first currency of the Internet**
+
+When the normal online consumer in the vast majority of the globe has adopted NuBits to buy things on the internet, this is when we know we have created the first currency of the Internet.
+
+That could be achieved  in 3 years.
+A IPO might be needed to receive the necessary funding to achieve that goal.
+
+
+
+*Thank you for reading*
+
+
+

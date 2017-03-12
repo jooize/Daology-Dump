@@ -1,0 +1,10 @@
+##Definitions
+**Stable Liquidity** is all T4 liquidity denominated in native Nubit units.  This includes all stable cryptocurrencies and contracts like NuSafe that are denominated in USD with reference to US-NBT.
+
+**Dynamic liquidity** is all T4 liquidity denominated in other units.  This includes the BTC and PPC multisig, but does not include any collateral for current operations as that is not considered operating liquidity.
+
+## Outstanding Nubits & Overflow
+The oustanding nubits in the network is equal to the quantity of circulating nubits minus the sum total of T4 stable liquidity, but must be no less than 250,000 US-NBT.  Any overflow calculations concerning dynamic liquidity will use outstanding nubits instead of circulating nubits when performing the calculation.  Explicitly, stable liquidity like NuSafe will not be used directly as buy side liquidity when calculating BTC overflow.
+
+## Tether
+FLOT is encouraged to set up a tether address and begin selling NBT for tether (with no less than 4 signers at 60% required consensus or greater).  A price of no less than $0.99 is to be used.  The reserve will be limited to 25,000 USDT.  Improvising an executor upon signer consensus is encouraged, as is patience and a practiced hand when selling the USDT.  At the time of writing, the BTC/USDT market on poloniex.com has over 25,000 USDT of buy orders within 3% of the standard price feed, but most sales historically go for a competitive price.

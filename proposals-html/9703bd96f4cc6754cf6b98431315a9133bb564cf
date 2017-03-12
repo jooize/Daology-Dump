@@ -1,0 +1,365 @@
+<!-- extend base layout -->
+
+<!doctype html>
+<html lang="">
+  <head>
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Daology</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/static/public/images/favicon.ico">
+
+    
+  
+  
+
+    
+      <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic|Lato:400,700|Inconsolata' rel='stylesheet' type='text/css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/highlight.js/latest/styles/github.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/flick/jquery-ui.css">
+      <link rel="stylesheet" href="/static/assets/stylesheets/_vendor/jquery.tagit.min.css">
+
+      <link rel="stylesheet" href="/static/public/stylesheets/dao.min.css">
+    
+
+    
+
+    
+
+  
+
+    
+  
+  
+
+    
+
+    
+      <script src="/static/assets/javascripts/vendor/moment.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/contrib/auto-render.min.js"></script>
+    
+
+    
+
+  
+
+  </head>
+  <body role="document">
+    <div id="fullpage_wrapper">
+    
+      <div id="app-navbar">
+  <nav class="navbar" role="navigation">
+    <div class="container-fluid">
+      <div class="brand-bar row">
+        <div class="col-md-12">
+          <button id="menu-toggle" type="button" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar bar1"></span>
+            <span class="icon-bar bar2"></span>
+            <span class="icon-bar bar3"></span>
+          </button>
+          <a class="word_mark" href="/" name="home_link">daology</a>
+          
+        </div>
+      </div>
+      <div class="primary_nav row">
+        <div class="col-md-12">
+          <div class="collapse navbar-collapse" id="app-navbar-collapse">
+            <ul class="subnav">
+              <li class="subnav-item"><a href="/organizations/" name="dao_list_link">Organizations</a></li>
+              <li class="subnav-item"><a href="/articles" name="dao_list_link">Articles</a></li>
+              <li class="subnav-item"><a href="/proposals" name="dao_list_link">Proposals</a></li>
+              
+              <li class="subnav-item"><a href="/login" name="login_link" class="signin_btn">Sign in with Github</a></li>
+              
+
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+</div>
+      
+  
+  
+
+
+      
+
+  
+
+  
+
+  
+
+  
+
+
+
+      <div class="main row">
+        <div class="container">
+          <header class="row page_title">
+            
+            <div class="row">
+              <div class="page_actions col-md-12 pull-right">
+                <ul>
+                
+  <li class="action_btn"><a href="/proposals/9703bd96f4cc6754cf6b98431315a9133bb564cf/raw" target="_blank" class="btn btn-sm btn-primary">Raw</a></li>
+  
+
+
+                
+                  
+
+
+                
+                </ul>
+              </div>
+            </div>
+            
+            
+            <div class="col-xs-9 col-md-11">
+              <span class="supertitle">
+                
+  Proposal  <span style="breadcrumb-separator">// </span><a href="/organizations/Nu">Nu</a> <span style="breadcrumb-separator">/</span> <a href="/organizations/Nu/NuBits">NuBits</a> 
+
+              </span>
+              <h1>
+                
+  Dual-Side PyBot Gateway on Poloniex and Bittrex
+
+              </h1>
+            </div>
+          </header>
+          <section class="row page_content">
+            <div class="col-md-12">
+              
+<div class="row container">
+
+  <div class="col-md-4 sidebar">
+
+    <div class="scroll_title">
+      <p class="supertitle">Proposal  <span style="breadcrumb-separator">//</span> Nu <span style="breadcrumb-separator">/</span> NuBits</p>
+      <p class="title">Dual-side PyBot gateway on Poloniex and Bittrex</p>
+      <p class="author">By
+        cybnate
+        
+      </p>
+      <p class="meta_text date">
+        <script>
+document.write(moment("2016-02-14T02:28:40 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+        &nbsp;|&nbsp;&nbsp;<span class="updated">Updated: <script>
+document.write(moment("2016-02-14T03:32:51 Z").calendar());
+</script></span>
+        
+      </p>
+      <hr>
+      <div class="content-toc"></div>
+    </div>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="meta_text">
+          <a href="/u/cybnate/">
+            <img src="https://avatars.githubusercontent.com/u/6694926?v=3" class="profile">
+            <div class="authorname_block">
+                <div class="nolink">By cybnate</div>
+                <div class="nickname">@cybnate</div>
+              </div>
+            
+          </a>
+        </p>
+        <div class="row">
+          <div class="col-md-12">
+          <p class="meta_text date">
+            <script>
+document.write(moment("2016-02-14T02:28:40 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+            
+            &nbsp;|&nbsp;&nbsp;
+            
+            <span class="updated">Updated: <script>
+document.write(moment("2016-02-14T03:32:51 Z").calendar());
+</script></span>
+            
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="sidebar_title">Text Hash ( RIPEMD-160 )</p>
+        <p class="meta_text hash">21cc7b3ee02aba45e464a81e75e32784c2827302  </p>
+      </div>
+    </div>
+    
+    <hr>
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="sidebar_title">Tags</p>
+        
+        <script data-type="tagDataVar">
+    
+      var tagList = ["gateway", "poloniex", "bittrex", "pybot"];
+    
+  </script>
+  <ul class="readonly_tag_wrapper">
+  </ul>
+
+      </div>
+    </div>
+    
+
+    
+
+    
+    
+
+  
+    <hr>
+    <div class="row meta_element">
+        <div class="col-md-12">
+          <span class="sidebar_title">
+            Grant
+          </span>
+          <p class="meta_text">100 NBT</p>
+        </div>
+    </div>
+    <hr>
+    <div class="row meta_element">
+        <div class="col-md-12">
+          <span class="sidebar_title">
+            Grant Address
+          </span>
+          <p class="meta_text">B7jeGVDdsd4eE5ZGGmv8xXn2QgkS9nAPUC</p>
+        </div>
+    </div>
+
+  
+
+
+
+  </div>
+
+  
+  
+    <div class="content_body col-md-8">
+  
+
+
+
+
+    
+    <div class="reading-time-wrapper" data-target="9703bd96f4cc6754cf6b98431315a9133bb564cf">
+    <span class="reading-time"></span> read (<span class="word-count"></span> words)
+  </div>
+
+    <article class="rtCalc no-fouc" id="9703bd96f4cc6754cf6b98431315a9133bb564cf">
+      
+        <p><strong>Intro</strong></p>
+<p>@Cybnate - below called "the operator" - will run a PyBot on Poloniex and Bittrex. The liquidity is being broadcast using a custodial address to allow tracking the liquidity situation of the bot. The operator promises to send all funds to a FLOT multisig address upon request of a majority of the FLOT members or by a passed NSR holder motion.
+The spread is fixed to the maximum spread (0.7%) allowed and broadcast by the LiquidBits operations. The maximum fillside is 2000 NBT on Poloniex and 500 NBT on Bittrex. Only the fillside is propagated as Tier 1 liquidity.</p>
+<p><strong>Availability</strong></p>
+<p>The operator offers to check for Pybot's operation on a daily bases. This translates in a response time of at least 24 hours worst case.</p>
+<p><strong>Begin of operation</strong></p>
+<p>Operation begins on the day NuBot puts the first deposit of funds by FLOT on the Poloniex order book</p>
+<p><strong>End of operation</strong></p>
+<p>Operation is ceased by request of withdrawal of all funds or if operator sends all funds to FLOT multisig address(es).
+The remaining grant fees will be burned or send to a FLOT's NBT address.
+If for any reason the operator has to stop PyBot for a period of time or permanently before the end of the contract, it will be communicated at least 7 days in advance.</p>
+<p><strong>Modes of withdrawal</strong></p>
+<p>NSR holders can request withdrawal by motion.
+FLOT members can request withdrawal to a FLOT multisig address for which they are signer by posting in the forum.
+The number of FLOT members to request a deposit to a FLOT multisig address equals the number of FLOT members to execute transactions from this address. The operator may withdraw funds to a FLOT multisig address by discretion.</p>
+<p><strong>Compensation scheme</strong></p>
+<p>The operator @cybnate charges 100 NBT for <strong>60 days</strong> of operation in advance. This saves another round of voting for a relative small amount.</p>
+<p><strong>Reasoning for compensation</strong></p>
+<p>PyBot will be running on an existing VPS together with other PyBots used to monitor LiquidBits operations. The compensation is mainly for weekly (or less) manual withdrawals and general monitoring of operations of the bot.</p>
+<p><strong>Premature activation</strong></p>
+<p>If the FLOT deposits funds at the operator's exchange account, they will be used by the operator as if this motion already passed.</p>
+<hr>
+<p><a href="https://daology.org/p/9703bd96f4cc6754cf6b98431315a9133bb564cf">Proposal</a> created with <a href="https://daology.org">Daology.org</a> by <a href="https://daology.org/u/cybnate">cybnate</a> for <a href="https://daology.org/o/Nu">Nu</a></p>
+
+      
+    </article>
+  </div>
+</div>
+
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div id="app-footer">
+  <footer class="footer footer-branded">
+
+    <div class="container">
+      <nav class="pull-left col-xs-12 col-md-10">
+        <ul>
+          <li role="presentation"><a href="/about">About Daology</a></li>
+          <li role="presentation"><a href="/terms">Terms</a></li>
+          <li role="presentation"><a href="/privacy">Privacy</a></li>
+          <li role="presentation"><a href="/cookies">Cookies</a></li>
+          <li role="presentation"><a href="/support">Support</a></li>
+        </ul>
+      </nav>
+      <div class="copyright col-xs-12 col-md-2 pull-right">
+        &copy; 2017 Daology, LLC
+      </div>
+    </div>
+  </footer>
+</div>
+    </div>
+      
+
+
+  
+  
+
+    
+
+    
+
+    
+      <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+      <script src="//code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/highlight.js/latest/highlight.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+      <script src="/static/public/javascripts/dao.min.js"></script>
+    
+
+  
+
+
+
+  <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='https://www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-62932153-1','auto');ga('send','pageview');
+  </script>
+
+  </body>
+  
+  
+</html>

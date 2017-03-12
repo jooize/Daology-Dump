@@ -1,0 +1,43 @@
+Intro  
+@masterOfDisaster - below called "the operator" - will run a NuBot on Poloniex. The liquidity is being broadcast using a custodial address to allow tracking the liquidity situation of the bot.
+The operator promises to send all funds to a FLOT multisig address upon request of a majority of the FLOT members or by a passed NSR holder motion.
+
+Availability  
+The operator offers to check for Nubot's good operation daily and holds replacement hardware available in case of hardware failure.
+As NuBot doesn't support the multi use of API credentials, this is no hot standby solution.
+Furthermore there's no guarantee.
+NuBot malfunctions, outages of the internet access or the security of the funds on the exchange are risks Nu needs to bear.
+The experience so far showed an extraordinary availability of both hardware and internet access.
+For security reasons VPS won't be used for this operation.
+
+Begin of operation  
+Operation begins on the day NuBot puts the first deposit of funds by FLOT on the order book.
+
+End of operation  
+Operation is ceased by request of withdrawal of all funds or if operator sends all funds to FLOT multisig address(es). NuBot is put on standby afterwards.
+
+Operation parameters, e.g. offset  
+NuBot operation parameters are intentionally not part of the motion to allow adjusments to market needs.
+The offset should be higher than the offset of ALP (NuPool) or MLP (NuLagoon) operations to effectively build a last line of defence.
+
+Modes of withdrawal  
+NSR holders can request withdrawal by motion.
+FLOT members can request withdrawal to a FLOT multisig address for which they are signer by posting in the forum.
+The number of FLOT members to request a deposit to a FLOT multisig address equals the number of FLOT members to execute transactions from this address.
+The operator may withdraw funds to a FLOT multisig address by discretion.
+
+Compensation scheme  
+The operator charges 90 NBT per 30 days of operation.
+Upon passing this contract will automatically be renewed unless FLOT majority (5 of 8) or NSR holder motion ceases the operation.
+The fee will be paid by FLOT, taken from funds on the exchange account if sufficient funds are available or raised by grant.
+
+Premature activation  
+If the FLOT deposits funds at the operator's exchange account, they will be used by the operator as if this motion already passed.
+
+Last words  
+This motion intends to replace motion https://discuss.nubits.com/t/passed-motion-to-permit-dual-side-nubot-on-poloniex/3333.
+The former motion provides Nu with a Poloniex gateway as well, but unattended on standby and at a daily charge of 15 NBT if being activated.
+
+---
+
+[Proposal](https://daology.org/p/213c7c064e1967000cf9cf29d543539a1d0f6315) created with [Daology.org](https://daology.org) by [lamz0rnewb](https://daology.org/u/lamz0rnewb) for [Nu](https://daology.org/o/Nu)

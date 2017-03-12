@@ -1,0 +1,41 @@
+##Definitions
+###Price Feed and Deviation
+The price of a NuBit in some exchange currency is determined via best-efforts of a directly elected custodian.  Generally, this is done with reference to high-volume exchange prices and local economic factors.  After placing a custodial market order, if the price feed changes by an amount determined by the **deviation**, custodial software will seek to delete and replace that order.
+
+###ALP and Tolerance
+Automated liquidity pools, or ALPs, are defined by a software relationship between an operator, who verifies and pays, and a liquidity provider, who takes on risk and gets paid.  The price feed in an ALP must be agreed upon between the provider and operator within a margin of error.  The **tolerance** defines the window about the price feed that the operator will compensate.
+
+###Spread
+The difference between an ask and a bid price divided by the price feed (usually the average of those two prices).  Spread can be **individual** referring to one's own instance of software, or **collective** referring to actual spreads that occur on the order books of an exchange, which can be measured via mechanisms like those ALix employs.
+
+###SAF
+Spread-after-fees, or SAF, is the individual spread minus twice the exchange fee (once for ask and once for bid).  Bot software is not universal and fluctuates in terminology, but often times the spread is equal to twice the **offset**.  Therefore, SAF = 2*(offset - fees) in many cases.
+
+##Collective Spread Minimum
+If we ignore all non-custodial market orders, the question of appropriate minimum tolerance should be a fully solvable problem.  In such an instance, a collective spread of 0% acts as the condition for providers trading with each other automatically, a situation which should be avoided.  This motion will postulate a minimum collective spread of 0.2%.  Another way of phrasing this:  Nu will not overtly encourage custodians to buy us-nbt at more than $0.999 or sell at less than $1.001.
+
+##Individual to Collective
+If we assume all providers agree on the price feed (which is the case for ALPs) then the minimum reasonable tolerance can be found explicitly.  Here we will take f% and d% to refer to the offset and the deviation respectively.
+
+The minimum collective spread requirement gives us:
+
+0.2% = 2f% - d%
+
+We can see here that the offset separates the orders to either side of the price feed (hence the prefactor of 2), but the price can only deviate in one direction (so d% has a prefactor of 1).
+Therefore maximum collective spread gives us our minimum tolerance:
+
+t% = d% + f% = 0.1% + 3/2 d%
+
+With a deviation of 0.25%, for example, the minimum practical tolerance would be 0.475%.
+
+##SAF from tolerance
+If an exchange charges symmetric bid/ask fees of x%, the total SAF will be:
+
+SAF = 2(f% - x%) = 0.2% + d% - 2x%
+
+As an example, with a deviation of 0.25% and a fee of 0.2%, the resultant SAF would be 0.05%.
+
+
+---
+
+[Proposal](https://daology.org/p/a8bb5e317723403d8e84bdacb3279b3c2f877bb3) created with [Daology.org](https://daology.org) by [nagalim](https://daology.org/u/nagalim) for [Nu](https://daology.org/o/Nu)

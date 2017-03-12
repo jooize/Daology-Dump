@@ -1,0 +1,11 @@
+When Peercoin was first released by Sunny King, it was revolutionary.  The protocol was novel, the launch was fair, the entire project was fresh and new and brave.  After 4 years, Peercoin almost seems old hat compared to the constantly evolving cryptosphere.  While the chain has been going strong, growing extremely modestly and experiencing very few hiccups in the distributed consensus, the community seems to have moved on to other projects.  This saga is a tale of the loosely defined Peer community and where the developing energies have moved over the years since the conception of Peercoin.
+
+Outline:
+For the first month after the genisis block, Peercoin was pure PoW.  Altcoins during this time were using alternative work algorithms to avoid being attacked by the bitcoin miners.  PPC, however, wanted to use bitcoin miners to its advantage later in its life, so it used a different method to protect itself during that first month.  That method was called 'checkpointing'.
+* Checkpointing
+* Nothing-at-stake and PoS public credibility
+* Peershares
+* Nu/B&C
+* Long-term PoS (cold minting, mining and the halvening)
+* Peerassets
+* QGM

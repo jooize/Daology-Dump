@@ -1,0 +1,302 @@
+<!-- extend base layout -->
+
+<!doctype html>
+<html lang="">
+  <head>
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Daology</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/static/public/images/favicon.ico">
+
+    
+  
+  
+
+    
+      <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic|Lato:400,700|Inconsolata' rel='stylesheet' type='text/css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/highlight.js/latest/styles/github.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/flick/jquery-ui.css">
+      <link rel="stylesheet" href="/static/assets/stylesheets/_vendor/jquery.tagit.min.css">
+
+      <link rel="stylesheet" href="/static/public/stylesheets/dao.min.css">
+    
+
+    
+
+    
+
+  
+
+    
+  
+  
+
+    
+
+    
+      <script src="/static/assets/javascripts/vendor/moment.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/contrib/auto-render.min.js"></script>
+    
+
+    
+
+  
+
+  </head>
+  <body role="document">
+    <div id="fullpage_wrapper">
+    
+      <div id="app-navbar">
+  <nav class="navbar" role="navigation">
+    <div class="container-fluid">
+      <div class="brand-bar row">
+        <div class="col-md-12">
+          <button id="menu-toggle" type="button" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar bar1"></span>
+            <span class="icon-bar bar2"></span>
+            <span class="icon-bar bar3"></span>
+          </button>
+          <a class="word_mark" href="/" name="home_link">daology</a>
+          
+        </div>
+      </div>
+      <div class="primary_nav row">
+        <div class="col-md-12">
+          <div class="collapse navbar-collapse" id="app-navbar-collapse">
+            <ul class="subnav">
+              <li class="subnav-item"><a href="/organizations/" name="dao_list_link">Organizations</a></li>
+              <li class="subnav-item"><a href="/articles" name="dao_list_link">Articles</a></li>
+              <li class="subnav-item"><a href="/proposals" name="dao_list_link">Proposals</a></li>
+              
+              <li class="subnav-item"><a href="/login" name="login_link" class="signin_btn">Sign in with Github</a></li>
+              
+
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+</div>
+      
+  
+  
+
+
+      
+
+  
+
+  
+
+  
+
+  
+
+
+
+      <div class="main row">
+        <div class="container">
+          <header class="row page_title">
+            
+            <div class="row">
+              <div class="page_actions col-md-12 pull-right">
+                <ul>
+                
+  
+
+
+                
+                  
+
+
+
+                
+                </ul>
+              </div>
+            </div>
+            
+            
+            <div class="col-xs-9 col-md-11">
+              <span class="supertitle">
+                
+  Article  <span style="breadcrumb-separator">// </span> <a href="/organizations/Nu">Nu</a> <span style="breadcrumb-separator">/</span> <a href="/organizations/Nu/NuBits">NuBits</a>
+
+              </span>
+              <h1>
+                
+  Brigading, Spamming, and Generally Being a Nice Person
+
+              </h1>
+            </div>
+          </header>
+          <section class="row page_content">
+            <div class="col-md-12">
+                
+<div class="row container">
+  
+  <div class="col-md-4 sidebar">
+
+    <div class="scroll_title">
+      <p class="supertitle">Article  <span style="breadcrumb-separator">//</span> Nu <span style="breadcrumb-separator">/</span> NuBits</p>
+      <p class="title">Brigading, Spamming, and Generally Being a Nice Person</p>
+      <p class="author">By 
+        nagalim
+        
+      </p>
+      <p class="meta_text date">
+        <script>
+document.write(moment("2016-02-08T00:21:35 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+        &nbsp;|&nbsp;&nbsp;<span class="updated">Updated: <script>
+document.write(moment("2016-02-08T00:46:43 Z").calendar());
+</script></span>
+        
+      </p>
+      <hr>
+      <div class="content-toc"></div>
+    </div>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="meta_text">
+          <a href="/u/nagalim/">
+            <img src="https://avatars.githubusercontent.com/u/12321025?v=3" class="profile">
+            <div class="authorname_block">
+                <div class="nolink">By nagalim</div> 
+                <div class="nickname">@nagalim</div>
+              </div>
+            
+          </a>
+        </p>
+        <div class="row">
+          <div class="col-md-12">
+            <p class="meta_text date">
+              <script>
+document.write(moment("2016-02-08T00:21:35 Z").format("MMM D YYYY, h:mm A"));
+</script>
+              
+              &nbsp;|&nbsp;&nbsp;
+              
+              <span class="updated">Updated: <script>
+document.write(moment("2016-02-08T00:46:43 Z").calendar());
+</script></span>
+              
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    
+  </div>
+  
+
+
+  
+    <div class="content_body col-md-8">
+  
+
+    
+    <div class="reading-time-wrapper" data-target="21c139e4d34bce404e64feebfa60af45020f448b">
+    <span class="reading-time"></span> read (<span class="word-count"></span> words)
+  </div>
+
+    <article class="rtCalc no-fouc" id="21c139e4d34bce404e64feebfa60af45020f448b">
+      
+        <h2><strong>Good Faith</strong></h2>
+<p>Good Faith is a method by which you forego certain actions that may appear beneficial in the short term under the assumption that such an action will disrupt long term stability of the greater system.  The crypto community would be greatly benefitted by coming to a consensus on the rules of war and fair play.  This is because it would provide a great systemic stability and validity to the crypto project if the world could see that we self-govern by consensus and agreement about the best way to proceed, rather than bickering like children and breaking down into a social anarchy.  As we are a crypto community, let's go ahead and try to build consensus about what is Good Faith and what are its benefits and dangers.</p>
+<h2><strong>Brigading</strong></h2>
+<p>On an online community moderated by up and down votes, brigading is the act of silencing dissent by upvoting or downvoting en masse.  Brigades often form because one community links a thread from another community.  If you are coming to the link from another community you should realize you are acting as a statistical representative of that community and you should act as minimalist as possible to avoid overthrowing the ecosystem in the thread.  A good rule of thumb is to avoid voting a lot more than you comment, so if you make 2 comments in a thread, you can maybe upvote the comments you were responding to and upvote the thread itself and try to avoid influencing other conversations going on in the thread that you havent participated in.  Please see the following section on spam to avoid commenting too much in a thread.</p>
+<h2><strong>Spamming</strong></h2>
+<h3><em>Why Not Spam?</em></h3>
+<p>Humans can only parse so much information, and we need to be cautious that we don't overload the community with volumes of unnecessary messages.  We can see the overwhelmingly negative reaction to spam in the recent attacks by an ethereum supporter that sent several messages using dummy accounts to thousands of users on the bitcoin subreddit.  A short term boost in popularity does not compensate the tarnish on the collective memory; the ends do not justify the means because there is no end to what we are doing here, we are the future.  Therefore we cannot afford to tarnish our reputation by intentionally overloading communication channels.  Remember that in most situations it only takes 1 or 2 well-written visible comments to get the point accross.</p>
+<h3><em>Comment Spam</em></h3>
+<p>To avoid overwhelming a comments section with posts from a single mindset, please scan through the current comments to see if anyone has already said what you want to say, then consider replying to one of the current comments instead of starting your own comment thread.  Think about what major discussions you want to begin or continue in this thread and condense them down into replies to one or two posts.  If you are joining this thread from an outside community, do not reply to every comment in the thread, especially with many similar replies.  Also, if you know your local community is aware of a big thread, consider allowing others to answer questions instead of you if you've already posted a few times.  Try not to have 2 or more community members reply to the same post unless the content of the two posts is orthoganol (unrelated).  Remember that it is good to be excited, but try to represent not only your local community, but also the greater crypto community.  And be Nice!  The easiest way to avoid long rambling unproductive discussions is to withhold vitriole and inflammatory statements; keep your cool and reel in on your excitement when met with hostility.</p>
+<h2><strong>DOS</strong></h2>
+<p>We affirm to unilaterally reject all forms of direct denial of service as a means to achieve our goals or inflict punishment on our opposition.  No one is immune to such attacks, and they are in a similarly underhanded league as Doxxing or threatening physical violence.  Any individual that engages in such tactics is disavowed as a member of our community: we collectively do not consent to have such tactics performed in our name.</p>
+<h2><strong>Dangers of Playing Fair</strong></h2>
+<p>One of the most powerful arguments against foul play is a kind of mutually assured destruction, wherein individuals act in good faith so that others will too.  However, if another community is engaging in such tactics it can be very tempting to retaliate in order to compete.  I urge that even in this situation we should take the high road and avoid sinking to their level.  There is some flexibility in the rules outlined here, and that flexibility can be used to push back some against unfair tactics.  However, a flagrant disregard for fair play is best met with awareness and patience; realize that this battle is lost but in so doing your opponent has lost the bigger war.  Best to cut your own losses and distance yourself from the attacker, letting themselves prove their own dishonesty to the greater community.</p>
+<p><strong>Now go out there and be your respectful, brilliant, and amicable best!</strong></p>
+
+      
+    </article>
+  </div>
+</div>
+
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div id="app-footer">
+  <footer class="footer footer-branded">
+
+    <div class="container">
+      <nav class="pull-left col-xs-12 col-md-10">
+        <ul>
+          <li role="presentation"><a href="/about">About Daology</a></li>
+          <li role="presentation"><a href="/terms">Terms</a></li>
+          <li role="presentation"><a href="/privacy">Privacy</a></li>
+          <li role="presentation"><a href="/cookies">Cookies</a></li>
+          <li role="presentation"><a href="/support">Support</a></li>
+        </ul>
+      </nav>
+      <div class="copyright col-xs-12 col-md-2 pull-right">
+        &copy; 2017 Daology, LLC
+      </div>
+    </div>
+  </footer>
+</div>
+    </div>
+      
+
+
+  
+  
+
+    
+
+    
+
+    
+      <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+      <script src="//code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/highlight.js/latest/highlight.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+      <script src="/static/public/javascripts/dao.min.js"></script>
+    
+
+  
+
+
+
+  <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='https://www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-62932153-1','auto');ga('send','pageview');
+  </script>
+
+  </body>
+  
+  
+</html>

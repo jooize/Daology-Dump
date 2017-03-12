@@ -1,0 +1,322 @@
+<!-- extend base layout -->
+
+<!doctype html>
+<html lang="">
+  <head>
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Daology</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/static/public/images/favicon.ico">
+
+    
+  
+  
+
+    
+      <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic|Lato:400,700|Inconsolata' rel='stylesheet' type='text/css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/highlight.js/latest/styles/github.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/flick/jquery-ui.css">
+      <link rel="stylesheet" href="/static/assets/stylesheets/_vendor/jquery.tagit.min.css">
+
+      <link rel="stylesheet" href="/static/public/stylesheets/dao.min.css">
+    
+
+    
+
+    
+
+  
+
+    
+  
+  
+
+    
+
+    
+      <script src="/static/assets/javascripts/vendor/moment.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/contrib/auto-render.min.js"></script>
+    
+
+    
+
+  
+
+  </head>
+  <body role="document">
+    <div id="fullpage_wrapper">
+    
+      <div id="app-navbar">
+  <nav class="navbar" role="navigation">
+    <div class="container-fluid">
+      <div class="brand-bar row">
+        <div class="col-md-12">
+          <button id="menu-toggle" type="button" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar bar1"></span>
+            <span class="icon-bar bar2"></span>
+            <span class="icon-bar bar3"></span>
+          </button>
+          <a class="word_mark" href="/" name="home_link">daology</a>
+          
+        </div>
+      </div>
+      <div class="primary_nav row">
+        <div class="col-md-12">
+          <div class="collapse navbar-collapse" id="app-navbar-collapse">
+            <ul class="subnav">
+              <li class="subnav-item"><a href="/organizations/" name="dao_list_link">Organizations</a></li>
+              <li class="subnav-item"><a href="/articles" name="dao_list_link">Articles</a></li>
+              <li class="subnav-item"><a href="/proposals" name="dao_list_link">Proposals</a></li>
+              
+              <li class="subnav-item"><a href="/login" name="login_link" class="signin_btn">Sign in with Github</a></li>
+              
+
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+</div>
+      
+  
+  
+
+
+      
+
+  
+
+  
+
+  
+
+  
+
+
+
+      <div class="main row">
+        <div class="container">
+          <header class="row page_title">
+            
+            <div class="row">
+              <div class="page_actions col-md-12 pull-right">
+                <ul>
+                
+  <li class="action_btn"><a href="/proposals/d9fee1a6617a7f0201afc61bc61f548b98bcb62d/raw" target="_blank" class="btn btn-sm btn-primary">Raw</a></li>
+  
+
+
+                
+                  
+
+
+                
+                </ul>
+              </div>
+            </div>
+            
+            
+            <div class="col-xs-9 col-md-11">
+              <span class="supertitle">
+                
+  Proposal  <span style="breadcrumb-separator">// </span><a href="/organizations/Nu">Nu</a> <span style="breadcrumb-separator">/</span> <a href="/organizations/Nu/NuBits">NuBits</a> 
+
+              </span>
+              <h1>
+                
+  Accessible Liquidity - Encompassing NuLagoon Contract
+
+              </h1>
+            </div>
+          </header>
+          <section class="row page_content">
+            <div class="col-md-12">
+              
+<div class="row container">
+
+  <div class="col-md-4 sidebar">
+
+    <div class="scroll_title">
+      <p class="supertitle">Proposal  <span style="breadcrumb-separator">//</span> Nu <span style="breadcrumb-separator">/</span> NuBits</p>
+      <p class="title">Accessible Liquidity - Encompassing NuLagoon Contract</p>
+      <p class="author">By
+        nagalim
+        
+      </p>
+      <p class="meta_text date">
+        <script>
+document.write(moment("2016-04-30T17:17:35 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+        
+      </p>
+      <hr>
+      <div class="content-toc"></div>
+    </div>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="meta_text">
+          <a href="/u/nagalim/">
+            <img src="https://avatars.githubusercontent.com/u/12321025?v=3" class="profile">
+            <div class="authorname_block">
+                <div class="nolink">By nagalim</div>
+                <div class="nickname">@nagalim</div>
+              </div>
+            
+          </a>
+        </p>
+        <div class="row">
+          <div class="col-md-12">
+          <p class="meta_text date">
+            <script>
+document.write(moment("2016-04-30T17:17:35 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+            
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="sidebar_title">Text Hash ( RIPEMD-160 )</p>
+        <p class="meta_text hash">9d3538c6e95e0cfeae7afeeb5e82874a25040276  </p>
+      </div>
+    </div>
+    
+
+    
+
+    
+    
+
+  
+
+  
+
+
+
+  </div>
+
+  
+  
+    <div class="content_body col-md-8">
+  
+
+
+
+
+    
+    <div class="reading-time-wrapper" data-target="d9fee1a6617a7f0201afc61bc61f548b98bcb62d">
+    <span class="reading-time"></span> read (<span class="word-count"></span> words)
+  </div>
+
+    <article class="rtCalc no-fouc" id="d9fee1a6617a7f0201afc61bc61f548b98bcb62d">
+      
+        <h2>Funding and Accountability</h2>
+<p>NuLagoon support will continue indefinitely.  Starting from the day in UTC that this motion passes and onward the compensation for active NuLagoon liquidity operations will be $150/day.  Days in May before the passage of this motion will be prorated at $167/day.</p>
+<p>A monthly report must be submitted by NuLagoon in a public, shareholder accessible way no sooner than 5 days before the first of the month.  There will then be a 10 day grace period whereby shareholders have time to digest the document and potentially respond via motion.  The document has no governing restrictions but must be communicated properly as the monthly report.</p>
+<p>The reward will be paid by FLOT monthly, though NuLagoon may resort back to shareholders if FLOT is unresponsive for 5 days after the 10 day grace period has passed.  Shareholders will then be obliged to pass a grant proposal within 10 days (25 days after the report was originally submitted) if NuLagoon has satisfied contract.</p>
+<h2>Goals</h2>
+<p>The primary goal of NuLagoon is to provide accessible liquidity to specific supported trading pairs in the network in a reliable fashion.  The general motivation for this effort is to increase nubit adoption in the network.  This motion will seek to provide NuLagoon with a constant stream of revenue independent of service such that the organization can be more flexible.  However, while shareholders keep in mind the motivation for paying NuLagoon, the liquidity providers of NuLagoon must focus on the primary goal of providing liquidity to the network in specific ways.</p>
+<h2>NuLagoon Trading Pairs</h2>
+<p>A NuLagoon trading pair (NTP) is any tading pair suoported officially by NuLagoon.  NuLagoon may support up to 5 NTP, but must support at least 3.  NuLagoon will seek to use the same price feed mechanisms as other operations functioning on the same NTP.  The NuLagoonTube is considered an NTP.</p>
+<h2>Merit Thresholds</h2>
+<p>To aid in the direct measurement of NuLagoon service quality, shareholders can observe the imbalance of NTPs that NuLagoon supports.  If an NTP that NuLagoon is responsible for has less than 10% liquidity on bid or ask side, measured using a 1.5%, this should be considered of bad <strong>merit</strong>.  Conversely, if neither side is below 40% this is of good merit.  Considering how long the NTP is in each of these states gives some indication of NuLagoon's performance.  The liquidity considered here includes all third party market orders in addition to NuLagoon's.</p>
+<h2>Liquidity Index</h2>
+<p>The magnitude of liquidity on an exchange is also very important.  To avoid overloading shareholders with large numbers, the <strong>liquidity index</strong> for an NTP will be measured as follows:
+LI = log ( A + B )
+Where log () is the logarithm in base 10, A is the total volume of ask orders on the order book, and B is the total bid volume on the order book, measured within 1.5% offset of the price feed.</p>
+<h2>T4 Obligations</h2>
+<p>Nu multisig reserves should seek to rebalance the network using NuLagoon.  As this is compulsory, NuLagoon must offer a Nu-specific buy/sell price (and/or fee) to at least one Nu multisig nubit address and one Nu multisig bitcoin address.  If either address is compromised, a new address pair should be chosen.  If every signer of the address pair (limited to 1 nbt and 1 btc pair) comes to full consensus that NuLagoom is offering an unrealistic or otherwise manipulated price or fee, NuLagoon funding will be reduced to $0/day until at least one member of each multisig states that the price is fair once again.</p>
+<h2>Automation and Future Services</h2>
+<p>Shareholders encourage NuLagoon to properly balance present and future liquidity concerns.  The funds given are to be used at the discretion of the pool manager, and though they must ultimately report it to Nu, they have full authority to use the funds granted to improve the service NuLagoon provides.</p>
+<h2>A Best Efforts Operation</h2>
+<p>The concepts of merit and accountability discussed in this motion are guidelines.  The contract between NuShare holders and NuLagoon can and should be flexible and trusted.  If, for example, NuLagoon would rather use 2% as the offset than 1.5%, it should take efforts to reveal the appropriate statistics in a transparent way.  In this same example, one way to do that would be to form consensus with a service like ALix to adjust the reported offsets of liquidity.  A more complicated but prevalent concern would be the price feed used, which should be agreed upon in a consensus process that is beyond the scope of this motion.</p>
+<p>This motion overrides any contradicting previous motions, though the concepts and precidents set should still be acknowledged and used as guidelines.</p>
+<hr>
+<p><a href="https://daology.org/p/d9fee1a6617a7f0201afc61bc61f548b98bcb62d">Proposal</a> created with <a href="https://daology.org">Daology.org</a> by <a href="https://daology.org/u/nagalim">nagalim</a> for <a href="https://daology.org/o/Nu">Nu</a></p>
+
+      
+    </article>
+  </div>
+</div>
+
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div id="app-footer">
+  <footer class="footer footer-branded">
+
+    <div class="container">
+      <nav class="pull-left col-xs-12 col-md-10">
+        <ul>
+          <li role="presentation"><a href="/about">About Daology</a></li>
+          <li role="presentation"><a href="/terms">Terms</a></li>
+          <li role="presentation"><a href="/privacy">Privacy</a></li>
+          <li role="presentation"><a href="/cookies">Cookies</a></li>
+          <li role="presentation"><a href="/support">Support</a></li>
+        </ul>
+      </nav>
+      <div class="copyright col-xs-12 col-md-2 pull-right">
+        &copy; 2017 Daology, LLC
+      </div>
+    </div>
+  </footer>
+</div>
+    </div>
+      
+
+
+  
+  
+
+    
+
+    
+
+    
+      <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+      <script src="//code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/highlight.js/latest/highlight.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+      <script src="/static/public/javascripts/dao.min.js"></script>
+    
+
+  
+
+
+
+  <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='https://www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-62932153-1','auto');ga('send','pageview');
+  </script>
+
+  </body>
+  
+  
+</html>

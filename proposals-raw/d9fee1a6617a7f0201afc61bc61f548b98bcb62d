@@ -1,0 +1,35 @@
+##Funding and Accountability
+NuLagoon support will continue indefinitely.  Starting from the day in UTC that this motion passes and onward the compensation for active NuLagoon liquidity operations will be $150/day.  Days in May before the passage of this motion will be prorated at $167/day.  
+
+A monthly report must be submitted by NuLagoon in a public, shareholder accessible way no sooner than 5 days before the first of the month.  There will then be a 10 day grace period whereby shareholders have time to digest the document and potentially respond via motion.  The document has no governing restrictions but must be communicated properly as the monthly report.
+
+The reward will be paid by FLOT monthly, though NuLagoon may resort back to shareholders if FLOT is unresponsive for 5 days after the 10 day grace period has passed.  Shareholders will then be obliged to pass a grant proposal within 10 days (25 days after the report was originally submitted) if NuLagoon has satisfied contract.
+
+##Goals
+The primary goal of NuLagoon is to provide accessible liquidity to specific supported trading pairs in the network in a reliable fashion.  The general motivation for this effort is to increase nubit adoption in the network.  This motion will seek to provide NuLagoon with a constant stream of revenue independent of service such that the organization can be more flexible.  However, while shareholders keep in mind the motivation for paying NuLagoon, the liquidity providers of NuLagoon must focus on the primary goal of providing liquidity to the network in specific ways.
+
+##NuLagoon Trading Pairs
+A NuLagoon trading pair (NTP) is any tading pair suoported officially by NuLagoon.  NuLagoon may support up to 5 NTP, but must support at least 3.  NuLagoon will seek to use the same price feed mechanisms as other operations functioning on the same NTP.  The NuLagoonTube is considered an NTP.
+
+##Merit Thresholds
+To aid in the direct measurement of NuLagoon service quality, shareholders can observe the imbalance of NTPs that NuLagoon supports.  If an NTP that NuLagoon is responsible for has less than 10% liquidity on bid or ask side, measured using a 1.5%, this should be considered of bad **merit**.  Conversely, if neither side is below 40% this is of good merit.  Considering how long the NTP is in each of these states gives some indication of NuLagoon's performance.  The liquidity considered here includes all third party market orders in addition to NuLagoon's.
+
+##Liquidity Index
+The magnitude of liquidity on an exchange is also very important.  To avoid overloading shareholders with large numbers, the **liquidity index** for an NTP will be measured as follows:
+LI = log ( A + B )
+Where log () is the logarithm in base 10, A is the total volume of ask orders on the order book, and B is the total bid volume on the order book, measured within 1.5% offset of the price feed.
+
+##T4 Obligations
+Nu multisig reserves should seek to rebalance the network using NuLagoon.  As this is compulsory, NuLagoon must offer a Nu-specific buy/sell price (and/or fee) to at least one Nu multisig nubit address and one Nu multisig bitcoin address.  If either address is compromised, a new address pair should be chosen.  If every signer of the address pair (limited to 1 nbt and 1 btc pair) comes to full consensus that NuLagoom is offering an unrealistic or otherwise manipulated price or fee, NuLagoon funding will be reduced to $0/day until at least one member of each multisig states that the price is fair once again.
+
+##Automation and Future Services
+Shareholders encourage NuLagoon to properly balance present and future liquidity concerns.  The funds given are to be used at the discretion of the pool manager, and though they must ultimately report it to Nu, they have full authority to use the funds granted to improve the service NuLagoon provides.
+
+##A Best Efforts Operation
+The concepts of merit and accountability discussed in this motion are guidelines.  The contract between NuShare holders and NuLagoon can and should be flexible and trusted.  If, for example, NuLagoon would rather use 2% as the offset than 1.5%, it should take efforts to reveal the appropriate statistics in a transparent way.  In this same example, one way to do that would be to form consensus with a service like ALix to adjust the reported offsets of liquidity.  A more complicated but prevalent concern would be the price feed used, which should be agreed upon in a consensus process that is beyond the scope of this motion.
+
+This motion overrides any contradicting previous motions, though the concepts and precidents set should still be acknowledged and used as guidelines.
+
+---
+
+[Proposal](https://daology.org/p/d9fee1a6617a7f0201afc61bc61f548b98bcb62d) created with [Daology.org](https://daology.org) by [nagalim](https://daology.org/u/nagalim) for [Nu](https://daology.org/o/Nu)

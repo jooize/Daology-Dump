@@ -1,0 +1,375 @@
+<!-- extend base layout -->
+
+<!doctype html>
+<html lang="">
+  <head>
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Daology</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/static/public/images/favicon.ico">
+
+    
+  
+  
+
+    
+      <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic|Lato:400,700|Inconsolata' rel='stylesheet' type='text/css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/highlight.js/latest/styles/github.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/flick/jquery-ui.css">
+      <link rel="stylesheet" href="/static/assets/stylesheets/_vendor/jquery.tagit.min.css">
+
+      <link rel="stylesheet" href="/static/public/stylesheets/dao.min.css">
+    
+
+    
+
+    
+
+  
+
+    
+  
+  
+
+    
+
+    
+      <script src="/static/assets/javascripts/vendor/moment.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/contrib/auto-render.min.js"></script>
+    
+
+    
+
+  
+
+  </head>
+  <body role="document">
+    <div id="fullpage_wrapper">
+    
+      <div id="app-navbar">
+  <nav class="navbar" role="navigation">
+    <div class="container-fluid">
+      <div class="brand-bar row">
+        <div class="col-md-12">
+          <button id="menu-toggle" type="button" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar bar1"></span>
+            <span class="icon-bar bar2"></span>
+            <span class="icon-bar bar3"></span>
+          </button>
+          <a class="word_mark" href="/" name="home_link">daology</a>
+          
+        </div>
+      </div>
+      <div class="primary_nav row">
+        <div class="col-md-12">
+          <div class="collapse navbar-collapse" id="app-navbar-collapse">
+            <ul class="subnav">
+              <li class="subnav-item"><a href="/organizations/" name="dao_list_link">Organizations</a></li>
+              <li class="subnav-item"><a href="/articles" name="dao_list_link">Articles</a></li>
+              <li class="subnav-item"><a href="/proposals" name="dao_list_link">Proposals</a></li>
+              
+              <li class="subnav-item"><a href="/login" name="login_link" class="signin_btn">Sign in with Github</a></li>
+              
+
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+</div>
+      
+  
+  
+
+
+      
+
+  
+
+  
+
+  
+
+  
+
+
+
+      <div class="main row">
+        <div class="container">
+          <header class="row page_title">
+            
+            <div class="row">
+              <div class="page_actions col-md-12 pull-right">
+                <ul>
+                
+  <li class="action_btn"><a href="/proposals/c1d00af403da1f32dba1d261889056f96d36605e/raw" target="_blank" class="btn btn-sm btn-primary">Raw</a></li>
+  
+
+
+                
+                  
+
+
+                
+                </ul>
+              </div>
+            </div>
+            
+            
+            <div class="col-xs-9 col-md-11">
+              <span class="supertitle">
+                
+  Proposal  <span style="breadcrumb-separator">// </span><a href="/organizations/Nu">Nu</a> <span style="breadcrumb-separator">/</span> <a href="/organizations/Nu/NuBits">NuBits</a> 
+
+              </span>
+              <h1>
+                
+  Granting NBT to NuLagoon to Create Exchange-Traded Pool A, BearBTC, BullBTC and Build-In Exchange
+
+              </h1>
+            </div>
+          </header>
+          <section class="row page_content">
+            <div class="col-md-12">
+              
+<div class="row container">
+
+  <div class="col-md-4 sidebar">
+
+    <div class="scroll_title">
+      <p class="supertitle">Proposal  <span style="breadcrumb-separator">//</span> Nu <span style="breadcrumb-separator">/</span> NuBits</p>
+      <p class="title">Granting NBT to NuLagoon to create exchange-traded pool A, BearBTC, BullBTC and build-in exchange</p>
+      <p class="author">By
+        nulagoon
+        
+      </p>
+      <p class="meta_text date">
+        <script>
+document.write(moment("2016-05-09T02:19:20 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+        &nbsp;|&nbsp;&nbsp;<span class="updated">Updated: <script>
+document.write(moment("2016-05-09T21:10:58 Z").calendar());
+</script></span>
+        
+      </p>
+      <hr>
+      <div class="content-toc"></div>
+    </div>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="meta_text">
+          <a href="/u/nulagoon/">
+            <img src="https://avatars.githubusercontent.com/u/16160263?v=3" class="profile">
+            <div class="authorname_block">
+                <div class="nolink">By nulagoon</div>
+                <div class="nickname">@nulagoon</div>
+              </div>
+            
+          </a>
+        </p>
+        <div class="row">
+          <div class="col-md-12">
+          <p class="meta_text date">
+            <script>
+document.write(moment("2016-05-09T02:19:20 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+            
+            &nbsp;|&nbsp;&nbsp;
+            
+            <span class="updated">Updated: <script>
+document.write(moment("2016-05-09T21:10:58 Z").calendar());
+</script></span>
+            
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="sidebar_title">Text Hash ( RIPEMD-160 )</p>
+        <p class="meta_text hash">f24470e836ed480b3b5a39c4a7c1fe7df111cf3d  </p>
+      </div>
+    </div>
+    
+
+    
+
+    
+    
+
+  
+
+  
+
+
+
+  </div>
+
+  
+  
+    <div class="content_body col-md-8">
+  
+
+
+
+
+    
+    <div class="reading-time-wrapper" data-target="c1d00af403da1f32dba1d261889056f96d36605e">
+    <span class="reading-time"></span> read (<span class="word-count"></span> words)
+  </div>
+
+    <article class="rtCalc no-fouc" id="c1d00af403da1f32dba1d261889056f96d36605e">
+      
+        <h1>Proposal Begin</h1>
+<p>We would like to create and operate a new liquidity pool: Exchange-traded Pool A, two sub-funds of Exchange-traded Pool A: BearBTC and BullBTC, and a new exchange to trade them. Their features are outlined as following.</p>
+<h2>Basic Features:</h2>
+<ul>
+<li><p>The money from the sale of NuLagoon ETP A will be used in the liquidity operation to support NuBits pegging at $1. As a compensation, NuShareholders grant NuLagoon custodian fee, which will be shared by liquidity Pool A, C, D and ETP A.</p>
+</li>
+<li><p>Typically, about half of the holding in ETP A will be in the form of BTC. As a result, the NAV of ETP A will fluctuate along the price of BTC. For users who are familiar with NuLagoon,  just think that ETP A's NAV will go exact same way as Pool A.</p>
+</li>
+<li><p>Using coin control feature to send 1000 (or more) NBT to any of ETP A sub-funds addresses to purchase ETP A shares.</p>
+</li>
+<li><p>Using coin control feature to send some NBT from a specific user address to any of ETP A sub-funds addresses to redeem ETP A shares.</p>
+</li>
+<li><p>ETP A is open for purchase and redemption once a month. Before the total asert of ETP A is more than $40,000 and the build-in exchange can provide normal liquidity at its close period, it opens once a week. The close period could be extended to 1 month or even longer in future if there is ample liquidity of BearBTC and BullBTC in exchanges.</p>
+</li>
+</ul>
+<h2>Advanced Features</h2>
+<ul>
+<li><p>2 shares of ETP A equal to 1 share of BearBTC and 1 share of BullBTC.</p>
+</li>
+<li><p>BearBTC is an inverse ETF. Its NAV move exact 2 times of Bitcoin price move in the opposite direction.</p>
+</li>
+<li><p>BullBTC is an leverage ETF. Its NAV move approximately 2.5 times of Bitcoin price in the same direction.</p>
+</li>
+<li><p>BearBTC and BullBTC share holders can transfer his/her shares to another one's UserAddr.</p>
+</li>
+<li><p>During the close period of ETP A, BearBTC and BullBTC can trade with NuBits on the exchange.</p>
+</li>
+<li><p>BearBTC or BullBTC will pay dividends to holders when one's NAV is 5 times or more than another's.</p>
+</li>
+</ul>
+<h1>Highlights for NuShareholders</h1>
+<ul>
+<li><p>ETP A only open once each month and can even close for longer in the future. This will address the issue where there is increased risk that the peg will be lost that emerges fairly quickly. In that case, if people can, they may remove liquidity just at the time it is most needed. This panic among liquidity providers may cause the peg to break as liquidity disappears, whereas If they are contractually obligated to keep providing liquidity for weeks or months and there is a way to enforce that, then we will have liquidity even in high risk scenarios.</p>
+</li>
+<li><p>BearBTC and BullBTC will be very attractive to the vast majority of Bitcoin investors. Besides being listed and traded on build-in exchanges, they can even be listed on other exchanges. The demand of BearBTC and BullBTC will increase demand of ETP A, and eventually increase NuBits demand.</p>
+</li>
+<li><p>ETP A will not charge NuShareholders extra custodian fee which is not included in previous and effective motion of NuLagoon custodian fee.</p>
+</li>
+<li><p>BearBTC and BullBTC build-in exchange will set trading fee to zero at starting stage. All the traders have to pay is just NuBits blockchain transaction fee. So it will bring much more transaction, i.e. consumption to NuBits.</p>
+</li>
+<li><p>If exchange fee is charged in future, half of the profit made by exchange fee will be shared by NuShareholders until the 38,500 NBT of investment is recouped.</p>
+</li>
+</ul>
+<h1>Default risk of NuLagoon</h1>
+<ul>
+<li><p>If ETP A is success and the fund come from it is more than what needed in NuBits liquidity operation. We can just burn the excess part of the fund in NuBits. At the date ETP A is open for redemption, we request FLOT team to grant NuBits to us to pay the user redemptions. Because all the activity is public on NuBits block chain. It is very easy for FLOT team to verify the request. In this way, we can mitigate the default risk of our side.</p>
+</li>
+<li><p>After B&amp;C Exchange begin work, NuLagoon can move its liquidity operation to B&amp;C Exchange and use its escrow function. All the ETP A fund can be locked on the B&amp;C Exchange's multi-signature address during its close period. Then we can not really run away with those money.</p>
+</li>
+</ul>
+<h1>Proposal for NBT grant</h1>
+<ul>
+<li><p>We realized that NuLagoon can only succeed as long as NuBits succeeds. So we decided not to charge extra custodian fee and exchange trades fee on our next NuLagoon product. Instead, we come to NuShareholders to fund our project.</p>
+</li>
+<li><p>We would like to ask for $16,500 in NBT for the creation of ETP A, BearBTC, BullBTC, and $22,000 in NBT for BearBTC, BullBTC build-in exchange.</p>
+</li>
+<li><p>The operation fee of ETP A, BearBTC, BullBTC and build-in exchange will be covered by existed and effective NuLagoon custodian fee motions. No more extra fee would be charged to NuShareholders.</p>
+</li>
+<li><p>NBT will be paid by FLOT team in three payments.</p>
+</li>
+</ul>
+<p>a) $10,000 in NBT upfront will be paid after the motion is approved and passed by NuShareholders,</p>
+<p>b) $15,000 in NBT after ETP A, BearBTC, BullBTC start operation. Including all the off-exchange interfaces: purchase, redemption and transfer. NAV calculation for ETP A, BearBTC, BullBTC, and dividend payment &amp; NAV adjustment features. Also basic web pages to show NAVs, Userholding and Transfer records.</p>
+<p>c)  $13,500 in NBT after build-in exchange start operation. Including all the on-exchange interfaces: deposit, selling orders, buying orders, cancel orders and withdraw. Also basic web pages to show exchange orderbook, cash holding and trade records.</p>
+<h1>Proposal end</h1>
+<hr>
+<p><a href="https://daology.org/p/c1d00af403da1f32dba1d261889056f96d36605e">Proposal</a> created with <a href="https://daology.org">Daology.org</a> by <a href="https://daology.org/u/nulagoon">nulagoon</a> for <a href="https://daology.org/o/Nu">Nu</a></p>
+
+      
+    </article>
+  </div>
+</div>
+
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div id="app-footer">
+  <footer class="footer footer-branded">
+
+    <div class="container">
+      <nav class="pull-left col-xs-12 col-md-10">
+        <ul>
+          <li role="presentation"><a href="/about">About Daology</a></li>
+          <li role="presentation"><a href="/terms">Terms</a></li>
+          <li role="presentation"><a href="/privacy">Privacy</a></li>
+          <li role="presentation"><a href="/cookies">Cookies</a></li>
+          <li role="presentation"><a href="/support">Support</a></li>
+        </ul>
+      </nav>
+      <div class="copyright col-xs-12 col-md-2 pull-right">
+        &copy; 2017 Daology, LLC
+      </div>
+    </div>
+  </footer>
+</div>
+    </div>
+      
+
+
+  
+  
+
+    
+
+    
+
+    
+      <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+      <script src="//code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/highlight.js/latest/highlight.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+      <script src="/static/public/javascripts/dao.min.js"></script>
+    
+
+  
+
+
+
+  <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='https://www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-62932153-1','auto');ga('send','pageview');
+  </script>
+
+  </body>
+  
+  
+</html>

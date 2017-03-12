@@ -1,0 +1,38 @@
+Hi Shareholders.
+
+Despite saying that the new version of the ALP  software would be ready for the next operation of NuPool, it now looks like that won't be the case. As such, I would like to extend the current operation of NuPool for another 30 days. 
+The parameters will remain the same as the current operation.
+
+The work on the new version of the software is going well. You can keep tabs on the state in the chat room here https://gitter.im/inuitwallet/ALP-Server and on the github repo here https://github.com/inuitwallet/ALP-Server.
+
+We currently have funds for another 9 days (approx) of operation. If this proposal doesn't pass within that time, I am willing to fund the pool myself for a few extra days.  
+
+The proposal:
+
+NuPool will operate on Poloniex and Bittrex for a 30 day period. The total target of the operation will be 50,000 NBT split 4:1 between the two supported exchanges in favour of Poloniex. This gives a target of 40,000 NBT split equally between bid and ask on Poloniex and a target of 10,000 NBT split equally between bid and ask on Bittrex.
+
+The pool reward will be lowered to 0.24% per day which translates to 7.2% for the duration of the operation.
+
+The figures are:
+
+Duration: 30 Days
+Daily Rate: 0.24%
+Total Rate: 7.2%
+
+Poloniex: 40,000 NBT > 20,000 BID | 20,000 ASK
+Bittrex: 10,000 NBT > 5,000 BID | 5,000 ASK
+
+Server Tolerance: 0.0105 or 1.05%
+Spread After Fees:
+Poloniex (fee = 0.2%) - 1.1% SAF
+Bittrex (fee = 0.25%) - 1% SAF
+
+Grant Amount: 50,000 x 7.2% = 3600 NBT
+Pool Fee: 50,000 x 1% = 500 NBT
+
+
+Total Grant Requested: 4100 NBT
+
+---
+
+[Proposal](https://daology.org/p/bdd390c463f4b8cff3ffc3ecca4b74694cf7f785) created with [Daology.org](https://daology.org) by [inuitwallet](https://daology.org/u/inuitwallet) for [Nu](https://daology.org/o/Nu)

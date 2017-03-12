@@ -1,0 +1,128 @@
+## How to use
+
+Replace every entry like `InputTransaction1ID` with the actual value it describes.
+
+**Example:**
+
+- MultisigAddress → `9CXZXhnhp8HBx12Zr6JJmJmTm8qQWrsR6r`
+- InputTransaction1ID → `bde678d3497d794992840d37b30637b03ba0c72b4355cc48bc42bf261fddd9d9`
+- InputTransaction1N → `1`
+- TargetAddress1 → `8dueh4ZZnifxdeVezqm8kEPEiiq2XZkdCa`
+- TargetAddress1Amount → `0.99`
+
+`<RawInputTransaction1>` means an output (from a command) that you use to replace an entry with.
+
+You need to know `InputTransaction1ID` to get `<RawInputTransaction1>` that you then replace every mention of `RawInputTransaction1` with.
+
+**Template:**
+
+```
+createrawtransaction '[{"txid":"InputTransaction1ID","vout":InputTransaction1N}]' '{"TargetAddress1":TargetAddress1Amount}'
+```
+```
+<RawTransaction>
+```
+
+**Actual command and output:**
+
+```
+createrawtransaction '[{"txid":"bde678d3497d794992840d37b30637b03ba0c72b4355cc48bc42bf261fddd9d9","vout":1}]' '{"8dueh4ZZnifxdeVezqm8kEPEiiq2XZkdCa":0.99}'
+```
+```
+01000000f084bb5601d9d9dd1f26bf42bc48cc55432bc7a03bb03706b3370d849249797d49d378e6bd0100000000ffffffff01ac260000000000001976a914fa5cb066a539b79ff3188b523f6a0933554aa0ea88ac0000000038
+```
+
+## Get transaction IDs
+
+Address: `MultisigAddress`
+
+Use [B&C Explorer](https://bcblockexplorer.com/) to get transaction IDs.
+
+Transaction #1 ID: `InputTransaction1ID`
+
+## Aquire inputs
+
+```
+getrawtransaction InputTransaction1ID
+```
+```
+<RawInputTransaction1>
+```
+
+```
+decoderawtransaction RawInputTransaction1
+```
+```
+[...]
+{
+"value" : <InputTransaction1Amount>,
+"n" : <InputTransaction1N>,
+"scriptPubKey" : {
+"asm" : "OP_HASH160 xxxxxxxxxxc6c352defa2dda8cd6628df7454c50 OP_EQUAL",
+"hex" : "<InputTransaction1ScriptPubKey>",
+"type" : "scripthash",
+"reqSigs" : 1,
+"addresses" : [
+"<MultisigAddress>"
+]
+}
+}
+[...]
+```
+
+### Input #1
+
+- Amount: `InputTransaction1Amount` BKS
+- N: `InputTransaction1N`
+- Script: `InputTransaction1ScriptPubKey`
+
+
+# (Re-)create multisig address in wallet
+
+- Set `RequiredSigners` to `3` for a 3-of-x multisig address.
+- Add `x` amount of public keys that those in possession of their respective private keys should be able to sign transactions for the multisig address.
+
+### 3-of-5 multisig address
+
+```
+createmultisig RequiredSigners '["PublicKey1", "PublicKey2", "PublicKey3", "PublicKey4", "PublicKey5"]'
+```
+```
+{
+"address" : "MultisigAddress",
+"redeemScript" : "RedeemScript"
+}
+```
+
+## Create transaction
+
+Any unspent input amount becomes the transaction fee.
+
+```
+createrawtransaction '[{"txid":"InputTransaction1ID","vout":InputTransaction1N}]' '{"TargetAddress1":TargetAddress1Amount}'
+```
+```
+<RawTransaction>
+```
+
+## Sign transaction
+
+Use a private key in WIF format corresponding to one of the public keys specified at creation.
+
+```
+signrawtransaction 'RawTransaction' '[{"txid":"InputTransaction1ID","vout":InputTransaction1N,"scriptPubKey":"InputTransaction1ScriptPubKey","redeemScript":"RedeemScript"}]' '["PrivateKeyWIF"]'
+```
+```
+{
+"hex" : "<SignedRawTransaction>",
+"complete" : false
+}
+```
+
+## Transaction
+
+Signed 1 of 3-of-5.
+
+```
+SignedRawTransaction
+```

@@ -1,0 +1,453 @@
+<!-- extend base layout -->
+
+<!doctype html>
+<html lang="">
+  <head>
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Daology</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/static/public/images/favicon.ico">
+
+    
+  
+  
+
+    
+      <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic|Lato:400,700|Inconsolata' rel='stylesheet' type='text/css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/highlight.js/latest/styles/github.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/flick/jquery-ui.css">
+      <link rel="stylesheet" href="/static/assets/stylesheets/_vendor/jquery.tagit.min.css">
+
+      <link rel="stylesheet" href="/static/public/stylesheets/dao.min.css">
+    
+
+    
+
+    
+
+  
+
+    
+  
+  
+
+    
+
+    
+      <script src="/static/assets/javascripts/vendor/moment.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/contrib/auto-render.min.js"></script>
+    
+
+    
+
+  
+
+  </head>
+  <body role="document">
+    <div id="fullpage_wrapper">
+    
+      <div id="app-navbar">
+  <nav class="navbar" role="navigation">
+    <div class="container-fluid">
+      <div class="brand-bar row">
+        <div class="col-md-12">
+          <button id="menu-toggle" type="button" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar bar1"></span>
+            <span class="icon-bar bar2"></span>
+            <span class="icon-bar bar3"></span>
+          </button>
+          <a class="word_mark" href="/" name="home_link">daology</a>
+          
+        </div>
+      </div>
+      <div class="primary_nav row">
+        <div class="col-md-12">
+          <div class="collapse navbar-collapse" id="app-navbar-collapse">
+            <ul class="subnav">
+              <li class="subnav-item"><a href="/organizations/" name="dao_list_link">Organizations</a></li>
+              <li class="subnav-item"><a href="/articles" name="dao_list_link">Articles</a></li>
+              <li class="subnav-item"><a href="/proposals" name="dao_list_link">Proposals</a></li>
+              
+              <li class="subnav-item"><a href="/login" name="login_link" class="signin_btn">Sign in with Github</a></li>
+              
+
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+</div>
+      
+  
+  
+
+
+      
+
+  
+
+  
+
+  
+
+  
+
+
+
+      <div class="main row">
+        <div class="container">
+          <header class="row page_title">
+            
+            <div class="row">
+              <div class="page_actions col-md-12 pull-right">
+                <ul>
+                
+  <li class="action_btn"><a href="/proposals/3323face040b3005c6805230f6ae3740fea78a05/raw" target="_blank" class="btn btn-sm btn-primary">Raw</a></li>
+  
+
+
+                
+                  
+
+
+                
+                </ul>
+              </div>
+            </div>
+            
+            
+            <div class="col-xs-9 col-md-11">
+              <span class="supertitle">
+                
+  Proposal  <span style="breadcrumb-separator">// </span><a href="/organizations/Nu">Nu</a>
+
+              </span>
+              <h1>
+                
+  Think Big, Act Small and Establish Revenue Stream
+
+              </h1>
+            </div>
+          </header>
+          <section class="row page_content">
+            <div class="col-md-12">
+              
+<div class="row container">
+
+  <div class="col-md-4 sidebar">
+
+    <div class="scroll_title">
+      <p class="supertitle">Proposal  <span style="breadcrumb-separator">//</span> Nu</p>
+      <p class="title">Think big, act small and establish revenue stream</p>
+      <p class="author">By
+        cybnate
+        
+      </p>
+      <p class="meta_text date">
+        <script>
+document.write(moment("2016-06-18T08:00:39 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+        &nbsp;|&nbsp;&nbsp;<span class="updated">Updated: <script>
+document.write(moment("2016-07-01T10:09:27 Z").calendar());
+</script></span>
+        
+      </p>
+      <hr>
+      <div class="content-toc"></div>
+    </div>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="meta_text">
+          <a href="/u/cybnate/">
+            <img src="https://avatars.githubusercontent.com/u/6694926?v=3" class="profile">
+            <div class="authorname_block">
+                <div class="nolink">By cybnate</div>
+                <div class="nickname">@cybnate</div>
+              </div>
+            
+          </a>
+        </p>
+        <div class="row">
+          <div class="col-md-12">
+          <p class="meta_text date">
+            <script>
+document.write(moment("2016-06-18T08:00:39 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+            
+            &nbsp;|&nbsp;&nbsp;
+            
+            <span class="updated">Updated: <script>
+document.write(moment("2016-07-01T10:09:27 Z").calendar());
+</script></span>
+            
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="sidebar_title">Text Hash ( RIPEMD-160 )</p>
+        <p class="meta_text hash">31c1190217cd7a764879675ceeb8321c3da0ecf3  </p>
+      </div>
+    </div>
+    
+    <hr>
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="sidebar_title">Tags</p>
+        
+        <script data-type="tagDataVar">
+    
+      var tagList = ["revenue", "peg", "model", "burn"];
+    
+  </script>
+  <ul class="readonly_tag_wrapper">
+  </ul>
+
+      </div>
+    </div>
+    
+
+    
+
+    
+    
+
+  
+
+  
+
+
+
+  </div>
+
+  
+  
+    <div class="content_body col-md-8">
+  
+
+
+
+
+    
+    <div class="reading-time-wrapper" data-target="3323face040b3005c6805230f6ae3740fea78a05">
+    <span class="reading-time"></span> read (<span class="word-count"></span> words)
+  </div>
+
+    <article class="rtCalc no-fouc" id="3323face040b3005c6805230f6ae3740fea78a05">
+      
+        <h3>Introduction</h3>
+<p>I'm really excited to be able to present this complete motion to the Shareholders which provides the steps towards establishing a US$1 peg and a sustainable revenue model for Nu to the Shareholders.</p>
+<p>As said the motion which establishes the peg back to US$1 and has a sustainable revenue model and provides an overview of the pro, cons, risks, benefits and costs. More work can be done on quantifying some items, but I believe it provides a good pictures of what it takes. It also contains some optional motions which can be progressed separately to further strengthen this motion.</p>
+<p>I like to thank @creon for the model which he presented in the forum and on which this proposal is mostly built upon. And @mhps for the overview of Nu's cost centres and reserves and the fiat gateway proposals. Both greatly inspired this motion.</p>
+<h3>Motion start</h3>
+<p>==================================</p>
+<h6>Overview / summary</h6>
+<p>The proposal establishes a US$1 peg and focuses on supporting B&amp;C and decentralized exchanges. It does this by reducing the NBT liabilities by burning them at a relatively high rate by protocol in a period of about 3 months to pay off debt and increase reserve rates to at least 50%. In the first period this also includes NSR auctioning until the 50% reserve mark is established and the peg is established at US$1.</p>
+<p>The burning will be embedded in the protocol and therefore requires a client update. The amount of burning relates to the coinage and therefore discourages use of NBT on centralized exchanges or holding them in off-line wallets for longer periods. NBT value will slowly erode by protocol and the fee is paid when transactions occur. To counteract the erosion NBT holders are encouraged to park against rates which shareholders will set according to the monetary policy.</p>
+<p>The Shareholders will determine the rates and with that control the monetary deflation rates and with that have the ability to increase or decrease velocity of NBT which attracts transaction fees. The monetary deflation and the transaction fees will provide a continuous revenue stream.</p>
+<p>The cost for the required development are no more than US$ 8k payable in NSR or BTC by FLOT. Cybnate will act as the custodian for this work and asks NSR 500k payable by FLOT or custodial grant on completion and public distribution of the updated Nu client supporting the new protocol.</p>
+<p>The main risk is that the new client doesn't reach the required uptake to activate the protocol.</p>
+<h6>Steps to implementation / timelines</h6>
+<p>The proposal leads you through the steps and provides some options along the way. I don't want to make it too prescriptive as I believe flexibility and agility during the execution is required as there will be many parameters to be considered.</p>
+<p><strong>Step 1 (Month 1)</strong><br>
+On passing of this proposal work on the protocol needs to start immediately as time is of the essence. This work will need to be paid from NSR sales and/or existing reserves. The cost of the development work is between US$ 5k and US$ 8k, including testing and packaging. When this proposal passes I will contract a developer and a tester/packager for this work.</p>
+<p><strong>Step 2 (Month 2-4)</strong><br>
+As Chronos already showed here: <a href="https://discuss.nubits.com/t/nu-can-thrive-heres-how/4177">https://discuss.nubits.com/t/nu-can-thrive-heres-how/4177</a> the amount of outstanding NuBits is too high to bring back a sustainable peg at once. So we need to reduce the amount of NBT in circulation over a period of time.</p>
+<p>With the new protocol in place there will still be no peg and NBT continues to be free floating. However there is a chance that the market price increases significantly as there is a chance for NBT to be sold at $1 again in the future. The rate may fluctuate strongly during this period. During this time no NBT grants should be issued. Any payments will be preferably in NSR or if not accepted in BTC.</p>
+<p>NSR sales will continue on a weekly bases during this period according to the existing motions and structures in place. This can be changed with other motions depending on developments during this period. It is up to FLOT discretion to use some of the proceeds and/or the reserves to buy cheap NBT (e.g. &lt;$0.50). This shouldn't exceed the cost to maintain basic infra as blockexplorer, forum, etc. (US$1,000/month) and pay for the protocol changes to be developed, tested and packaged in binaries for all users and Shareholders. NSR price may also rise with an increasing confidence that this business can be made profitable. This may significantly shorten this period as the 50% reserve level may be achieved earlier.</p>
+<p><strong>Optional supporting NBT pair on centralized exchanges:</strong><br>
+<em>When NSR shareholders want to support ongoing trading on centralized exchanges for e.g. for marketing purposes, continuing liquidity engines (as proposed by Phoenix) and/or to increase the NBT burning rates, development is likely necessary for those exchanges to maintain their listing. There are likely costs for that, and this will need to be paid out of the reserves or NSR sales.
+When this option is not taken a warning of the protocol change should go out to all exchanges listing NBT and it is highly likely that they will de-list NBT or increase the trading fees to counteract the NBT burns. Alternatively they could make preparations to park and maintain NBT before moving them in cold wallets. It requires ongoing work as parking terms will expire eventually and NBT will need to be re-parked. Possibly an auto repark option can be made, but this requires further discussion and is out of scope for this proposal and requires another motion to pass.</em></p>
+<p><strong>Step 3 (Month 4)</strong><br>
+The peg will be established as soon as the ratio reserves/NBT circulating (not parked) hits 50%. It also assumes that B&amp;C is working and that NBT can be listed. Nu will start providing liquidity walls on B&amp;C on popular pairs. This motion doesn't prescribe how and by who these walls are established. Nu already has infrastructure as ALPs and gateways available to provide the liquidity by LPs.</p>
+<p>At the same time walls can be established on NBT/fiat pairs only on centralised exchanges assuming these pairs still exist. Other pairs should be initially left for arbitragers until a profitable model of liquidity provision appreciating the risks of exchange failure has been established.</p>
+<p><strong>Optional Fiat Gateways:</strong><br>
+*Alternatively fiat/NBT trading can start with establishing a proposal like this: <a href="https://discuss.nubits.com/t/discussion-contract-to-create-web-interface-code-that-one-can-use-to-sell-buy-nubits-with-fiat-online/3567">https://discuss.nubits.com/t/discussion-contract-to-create-web-interface-code-that-one-can-use-to-sell-buy-nubits-with-fiat-online/3567</a> This would serve as entry and exit gateways from NBT to fiat and would support the peg. It should be considered to build this asap and the timing will depend on the level of NSR sales and reserves and risk appetites of shareholders to invest. It looks that some work is already started according to the thread.</p>
+<p>This will initially drain the reserves to some extent as there likely will still be sell pressure at the start, but this will stabilize quickly when confidence builds. This will be the case as long as it is clear reserves are adequate and revenues can be made topping up the reserves even further.
+For any costs related to the gateways a separate motion/grant will need to pass.*</p>
+<h3>Protocol configuration and establishing reserves</h3>
+<p>The target is to achieve 50% reserve before the $1 peg can be established and defended by Nu. I believe this is a level which will provide confidence to prevent a bank run in combination with the sustainable revenue model. This roughly requires a reduction to 100k NBT in circulation and selling an additional US$30k value of NSR assuming the US$20k we have currently in reserve (20 June).</p>
+<p>To achieve the 3-4 months timeline a reasonable agressive burn rate might need to be applied.
+A burn rate of e.g. 10% month through coinage accumulation would reduce 28% of circulating NBT. Assuming 30% is parked and approximately 300-400k is in circulation, it may take 1 year to reduce the debt with 200k-300k to our target of 100k.  There is a decent degree of uncertainty here.</p>
+<p>Therefore further modelling will take place when this motion passes as some voting guidance for shareholders may be required before the peg can be established. This motion won't dictate rates.</p>
+<p>Once the peg is established the reserves should be held above 50%. This reserve is specifically for defending the peg. The existing tier 6 mechanism to top it up with NSR sales should be used for this. It can be decided by future motions whether the excess of 50% reserves will be used for dividends, buybacks, developments, establishing additional tagged reserves even further. I don't want to make this motion too prescriptive.</p>
+<p><strong>Reserves</strong><br>
+Ultimately once the peg is established, but ideally earlier, at least half of the reserves will need to be held in USD with NuSafe like constructions to shield Nu against high volatility. The other half can be held in a mix of BTC, ETH, LTC or other highly liquid coins which has been around for more than a year. These reserves will need to be held in multi-sig accounts on behalf of Nu or in NuSafe like constructions. Further details should be decided by a separate motion.</p>
+<p><strong>Burn/park rates model summary:</strong><br>
+Short term high park rates offsetting the burn rate will likely result in higher velocity and less deflation as the park rate will offset the burn rate.
+Long term high park rates offsetting the burn rate will likely result in low velocity but high deflation. The burnt NBT reduces the circulating NBT and therefore Nu's liability. This will increase the percentage of reserves and new NBT could be printed and sold.</p>
+<p><strong>Optional: Capping NBT grants</strong><br>
+<em>This would further increase the confidence in the Nu network. This should be raised as a separate motion and ideally implemented as a protocol change. The protocol wouldn't allow more than 1500 NBT/month (#blocks) to cover ongoing expenses including liquidity provisioning. These cost should be made transparent to the shareholders. Even better would be when this amount can be voted for like transaction fees so flexibility can be built in. Covering this in the protocol also provides another layer of control of the money supply as the monthly cost caps are known and the money supply can be better predicted, which will bring more confidence in the peg. The effect is that lower reserves can be maintained which will reduce costs.
+Higher grants which are more likely to be investments and will therefore need to be denominated in NSR. This will require shareholders to invest in additional shares if they don't want to be diluted. This will encourage setting strategies or roadmaps to make the best use of available funds and investment appetites and most likely result in better decisions.
+In the past we have seen a strong bias to yes for all developments paid out of the NBT reserves meant for liquidity provisioning and confidence in the peg. That is clearly not sustainable. Choices will need to be made. It makes sense to seek additional funding when major investments are made. Ideally this is set in protocol with ongoing voting (like park rates) to protect Shareholders against themselves, but a motion stating this could save costs and implemented immediately.</em></p>
+<h3>The costs:</h3>
+<p><strong>Proposal specific costs:</strong></p>
+<ul>
+<li>The cost of implementing the new protocol is estimated at between US$5k and US$8k for developing, testing and packaging new clients on Windows and Linux. This work can be done by people like creon and coingame with the help of sigmike and possibly eleven. Cybnate will establish a contract or contracts for executing this work and FLOT will provide the funds up to the equivalent of US$8k out of the reserves and/or direct proceeds of NSR auctions. The cost covers the new coinage protocol and the ability to vote for the coin age fee rate and distribution of the clients.</li>
+</ul>
+<p>Cybnate will ask NSR500,000 payable by FLOT on successful completion of the client.</p>
+<p>The development may take 2-3 weeks depending on Sigmike's availability. Another 1-2 weeks for testing, packaging and ditribution of the new client needs to be allowed. The client will be based on 2.0x. The changes made in version 2.1x are not deemed stable enough. The new version will be 3.0. Changes from v2.1 can potentially be retrofitted later, this is not part of this motion.</p>
+<p><strong>Ongoing costs of running Nu</strong><br>
+Recently mhps has kindly provide a breakdown of the cost centres and expenses. According to this post about $1000/month is required to maintain basic infrastructure and we have $28k of reserves.</p>
+<p>A breakdown of the Nu costs centres:</p>
+<ul>
+<li>Cost of running and maintaining basic infrastructure as the blockexplorer, the forum and the website (licenses, domains, certificates etc.)</li>
+<li>Potential cost to motivate centralized exchanges to support Nu. Instead of transferring coin into a cold wallet, they will need to park them in the client for a given period.</li>
+<li>Cost of reporting; Alix and buyback calculator</li>
+<li>Cost of FLOT and liquidity operations (e.g. Nu-funded gateways, ALPs, individual LPs etc.)</li>
+<li>Cost of NuSafe like constructions for the required USD reserves
+A separate motion should be raised to report the costs and revenues on a monthly bases to the Shareholders.</li>
+</ul>
+<p><strong>This motion includes also three options:</strong><br>
+*- Cost of running fiat gateways by Nu e.g. website as proposed by mhps</p>
+<ul>
+<li>Cost of capping NBT grants
+This would only cost when implement in the protocol. This will need to be estimated.</li>
+<li>Cost of supporting NBT pairs on centralized exchanges
+ This hard to quantify and highly depends on the inner workings of the exchange. This will need to be negotiated with the exchange. The costs maybe offset by a promise to maintain a certain amount of liquidity.*</li>
+</ul>
+<p>A rough assessment learns that most of these costs can be paid from the existing reserves. This can be topped up by selling NSR according to existing motions once this proposal is in place and confidence increases the NSR price.
+The options in italics are NOT part of this motion and will need to be submitted separately.</p>
+<p><em>Now the more exciting part,</em></p>
+<h3>The revenues:</h3>
+<p><strong>Liquidity provisioning </strong><br>
+When using Nu-funded gateways, use double the exchange fee as a wall offset for the fiat gateways. This means that, for every NBT that's bought and then sold again, Nu earns money on the spread. That's revenue. Wider spreads shouldn't be used.</p>
+<p><strong>Transaction fees</strong><br>
+This will likely become more important with decentralized exchanges and on chain trading. A listing on B&amp;C would create the usual transaction fee burns. There is an incentive to bring liquidity to increase the trading and with that the fee burning. However I'm not so sure that would really pay off on its own. The risk of providing liquidity on volatile pairs as BTC/NBT might be high and therefore relatively costly. So it would be cost neutral at best.</p>
+<p><strong>Coinage burns</strong><br>
+What would really pay off is the continuous burning of NuBits in circulation and not being parked.<br>
+Once the peg is established on 50% it is recommended to decrease the high burn rate to make the coin more attractive for traders and other NBT holders. This would be a balancing act between creating revenues, providing deep liquidity at cost and increasing trading on decentralised exchanges generating transaction fees, motivating holding NBT outside parking to increase the velocity of NBT.</p>
+<p>Note: this motion doesn't not exclude the use of a so-called liquidity engine mentioned in competing motions. This can well be an excellent support for the peg and marketing, however I don't believe it can generates profits on itself.</p>
+<h3>Motion end</h3>
+<p>==================================</p>
+<h3>Pros and Cons of this motion</h3>
+<p><strong>Advantages of keeping the peg at $1:</strong></p>
+<ul>
+<li>No developments, client or NuDroid updates are required beyond the protocol update and the voting option in the client.</li>
+<li>Same marketing instruments can be used, brand can be re-established without major investments.</li>
+<li>1 NBT will stay 1 US$. This is great for brand recognition and uptake.</li>
+<li>A number of NBT holders have a fair chance to see more back from their NuBits as long as they are patient and not been driven by direct gratification needs.</li>
+</ul>
+<p>But the main advantage is:<br>
+Shareholders will be in control of a sustainable revenue stream going forward which is embedded in the protocol. This will provide the confidence to keep the peg in a sustainable way and provides the best chance of an increase NSR value.</p>
+<p>No valuable proposals come without risks. Below the main disadvantages and risks. Please consider supporting this motion if you do believe that the advantages outweigh the risks.</p>
+<p><strong>Disadvantages of this proposal:  </strong></p>
+<ul>
+<li>Centralized exchange support. Exchanges may increase their fees or de-list NBT. The centralized exchanges will need to invest or we need to support them to make changes. Instead of moving funds into cold wallet they will need to be parked in the client to maintain their value. Depending on their wallet structure this may be complicated.
+A line of thought may be that we don't need to rely on centralized exchanges going forward and that we can built our own fiat gateway and use decentralized exchanges for the NBT-crypto trading. So this might not be a big problem after all.</li>
+</ul>
+<h6>Risks:</h6>
+<ul>
+<li><p>The biggest challenge is the switch. We need a high percentage of people switching. We might hit the same issues as we hit with B&amp;C switching protocol. Reducing to e.g. 55% for the protocol switch is possible but comes with risks of competing forks. We only need to make these decisions after the proposal passes. The proposal really need to pass with 60%+ or higher as it would set the level we would need to switch the protocol.</p>
+</li>
+<li><p>We will still need to rely on NSR selling to pay the ongoing bills before the peg is established. How much will depend on how much NBT will be parked and how fast we can achieve the 50% reserve ratio.  It might take some time before the peg can be re-established. This proposal aims for 3 months but this is not certain. There are strong dependencies on NSR sales and the amount of parking and burning. This requires some further modeling to find a balance between time, costs and risk. Shareholder voting guidance may be required in the first few months. Datafeeds can play their role in this.</p>
+</li>
+<li><p>Amount of parking vs NBT in circulation may not be 30% as assumed. The reduction of NBT liabilities might take longer or shorter therefore.</p>
+</li>
+<li><p>Large scale NBT hoarding and parking takes place significantly delaying establishing the $1 peg as it will take longer to reach the 50% reserves mark.</p>
+</li>
+</ul>
+<h3>Background information and sources:</h3>
+<p>Excerpt of explanation of the burning mechanism by Creon as posted in the forums:
+Both the events of parking and unparking are blockchain transactions and therefore naturally destroy the coinage of the outputs used. So people who park will pay the fee for the accumulated coin age at that moment and only the remainder gets actually parked.</p>
+<p>When the coins are un-parked, the fee also applies. This could be avoided on protocol level, not sure if those transactions pay a fee right now (edit Cybnate: this doesn't apply). But even if the fee applies, the customer will still make a plus (or even) as long as the parking rate for this time period is &gt;= the fee. So by aligning park rates and coinage fee you can basically model "you lose 20% if you don't park, 10% if you park for 1 week, 5% if you park for 1 month, nothing if you park for 2 months and you gain 5% if you park for more time".</p>
+<p>First mentioning of fees proportional by coinage:<br>
+<a href="https://discuss.nubits.com/t/draft-volume-dependent-transaction-fees/2076/22">https://discuss.nubits.com/t/draft-volume-dependent-transaction-fees/2076/22</a></p>
+<p>Revenue models by Creon:<br>
+<a href="https://discuss.nubits.com/t/voting-no-nu-liquidity-without-a-revenue-model/4142/3">https://discuss.nubits.com/t/voting-no-nu-liquidity-without-a-revenue-model/4142/3</a></p>
+<p>Fiat gateways by mhps:<br>
+<a href="https://discuss.nubits.com/t/discussion-contract-to-create-web-interface-code-that-one-can-use-to-sell-buy-nubits-with-fiat-online/3567">https://discuss.nubits.com/t/discussion-contract-to-create-web-interface-code-that-one-can-use-to-sell-buy-nubits-with-fiat-online/3567</a></p>
+<p>Latest status fiat gateways (being worked on):
+<a href="https://discuss.nubits.com/t/discussion-contract-to-create-web-interface-code-that-one-can-use-to-sell-buy-nubits-with-fiat-online/3567/48">https://discuss.nubits.com/t/discussion-contract-to-create-web-interface-code-that-one-can-use-to-sell-buy-nubits-with-fiat-online/3567/48</a></p>
+<p>Nu Cost overview by mhps:<br>
+<a href="https://discuss.nubits.com/t/how-much-revenue-does-nu-need-service-contractors-please-fill-in-info/4186">https://discuss.nubits.com/t/how-much-revenue-does-nu-need-service-contractors-please-fill-in-info/4186</a></p>
+<p>That's it folks :-)</p>
+<hr>
+<p><a href="https://daology.org/p/3323face040b3005c6805230f6ae3740fea78a05">Proposal</a> created with <a href="https://daology.org">Daology.org</a> by <a href="https://daology.org/u/cybnate">cybnate</a> for <a href="https://daology.org/o/Nu">Nu</a></p>
+
+      
+    </article>
+  </div>
+</div>
+
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div id="app-footer">
+  <footer class="footer footer-branded">
+
+    <div class="container">
+      <nav class="pull-left col-xs-12 col-md-10">
+        <ul>
+          <li role="presentation"><a href="/about">About Daology</a></li>
+          <li role="presentation"><a href="/terms">Terms</a></li>
+          <li role="presentation"><a href="/privacy">Privacy</a></li>
+          <li role="presentation"><a href="/cookies">Cookies</a></li>
+          <li role="presentation"><a href="/support">Support</a></li>
+        </ul>
+      </nav>
+      <div class="copyright col-xs-12 col-md-2 pull-right">
+        &copy; 2017 Daology, LLC
+      </div>
+    </div>
+  </footer>
+</div>
+    </div>
+      
+
+
+  
+  
+
+    
+
+    
+
+    
+      <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+      <script src="//code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/highlight.js/latest/highlight.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+      <script src="/static/public/javascripts/dao.min.js"></script>
+    
+
+  
+
+
+
+  <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='https://www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-62932153-1','auto');ga('send','pageview');
+  </script>
+
+  </body>
+  
+  
+</html>

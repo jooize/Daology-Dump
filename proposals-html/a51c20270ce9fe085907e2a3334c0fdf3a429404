@@ -1,0 +1,376 @@
+<!-- extend base layout -->
+
+<!doctype html>
+<html lang="">
+  <head>
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Daology</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/static/public/images/favicon.ico">
+
+    
+  
+  
+
+    
+      <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic|Lato:400,700|Inconsolata' rel='stylesheet' type='text/css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/highlight.js/latest/styles/github.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/flick/jquery-ui.css">
+      <link rel="stylesheet" href="/static/assets/stylesheets/_vendor/jquery.tagit.min.css">
+
+      <link rel="stylesheet" href="/static/public/stylesheets/dao.min.css">
+    
+
+    
+
+    
+
+  
+
+    
+  
+  
+
+    
+
+    
+      <script src="/static/assets/javascripts/vendor/moment.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/contrib/auto-render.min.js"></script>
+    
+
+    
+
+  
+
+  </head>
+  <body role="document">
+    <div id="fullpage_wrapper">
+    
+      <div id="app-navbar">
+  <nav class="navbar" role="navigation">
+    <div class="container-fluid">
+      <div class="brand-bar row">
+        <div class="col-md-12">
+          <button id="menu-toggle" type="button" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar bar1"></span>
+            <span class="icon-bar bar2"></span>
+            <span class="icon-bar bar3"></span>
+          </button>
+          <a class="word_mark" href="/" name="home_link">daology</a>
+          
+        </div>
+      </div>
+      <div class="primary_nav row">
+        <div class="col-md-12">
+          <div class="collapse navbar-collapse" id="app-navbar-collapse">
+            <ul class="subnav">
+              <li class="subnav-item"><a href="/organizations/" name="dao_list_link">Organizations</a></li>
+              <li class="subnav-item"><a href="/articles" name="dao_list_link">Articles</a></li>
+              <li class="subnav-item"><a href="/proposals" name="dao_list_link">Proposals</a></li>
+              
+              <li class="subnav-item"><a href="/login" name="login_link" class="signin_btn">Sign in with Github</a></li>
+              
+
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+</div>
+      
+  
+  
+
+
+      
+
+  
+
+  
+
+  
+
+  
+
+
+
+      <div class="main row">
+        <div class="container">
+          <header class="row page_title">
+            
+            <div class="row">
+              <div class="page_actions col-md-12 pull-right">
+                <ul>
+                
+  <li class="action_btn"><a href="/proposals/a51c20270ce9fe085907e2a3334c0fdf3a429404/raw" target="_blank" class="btn btn-sm btn-primary">Raw</a></li>
+  
+
+
+                
+                  
+
+
+                
+                </ul>
+              </div>
+            </div>
+            
+            
+            <div class="col-xs-9 col-md-11">
+              <span class="supertitle">
+                
+  Proposal  <span style="breadcrumb-separator">// </span><a href="/organizations/Nu">Nu</a> <span style="breadcrumb-separator">/</span> <a href="/organizations/Nu/NuBits">NuBits</a> 
+
+              </span>
+              <h1>
+                
+  Parkingyournubits.rocks Development Fee Proposal 
+
+              </h1>
+            </div>
+          </header>
+          <section class="row page_content">
+            <div class="col-md-12">
+              
+<div class="row container">
+
+  <div class="col-md-4 sidebar">
+
+    <div class="scroll_title">
+      <p class="supertitle">Proposal  <span style="breadcrumb-separator">//</span> Nu <span style="breadcrumb-separator">/</span> NuBits</p>
+      <p class="title">Parkingyournubits.rocks development fee proposal </p>
+      <p class="author">By
+        bananenwilly
+        
+      </p>
+      <p class="meta_text date">
+        <script>
+document.write(moment("2016-05-29T16:59:29 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+        &nbsp;|&nbsp;&nbsp;<span class="updated">Updated: <script>
+document.write(moment("2016-05-29T17:42:17 Z").calendar());
+</script></span>
+        
+      </p>
+      <hr>
+      <div class="content-toc"></div>
+    </div>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="meta_text">
+          <a href="/u/bananenwilly/">
+            <img src="https://avatars.githubusercontent.com/u/11148913?v=3" class="profile">
+            <div class="authorname_block">
+                <div class="nolink">By bananenwilly</div>
+                <div class="nickname">@bananenwilly</div>
+              </div>
+            
+          </a>
+        </p>
+        <div class="row">
+          <div class="col-md-12">
+          <p class="meta_text date">
+            <script>
+document.write(moment("2016-05-29T16:59:29 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+            
+            &nbsp;|&nbsp;&nbsp;
+            
+            <span class="updated">Updated: <script>
+document.write(moment("2016-05-29T17:42:17 Z").calendar());
+</script></span>
+            
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="sidebar_title">Text Hash ( RIPEMD-160 )</p>
+        <p class="meta_text hash">bc7d00b85c7f2ddea42f64a15e4e18bcb65d25cc  </p>
+      </div>
+    </div>
+    
+
+    
+
+    
+    
+
+  
+    <hr>
+    <div class="row meta_element">
+        <div class="col-md-12">
+          <span class="sidebar_title">
+            Grant
+          </span>
+          <p class="meta_text">2,400 NBT</p>
+        </div>
+    </div>
+    <hr>
+    <div class="row meta_element">
+        <div class="col-md-12">
+          <span class="sidebar_title">
+            Grant Address
+          </span>
+          <p class="meta_text"></p>
+        </div>
+    </div>
+
+  
+
+
+
+  </div>
+
+  
+  
+    <div class="content_body col-md-8">
+  
+
+
+
+
+    
+    <div class="reading-time-wrapper" data-target="a51c20270ce9fe085907e2a3334c0fdf3a429404">
+    <span class="reading-time"></span> read (<span class="word-count"></span> words)
+  </div>
+
+    <article class="rtCalc no-fouc" id="a51c20270ce9fe085907e2a3334c0fdf3a429404">
+      
+        <p><img src="https://alix.coinerella.com/volume/logos/hotlink-ok/coinerella_logo_really_small.png" alt="coinerella logo" title="coinerella logo"></p>
+<p>Fellow friends of Nu,</p>
+<p>I'm happy to announce, that Parkingyournubits.rocks has been a full success. The website had a total of 822 unique visitors since its launch on  May 1st, 2016. 
+You can read all about it <a href="https://discuss.nubits.com/t/ann-parking-rates-promotional-website-parkyournubits-com/3847?u=willy">here.</a></p>
+<p><strong>TL;DR</strong><br>
+This contract will entitle Nu all rights to the park rates promotional page Parkingyournubits.rocks.
+Further, it will allow Coinerella to deploy and run Parkingyournubits.rocks on the ALix and RAW.Coinerella high-availabiliy server structure.</p>
+<p><strong>What's Parkingyournubits.rocks?</strong><br>
+Parkingyournubits.rocks is a promotional website to promote NuBits park rates. It features a FAQ section, a calculator and a tutorial how to park your NuBits.
+Furthermore, we created a Twitter bot, that tweets the current highest parking rate every 24 hours.</p>
+<p>The website is created with HTML 5, CSS and AJAX and features responsive design.</p>
+<p><strong>What's in for Nu?</strong><br>
+<em>Plain and simple: This website tries to gather information on NuBits parking on a single site to encourage people unfamiliar with Nu to buy NuBits and park them. </em></p>
+<h6>Cost report:</h6>
+<ol>
+<li>Parkingyournubits.rocks promotional frontend:  <strong>2000 NBT</strong> </li>
+<li>ALix Panel backend API Parkrates: <strong>150 NBT</strong> </li>
+<li>Twitter Bot <a href="https://twitter.com/parkyournubits">https://twitter.com/parkyournubits</a>:  <strong>250 NBT</strong> </li>
+</ol>
+<p>Software costs: 2400 NBT</p>
+<p>Running costs: none, hosting is paid for with the ALix &amp; RAW.Coinerella grant</p>
+<p>Total sum: <strong>2400 NBT</strong></p>
+<p>We would like to take a new approach here and split the grant between the two of us.</p>
+<p>TheCrema's share: 1000 NBT - Grant address: <strong>B5HdcqzVSXBfNccctUb1UEbdbQNnAB8joU</strong><br>
+willy's share: 1400 NBT - Grant address: <strong>B5PP7FasPy7HncDPc3ryXxiTFU6rGZCNpe</strong></p>
+<p>Please note that this contract is only valid, once both grants have passed.</p>
+<h6>Notes:</h6>
+<ul>
+<li>all items - This software will be open source. </li>
+<li>Item 1 &amp; 2 - This software will be hosted on the ALix and RAW.Coinerella high-availability server structure. </li>
+</ul>
+<h6>Terms:</h6>
+<p>§ 1 - Any future updates for Parkingyournubits.rocks require additional funding.</p>
+<p>§ 2 - Nu will only need to pay for the software licenses once, as any funded software upgrade will create a new version number with a new license.</p>
+<p>§ 3 -  Coinerella is permitted and obliged to provide the afore mentioned software on the ALix and RAW.Coinerella high-availability structure.</p>
+<p>§ 4<br>
+(1) The start of the operation will be seamless after this grant passed. It will be announced in a separate thread.<br>
+(2) The source code for all items (see above) will be published on Github the same day the announcement thread is created. The software will be published under the Apache License.</p>
+<p>§ 5 - Nu is permitted to revoke this contract, in case Coinerella becomes unresponsive to requests made through <a href="https://www.coinerella.com/index.php/Contact">https://www.coinerella.com/index.php/Contact</a> for more than 30 consecutive days.</p>
+<p>§ 6 - Coinerella will provide said services in all conscience.  Apache License (see <a href="https://github.com/bananenwilly/alix/blob/master/LICENSE">https://github.com/bananenwilly/alix/blob/master/LICENSE</a>) applies. Warranty and liability of any nature are excluded.</p>
+<p>§ 7 - Parkingyournubits.rocks will be provided commercial-free.</p>
+<h6>FAQs:</h6>
+<p>Q: What happens after the six month term for the ALix and RAW.Coinerella  high-availability server structure ends?<br>
+A: A new proposal will be needed to continue those operations.</p>
+<p>Q: Will Nu have to pay for the same software licenses twice?<br>
+A: No. Any funded software update will induce a version change with a new license, which will be valid until the next funded software update is published.</p>
+<p>Q: What if this grant doesn't pass?<br>
+A: We will need to find other ways to finance this product. We might pause "Parkingyournubits.rocks" in the meantime.</p>
+<hr>
+<p><a href="https://daology.org/p/a51c20270ce9fe085907e2a3334c0fdf3a429404">Proposal</a> created with <a href="https://daology.org">Daology.org</a> by <a href="https://daology.org/u/bananenwilly">bananenwilly</a> for <a href="https://daology.org/o/Nu">Nu</a></p>
+
+      
+    </article>
+  </div>
+</div>
+
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div id="app-footer">
+  <footer class="footer footer-branded">
+
+    <div class="container">
+      <nav class="pull-left col-xs-12 col-md-10">
+        <ul>
+          <li role="presentation"><a href="/about">About Daology</a></li>
+          <li role="presentation"><a href="/terms">Terms</a></li>
+          <li role="presentation"><a href="/privacy">Privacy</a></li>
+          <li role="presentation"><a href="/cookies">Cookies</a></li>
+          <li role="presentation"><a href="/support">Support</a></li>
+        </ul>
+      </nav>
+      <div class="copyright col-xs-12 col-md-2 pull-right">
+        &copy; 2017 Daology, LLC
+      </div>
+    </div>
+  </footer>
+</div>
+    </div>
+      
+
+
+  
+  
+
+    
+
+    
+
+    
+      <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+      <script src="//code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/highlight.js/latest/highlight.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+      <script src="/static/public/javascripts/dao.min.js"></script>
+    
+
+  
+
+
+
+  <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='https://www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-62932153-1','auto');ga('send','pageview');
+  </script>
+
+  </body>
+  
+  
+</html>

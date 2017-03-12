@@ -1,0 +1,23 @@
+##Preamble
+NuShare buybacks, as defined by 7b4955e91781e0e32f1e0c0c974fd4a7a9f972a3, led to a definition of buy-side reserves held by the network.  This properly defined the place that Tier 4 (T4), described by motion 65CB60D096508A7FA9ECC2017B38BC3AFEB5663D, held as a decentralized network of reserves.  It also defined a limit to the liability risk that T4 can hold.  The goal of this motion will be to further define the reserves and powers of T4 signers.
+
+##Reserve Definitions
+Reserves can generally be classified into two types by referencing the unit of account the NuBit risk is pegged to.  Either the reserve liquidity is stable with respect to a NuBit unit or it is considered dynamic.
+
+**Stable Liquidity** is all T4 liquidity denominated in native NuBit units.  This includes all stable cryptocurrencies and contracts like NuSafe that are denominated in USD with reference to US-NBT.
+
+**Dynamic liquidity** is all T4 liquidity denominated in other units.  This includes the BTC and PPC multisig, but does not include any collateral for current operations as that is not considered operating liquidity.
+
+The **Outstanding NuBits** in the network is equal to the quantity of circulating NuBits, as defined by b1ef96aed5c7f9dec482467b254b40c82bf66d23, minus the sum total of T4 stable liquidity, but must be no less than 400,000 US-NBT.  NuBit units other than US-NBT are contrasted individually with their stable reserves (minimum of zero, ignore negative results) and converted to US-NBT using a price feed.  Dynamic reserves will be measured as a fraction of the outstanding NuBits in the network rather than the circulating NuBits.
+
+##Stable/Dynamic Strategies
+Choosing when to buy and sell auxiliary reserves can be a challenging endeavor for a decentralized organization.  As such, FLOT and shareholders are encouraged to manage the reserves in an intelligent way by keeping in mind two contrary effects for each reserve unit:
+
+1.  Risks
+2.  Use cases  
+
+Fortunately, reserves tend to be influenced more by one of these effects than the other at different stages of Nu.  When Nu is in a recession, use cases become very important and the organization has many options for where to put liquidity to attain the highest effect on Nu finances.  When Nu is in surplus, risk of default and heavy loss becomes more important and Nu should seek to diversify liquidity as much as possible.  As such, additional stable liquidity sources should be bought when Nu has a surplus of dynamic reserves and conversely sold when Nu has a deficit.  The liability risk of such stable assets should not be ignored in the same way that it is not ignored with dynamic reserves.  However, stable reserves enjoy a different atmosphere of risk than dynamic reserves: a stable reserve tends to either be reliable or to default, whereas a dynamic reserve can fluctuate in value.  Therefore, stable liquidity is considered a virtual buyback wherein Nu takes on some counterparty risk to avoid affecting nubit supply.  As such, Oustanding NuBits will be used as opposed to Circulating Nubits for all network calculations and measurements.
+
+---
+
+[Proposal](https://daology.org/p/2d0836069185b195572bc8a60efbf0057ef9ec88) created with [Daology.org](https://daology.org) by [nagalim](https://daology.org/u/nagalim) for [Nu](https://daology.org/o/Nu)

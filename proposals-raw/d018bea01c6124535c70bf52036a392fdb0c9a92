@@ -1,0 +1,40 @@
+This is a first attempt at defining a concept of **Tier 0 liquidity**. It is intended to be an addition to the current [liquidity operations model](https://discuss.nubits.com/t/finalized-evolution-of-liquidity-operations/618). If there is consensus that the concept is useful I will consider drafting a motion to formalize it. Here is a proposed definition to be added:
+
+> **Tier 0**
+
+> This liquidity is passive. It includes all decentralized sources of constant deflationary pressure on the circulating supply of NBT. Tier 0 sources destroy NBT, requiring new NBT to be purchased by users. There are two sources of Tier 0 liquidity: transaction fees and consumption services.
+
+Tier 0 should be viewed as the most desirable source of profit for the Nu network because it carries the least risk and is the most sustainable. Sources of Tier 0 liquidity will provide passive income for the Nu network to subsidize liquidity operations and strengthen the perceived quality of the peg. 
+
+Tier 0 should only include sources that completely destroy NBT, as opposed to sources that merely stimulate a demand for NBT, such as a lending service or gambling website. These services are outside of the scope of liquidity operations.
+
+It is important to note that I consider Tier 0 a passive part of the liquidity model because it may reduce the network’s need for external buy-side liquidity providers. Tier 0 liquidity sources generate enduring buy-side demand. 
+
+I’ve identified two sources of Tier 0 liquidity in the definition above.
+
+**Two Sources**:
+
+1) **Transaction fees **
+2) **Consumption services** (e.g. [NuMessage/Nu email spam protection](https://discuss.nubits.com/t/proposal-for-transfer-message-function-and-public-address/453), or [NuBits Cost API](https://daology.org/u/coingame/articles/8fe7550299d217e17fcb0a8f84c01f0edb64d4ce), etc.)
+
+**Transaction fees** are well understood by the network at this point. When volume-dependent transaction fees are deployed the network will have a healthy source of Tier 0 liquidity. As NBT transactions are processed, a small percentage of NBT are destroyed.
+
+**Consumption services** are less understood because the network doesn’t have any yet. This shouldn’t come as a surprise to shareholders. Individuals wanting to create a consumption service (like the BlockCredit model in B&C Exchange) will usually only consider building it if they can retain a much higher percentage of ownership than would be possible through their NuShare ownership. While in some cases it makes sense to give ownership of new consumption services to NuShareholders to encourage an active user base, we shouldn’t rely on altruism. 
+
+For that reason Nu must eventually prioritize the development or acquisition of Nu-owned Tier 0 services as opposed to waiting for generous shareholders to build them. Nu had an opportunity with B&C Exchange to create one, but missed out because of a lack of capital to fund development. 
+
+I realize now that that a Tier 0 (T0) multisig group could have allowed Nu to retain ownership of B&C Exchange, while operating on a separate blockchain. BlockShares could have been created and transferred to a large T0 group. Each week BlockCredit sales revenues would have been delivered to the T0 group, who would use the BTC to purchase NBT to destroy. Or, BKC custodians could simply have skipped a step and returned a NBT dividend to T0 shareholders to destroy. Had the T0 group gone rogue, a replacement BKS blockchain could be created quickly and the same signers elected. 
+
+**Conclusion**
+
+I am motivated to define Tier 0 because I think it will streamline future discussions around the profitability and sustainability of the Nu network. While creating new businesses – like a lending service or gambling website – would stimulate NBT demand, Tier 0 liquidity sources have the added benefit of permanently destroying NBT. Tier 0 is a source of low-risk profit that also improves our peg’s sustainability. 
+
+If our developers turn their focus back to Nu from B&C Exchange in the future  I think it should be a priority for shareholders to begin creating Tier 0 services. We have already done so with the motion to [create volume-dependent transaction fees](https://discuss.nubits.com/t/passed-prioritizing-volume-dependent-transaction-fees/2688), and we should continue to explore new ideas.  
+
+I welcome all feedback and discussion, including whether this idea should be categorized in a different way. 
+
+Cross-post: [discuss.nubits.com](https://discuss.nubits.com/t/discussion-defining-tier-0-liquidity/3063)
+
+---
+
+[Proposal](https://daology.org/p/d018bea01c6124535c70bf52036a392fdb0c9a92) created with [Daology.org](https://daology.org) by [tomjoad-nu](https://daology.org/u/tomjoad-nu) for [Nu](https://daology.org/o/Nu)

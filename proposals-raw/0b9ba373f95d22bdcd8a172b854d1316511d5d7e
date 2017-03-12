@@ -1,0 +1,17 @@
+Reserves are a source of risk. They may be lost, as @Benjamin [pointed out](https://discuss.nubits.com/t/100-usd-reserves-offers-zero-benefit-in-terms-of-peg-stability/917), and cannot be used to reliably support a peg. In fact, Nu's entire reserve, though small at the time, became inaccessible to shareholders at the end of May. Attempts to return it to shareholder control have been unsuccessful to date (September 18th), after more than 3 months have passed. This is a very good reason to avoid reliance on a reserve. Furthermore, reserves are very costly and are not the most efficient method of maintaining a peg.
+
+Also important in the decision to lower reserve requirements is the proven effectiveness of NSR sales to raise new reserves in large amounts quickly. In the two months after I became Chief of Liquidity Operations, approximately $300,000 USD were raised from NSR sales created by shareholder custodial grants. This was done with a NuShare market capitalization of around $400,000. This is about 75% of the market cap in 60 days. While specific circumstances will always have a material impact on our ability to sell NuShares to raise new reserves, there is good reason to think that if our market capitalization were 100 million, 75 million in new reserves could be raised in 60 days. The powerful and well demonstrated capacity of NuShare sales to create new reserves dramatically reduces our need to maintain a reserve. Essentially, the NuShare market cap acts like a reserve in some respects. However, when we speak of reserve here, it should not be understood to refer to the NuShare market cap.
+
+Furthermore, the US-NBT peg was restored from a starting point of just under $0.20 with absolutely zero use of reserves. This emperically proves we can accomplish the relatively difficult task of raising an asset price without using a reserve.
+
+What is really needed is liquidity, not reserves. Reserves can be used to create liquidity, but liquidity can be had without reserves. Zero reserves are the destiny and goal of Nu. However, current tested methods do not permit a reliable maintenance of liquidity without the use of reserves. Over a period of years, I expect development to occur that will facilitate the practice of zero reserve. Much of this is expected to come from the escrow products that we can expect B&C Exchange to provide. 
+
+Today, however, there is need of a reserve to ensure constant liquidity, or constant buy orders at 0.995, even in the presence of heavy selling pressure. The smaller the money supply, the greater the reserve percent should be. We had approximately 100,000 US-NBT likely sold by a single person on May 27th. To gracefully handle such events, the reserve percent needs to be larger if the money supply is low, such as 300,000. If the money supply is larger, like 10 million, such sales can be handled at a much lower reserve percent level. There is an economy of scale.
+
+In keeping with these observations, reserve shall be 50% at zero money supply and 25% at 2 million and greater. It should be blended between zero and 2 million. This means at a money supply of 1,000,000, the reserve requirement would be 37.5%. 
+
+This isn't the final word on reserve requirements, but a further reduction from the above figures should be passed by motion.
+
+---
+
+[Proposal](https://daology.org/p/0b9ba373f95d22bdcd8a172b854d1316511d5d7e) created with [Daology.org](https://daology.org) by [phoenixnubits](https://daology.org/u/phoenixnubits) for [Nu](https://daology.org/o/Nu)

@@ -1,0 +1,23 @@
+This problem, that of the peg becoming self-referential, is a wonderfully vindictive issue by which the NuShare holders become a government for all intents and purposes because what happens on the blockchain is more important than what happens in Washington D.C., for example.  However, for this discussion, I will try to relate this effect to something more useful and most likely pertinent:
+
+## **altcoin/NBT pegging**
+The reason I start here is that the effect of market manipulation becomes amplified and relatively easily understood.  If we pick something like novacoin, traded primarily on btc-e and cryptsy, and attempt to peg it on cryptsy, we would of course be using the btc-e price feed.  This allows for a pretty basic setup for understanding some of the strategies traders might take to profit off this kind of a manipulable price feed.
+
+### **The Pump and Dump**
+The idea is simple, buy the novacoin from custodians without pushing the price, buy novacoin on btc-e and push the price, sell the novacoin on cryptsy back to custodians at a higher price, sell novacoin on btc-e and push the price back down again.  Rinse and repeat.
+
+To defend against the pump and dump, we need to make our custodians responsive to local pressures on the peg.  As I hinted at originally, the solution to this problem could potentially be a robust solution that could provide answers to a lot of questions with the Nu network.  The parametric order book and the shift parameter are both orthogonal attempts at compensating for this grand issue, but ultimately this is the basic question:
+
+## **How do we come to consensus on the price feed?**
+And is it even single valued?  It's instructive to see how BitAssets votes on its price feeds using delegates, however they lack the ability to put leverage on real markets using this blockchain mechanism.  This issue is fundamentally one of the effect real markets have on our real liquidity providers.
+
+One way to approach this issue is to talk about fixed cost orders at particular prices.  That means that an operator would put up a bounty at a particular price for a particular period of time and anyone that provides can claim it.  The operator is given a fixed amount of money per time frame to spend on liquidity.  The operators are held accountable by shareholders because if they don't perform well their grant will be less in the future.  In this viewpoint, it can be seen that the question is:
+
+### **How can we help operators set fair prices automatically?**
+There are two sources for data for the nvc example above: btc-e and cryptsy.  I think I've already explained how we can and are using the btc-e price feed to aid in price discovery, the only reason we are susceptible to the pump and dump seems to be a lack of regard for our own operations on cryptsy.  The parametric order book will allow the price to shift some in the moment of purchase, but if we assume that the price on btc-e does not move in response, how will we know whether to put those orders back or not?  The addition of my shift parameter which responds to a change in funds in the custodian's account is a very interesting possibility, but with the above view on fixed cost orders the operators will need to be the ones to respond to the clients' accounts.  Therefore:
+
+### **We only need consensus between operator and client**
+The operator seeks to find what price/cost combo gives the most liquidity for the shareholder's buck at the most competitive prices; the client seeks to get paid the most and make the most profit from spread and such.  Think of it in turns where the client and operator are in perfect communication about what slots cost what and where the liquidity is.  First, the operator puts up a reward at a number of prices for both bid and buy following an algorithm.  The operator is providing compensation even in an area of overlap between bid and buy, centered about the external price feed.  Next, the LP (client) puts up some liquidity at a price it calculates as profitable using trade histories and external orderbooks and whatever else, using the compensation provided as a weighting factor to make a decision.  The operator responds by paying the slot that the LP occupies and the slots closer to the pricepoint more at the cost of the slots farther away.  The ultimate idea being to allow for a self-referential price feed that volume-averages external price feeds with the last buy on the local pegged market.
+
+![Basic Example Graph a](https://imgur.com/wxD6MOO.png)
+![Basic Example Graph b](https://imgur.com/hebf9PX.png)

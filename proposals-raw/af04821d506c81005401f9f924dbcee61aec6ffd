@@ -1,0 +1,35 @@
+### Intro
+
+@masterOfDisaster - below called "the operator" - will operate a NuBot on the exchange mentioned below. The liquidity is being broadcast using a custodial address to allow tracking the liquidity situation of the bot. If the gateway needs funding, Nu (FSRT, FLOT, JordanLee, etc.) sends NBT to the exchange account deposit address. The NBT get sold and the earned BTC are not put into orders, but get transferred to a Nu address (T4 buy side) on a regular basis.
+
+The process of selling NBT can be tracked with the getliquiditydetails RPC.
+
+### Disclaimer
+
+The operator charges a low fee for this sell side gateway, but offers no guarantee for anything - neither the availability of NuBot nor malfunctions of NuBot nor outages of the internet access nor the funds on the exchange.
+The operator promises to send all (remaining) NBT and traded BTC to Nu (FSRT, FLOT) on a regular basis.
+The operator is not responsible for tracking the funding level of the gateway.
+The operator won't take any of the funds or trade them.
+Nobody except Nu should send NBT to the gateway as **all** proceeds (or remaining NBT) will solely be sent to Nu addresses.
+Funds that have been put on the exchange account by the operator for testing/monitoring purposes before the contract starts, are excluded from this rule.
+
+### Parameters
+
+* Operator: @masterOfDisaster
+* Type: NuBot
+* Exchange: ccedk.com
+* NBT deposit address: BSBNGDGcSTJS4YvQQyXPM4pSv13PPXW4vk
+* Pair: NBT/BTC
+* Mode: Sell side only
+* Sell Side Offset: > 1%
+* Duration: 30 days, automatically extended by 30 days until withdrawal of all funds has been requested by authorized entity (NSR holder motion, FLOT majority in the respective group)
+* Liquidity broadcast address: BETwD8nSjtj9ADSvej2na34xmsMYwPRymv
+* Operator Fee: 30 NBT
+
+### Activation of the gateway / starting the contract
+
+Operation starts the day a Nu representative group or person (JordanLee, FLOT, FSRT) deposits funds at the deposit address AND the funds are put on order.
+
+---
+
+[Proposal](https://daology.org/p/af04821d506c81005401f9f924dbcee61aec6ffd) created with [Daology.org](https://daology.org) by [lamz0rnewb](https://daology.org/u/lamz0rnewb) for [Nu](https://daology.org/o/Nu)

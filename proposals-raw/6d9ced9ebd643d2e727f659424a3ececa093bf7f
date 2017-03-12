@@ -1,0 +1,38 @@
+Currently B&C Exchange has around 120,000 US-NBT as its development fund. These are worth around $80,000 USD at current market rates. It isn't enough money to finish the exchange. Hence, it is difficult to find developers to devote themselves to the project with a reduced chance of success. 
+
+These funds are also a menace to the Nu network. The last thing NuShare holders want to see is the B&C Exchange NuBits hitting the thin US-NBT buy wall as they inevitably will as development picks back up at some point.
+
+Exchanging these 120,000 US-NBT for about 280 million NSR (using $0.70 for US-NBT and $0.0003 for NSR) provides compelling benefits for BlockShare holders, NuShare holders and US-NBT holders.
+
+
+**Benefits for BlockShare holders**
+
+As it stands, the B&C development budget is insufficient to complete the project with a current value of $80,000 USD. Progress can be made which could spur further investment, but the lack of funds is suppressing enthusiasm for the project. Furthermore, US-NBT has low liquidity. NSR has much better liquidity in recent times. A more liquid asset is a safer asset in many regards. If NuShares merely return to 100 satoshis again, B&C will have the type of funding that would make it practical to finish the initial implementation. There is a very good chance of NuShares being 100 satoshis or much more in the relatively short term. They were over 500 satoshis just 3 months ago. Since then, major improvements have been made to liquidity operations and costs have been dramatically reduced. Chinese NuBits are being developed with 100% segregated reserve, and are about to be released. We have recognized and fixed the governance problems that led to the crisis of June. There is a lot of new value that will be recognized once it is clear we have restored the US-NBT peg.
+
+If NuShares go down before B&C Exchange spends their NSR, the situation will not be fundamentally different from what will occur if B&C Exchange holds on to its NuBits: in either case additional funding will be needed to complete B&C Exchange. Only the case of buying NSR and having it regain some of its historical value is additional funding for B&C Exchange unnecessary.
+
+
+**Benefits for NuShare holders**
+
+Because NuShares are a speculation on the future probability of issuing additional NuBits, anything that increases the perceived probability of future NuBit issuance will benefit NuShare holders. With this deal, the US-NBT supply will drop below 400,000 in just a couple weeks, down from a high of around 820,000. Most of the reduction was done in just a couple months. It is an impressive rate of currency supply reduction that bodes well for our ability to support currencies in the future, now that our major governance problems have been solved. With a 400,000 US-NBT supply, our current daily burn rate of 1500 US-NBT means 0.375% of all US-NBT is being removed from circulation each and every day. Such a pattern is sure to bring US-NBT back to $1.00, if it can be sustained long enough. In just approxiately 4 months, the US-NBT money supply would be halved once again to under 200,000. However, our goal isn't to purchase all US-NBT in circulation. Rather, by making it an attractive product we increase demand. If people percieve that it has little downside risk, but nearly a 50% upside at $0.70, it is an attractive product. Hopefully the US-NBT money supply will never come close to being as low as 200,000.
+
+
+**Benefits for US NuBit holders**
+
+If the 120,000 US-NBT held by B&C Exchange are brought against the US-NBT buy wall in the short term, it is sure to lower the US-NBT below what it would have been if US-NBT are instead burned. This will protect the value of US NuBits and increase confidence in their value.
+
+This is a win for everyone involved. Let's do it. Here is how it would proceed in practice:
+
+1.    A single motion that constitutes a contract between BlockShare holders and NuShare holders must be passed on both blockchains, by both sets of shareholders. This is that motion.
+
+2.    Once the motion is passed on both blockchains, B&C Exchange NuBits are transferred to @Phoenix. A custodial grant of NSR is created by NuShare holders. The exact final amount will be determined by the market rates of NSR and US-NBT at the exact time this motion passes on the second blockchain. For instance, if @Phoenix is custodian to 120,000 US-NBT in B&C funds, the US-NBT price is $0.70 and the NSR price is $0.0003, then NuShare holders would be bound to create an NSR custodial grant in the amount of 280 million, because (0.70 * 120000) / 0.0003 = 280,000,000. @jooize will post the applicable market prices after the motion passes on the second blockchain.
+
+3.    @Phoenix burns the 120,000 B&C Exchange US-NBT and disburses the NSR as needed for development. It is regularly sold for BTC or NBT that is used to pay for development. The NSR remain shareholder funds, and will be handled in any manner specified by shareholders, including transfer to a multisig group created by shareholders.
+
+
+
+
+
+---
+
+[Proposal](https://daology.org/p/6d9ced9ebd643d2e727f659424a3ececa093bf7f) created with [Daology.org](https://daology.org) by [phoenixnubits](https://daology.org/u/phoenixnubits) for [Nu](https://daology.org/o/Nu)

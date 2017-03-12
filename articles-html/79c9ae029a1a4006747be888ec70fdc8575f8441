@@ -1,0 +1,378 @@
+<!-- extend base layout -->
+
+<!doctype html>
+<html lang="">
+  <head>
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Daology</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/static/public/images/favicon.ico">
+
+    
+  
+  
+
+    
+      <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic|Lato:400,700|Inconsolata' rel='stylesheet' type='text/css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/highlight.js/latest/styles/github.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/flick/jquery-ui.css">
+      <link rel="stylesheet" href="/static/assets/stylesheets/_vendor/jquery.tagit.min.css">
+
+      <link rel="stylesheet" href="/static/public/stylesheets/dao.min.css">
+    
+
+    
+
+    
+
+  
+
+    
+  
+  
+
+    
+
+    
+      <script src="/static/assets/javascripts/vendor/moment.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/contrib/auto-render.min.js"></script>
+    
+
+    
+
+  
+
+  </head>
+  <body role="document">
+    <div id="fullpage_wrapper">
+    
+      <div id="app-navbar">
+  <nav class="navbar" role="navigation">
+    <div class="container-fluid">
+      <div class="brand-bar row">
+        <div class="col-md-12">
+          <button id="menu-toggle" type="button" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar bar1"></span>
+            <span class="icon-bar bar2"></span>
+            <span class="icon-bar bar3"></span>
+          </button>
+          <a class="word_mark" href="/" name="home_link">daology</a>
+          
+        </div>
+      </div>
+      <div class="primary_nav row">
+        <div class="col-md-12">
+          <div class="collapse navbar-collapse" id="app-navbar-collapse">
+            <ul class="subnav">
+              <li class="subnav-item"><a href="/organizations/" name="dao_list_link">Organizations</a></li>
+              <li class="subnav-item"><a href="/articles" name="dao_list_link">Articles</a></li>
+              <li class="subnav-item"><a href="/proposals" name="dao_list_link">Proposals</a></li>
+              
+              <li class="subnav-item"><a href="/login" name="login_link" class="signin_btn">Sign in with Github</a></li>
+              
+
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+</div>
+      
+  
+  
+
+
+      
+
+  
+
+  
+
+  
+
+  
+
+
+
+      <div class="main row">
+        <div class="container">
+          <header class="row page_title">
+            
+            <div class="row">
+              <div class="page_actions col-md-12 pull-right">
+                <ul>
+                
+  
+
+
+                
+                  
+
+
+
+                
+                </ul>
+              </div>
+            </div>
+            
+            
+            <div class="col-xs-9 col-md-11">
+              <span class="supertitle">
+                
+  Article  <span style="breadcrumb-separator">// </span> <a href="/organizations/B%26C%20Exchange">B&amp;C Exchange</a> <span style="breadcrumb-separator">/</span> <a href="/organizations/B%26C%20Exchange/BlockShares">BlockShares</a>
+
+              </span>
+              <h1>
+                
+  Send From BlockShare Multisig Address
+
+              </h1>
+            </div>
+          </header>
+          <section class="row page_content">
+            <div class="col-md-12">
+                
+<div class="row container">
+  
+  <div class="col-md-4 sidebar">
+
+    <div class="scroll_title">
+      <p class="supertitle">Article  <span style="breadcrumb-separator">//</span> B&amp;C Exchange <span style="breadcrumb-separator">/</span> BlockShares</p>
+      <p class="title">Send from BlockShare multisig address</p>
+      <p class="author">By 
+        Esko
+        
+      </p>
+      <p class="meta_text date">
+        <script>
+document.write(moment("2016-02-10T19:39:52 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+        &nbsp;|&nbsp;&nbsp;<span class="updated">Updated: <script>
+document.write(moment("2016-05-28T12:30:16 Z").calendar());
+</script></span>
+        
+      </p>
+      <hr>
+      <div class="content-toc"></div>
+    </div>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="meta_text">
+          <a href="/u/jooize/">
+            <img src="https://avatars.githubusercontent.com/u/719371?v=3" class="profile">
+            <div class="authorname_block">
+                <div class="nolink">By Esko</div> 
+                <div class="nickname">@jooize</div>
+              </div>
+            
+          </a>
+        </p>
+        <div class="row">
+          <div class="col-md-12">
+            <p class="meta_text date">
+              <script>
+document.write(moment("2016-02-10T19:39:52 Z").format("MMM D YYYY, h:mm A"));
+</script>
+              
+              &nbsp;|&nbsp;&nbsp;
+              
+              <span class="updated">Updated: <script>
+document.write(moment("2016-05-28T12:30:16 Z").calendar());
+</script></span>
+              
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    
+  </div>
+  
+
+
+  
+    <div class="content_body col-md-8 draft">
+        <div class="status_callout well">
+          <p>The author has made a <strong>DRAFT VERSION</strong> of the article available for review. The final published version may contain different content.</p>
+        </div>
+  
+
+    
+    <div class="reading-time-wrapper" data-target="79c9ae029a1a4006747be888ec70fdc8575f8441">
+    <span class="reading-time"></span> read (<span class="word-count"></span> words)
+  </div>
+
+    <article class="rtCalc no-fouc" id="79c9ae029a1a4006747be888ec70fdc8575f8441">
+      
+        <h2>How to use</h2>
+<p>Replace every entry like <code>InputTransaction1ID</code> with the actual value it describes.</p>
+<p><strong>Example:</strong></p>
+<ul>
+<li>MultisigAddress → <code>9CXZXhnhp8HBx12Zr6JJmJmTm8qQWrsR6r</code></li>
+<li>InputTransaction1ID → <code>bde678d3497d794992840d37b30637b03ba0c72b4355cc48bc42bf261fddd9d9</code></li>
+<li>InputTransaction1N → <code>1</code></li>
+<li>TargetAddress1 → <code>8dueh4ZZnifxdeVezqm8kEPEiiq2XZkdCa</code></li>
+<li>TargetAddress1Amount → <code>0.99</code></li>
+</ul>
+<p><code>&amp;lt;rawinputtransaction1&amp;gt;</code> means an output (from a command) that you use to replace an entry with.</p>
+<p>You need to know <code>InputTransaction1ID</code> to get <code>&amp;lt;rawinputtransaction1&amp;gt;</code> that you then replace every mention of <code>RawInputTransaction1</code> with.</p>
+<p><strong>Template:</strong></p>
+<pre><code>createrawtransaction '[{"txid":"InputTransaction1ID","vout":InputTransaction1N}]' '{"TargetAddress1":TargetAddress1Amount}'
+</code></pre>
+<pre><code>&amp;lt;rawtransaction&amp;gt;
+</code></pre>
+<p><strong>Actual command and output:</strong></p>
+<pre><code>createrawtransaction '[{"txid":"bde678d3497d794992840d37b30637b03ba0c72b4355cc48bc42bf261fddd9d9","vout":1}]' '{"8dueh4ZZnifxdeVezqm8kEPEiiq2XZkdCa":0.99}'
+</code></pre>
+<pre><code>01000000f084bb5601d9d9dd1f26bf42bc48cc55432bc7a03bb03706b3370d849249797d49d378e6bd0100000000ffffffff01ac260000000000001976a914fa5cb066a539b79ff3188b523f6a0933554aa0ea88ac0000000038
+</code></pre>
+<h2>Get transaction IDs</h2>
+<p>Address: <code>MultisigAddress</code></p>
+<p>Use <a href="https://bcblockexplorer.com/">B&amp;C Explorer</a> to get transaction IDs.</p>
+<p>Transaction #1 ID: <code>InputTransaction1ID</code></p>
+<h2>Aquire inputs</h2>
+<pre><code>getrawtransaction InputTransaction1ID
+</code></pre>
+<pre><code>&amp;lt;rawinputtransaction1&amp;gt;
+</code></pre>
+<pre><code>decoderawtransaction RawInputTransaction1
+</code></pre>
+<pre><code>[...]
+{
+"value" : &amp;lt;inputtransaction1amount&amp;gt;,
+"n" : &amp;lt;inputtransaction1n&amp;gt;,
+"scriptPubKey" : {
+"asm" : "OP_HASH160 xxxxxxxxxxc6c352defa2dda8cd6628df7454c50 OP_EQUAL",
+"hex" : "&amp;lt;inputtransaction1scriptpubkey&amp;gt;",
+"type" : "scripthash",
+"reqSigs" : 1,
+"addresses" : [
+"&amp;lt;multisigaddress&amp;gt;"
+]
+}
+}
+[...]
+</code></pre>
+<h3>Input #1</h3>
+<ul>
+<li>Amount: <code>InputTransaction1Amount</code> BKS</li>
+<li>N: <code>InputTransaction1N</code></li>
+<li>Script: <code>InputTransaction1ScriptPubKey</code></li>
+</ul>
+<h1>(Re-)create multisig address in wallet</h1>
+<ul>
+<li>Set <code>RequiredSigners</code> to <code>3</code> for a 3-of-x multisig address.</li>
+<li>Add <code>x</code> amount of public keys that those in possession of their respective private keys should be able to sign transactions for the multisig address.</li>
+</ul>
+<h3>3-of-5 multisig address</h3>
+<pre><code>createmultisig RequiredSigners '["PublicKey1", "PublicKey2", "PublicKey3", "PublicKey4", "PublicKey5"]'
+</code></pre>
+<pre><code>{
+"address" : "MultisigAddress",
+"redeemScript" : "RedeemScript"
+}
+</code></pre>
+<h2>Create transaction</h2>
+<p>Any unspent input amount becomes the transaction fee.</p>
+<pre><code>createrawtransaction '[{"txid":"InputTransaction1ID","vout":InputTransaction1N}]' '{"TargetAddress1":TargetAddress1Amount}'
+</code></pre>
+<pre><code>&amp;lt;rawtransaction&amp;gt;
+</code></pre>
+<h2>Sign transaction</h2>
+<p>Use a private key in WIF format corresponding to one of the public keys specified at creation.</p>
+<pre><code>signrawtransaction 'RawTransaction' '[{"txid":"InputTransaction1ID","vout":InputTransaction1N,"scriptPubKey":"InputTransaction1ScriptPubKey","redeemScript":"RedeemScript"}]' '["PrivateKeyWIF"]'
+</code></pre>
+<pre><code>{
+"hex" : "&amp;lt;signedrawtransaction&amp;gt;",
+"complete" : false
+}
+</code></pre>
+<h2>Transaction</h2>
+<p>Signed 1 of 3-of-5.</p>
+<pre><code>SignedRawTransaction
+</code></pre>
+
+      
+    </article>
+  </div>
+</div>
+
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div id="app-footer">
+  <footer class="footer footer-branded">
+
+    <div class="container">
+      <nav class="pull-left col-xs-12 col-md-10">
+        <ul>
+          <li role="presentation"><a href="/about">About Daology</a></li>
+          <li role="presentation"><a href="/terms">Terms</a></li>
+          <li role="presentation"><a href="/privacy">Privacy</a></li>
+          <li role="presentation"><a href="/cookies">Cookies</a></li>
+          <li role="presentation"><a href="/support">Support</a></li>
+        </ul>
+      </nav>
+      <div class="copyright col-xs-12 col-md-2 pull-right">
+        &copy; 2017 Daology, LLC
+      </div>
+    </div>
+  </footer>
+</div>
+    </div>
+      
+
+
+  
+  
+
+    
+
+    
+
+    
+      <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+      <script src="//code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/highlight.js/latest/highlight.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+      <script src="/static/public/javascripts/dao.min.js"></script>
+    
+
+  
+
+
+
+  <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='https://www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-62932153-1','auto');ga('send','pageview');
+  </script>
+
+  </body>
+  
+  
+</html>

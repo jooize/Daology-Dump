@@ -1,0 +1,401 @@
+<!-- extend base layout -->
+
+<!doctype html>
+<html lang="">
+  <head>
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Daology</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/static/public/images/favicon.ico">
+
+    
+  
+  
+
+    
+      <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic|Lato:400,700|Inconsolata' rel='stylesheet' type='text/css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/highlight.js/latest/styles/github.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/flick/jquery-ui.css">
+      <link rel="stylesheet" href="/static/assets/stylesheets/_vendor/jquery.tagit.min.css">
+
+      <link rel="stylesheet" href="/static/public/stylesheets/dao.min.css">
+    
+
+    
+
+    
+
+  
+
+    
+  
+  
+
+    
+
+    
+      <script src="/static/assets/javascripts/vendor/moment.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/contrib/auto-render.min.js"></script>
+    
+
+    
+
+  
+
+  </head>
+  <body role="document">
+    <div id="fullpage_wrapper">
+    
+      <div id="app-navbar">
+  <nav class="navbar" role="navigation">
+    <div class="container-fluid">
+      <div class="brand-bar row">
+        <div class="col-md-12">
+          <button id="menu-toggle" type="button" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar bar1"></span>
+            <span class="icon-bar bar2"></span>
+            <span class="icon-bar bar3"></span>
+          </button>
+          <a class="word_mark" href="/" name="home_link">daology</a>
+          
+        </div>
+      </div>
+      <div class="primary_nav row">
+        <div class="col-md-12">
+          <div class="collapse navbar-collapse" id="app-navbar-collapse">
+            <ul class="subnav">
+              <li class="subnav-item"><a href="/organizations/" name="dao_list_link">Organizations</a></li>
+              <li class="subnav-item"><a href="/articles" name="dao_list_link">Articles</a></li>
+              <li class="subnav-item"><a href="/proposals" name="dao_list_link">Proposals</a></li>
+              
+              <li class="subnav-item"><a href="/login" name="login_link" class="signin_btn">Sign in with Github</a></li>
+              
+
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+</div>
+      
+  
+  
+
+
+      
+
+  
+
+  
+
+  
+
+  
+
+
+
+      <div class="main row">
+        <div class="container">
+          <header class="row page_title">
+            
+            <div class="row">
+              <div class="page_actions col-md-12 pull-right">
+                <ul>
+                
+  
+
+
+                
+                  
+
+
+
+                
+                </ul>
+              </div>
+            </div>
+            
+            
+            <div class="col-xs-9 col-md-11">
+              <span class="supertitle">
+                
+  Article 
+
+              </span>
+              <h1>
+                
+  NuOracle - Providing Real-Life Facts Encoded for Smart Contracts
+
+              </h1>
+            </div>
+          </header>
+          <section class="row page_content">
+            <div class="col-md-12">
+                
+<div class="row container">
+  
+  <div class="col-md-4 sidebar">
+
+    <div class="scroll_title">
+      <p class="supertitle">Article </p>
+      <p class="title">NuOracle - Providing real-life facts encoded for smart contracts</p>
+      <p class="author">By 
+        cybnate
+        
+      </p>
+      <p class="meta_text date">
+        <script>
+document.write(moment("2016-06-05T03:18:21 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+        &nbsp;|&nbsp;&nbsp;<span class="updated">Updated: <script>
+document.write(moment("2016-06-05T03:28:18 Z").calendar());
+</script></span>
+        
+      </p>
+      <hr>
+      <div class="content-toc"></div>
+    </div>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="meta_text">
+          <a href="/u/cybnate/">
+            <img src="https://avatars.githubusercontent.com/u/6694926?v=3" class="profile">
+            <div class="authorname_block">
+                <div class="nolink">By cybnate</div> 
+                <div class="nickname">@cybnate</div>
+              </div>
+            
+          </a>
+        </p>
+        <div class="row">
+          <div class="col-md-12">
+            <p class="meta_text date">
+              <script>
+document.write(moment("2016-06-05T03:18:21 Z").format("MMM D YYYY, h:mm A"));
+</script>
+              
+              &nbsp;|&nbsp;&nbsp;
+              
+              <span class="updated">Updated: <script>
+document.write(moment("2016-06-05T03:28:18 Z").calendar());
+</script></span>
+              
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <hr>
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="sidebar_title">Tags</p>
+        
+        <script data-type="tagDataVar">
+    
+      var tagList = ["nushares", "nuoracle", "smart", "contracts"];
+    
+  </script>
+  <ul class="readonly_tag_wrapper">
+  </ul>
+
+      </div>
+    </div>
+    
+
+    
+  </div>
+  
+
+
+  
+    <div class="content_body col-md-8">
+  
+
+    
+    <div class="reading-time-wrapper" data-target="0bec8b79d0d00b2f2ac35c8d1bfef0e031c11ede">
+    <span class="reading-time"></span> read (<span class="word-count"></span> words)
+  </div>
+
+    <article class="rtCalc no-fouc" id="0bec8b79d0d00b2f2ac35c8d1bfef0e031c11ede">
+      
+        <h6>NuOracle</h6>
+<p><strong>Introduction</strong><br>
+This article/proposal is created in the search to increase the transactions on the NuNetwork and a good business case. The business case is providing coded real-world facts for smart contracts in the blockchain/clients. The article is more a less of a braindump and exploration to determine where issues and risks are and how certain aspects can be solved with the aim to re-use existing NuNet functionality and minimize additional developments specifically for this business case.</p>
+<p>It is provided as incomplete, but hopefully thought provoking. I may or may not expand it depending on feedback. Best outcome would be that this or a similar concept is deemed viable and will be implemented on NuNet.</p>
+<hr>
+<p><strong>What is NuOracle?</strong><br>
+NuOracle provides real-life facts required to trigger or execute smart contracts.
+The facts are provided by people minting on the NuNetwork with NuShares. They will provide these answers to their best of their knowledge. They receive a reward based on whether the majority agrees with them paid by the owner of the smart contract.
+NuSurvey is another potential name, maybe better for marketing purposes.</p>
+<p><strong>Main objective of this proposal:</strong></p>
+<ol>
+<li>Increase transactions on Nu network to make the blockchain sustainable.</li>
+<li>Responding to demands for coded Oracles for smart contracts</li>
+<li>Reuse existing code, minimize development efforts, delay automatization opportunities until process is better understood.</li>
+</ol>
+<p><strong>Other potential benefits:</strong></p>
+<ol>
+<li>Increase minting participation</li>
+<li>Serve an increasing market for quality Oracles required for smart contracts (e.g. Ethereum)</li>
+<li>Sustaining the relatively high community participation and creating value out of that by providing another source of income besides liquidity provision.</li>
+<li>Increase value of NuShares as a token to be able to participate in potentially lucrative Oracle market.</li>
+</ol>
+<p><strong>Definition of an Oracle</strong><br>
+Any good source of information.
+It is about translating facts in the real world, where required interpretation of these and code them to the blockchain in a way a smart contract can read them. A fact is something that happened or is happening, no predictions or guessing involved. Just verifying the truth based on the available sources of information to the best of one's knowledge.</p>
+<p>Example: A fact is that Barrack Obama is the US president or Sports team A won last night from sport team B. Or the Bitcoin price on a certain date was US$500.</p>
+<p><em>More advanced and complex usage of an Oracle is possible for e.g. insurance claims or mediation. You will need to pay an assessor to assess whether the height of the claim is appropriate and whether the claim is eligible. One can trust one assessor or a team of them depending on how much you want to pay. This can also be used for mediation where a team of mediators will provide a simple statement based on provided facts from both parties.
+Due to its inherit complexity assessing and mediation is not in scope of this proposal unless simple yes or no answers can be provided and the expertise can be made available.</em></p>
+<p><strong>Definition of a NuOracle Custodian</strong><br>
+An elected holder of at least 10k NSR who is willing to actively respond to questions required for the proper execution of smart contracts. This can be queries on actual events which happened or are happening. This all to the best of their knowledge. 
+The incentive is that they will get a share of the reward when their statement aligns with the actual result after the voting. 
+Rewards will be paid from the fee paid for the submitter of the questions, indirectly from the fee for the smart contract on another blockchain.</p>
+<p><strong>Definition of NuOracle Contractor</strong><br>
+The owner or owners of the smart contract e.g. held on Ethereum blockchain who require a coded input for their smart contract execution. They will submit a clearly stated question and the possible answers (e.g. yes, no or value between 0 and 100) to vote for as coded in their contract.
+They will pay a certain amount/market price to a designated address that will be used to pay the NuOracle Custodians. This fee can be paid in any coin but will be Shapeshifted to a NuBits address.</p>
+<p><strong>Definition of NuOracle executor</strong><br>
+An elected person who will distribute the paid fee from the NuOracle Contractor to the NuOracle Custodian based on the outcomes of the voting process captured in the blockchain.
+Ideally this process should be automated, and could be done by a smart contract itself. The executor would then be the person to setup this specific 'internal' smart contract.</p>
+<p><strong>Financial model</strong><br>
+NuOracle Contractors pay the NuOracle executor a fee to obtain a coded response from a large number of NuOracle Custodians for the execution on their smart contract.
+The NuOracle Executor receives the fee in a multisig address. The fee will be released after the defined voting period (e.g. 1 week) and will be used to reward the NuOracle Custodians. The reward will only be paid to the NuOracle Custodians who provided the correct answer. The correct answer is determined after the voting period based on the majority of the votes by the NuOracle Executor
+e.g. when 80% voted that Barack Obama is the USA president, 20% will receive no rewards. The total reward will be equally divided to the 80% providing the correct answer. This will provide an incentive to find out the correct answer.</p>
+<p>The NuNetwork will benefit from all the transactions on the network basically paid by the NuOracle contractor.</p>
+<p><strong>Constraints NuNetwork: </strong></p>
+<ul>
+<li>The NuOracle will have to be constraint to a subset of the NuShareholders. Without shares you can't contribute as the system relies on the minting process.</li>
+<li>The NuOracle will require some time to allow the network to obtain all votes which are related to the minting. Relying on results after days will have a higher error rate due to the randomness of stakes and minting. More time might be required (2 weeks?)</li>
+</ul>
+<p>Example 1: Only minting shareholders can contribute, although a custodian's share can be as small as the time it requires to obtain an answer for the Fact and the likelihood minting occurs in that same timeframe. To become a NuOracle Custodian one only needs to obtain a minimum amount of NuShares to mint.</p>
+<p>Example 2: A trustworthy answer to an Oracle type question might take a week due to the facts that 10k NuShares takes on average e.g. a fortnight to mint with current PoS difficulty.
+To increase the time for a valid Oracle-type response a NuOracle Custodian might need a higher stake than 10k NuShares.</p>
+<p><strong>Assumptions/requirements:</strong></p>
+<ul>
+<li>All NuOracle Custodians will need to have the same share amount. This will ensure they have equal weighted votes given a certain amount of time and assuming they present the NuShares to mint at all times during the voting period(s).</li>
+<li>Multiple Results and Oracle-type questions can be up for voting at the same time</li>
+</ul>
+<p>Required inputs:</p>
+<ul>
+<li>Written motion / smart contract e.g. on Daology (hash is required)</li>
+<li>Creation of tagged motion (like a liquidity custodial address, requires a token/key to vote)</li>
+<li>Elected NuOracle Custodian</li>
+<li>Tagged token and at least 10k Nushares for minting.</li>
+</ul>
+<p>Required outputs:</p>
+<ul>
+<li>Tagged motions on blockchain</li>
+<li>Interface API at client level to query outcome of voting resulting from query in motion.</li>
+</ul>
+<p>Tagged motion on blockchain (requires dev work), with only designated NuOracle custodians (subset of shareholders). Motion can be tagged similar as an custodial grant address is used to provide liquidity. This motion API would instead produce a number (0-1)/percentage(0-100%) instead of liquidity via each node/client. The motion API can be made available through the client (more complex, but decentralized) or on a blockexplorer (requires simple to medium level development work, but single point of failure).</p>
+<p><strong>Why electing NuOracle Custodians?</strong><br>
+Using all Shareholders for voting doesn't make sense. Wisdom doesn't necessarily come with the size of a stake in the network. Therefore we need to elect a subset of shareholders and reward them to contribute to the Oracle based on a single and equal token. Only NuShareholders who have been elected should be able to participate based on the possession of that token.
+Potential issue is assuring that a token represents a unique person and that no single person owns multiple tokens. This can't be ensured for 100% and is a weakness. Without requiring full identification based on passports etc. the best way is to have the community vetting these persons similar to voting people in as elected custodians. 
+They will also need to be voted in to ensure they obtain the token to participate.</p>
+<p><em>Option: The election mechanism could also be used to classify custodians. Classifications can be financial, sports, political or economic facts. This would encourage specialazation and likely improved quality of the outcomes. 
+Classifications are considered out of scope for now as this will likely require more development and introduces complexities regarding identities etc.</em></p>
+<p><strong>Issues and required developments</strong></p>
+<ul>
+<li><p>Tying token to motion and/or elected NuOracle custodian
+Option 1: using B&amp;C reputation mechanism in some way to confirm NuOracle custodian status, needs reasearch.
+Option 2: creating a 10k bundle of colored NuShares (needs development) which can be created with a specific type of grant (needs development) and obtained by NuOracle Custodian after paying X amount of NuBits in exchange like a subscription fee. This fee would be a onetime reward for the work of the community to vet a new NuOracle Custodian.</p>
+</li>
+<li><p>Motion needs special status (needs development) so that only NuOracle Custodians with valid token can vote for it and the results can be made available through API on client level.</p>
+</li>
+</ul>
+<p>Risks:</p>
+<ul>
+<li><p>Ensuring certain number of users vote to improve quality (increasing rewards for higher number?)</p>
+</li>
+<li><p>Risk that token is used/minted twice in a given period, potentially skewing results.</p>
+</li>
+<li><p>Results will be publicly, although machine readable (coded), made available in the blockchain. This might not fit certain confidential smart contracts.</p>
+</li>
+</ul>
+<p>*Other options:</p>
+<ul>
+<li>Creating a website tying the motions and their results together in a searchable way. This would create a sort of human readable knowledge database. When the motions are properly coded to be machine readable this can also be used for automatic queries by bots or smart contracts through blockexplorers.*</li>
+</ul>
+
+      
+    </article>
+  </div>
+</div>
+
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div id="app-footer">
+  <footer class="footer footer-branded">
+
+    <div class="container">
+      <nav class="pull-left col-xs-12 col-md-10">
+        <ul>
+          <li role="presentation"><a href="/about">About Daology</a></li>
+          <li role="presentation"><a href="/terms">Terms</a></li>
+          <li role="presentation"><a href="/privacy">Privacy</a></li>
+          <li role="presentation"><a href="/cookies">Cookies</a></li>
+          <li role="presentation"><a href="/support">Support</a></li>
+        </ul>
+      </nav>
+      <div class="copyright col-xs-12 col-md-2 pull-right">
+        &copy; 2017 Daology, LLC
+      </div>
+    </div>
+  </footer>
+</div>
+    </div>
+      
+
+
+  
+  
+
+    
+
+    
+
+    
+      <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+      <script src="//code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/highlight.js/latest/highlight.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+      <script src="/static/public/javascripts/dao.min.js"></script>
+    
+
+  
+
+
+
+  <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='https://www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-62932153-1','auto');ga('send','pageview');
+  </script>
+
+  </body>
+  
+  
+</html>

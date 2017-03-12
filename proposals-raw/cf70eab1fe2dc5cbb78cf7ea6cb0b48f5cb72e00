@@ -1,0 +1,83 @@
+![coinerella logo](https://alix.coinerella.com/volume/logos/hotlink-ok/coinerella_logo_really_small.png "coinerella logo")
+
+Fellow friends of Nu,
+
+this proposal regards a software we call ParkingLot, a tool to monitor parking and unparking transactions. 
+
+**TL;DR**  
+This contract will fund the development of a new product called ParkingLot.
+Further, it will allow Coinerella to deploy  ParkingLot on the ALix and RAW.Coinerella high-availabiliy server structure. 
+
+**What's ParkingLot?**  
+We developed a blockchain parsing software that goes through every single block, looking for parking and unparking transactions. 
+By using the information gathered, we can provide Nu with a **full history** of all parking transactions, as well as with an overview of all **currently parked** transactions with a next to exact prediction for their unpark transaction.  
+With ParkingLot shareholders can predict the upcoming cost of unpark transactions and thus further refine their liquidity operations.
+
+The website will be part of the Parkingyournubits.rocks domain and will feature the following things:
+
+-Frontend using HTML 5, CSS, JS AJAX  
+-Backend using PHP and CouchDB   
+-Full parking transaction history (park transaction and unpark transaction) with pagination   
+-Overview of currently parked NuBits with unpark prediction  
+-Overview of orphaned parking transactions (yes, some park transactions have never been redeemed)   
+-Statistics part including:  
+	-Current amount parked / Upcoming payouts  
+	-Total amount parked / payed out  
+	-historic chart for all currently parked NuBits   
+-all relevant data will be publicly available through *JSON API* 
+
+**What's in for Nu?**  
+*Plain and simple: Those metrics will help Nu to closely monitor and thus improve its business. *
+
+###### Cost report:
+1. ParkingLot software license v 1.0: **7000 NBT** 
+
+Software costs: 7000 NBT  
+
+Running costs: none, hosting is paid for with the ALix & RAW.Coinerella grant 
+
+Total sum: **7000 NBT**
+
+We would like to take a new approach here and split the grant between the two of us. 
+
+TheCrema's share: 3500 NBT - Grant address: **BPnMrBUCDQpn1VYy68r8WHKwGtQqLnmmV8**  
+willy's share: 3500 NBT - Grant address: **BCGbgofctMQxNCzYEKuTFmzP6GkSNA8LyV**
+
+Please note that this contract is only valid, once both grants have passed. 
+
+###### Notes:
+
+- item 1 - This software will be open source. 
+- item 1 - ParkingLot will not be delivered later than August 31st, 2016. Expect it to be finished much earlier. 
+- item 1 - This software will be hosted on the ALix and RAW.Coinerella high-availability server structure. 
+
+###### Terms:
+
+§ 1 - Any future updates for ParkingLot require additional funding.    
+
+§ 2 - Nu will only need to pay for the software licenses once, as any funded software upgrade will create a new version number with a new license.   
+	
+§ 3 -  Coinerella is permitted and obliged to provide the afore mentioned software on the ALix and RAW.Coinerella high-availability structure. 
+	
+§ 4   
+(1) The start of the operation will be seamless after this grant passed. It will be announced in a separate thread.   
+(2) The source code for all items (see above) will be published on Github the same day the announcement thread is created. The software will be published under the Apache License.  
+
+§ 5 - Nu is permitted to revoke this contract, in case Coinerella becomes unresponsive to requests made through https://www.coinerella.com/index.php/Contact for more than 30 consecutive days.
+
+§ 6 - Coinerella will provide said services in all conscience.  Apache License (see https://github.com/bananenwilly/alix/blob/master/LICENSE) applies. Warranty and liability of any nature are excluded. 
+
+§ 7 - ParkingLot will be provided commercial-free. 
+
+###### FAQs:
+
+Q: What happens after the six month term for the ALix and RAW.Coinerella  high-availability server structure ends?  
+A: A new proposal will be needed to continue those operations.
+
+Q: Will Nu have to pay for the same software licenses twice?  
+A: No. Any funded software update will induce a version change with a new license, which will be valid until the next funded software update is published. 
+
+
+---
+
+[Proposal](https://daology.org/p/cf70eab1fe2dc5cbb78cf7ea6cb0b48f5cb72e00) created with [Daology.org](https://daology.org) by [bananenwilly](https://daology.org/u/bananenwilly) for [Nu](https://daology.org/o/Nu)

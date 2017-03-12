@@ -1,0 +1,13 @@
+Dear shareholders,
+
+after a grace period of 45 days my NuBot gateway operation on Poloniex was active for 6 days (including today).
+Based on https://discuss.nubits.com/t/passed-motion-to-permit-dual-side-nubot-on-poloniex/3333 this entitles me to raise a daily fee of 15 NBT totaling 90 NBT for the 6 days.
+The gateway operation was terminated by FLOT request (https://discuss.nubits.com/t/flot-btc-operations-buy-side/3117/541) and once the withdrawal of the funds is complete, the operation will be converted in unattended standby mode.
+
+The NBT address from this grant might be used for broadcasting liquidity of future operations.
+While it's technically not necessary to state that (as each NBT grant address can be used for that), I wanted to include it into this grant.
+
+
+---
+
+[Proposal](https://daology.org/p/ca31c40d3b271cad17d48332c8ec49bc621873fc) created with [Daology.org](https://daology.org) by [lamz0rnewb](https://daology.org/u/lamz0rnewb) for [Nu](https://daology.org/o/Nu)

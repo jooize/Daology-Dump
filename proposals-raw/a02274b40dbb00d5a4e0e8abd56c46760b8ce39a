@@ -1,0 +1,9 @@
+All shareholder funded liquidity must be provided at a 1% spread or less. When determining the spread, exchange transaction fees will not be taken into account. The 1% maximum spread applies to the prices as they appear on the order book. It applies to all liquidity provider models, including, but not limited to, gateways, ALP pools, MLP pools and individuals on contract to provide liquidity.
+
+This new regulation cannot be interpreted as modifying any existing contract for liquidity provision. It merely mandates that all new proposals comply within a 1% maximum spread. This means existing liquidity pools will become compliant when their next contract passes.
+
+There is an exemption for trading pairs with illiquid assets. Liquid assets shall be defined as Bitcoin, Ether, Litecoin and all government currencies such as USD, EUR and CNY. All other assets are considered illiquid and parametric order books are permitted.
+
+---
+
+[Proposal](https://daology.org/p/a02274b40dbb00d5a4e0e8abd56c46760b8ce39a) created with [Daology.org](https://daology.org) by [jordanleepeershares](https://daology.org/u/jordanleepeershares) for [Nu](https://daology.org/o/Nu)

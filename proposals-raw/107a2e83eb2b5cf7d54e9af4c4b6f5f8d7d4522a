@@ -1,0 +1,15 @@
+All shareholder sponsored liquidity must be provided at a 1% spread or less. When determining the spread, exchange transaction fees will not be taken into account. The 1% maximum spread applies to the prices as they appear on the order book. It applies to all liquidity provider models, including, but not limited to, ALP pools, MLP pools and individuals on contract to provide liquidity.
+Refining the naming in the tiered liquidity provision scheme this spread will be called T1.1 as it's liquidity on the order book and at the tightest supported spread.
+
+Nu funded operations like gateways are explicitly excluded from this regulation, because they play a crucial role as last line of defence if all other means of providing liquidity fail and might need to be operated at a higher spread to continue the notion of pegged products - albeit at a worse peg during emergencies.
+They are allowed to use a spread of above 1%, which will be T1.2 - it's liquidity on the order book, but at a spread above T1.1
+
+Parametric order book continues to be used to allow Nu offering high quality products at reasonable cost. 
+
+This new regulation cannot be interpreted as modifying any existing contract for liquidity provision. It merely mandates that all new proposals comply within a 1% maximum spread. This means existing liquidity pools will become compliant when their next contract passes.
+
+There is another exemption for trading pairs with illiquid assets. Liquid assets shall be defined as Bitcoin, Ether, Litecoin and all government currencies such as USD, EUR and CNY. All other assets are considered illiquid and parametric order books with an increased spread are permitted.
+
+---
+
+[Proposal](https://daology.org/p/107a2e83eb2b5cf7d54e9af4c4b6f5f8d7d4522a) created with [Daology.org](https://daology.org) by [lamz0rnewb](https://daology.org/u/lamz0rnewb) for [Nu](https://daology.org/o/Nu)

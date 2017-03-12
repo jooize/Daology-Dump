@@ -1,0 +1,15 @@
+All shareholder sponsored liquidity must be provided at a 0.6% spread or less. When determining the spread, exchange transaction fees will not be taken into account. The 0.6% maximum spread applies to the prices as they appear on the order book. It applies to all liquidity provider models, including, but not limited to, ALP pools, MLP pools and individuals on contract to provide liquidity. 
+
+Nu funded operations like gateways are explicitly excluded from this regulation, because they play a crucial role a second and last line of defence if all other means of providing liquidity fail and might need to be operated at a higher spread, up to 1.4% to continue the notion of pegged products. However they should never provide more than 30% of the total liquidity. 
+
+A small percentage, about 10% of total liquidity provided by Nu should be provided at even higher spreads (1.4%-2.5%) to function as a canary in the coalmine and last line of defence. When these funds are touched urgent (< 8 hours) measures will need to be taken by FLOT to restore the normal spread by providing balanced liquidity at nominal prices. When this happens often or continuously during 3 days or more the current ALP rewards will need to be reviewed by the Shareholders and may need to be increased.
+
+On the contrary when the liquidity at higher spreads haven't been touched for >3 months the ALP rewards may need to be lowered.
+
+This new regulation cannot be interpreted as modifying any existing contract for liquidity provision. It merely mandates that all new proposals comply within a 0.6% maximum spread. This means existing liquidity pools will become compliant when their next contract passes. Exceptions can be provided when the regular fees on an exchange exceed 0.25%. The spread can then be increased with the difference.
+
+There is another exemption for trading pairs with illiquid assets. Liquid assets shall be defined as Bitcoin, Ether, Litecoin and government currencies such as USD, EUR and CNY. All other assets are considered illiquid and parametric order books with an increased spread are permitted.
+
+---
+
+[Proposal](https://daology.org/p/5f9ce9e6fabd149ce8c321cfd28491827602a955) created with [Daology.org](https://daology.org) by [cybnate](https://daology.org/u/cybnate) for [Nu](https://daology.org/o/Nu)

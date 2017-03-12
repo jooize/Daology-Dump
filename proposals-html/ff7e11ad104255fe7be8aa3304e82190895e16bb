@@ -1,0 +1,364 @@
+<!-- extend base layout -->
+
+<!doctype html>
+<html lang="">
+  <head>
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Daology</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/static/public/images/favicon.ico">
+
+    
+  
+  
+
+    
+      <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic|Lato:400,700|Inconsolata' rel='stylesheet' type='text/css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/highlight.js/latest/styles/github.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/flick/jquery-ui.css">
+      <link rel="stylesheet" href="/static/assets/stylesheets/_vendor/jquery.tagit.min.css">
+
+      <link rel="stylesheet" href="/static/public/stylesheets/dao.min.css">
+    
+
+    
+
+    
+
+  
+
+    
+  
+  
+
+    
+
+    
+      <script src="/static/assets/javascripts/vendor/moment.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/contrib/auto-render.min.js"></script>
+    
+
+    
+
+  
+
+  </head>
+  <body role="document">
+    <div id="fullpage_wrapper">
+    
+      <div id="app-navbar">
+  <nav class="navbar" role="navigation">
+    <div class="container-fluid">
+      <div class="brand-bar row">
+        <div class="col-md-12">
+          <button id="menu-toggle" type="button" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar bar1"></span>
+            <span class="icon-bar bar2"></span>
+            <span class="icon-bar bar3"></span>
+          </button>
+          <a class="word_mark" href="/" name="home_link">daology</a>
+          
+        </div>
+      </div>
+      <div class="primary_nav row">
+        <div class="col-md-12">
+          <div class="collapse navbar-collapse" id="app-navbar-collapse">
+            <ul class="subnav">
+              <li class="subnav-item"><a href="/organizations/" name="dao_list_link">Organizations</a></li>
+              <li class="subnav-item"><a href="/articles" name="dao_list_link">Articles</a></li>
+              <li class="subnav-item"><a href="/proposals" name="dao_list_link">Proposals</a></li>
+              
+              <li class="subnav-item"><a href="/login" name="login_link" class="signin_btn">Sign in with Github</a></li>
+              
+
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+</div>
+      
+  
+  
+
+
+      
+
+  
+
+  
+
+  
+
+  
+
+
+
+      <div class="main row">
+        <div class="container">
+          <header class="row page_title">
+            
+            <div class="row">
+              <div class="page_actions col-md-12 pull-right">
+                <ul>
+                
+  <li class="action_btn"><a href="/proposals/ff7e11ad104255fe7be8aa3304e82190895e16bb/raw" target="_blank" class="btn btn-sm btn-primary">Raw</a></li>
+  
+
+
+                
+                  
+
+
+                
+                </ul>
+              </div>
+            </div>
+            
+            
+            <div class="col-xs-9 col-md-11">
+              <span class="supertitle">
+                
+  Proposal  <span style="breadcrumb-separator">// </span><a href="/organizations/Nu">Nu</a>
+
+              </span>
+              <h1>
+                
+  Grant for NSR Buyback and PPC Reserve Operation Calculator
+
+              </h1>
+            </div>
+          </header>
+          <section class="row page_content">
+            <div class="col-md-12">
+              
+<div class="row container">
+
+  <div class="col-md-4 sidebar">
+
+    <div class="scroll_title">
+      <p class="supertitle">Proposal  <span style="breadcrumb-separator">//</span> Nu</p>
+      <p class="title">Grant for NSR buyback and PPC reserve operation calculator</p>
+      <p class="author">By
+        mh001
+        
+      </p>
+      <p class="meta_text date">
+        <script>
+document.write(moment("2016-04-13T05:57:38 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+        
+      </p>
+      <hr>
+      <div class="content-toc"></div>
+    </div>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="meta_text">
+          <a href="/u/mh001/">
+            <img src="https://avatars.githubusercontent.com/u/5444275?v=3" class="profile">
+            <div class="authorname_block">
+                <div class="nolink">By mh001</div>
+                <div class="nickname">@mh001</div>
+              </div>
+            
+          </a>
+        </p>
+        <div class="row">
+          <div class="col-md-12">
+          <p class="meta_text date">
+            <script>
+document.write(moment("2016-04-13T05:57:38 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+            
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="sidebar_title">Text Hash ( RIPEMD-160 )</p>
+        <p class="meta_text hash">87b0a95d87f3a1194ac51bcc0291bd135a2d06c7  </p>
+      </div>
+    </div>
+    
+    <hr>
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="sidebar_title">Tags</p>
+        
+        <script data-type="tagDataVar">
+    
+      var tagList = ["buyback", "reserve", "automation"];
+    
+  </script>
+  <ul class="readonly_tag_wrapper">
+  </ul>
+
+      </div>
+    </div>
+    
+
+    
+
+    
+    
+
+  
+    <hr>
+    <div class="row meta_element">
+        <div class="col-md-12">
+          <span class="sidebar_title">
+            Grant
+          </span>
+          <p class="meta_text">440 NBT</p>
+        </div>
+    </div>
+    <hr>
+    <div class="row meta_element">
+        <div class="col-md-12">
+          <span class="sidebar_title">
+            Grant Address
+          </span>
+          <p class="meta_text">BFRhngri9DLUnatcnhSJrZDk5J7u3Mhu5H</p>
+        </div>
+    </div>
+
+  
+
+
+
+  </div>
+
+  
+  
+    <div class="content_body col-md-8">
+  
+
+
+
+
+    
+    <div class="reading-time-wrapper" data-target="ff7e11ad104255fe7be8aa3304e82190895e16bb">
+    <span class="reading-time"></span> read (<span class="word-count"></span> words)
+  </div>
+
+    <article class="rtCalc no-fouc" id="ff7e11ad104255fe7be8aa3304e82190895e16bb">
+      
+        <p>tldr; Instead of giving up maintaining the <em>NSR buyback and PPC reserve operation calculator</em> because there is too much work and too little fun, I think why not ask for a grant and let the shareholders see the need to pay for Nu automation, and maybe thereby inspire a lot of other development and improvement.</p>
+<p>&gt; BFRhngri9DLUnatcnhSJrZDk5J7u3Mhu5H , 440 NBT</p>
+<hr>
+<p>Back in January @masterOfDisaster started the NSR buyback calculation thread and did manual calculation for several weeks. What it takes to do the calculation is to first understand what all the Nu liquidity fund components are and where to get the latest values, then get them from various sources, and do the calculation after understanding details like what percentage of which fund should be counted for what etc.</p>
+<p>For reason I fully understand now @masterOfDisaster <a href="https://discuss.nubits.com/t/nsr-buyback-calculations/3347/20?u=mhps">decided to end his free service</a>. I thought then a one-off script could solve the problem for good, and for free.</p>
+<p>As it turned out, after my calculator script was setup, which took on and off 6 - 8 hours, I find that buyback calculation not only takes  running/posting once during the weekend, but also demands constant attention and action to changes in parameters and formulas in operations.</p>
+<p>Except for the simplest changes such as updating the value and format of a parameter, most changes took longer than anticipated because they entailed detailed understanding the underlying rule change, adding new calculation, often with refactoring, and verification. All changes need to be documented. In last weeken I spent ~12 hours to make v0.7 right, which at times felt like a beast to kill because of the complexity and subtleties in relevant motions. I am sure more experienced developers can do it faster  but for me this tips the balance.</p>
+<p>I decide not to keep maintaining the calculator for free. To quote moD</p>
+<p>[quote="masterOfDisaster, post:38, topic:3577"]
+I think NSR should be confronted with fees for services more often.This way they can learn that valuable services might have a price - or won't be provided.
+[/quote]</p>
+<p>I don't write so much only about a calculator though. I hope this proposal will make shareholders see better the need to invest in Nu automation.</p>
+<p>Nu can cut cost greatly by automating routine manual jobs. I believe this is critical for Nu's scalability and long-term survival.</p>
+<p>For example FLOT operations can be simplified by <a href="https://discuss.nubits.com/t/activated-at-2016-03-023-sell-side-gateway-at-hitbtc-by-masterofdisaster/3690/17?u=mhps">automatically generating sign'able tx to feed the gateways directly, based on current liquidity conditions</a>. This should reduce recurring cost of FLOT by reducing their task to rubber-stamping in most cases where we already have the rules, not unlike B&amp;C signers.</p>
+<p>Other automation examples include <a href="https://discuss.nubits.com/t/automating-buybacks/3224">NSR buyback</a>, NSR auction, <a href="https://gist.github.com/Lamz0rNewb/a76776a50fa8476667ea">T1+gateway liquidity report</a>, improving ALP etc. Automating a task also increases transparency, reduces human error, and acts as a rigorous review of the rules.</p>
+<p>But who will do the automation? As I probably will get paid less as a FLOT member if I automate FLOT tx generation, there is a tangible reason for me NOT to automate it. Even I want to volunteer for altruistic reason, volunteering can only go so far. I don't look forward to losing a weekend days every time Nu has a liquidity evolution. I doubt how automating FLOT tx is doable as a volunteer project seeing how difficult to maintain the humble buyback calculator.</p>
+<p>If developing and maintaining the automation tools are compensated, people will have incentives and assign these task a higher priority from "hobby project" to "obligation".</p>
+<p>So here is the deal, I am giving Nu 60% off of the starter rate of a software developer -</p>
+<p>1.
+I would like nushare holders to compensate for the "NSR buyback and PPC reserve operation calculator" development at 20 NBT/hour for 22 hours up to v0.7 (see <a href="https://discuss.nubits.com/t/nsr-buyback-calculations/3347/141?u=mhps">this</a> and <a href="https://discuss.nubits.com/t/passed-peercoin-flot-reserve/3337/94?u=mhps">this</a> output), which consists of 6 hours of initial development up to <a href="https://discuss.nubits.com/t/nsr-buyback-calculations/3347/56">v0.3</a>, and 9 weeks' (Febuary 6 to April 4) total development time of 16 hours, for a total of 440 NBT. Upon receiving the payment I will opensource v0.7, and put the calculator on github. I will bug-fix v0.7 and go on with the weekly NSR buyback and PPC reserve ops calculation until two weeks after the voting of this grant starts, after which point I won't do more abovementioned calculations until the payment is received.</p>
+<p>2.
+By approving the grant above shareholders also agree to pay up to 140 NBT per month at 20 NBT per hour  (the same average rate since <a href="https://discuss.nubits.com/t/nsr-buyback-calculations/3347/56">the initial release</a> (22-6)/9*4) for me to:
+a)  continue maintaining and improving the NSR buyback and PPC reserve operation calculator for 3 months, starting on the day when the grant or this motion is approved, whichever is later. The payment will be made a grant proposal at the end of the 3-month term.
+b) perform the weekend calculation run and post the result free of charge.
+c) do my best to inform the shareholders if my service is unavailable 48 hours in advance.</p>
+<p>I will adjust the monthly rate for a possible renewal proposal for the next term based on work/time spent in this 3 month term.</p>
+<hr>
+<p>If you support the proposal, please vote for</p>
+<p>&gt; BFRhngri9DLUnatcnhSJrZDk5J7u3Mhu5H , 440 NBT</p>
+<hr>
+<p><a href="https://daology.org/p/ff7e11ad104255fe7be8aa3304e82190895e16bb">Proposal</a> created with <a href="https://daology.org">Daology.org</a> by <a href="https://daology.org/u/mh001">mh001</a> for <a href="https://daology.org/o/Nu">Nu</a></p>
+
+      
+    </article>
+  </div>
+</div>
+
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div id="app-footer">
+  <footer class="footer footer-branded">
+
+    <div class="container">
+      <nav class="pull-left col-xs-12 col-md-10">
+        <ul>
+          <li role="presentation"><a href="/about">About Daology</a></li>
+          <li role="presentation"><a href="/terms">Terms</a></li>
+          <li role="presentation"><a href="/privacy">Privacy</a></li>
+          <li role="presentation"><a href="/cookies">Cookies</a></li>
+          <li role="presentation"><a href="/support">Support</a></li>
+        </ul>
+      </nav>
+      <div class="copyright col-xs-12 col-md-2 pull-right">
+        &copy; 2017 Daology, LLC
+      </div>
+    </div>
+  </footer>
+</div>
+    </div>
+      
+
+
+  
+  
+
+    
+
+    
+
+    
+      <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+      <script src="//code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/highlight.js/latest/highlight.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+      <script src="/static/public/javascripts/dao.min.js"></script>
+    
+
+  
+
+
+
+  <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='https://www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-62932153-1','auto');ga('send','pageview');
+  </script>
+
+  </body>
+  
+  
+</html>

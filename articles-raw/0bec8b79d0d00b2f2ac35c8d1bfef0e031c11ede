@@ -1,0 +1,107 @@
+###### NuOracle
+
+**Introduction**  
+This article/proposal is created in the search to increase the transactions on the NuNetwork and a good business case. The business case is providing coded real-world facts for smart contracts in the blockchain/clients. The article is more a less of a braindump and exploration to determine where issues and risks are and how certain aspects can be solved with the aim to re-use existing NuNet functionality and minimize additional developments specifically for this business case.
+
+It is provided as incomplete, but hopefully thought provoking. I may or may not expand it depending on feedback. Best outcome would be that this or a similar concept is deemed viable and will be implemented on NuNet.
+
+
+-----
+
+
+
+**What is NuOracle?**  
+NuOracle provides real-life facts required to trigger or execute smart contracts.
+The facts are provided by people minting on the NuNetwork with NuShares. They will provide these answers to their best of their knowledge. They receive a reward based on whether the majority agrees with them paid by the owner of the smart contract.
+NuSurvey is another potential name, maybe better for marketing purposes.
+
+**Main objective of this proposal:** 
+1. Increase transactions on Nu network to make the blockchain sustainable.
+2. Responding to demands for coded Oracles for smart contracts
+3. Reuse existing code, minimize development efforts, delay automatization opportunities until process is better understood.
+
+**Other potential benefits:**
+1. Increase minting participation
+2. Serve an increasing market for quality Oracles required for smart contracts (e.g. Ethereum)
+3. Sustaining the relatively high community participation and creating value out of that by providing another source of income besides liquidity provision.
+4. Increase value of NuShares as a token to be able to participate in potentially lucrative Oracle market.
+
+**Definition of an Oracle**  
+Any good source of information.
+It is about translating facts in the real world, where required interpretation of these and code them to the blockchain in a way a smart contract can read them. A fact is something that happened or is happening, no predictions or guessing involved. Just verifying the truth based on the available sources of information to the best of one's knowledge.
+
+Example: A fact is that Barrack Obama is the US president or Sports team A won last night from sport team B. Or the Bitcoin price on a certain date was US$500.
+
+*More advanced and complex usage of an Oracle is possible for e.g. insurance claims or mediation. You will need to pay an assessor to assess whether the height of the claim is appropriate and whether the claim is eligible. One can trust one assessor or a team of them depending on how much you want to pay. This can also be used for mediation where a team of mediators will provide a simple statement based on provided facts from both parties.
+Due to its inherit complexity assessing and mediation is not in scope of this proposal unless simple yes or no answers can be provided and the expertise can be made available.*
+  
+**Definition of a NuOracle Custodian**  
+An elected holder of at least 10k NSR who is willing to actively respond to questions required for the proper execution of smart contracts. This can be queries on actual events which happened or are happening. This all to the best of their knowledge. 
+The incentive is that they will get a share of the reward when their statement aligns with the actual result after the voting. 
+Rewards will be paid from the fee paid for the submitter of the questions, indirectly from the fee for the smart contract on another blockchain.
+
+**Definition of NuOracle Contractor**  
+The owner or owners of the smart contract e.g. held on Ethereum blockchain who require a coded input for their smart contract execution. They will submit a clearly stated question and the possible answers (e.g. yes, no or value between 0 and 100) to vote for as coded in their contract.
+They will pay a certain amount/market price to a designated address that will be used to pay the NuOracle Custodians. This fee can be paid in any coin but will be Shapeshifted to a NuBits address.
+
+**Definition of NuOracle executor**   
+An elected person who will distribute the paid fee from the NuOracle Contractor to the NuOracle Custodian based on the outcomes of the voting process captured in the blockchain.
+Ideally this process should be automated, and could be done by a smart contract itself. The executor would then be the person to setup this specific 'internal' smart contract.
+
+**Financial model**  
+NuOracle Contractors pay the NuOracle executor a fee to obtain a coded response from a large number of NuOracle Custodians for the execution on their smart contract.
+The NuOracle Executor receives the fee in a multisig address. The fee will be released after the defined voting period (e.g. 1 week) and will be used to reward the NuOracle Custodians. The reward will only be paid to the NuOracle Custodians who provided the correct answer. The correct answer is determined after the voting period based on the majority of the votes by the NuOracle Executor
+e.g. when 80% voted that Barack Obama is the USA president, 20% will receive no rewards. The total reward will be equally divided to the 80% providing the correct answer. This will provide an incentive to find out the correct answer.
+
+The NuNetwork will benefit from all the transactions on the network basically paid by the NuOracle contractor.
+
+
+**Constraints NuNetwork: **  
+- The NuOracle will have to be constraint to a subset of the NuShareholders. Without shares you can't contribute as the system relies on the minting process.
+- The NuOracle will require some time to allow the network to obtain all votes which are related to the minting. Relying on results after days will have a higher error rate due to the randomness of stakes and minting. More time might be required (2 weeks?)
+
+Example 1: Only minting shareholders can contribute, although a custodian's share can be as small as the time it requires to obtain an answer for the Fact and the likelihood minting occurs in that same timeframe. To become a NuOracle Custodian one only needs to obtain a minimum amount of NuShares to mint.
+
+Example 2: A trustworthy answer to an Oracle type question might take a week due to the facts that 10k NuShares takes on average e.g. a fortnight to mint with current PoS difficulty.
+To increase the time for a valid Oracle-type response a NuOracle Custodian might need a higher stake than 10k NuShares.
+
+**Assumptions/requirements:**  
+- All NuOracle Custodians will need to have the same share amount. This will ensure they have equal weighted votes given a certain amount of time and assuming they present the NuShares to mint at all times during the voting period(s).
+- Multiple Results and Oracle-type questions can be up for voting at the same time
+
+Required inputs:
+- Written motion / smart contract e.g. on Daology (hash is required)
+- Creation of tagged motion (like a liquidity custodial address, requires a token/key to vote)
+- Elected NuOracle Custodian
+- Tagged token and at least 10k Nushares for minting.
+
+Required outputs:
+- Tagged motions on blockchain
+- Interface API at client level to query outcome of voting resulting from query in motion.
+
+Tagged motion on blockchain (requires dev work), with only designated NuOracle custodians (subset of shareholders). Motion can be tagged similar as an custodial grant address is used to provide liquidity. This motion API would instead produce a number (0-1)/percentage(0-100%) instead of liquidity via each node/client. The motion API can be made available through the client (more complex, but decentralized) or on a blockexplorer (requires simple to medium level development work, but single point of failure).
+
+**Why electing NuOracle Custodians?**  
+Using all Shareholders for voting doesn't make sense. Wisdom doesn't necessarily come with the size of a stake in the network. Therefore we need to elect a subset of shareholders and reward them to contribute to the Oracle based on a single and equal token. Only NuShareholders who have been elected should be able to participate based on the possession of that token.
+Potential issue is assuring that a token represents a unique person and that no single person owns multiple tokens. This can't be ensured for 100% and is a weakness. Without requiring full identification based on passports etc. the best way is to have the community vetting these persons similar to voting people in as elected custodians. 
+They will also need to be voted in to ensure they obtain the token to participate.
+
+*Option: The election mechanism could also be used to classify custodians. Classifications can be financial, sports, political or economic facts. This would encourage specialazation and likely improved quality of the outcomes. 
+Classifications are considered out of scope for now as this will likely require more development and introduces complexities regarding identities etc.*
+
+**Issues and required developments**  
+- Tying token to motion and/or elected NuOracle custodian
+Option 1: using B&C reputation mechanism in some way to confirm NuOracle custodian status, needs reasearch.
+Option 2: creating a 10k bundle of colored NuShares (needs development) which can be created with a specific type of grant (needs development) and obtained by NuOracle Custodian after paying X amount of NuBits in exchange like a subscription fee. This fee would be a onetime reward for the work of the community to vet a new NuOracle Custodian.
+
+- Motion needs special status (needs development) so that only NuOracle Custodians with valid token can vote for it and the results can be made available through API on client level.
+
+Risks:
+- Ensuring certain number of users vote to improve quality (increasing rewards for higher number?)
+
+- Risk that token is used/minted twice in a given period, potentially skewing results.
+
+- Results will be publicly, although machine readable (coded), made available in the blockchain. This might not fit certain confidential smart contracts.
+
+*Other options:
+- Creating a website tying the motions and their results together in a searchable way. This would create a sort of human readable knowledge database. When the motions are properly coded to be machine readable this can also be used for automatic queries by bots or smart contracts through blockexplorers.*

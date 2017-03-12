@@ -1,0 +1,13 @@
+This is meant as a starter's guide to NuBit peg maintenance.  I am not speaking out of an official capacity, but I have been here a while and crafted many of the governing motions myself.
+
+###NuShare Buyback/Dilution
+As NuShares follow the Peercoin Proof of Stake algorithm, shareholders control the Nu network, therefore it is assumed that the total value of the network is held in distributed shares.  This network is big enough to absorb changes in the NuBit supply.  Imagine that every time someone buys NuBits they must destroy NuShares and in order to destroy Bits the network must create shares.  By diluting and buying back shares strategically, shareholders can affix the NuBit supply to match demand at a pegged price.  This is the basic theoretical underpinning, but there is the danger that an external agent could manipulate the markets to force Nu to trade NuShares frequently at a loss or be forced to sacrifice a close peg.
+
+###Multisig Reserves
+To reduce market exposure Nu can instead sell Bits for another cryptocurrency like Bitcoin.  To then store the bitcoin, shareholders elect a team of signers for the Bitcoin address such that they must collude to abuse Nu funds.  As the network grows, other cryptocurrencies and more advanced contracts can be put in place to generate a healthy reserve that covers the shareholder debt.  As these reserves grow and shrink due to volitility in the price of the reserve token, Nu leverages its share market.  This forces an attacker to manipulate many or all underlying reserve tokens at once in order to drastically influence the share market (i.e. to force Nu to go from buying nsr to selling nsr and back again rapidly).
+
+###NuBot
+Multisig reserves are bulky, which makes it hard to trade nubits from supply with sufficient regularity.  What's more, a large draw for the crypto community is virtual exchanges.  For that reason, Nu maintains an open source trading bot and elects custodians to operate bots and keep the on-exchange price fixed closely to the peg price.  The signers then use a variety of contracts to interact with custodians and generate a healthy ecosystem.
+
+###Tip of an Iceberg
+Nu changes daily.  The blockchain is a living thing, encoding the will and power of shareholders through motion and grant.  This is only an outline for how the system works right now, there is much more to be done for Nu to build and grow as the world's best stable cryptocurrency provider.

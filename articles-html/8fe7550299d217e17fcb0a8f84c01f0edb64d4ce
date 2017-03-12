@@ -1,0 +1,355 @@
+<!-- extend base layout -->
+
+<!doctype html>
+<html lang="">
+  <head>
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Daology</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/static/public/images/favicon.ico">
+
+    
+  
+  
+
+    
+      <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic|Lato:400,700|Inconsolata' rel='stylesheet' type='text/css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/highlight.js/latest/styles/github.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/flick/jquery-ui.css">
+      <link rel="stylesheet" href="/static/assets/stylesheets/_vendor/jquery.tagit.min.css">
+
+      <link rel="stylesheet" href="/static/public/stylesheets/dao.min.css">
+    
+
+    
+
+    
+
+  
+
+    
+  
+  
+
+    
+
+    
+      <script src="/static/assets/javascripts/vendor/moment.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/contrib/auto-render.min.js"></script>
+    
+
+    
+
+  
+
+  </head>
+  <body role="document">
+    <div id="fullpage_wrapper">
+    
+      <div id="app-navbar">
+  <nav class="navbar" role="navigation">
+    <div class="container-fluid">
+      <div class="brand-bar row">
+        <div class="col-md-12">
+          <button id="menu-toggle" type="button" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar bar1"></span>
+            <span class="icon-bar bar2"></span>
+            <span class="icon-bar bar3"></span>
+          </button>
+          <a class="word_mark" href="/" name="home_link">daology</a>
+          
+        </div>
+      </div>
+      <div class="primary_nav row">
+        <div class="col-md-12">
+          <div class="collapse navbar-collapse" id="app-navbar-collapse">
+            <ul class="subnav">
+              <li class="subnav-item"><a href="/organizations/" name="dao_list_link">Organizations</a></li>
+              <li class="subnav-item"><a href="/articles" name="dao_list_link">Articles</a></li>
+              <li class="subnav-item"><a href="/proposals" name="dao_list_link">Proposals</a></li>
+              
+              <li class="subnav-item"><a href="/login" name="login_link" class="signin_btn">Sign in with Github</a></li>
+              
+
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+</div>
+      
+  
+  
+
+
+      
+
+  
+
+  
+
+  
+
+  
+
+
+
+      <div class="main row">
+        <div class="container">
+          <header class="row page_title">
+            
+            <div class="row">
+              <div class="page_actions col-md-12 pull-right">
+                <ul>
+                
+  
+
+
+                
+                  
+
+
+
+                
+                </ul>
+              </div>
+            </div>
+            
+            
+            <div class="col-xs-9 col-md-11">
+              <span class="supertitle">
+                
+  Article  <span style="breadcrumb-separator">// </span> <a href="/organizations/Nu">Nu</a> <span style="breadcrumb-separator">/</span> <a href="/organizations/Nu/NuBits">NuBits</a>
+
+              </span>
+              <h1>
+                
+  NuBits Cost API
+
+              </h1>
+            </div>
+          </header>
+          <section class="row page_content">
+            <div class="col-md-12">
+                
+<div class="row container">
+  
+  <div class="col-md-4 sidebar">
+
+    <div class="scroll_title">
+      <p class="supertitle">Article  <span style="breadcrumb-separator">//</span> Nu <span style="breadcrumb-separator">/</span> NuBits</p>
+      <p class="title">NuBits Cost API</p>
+      <p class="author">By 
+        coingame
+        
+      </p>
+      <p class="meta_text date">
+        <script>
+document.write(moment("2015-10-26T15:55:00 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+        &nbsp;|&nbsp;&nbsp;<span class="updated">Updated: <script>
+document.write(moment("2015-11-02T20:47:04 Z").calendar());
+</script></span>
+        
+      </p>
+      <hr>
+      <div class="content-toc"></div>
+    </div>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="meta_text">
+          <a href="/u/coingame/">
+            <img src="https://avatars.githubusercontent.com/u/7383066?v=3" class="profile">
+            <div class="authorname_block">
+                <div class="nolink">By coingame</div> 
+                <div class="nickname">@coingame</div>
+              </div>
+            
+          </a>
+        </p>
+        <div class="row">
+          <div class="col-md-12">
+            <p class="meta_text date">
+              <script>
+document.write(moment("2015-10-26T15:55:00 Z").format("MMM D YYYY, h:mm A"));
+</script>
+              
+              &nbsp;|&nbsp;&nbsp;
+              
+              <span class="updated">Updated: <script>
+document.write(moment("2015-11-02T20:47:04 Z").calendar());
+</script></span>
+              
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <hr>
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="sidebar_title">Tags</p>
+        
+        <script data-type="tagDataVar">
+    
+      var tagList = ["nubits", "burning", "api"];
+    
+  </script>
+  <ul class="readonly_tag_wrapper">
+  </ul>
+
+      </div>
+    </div>
+    
+
+    
+  </div>
+  
+
+
+  
+    <div class="content_body col-md-8 draft">
+        <div class="status_callout well">
+          <p>The author has made a <strong>DRAFT VERSION</strong> of the article available for review. The final published version may contain different content.</p>
+        </div>
+  
+
+    
+    <div class="reading-time-wrapper" data-target="8fe7550299d217e17fcb0a8f84c01f0edb64d4ce">
+    <span class="reading-time"></span> read (<span class="word-count"></span> words)
+  </div>
+
+    <article class="rtCalc no-fouc" id="8fe7550299d217e17fcb0a8f84c01f0edb64d4ce">
+      
+        <h2>NuNet needs to make a profit for success</h2>
+<p>The Nu Network has been successful in maintaining the $1 pegged asset value for over one year. Yet the network has not found a meaningful way to generate a consistent profit. A transaction fee is in effect which acts as profit by destroying NuBits, but they have yet to reach a transaction volume where the fee has any real impact. Below details a service which could be offered by Nu that would generate a new source of profit for the network.</p>
+<h2>Regulating actions through a cost</h2>
+<p>Applying costs to an action is a means of regulating flow of that action. Cost can be an abstract idea. For instance <a href="http://www.captcha.net/">Captchas</a> require users to solve a mental puzzle that is easy for humans but relatively difficult for computers. The cost here is the time and energy required to solve the puzzle by a human brain. <a href="https://en.wikipedia.org/wiki/London_congestion_charge">Monetary costs can also regulate the flow of actions</a>. These examples are common practices applied in a wide scope of implementations.</p>
+<p>Two cost regulation services which could be offered by NuNet will be called <strong>Proof-of-Burn</strong> and <strong>Proof-of-Park</strong>.</p>
+<h2>Proof-of-Burn</h2>
+<p>Proof-of-Burn is the action of burning NuBits and thus removing them from the total supply. <a href="https://discuss.nubits.com/t/passed-nsr-sale-and-nbt-burn/2138/49?u=coingame">This is an action that has already been performed</a>, is irreversible (unless a blockchain rollback occurs), and can be <a href="http://blockexplorer.nu/transactions/40cde7ec032719aec824e2584e04c73103820f0fb99b4c2d080615141d7c62e8">openly verified by anyone through the blockchain</a>. Services can require a user to burn a specific amount of NuBit and verify that value has been expended.</p>
+<h2>Proof-of-Park</h2>
+<p>Proof-of-Park is the action of locking NuBits preventing them from being spent for a predefined period of time. The cost of parking is the currently voted transaction fee for NuBits. This only removes the NuBits parked from circulation for a temporary period, but the transaction fee is burned in the process. The advantage in this case is a variable amount which is returned back to the user after the parking period ends. For instance you could require a user to park 100 NBT to perform an action with a 24 hour park period. The action will only cost the user a transaction fee (currently at .01 NBT), and the NuBits parked would be returned to them in 24 hours. Unlike <strong>Proof-of-Burn</strong> where the funds are lost forever.</p>
+<h2>How is this profitable for Nu?</h2>
+<p>The source of NuBits comes from custodial grants, unlike other networks where coins are commonly created through block rewards. Custodians take the NuBits that are granted to them and run a trading bot on exchanges where people can purchase the freshly printed NuBits. If people regularly purchased NuBits to burn them custodians would eventually have a surplus of buy-side liquidity. These coins would not return back to exchanges to be sold. They would not exist anymore. This constant reduction of supply produces surplus to the network and NuBits will need to be regularly created to keep the asset from becoming scarce and breaking the peg. This surplus can be considered profit for the network. It creates more buy-side needed than is required to maintain the peg , and so the extra liquidity can be used elsewhere.</p>
+<p>The original design of Nu called for dividend custodians to take the proceeds from their sales of NuBits and deliver them to NuShares holders in the form of Peercoins  as a dividend. Though there have been a few dividend payouts in the networks first year the community has decided it was not economically viable to maintain the peg with regular dividend distributions. NuBits as a cost API, if successful, would prove to be a consistent  source of profit for the nework by permanently removing NuBits from the total supply. The surplus of buy-side liquidity means that the network could safely return to paying dividends without risk of breaking the peg.</p>
+<h2>What are the advantages?</h2>
+<p>NuBits has the potential to be used as a cost API with the two implementations outlined above by other services who would like to regulate actions by associating them with a monetary cost. There are numerous benefits to using NuBits for this application, and NuBits is in a unique position to offer this service that no other cryptocurrency can currently replicate. Burning NuBits through the <strong>Proof-of-Burn</strong>, or through transaction fees in <strong>Proof-of-Park</strong> adds new dimensions of profit for NuNet while also increasing the utility of the asset outside of a simple currency. NuBits also has various advantages over other cryptocurrencies.</p>
+<h3>Using cryptocurrency wallets is still a burden</h3>
+<p>Burning is a way to verify value was expended without having to accept that value. Because cryptocurrencies are becoming a regulated asset many services would not want to use them in regulating actions for fear of the overhead in accepting them. There is no accounting required by applying a captcha to actions on a website. If a website were to require a small Bitcoin deposit in place of a captcha they would need to consider this as a source of income. They would also need to manage a wallet. If they’re concerned with volatility they would need to sell the coins. It would require someone with knowledge of where/how to sell them. Accounting required to keep track of the values they were sold. We could continue on and on, but what should be apparent by this point is the benefits don’t outweigh the costs or risks compared to other currently available options. Also, many people would not want to give away their Bitcoins because it’s seen as an asset that has the potential to rise in value. It would be foolish to regularly give away some of one's holdings to bypass a cost barrier. A third party service could potentially off-load some of this overhead but that simply offloads the difficulties to someone else and doesn't remove them from existence.</p>
+<p>Not having to receive value while in turn being able to verify some cost was applied may seem counter-intuitive, but given the example above it becomes clear that there’s a great deal of benefit to a service provider who wants to apply cost to an action while not having to accept the value expended. <strong>Proof-of-Burn</strong> or <strong>Proof-of-Park</strong> are ways to provably verify a cost has been exhausted without having to manage the overhead of accepting that value. This becomes even more apparent when dealing with cryptocurrencies. NuBits serves as a suitable asset for this purpose.</p>
+<h3>A stable value coin is better for developers and users</h3>
+<p>The supply regulation of NuBits also means that this destruction of the asset is not only acceptable, it’s encouraged. In other cryptocurrencies which have a fixed supply it may seem like an eventual suicide to use for such a purpose. For NuBits when someone buys the asset and burns it this is a profit to the network. New supply can be introduced if demand increases to maintain the pegged value by flooding the market with fresh NuBits as needed. The stable value also makes it very clear as to what the cost is in dollars, rather than some lengthy floating point value that fluctuates, which is the case with Bitcoin or other cryptocurrencies. The stability of the value and USD denomination is a key usability feature.</p>
+<h3>We're not doing this just to price gouge you, seriously</h3>
+<p>The idea of burning rather than receiving could also offer the perception that the cost is really in the good faith of trying to apply a limiter through value without trying to gouge a user for profits. When services add a “fee” to actions it can be seen as greedy. Services that utilize <strong>Proof-of-Burn</strong> or <strong>Proof-of-Park</strong> have free access utilizing action costs without being open to criticism that it’s a greedy move to nickle and dime customers at every corner. The value is transferred to the distributed organization of NuNet, and any service has access to a free cost API.</p>
+<h3>It can be automated without creating accounts</h3>
+<p>Unlike a Capchas (which needs a human to intervene in granting acccess), or paid plans (which requires some sort of centralized accounts to be managed by the provider), data systems can communicate with each other about this value expenditure without creating an account or human intervention. Consider this potential scenario: A service offers 100 requests to their API for free to access data. After 100 requests instead of supplying the data the API provides a json response similar to the one below.</p>
+<pre><code>{"address":"BURNDRK91pPSZJmvVSUmF9bGF8z7UunJ3DqUV","amount":3}
+</code></pre>
+<p>At this point the API requester can recognize the new JSON pattern and automatically send 3 NBT to the provided address. Once the API provider recognizes that the burn transaction has completed they can resume providing access to the data for the IP that it provided that burn address to. No accounts with credit card, Paypal, or other centralized financial services are needed on the part of that service provider to offer extended access through burning. The service provider also does not have to manage any overhead of accepting the value.</p>
+<h2>Some other usage ideas?</h2>
+<p>There are many other ways that services like <strong>Proof-of-Burn</strong>/<strong>Proof-of-Park</strong> could be of potential use. Mind you it's a very open ended and flexible system. This is by no means a list of the way it should be done. Every implementation can be wildly different and that's what is so great about it.</p>
+<p>For instance - registering accounts. Twitter has a large problem with fake accounts or "Twitter bots". Hundreds of thousands of accounts are created through automated programs to boost ones follower count. With <strong>Proof-of-Burn</strong> twitter could force IP addresses which attempt to register more than one account to burn an increasing amount of NuBits for each attempt with some sort of reset time Say, every three days it resets. For example the first two registered accounts could be free. The third attempt must burn 1 NBT to register, the fourth 2 NBT, and so on. It would cost 36 NBT to register 8 accounts in a three day period on one IP address. If someone wanted to register 1,000 fake accounts in a three day period they would need 125 different IP addresses and a total cost of 4,500 NBT. This certainly would not prevent it from happening, but the timelines and economics of the venture would be significantly shifted.</p>
+<p>Another more unusual implementation would be to verify that someone actually has the value to make a future transaction. Craigslist is a website which connects local buyer and sellers of goods and services. <strong>Proof-of-Park</strong> could be used as a means of having buys verify they own the funds required to make a transaction. Consider the scenario of someone trying to sell a flatscreen TV on craiglist and they would only like to receive correspondences from those who have the funds to make the purchase. The seller could require that a certain number of NuBits is parked for a specified duration in order for the buyer to contact the seller. For instance the seller can require a buyer must park 1,000 NuBits for 1 hour before a means of contact is opened up. This prevents spammers and scammers from being able to contact the seller who do not have the available funds to make such a purchase.</p>
+<h2>This all sounds interesting. Let's start doing it! (Hold up, there's problems)</h2>
+<p>The problem with offering these services right now is that the burning and parking mechanisms in Nu were not designed for this purpose. Parking was designed with the intent of offering interest rates, and the current approach to burning doesn't make it easy to integrate with existing services. The scenario I described above is currently impossible (there's is no such thing as a BURN address with Nu). It may be possible in some ways with the current application but it's very difficult to utilize unless you're a capable programmer who has an understanding of working with cryptocurrency code. That demographic is quite slim as Bitcoin based blockchains are still relatively new and evolving quickly. In order for <strong>Proof-of-Burn</strong> and <strong>Proof-of-Park</strong> to be successful there needs to be a lot of design changes that make it an easy experience for the average programmer to implement in their service.</p>
+<h2>What needs to be done?</h2>
+<p>This is not going to be an assertion of what is technically possible to integrate <strong>Proof-of-Burn</strong> and <strong>Proof-of-Park</strong> as a service with Nu. There are many difficulties when designing services on the blockchain and I'm not qualified to delve into the technicalities. This is simply an discussion of what I believe the experience should be to makes these services easy enough that it may be utilized in some way. If this service were used it would prove to be a profitable venture for the Nu Network. They may not be possible, or there may be some better approaches that are possible. (or maybe this is all just a terrible idea to begin with - who knows).</p>
+<p>One feature that would be key to the process is adding a new verify command to the wallet. The Nu daemon (nud) has a nice little feature called "<a href="https://docs.nubits.com/nu-client-commands/">wallet notify</a>". This tells the deamon to run a script when a transaction occurs, and passes along the transaction ID to the script. Many exchanges use this command to recognize when users have made a deposit to an address that was provided to them.  Adding a <code>burnverify</code> command to differentiate between an incoming transaction with value and a transaction that expresses value being burned would let service providers respond to a burn event very easily. This leads to the second feature. Special burn addresses. For fun I prefixed the fake address in the example above with BURN. The intention of this design is to make it very clear what will happens with NuBits sent to this type of address. It could be any prefix really, just different from the normal B address that NuBits uses. The complete process from start to end would look like this:</p>
+<ol>
+<li>A burn address would be provided to a user with an amount.</li>
+<li>The amount to be burned is sent to that address.</li>
+<li>burnverify notifies the provider that a transaction of burned NuBits has occurred on that address.</li>
+<li>Access to some resource can be granted after the transaction is inspected to verify it is the correct value.</li>
+</ol>
+<p>This process may sound almost exactly like how many cryptocurrency services and platforms already operate, and that is intended. It's rather easy to automate sending cryptocurrencies from one wallet to another and to have a wallet respond to transaction events. By making the burn process just as easy it will make offering this service require no more knowledge than is currently required by many cryptocurrency developers.</p>
+<p>Currently there is no such thing as burnverify, there are no burn addresses, and the process I described above may be technically impossible. I believe a process that mimics the existing process of NuBits transactions could make this a viable service for developers to integrate.</p>
+<h2>NuShares holders could make this even easier by funding an API server</h2>
+<p>What would make this process even easier for platforms to integrate is if they did not have to deal with setting up a wallet or coding the service at all themselves. Really, all of this could be done through a single service that provided the functionality through an API. Consider this scenario. I'm a platform that would like to use <strong>Proof-of-Burn</strong> to apply some cost to actions on my website. Nu network has built a RESTful API service which will provide me with a burn address. I can now integrate this address into my application and present it to a user in some way. For instance I tell them they've reached some limit and they must send 3 NBT to this address in order to continue. The API service will manage receiving the burn transaction and providing a response that the required 3 NBT has been burned.</p>
+<p>The Nu Networking has just earned $3 surplus to its liquidity holdings that could fund future maintenance and development of this API service, and the developer had free easy access to a cost API without having to even touch a blockchain or wallet.</p>
+<h2>To sum it all up</h2>
+<p>NuBits needs to find new ways of being profitable to be successful. Regulating access to resources through a measured cost is effective and widely used in various forms. <strong>Proof-of-Burn</strong> and <strong>Proof-of-Park</strong> are two cost services that Nu could offer on the Nu Network. Because of NuBits unique design it has many advantages over other cryptocurrencies in offering this service, and cryptocurrencies in general have many advantages in being used for regulating access via cost. By making this service as easy to use as regular NuBits transactions it opens up a potential new profit model for the Nu Network. The Nu Network itself could even fund the development of a cost API service that makes it incredibly easy and free for other developers to integrate.</p>
+
+      
+    </article>
+  </div>
+</div>
+
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div id="app-footer">
+  <footer class="footer footer-branded">
+
+    <div class="container">
+      <nav class="pull-left col-xs-12 col-md-10">
+        <ul>
+          <li role="presentation"><a href="/about">About Daology</a></li>
+          <li role="presentation"><a href="/terms">Terms</a></li>
+          <li role="presentation"><a href="/privacy">Privacy</a></li>
+          <li role="presentation"><a href="/cookies">Cookies</a></li>
+          <li role="presentation"><a href="/support">Support</a></li>
+        </ul>
+      </nav>
+      <div class="copyright col-xs-12 col-md-2 pull-right">
+        &copy; 2017 Daology, LLC
+      </div>
+    </div>
+  </footer>
+</div>
+    </div>
+      
+
+
+  
+  
+
+    
+
+    
+
+    
+      <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+      <script src="//code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/highlight.js/latest/highlight.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+      <script src="/static/public/javascripts/dao.min.js"></script>
+    
+
+  
+
+
+
+  <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='https://www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-62932153-1','auto');ga('send','pageview');
+  </script>
+
+  </body>
+  
+  
+</html>

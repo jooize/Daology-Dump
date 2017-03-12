@@ -1,0 +1,328 @@
+<!-- extend base layout -->
+
+<!doctype html>
+<html lang="">
+  <head>
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Daology</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/static/public/images/favicon.ico">
+
+    
+  
+  
+
+    
+      <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic|Lato:400,700|Inconsolata' rel='stylesheet' type='text/css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/highlight.js/latest/styles/github.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/flick/jquery-ui.css">
+      <link rel="stylesheet" href="/static/assets/stylesheets/_vendor/jquery.tagit.min.css">
+
+      <link rel="stylesheet" href="/static/public/stylesheets/dao.min.css">
+    
+
+    
+
+    
+
+  
+
+    
+  
+  
+
+    
+
+    
+      <script src="/static/assets/javascripts/vendor/moment.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/contrib/auto-render.min.js"></script>
+    
+
+    
+
+  
+
+  </head>
+  <body role="document">
+    <div id="fullpage_wrapper">
+    
+      <div id="app-navbar">
+  <nav class="navbar" role="navigation">
+    <div class="container-fluid">
+      <div class="brand-bar row">
+        <div class="col-md-12">
+          <button id="menu-toggle" type="button" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar bar1"></span>
+            <span class="icon-bar bar2"></span>
+            <span class="icon-bar bar3"></span>
+          </button>
+          <a class="word_mark" href="/" name="home_link">daology</a>
+          
+        </div>
+      </div>
+      <div class="primary_nav row">
+        <div class="col-md-12">
+          <div class="collapse navbar-collapse" id="app-navbar-collapse">
+            <ul class="subnav">
+              <li class="subnav-item"><a href="/organizations/" name="dao_list_link">Organizations</a></li>
+              <li class="subnav-item"><a href="/articles" name="dao_list_link">Articles</a></li>
+              <li class="subnav-item"><a href="/proposals" name="dao_list_link">Proposals</a></li>
+              
+              <li class="subnav-item"><a href="/login" name="login_link" class="signin_btn">Sign in with Github</a></li>
+              
+
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+</div>
+      
+  
+  
+
+
+      
+
+  
+
+  
+
+  
+
+  
+
+
+
+      <div class="main row">
+        <div class="container">
+          <header class="row page_title">
+            
+            <div class="row">
+              <div class="page_actions col-md-12 pull-right">
+                <ul>
+                
+  <li class="action_btn"><a href="/proposals/d6cb661c7f9084efaa67b78f6d2660505c82efc9/raw" target="_blank" class="btn btn-sm btn-primary">Raw</a></li>
+  
+
+
+                
+                  
+
+
+                
+                </ul>
+              </div>
+            </div>
+            
+            
+            <div class="col-xs-9 col-md-11">
+              <span class="supertitle">
+                
+  Proposal  <span style="breadcrumb-separator">// </span><a href="/organizations/B%26C%20Exchange">B&amp;C Exchange</a> <span style="breadcrumb-separator">/</span> <a href="/organizations/B%26C%20Exchange/BlockShares">BlockShares</a> 
+
+              </span>
+              <h1>
+                
+  [Draft] Motion to Join BTF - masterOfDisaster
+
+              </h1>
+            </div>
+          </header>
+          <section class="row page_content">
+            <div class="col-md-12">
+              
+<div class="row container">
+
+  <div class="col-md-4 sidebar">
+
+    <div class="scroll_title">
+      <p class="supertitle">Proposal  <span style="breadcrumb-separator">//</span> B&amp;C Exchange <span style="breadcrumb-separator">/</span> BlockShares</p>
+      <p class="title">[Draft] Motion to join BTF - masterOfDisaster</p>
+      <p class="author">By
+        lamz0rnewb
+        
+      </p>
+      <p class="meta_text date">
+        <script>
+document.write(moment("2016-04-29T11:33:03 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+        &nbsp;|&nbsp;&nbsp;<span class="updated">Updated: <script>
+document.write(moment("2016-04-29T15:10:29 Z").calendar());
+</script></span>
+        
+      </p>
+      <hr>
+      <div class="content-toc"></div>
+    </div>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="meta_text">
+          <a href="/u/lamz0rnewb/">
+            <img src="https://avatars.githubusercontent.com/u/5789219?v=3" class="profile">
+            <div class="authorname_block">
+                <div class="nolink">By lamz0rnewb</div>
+                <div class="nickname">@lamz0rnewb</div>
+              </div>
+            
+          </a>
+        </p>
+        <div class="row">
+          <div class="col-md-12">
+          <p class="meta_text date">
+            <script>
+document.write(moment("2016-04-29T11:33:03 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+            
+            &nbsp;|&nbsp;&nbsp;
+            
+            <span class="updated">Updated: <script>
+document.write(moment("2016-04-29T15:10:29 Z").calendar());
+</script></span>
+            
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="sidebar_title">Text Hash ( RIPEMD-160 )</p>
+        <p class="meta_text hash">DRAFT  </p>
+      </div>
+    </div>
+    
+
+    
+
+    
+    
+
+  
+
+  
+
+
+
+  </div>
+
+  
+  
+    <div class="content_body col-md-8 draft">
+      <div class="status_callout well">
+        <p>The author has made a <strong>DRAFT VERSION</strong> of the proposal available for review. The final published version may contain different content.</p>
+      </div>
+  
+
+
+
+
+    
+    <div class="reading-time-wrapper" data-target="d6cb661c7f9084efaa67b78f6d2660505c82efc9">
+    <span class="reading-time"></span> read (<span class="word-count"></span> words)
+  </div>
+
+    <article class="rtCalc no-fouc" id="d6cb661c7f9084efaa67b78f6d2660505c82efc9">
+      
+        <h3>Intro</h3>
+<p>The BTF - <strong><em>B</em></strong>locks &amp; Chains Exchange <strong><em>T</em></strong>ask <strong><em>F</em></strong>orce unites a group of people who stand ready to fulfill custodian roles.<br>
+The standard role will be a part of a multisig group. In special circumstances singlesig custodianship might be appropriate.</p>
+<h3>Application</h3>
+<p>@masterOfDisaster - below called "BTF member" - shall be one of the members of the <strong><em>B</em></strong>locks &amp; Chains Exchange <strong><em>T</em></strong>ask <strong><em>F</em></strong>orce .<br>
+The BTF member will coordinate with other members of BTF to the benefit of Blocks &amp; Chains Exchange.<br>
+The BTF member promises to be a part of BTF for up to one year and to abide by all shareholder motions governing the use of funds.<br>
+The BTF member will be able to respond to any request for signing within 60 hours of its proposal; shareholders must be promptly informed of exceptions.</p>
+<h3>Compensation</h3>
+<p>The contract will have a 90-day period, automatically being renewed unless terminated by shareholder motion or retirement of the BTF member.<br>
+In case of retirement the BTF member will support transfer of the funds in BTF custody to a replacement member or a new multisig address, respectively, if demanded.
+By the end of each cycle, a total of amount of 450 NBT shall be paid to the BTF member, conditional on satisfactory performance, which shall be measured in terms of his presence, effort and contribution. The BTF member reserves the right to withdraw from his service if he does not receive the full amount of compensation by the end of any cycle or by personal discretion.</p>
+<h3>Rationale for the compensation</h3>
+<p>Compared to the Nu FLOT member compensation this motion offers a slightly increased fee, although the response time is increased.<br>
+BTF members are expected to have an increased need to discuss compared to Nu FLOT, because there's no framework available yet to guide their actions.</p>
+<hr>
+<p><a href="https://daology.org/p/d6cb661c7f9084efaa67b78f6d2660505c82efc9">Proposal</a> created with <a href="https://daology.org">Daology.org</a> by <a href="https://daology.org/u/lamz0rnewb">lamz0rnewb</a> for <a href="https://daology.org/o/B&amp;C Exchange">B&amp;C Exchange</a></p>
+
+      
+    </article>
+  </div>
+</div>
+
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div id="app-footer">
+  <footer class="footer footer-branded">
+
+    <div class="container">
+      <nav class="pull-left col-xs-12 col-md-10">
+        <ul>
+          <li role="presentation"><a href="/about">About Daology</a></li>
+          <li role="presentation"><a href="/terms">Terms</a></li>
+          <li role="presentation"><a href="/privacy">Privacy</a></li>
+          <li role="presentation"><a href="/cookies">Cookies</a></li>
+          <li role="presentation"><a href="/support">Support</a></li>
+        </ul>
+      </nav>
+      <div class="copyright col-xs-12 col-md-2 pull-right">
+        &copy; 2017 Daology, LLC
+      </div>
+    </div>
+  </footer>
+</div>
+    </div>
+      
+
+
+  
+  
+
+    
+
+    
+
+    
+      <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+      <script src="//code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/highlight.js/latest/highlight.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+      <script src="/static/public/javascripts/dao.min.js"></script>
+    
+
+  
+
+
+
+  <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='https://www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-62932153-1','auto');ga('send','pageview');
+  </script>
+
+  </body>
+  
+  
+</html>

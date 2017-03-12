@@ -1,0 +1,339 @@
+<!-- extend base layout -->
+
+<!doctype html>
+<html lang="">
+  <head>
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Daology</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/static/public/images/favicon.ico">
+
+    
+  
+  
+
+    
+      <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic|Lato:400,700|Inconsolata' rel='stylesheet' type='text/css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/highlight.js/latest/styles/github.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/flick/jquery-ui.css">
+      <link rel="stylesheet" href="/static/assets/stylesheets/_vendor/jquery.tagit.min.css">
+
+      <link rel="stylesheet" href="/static/public/stylesheets/dao.min.css">
+    
+
+    
+
+    
+
+  
+
+    
+  
+  
+
+    
+
+    
+      <script src="/static/assets/javascripts/vendor/moment.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/contrib/auto-render.min.js"></script>
+    
+
+    
+
+  
+
+  </head>
+  <body role="document">
+    <div id="fullpage_wrapper">
+    
+      <div id="app-navbar">
+  <nav class="navbar" role="navigation">
+    <div class="container-fluid">
+      <div class="brand-bar row">
+        <div class="col-md-12">
+          <button id="menu-toggle" type="button" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar bar1"></span>
+            <span class="icon-bar bar2"></span>
+            <span class="icon-bar bar3"></span>
+          </button>
+          <a class="word_mark" href="/" name="home_link">daology</a>
+          
+        </div>
+      </div>
+      <div class="primary_nav row">
+        <div class="col-md-12">
+          <div class="collapse navbar-collapse" id="app-navbar-collapse">
+            <ul class="subnav">
+              <li class="subnav-item"><a href="/organizations/" name="dao_list_link">Organizations</a></li>
+              <li class="subnav-item"><a href="/articles" name="dao_list_link">Articles</a></li>
+              <li class="subnav-item"><a href="/proposals" name="dao_list_link">Proposals</a></li>
+              
+              <li class="subnav-item"><a href="/login" name="login_link" class="signin_btn">Sign in with Github</a></li>
+              
+
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+</div>
+      
+  
+  
+
+
+      
+
+  
+
+  
+
+  
+
+  
+
+
+
+      <div class="main row">
+        <div class="container">
+          <header class="row page_title">
+            
+            <div class="row">
+              <div class="page_actions col-md-12 pull-right">
+                <ul>
+                
+  <li class="action_btn"><a href="/proposals/216296a298ff19a8496e448d7c590ead0f4bfd1c/raw" target="_blank" class="btn btn-sm btn-primary">Raw</a></li>
+  
+
+
+                
+                  
+
+
+                
+                </ul>
+              </div>
+            </div>
+            
+            
+            <div class="col-xs-9 col-md-11">
+              <span class="supertitle">
+                
+  Proposal  <span style="breadcrumb-separator">// </span><a href="/organizations/Nu">Nu</a> <span style="breadcrumb-separator">/</span> <a href="/organizations/Nu/NuShares">NuShares</a> 
+
+              </span>
+              <h1>
+                
+  Dual Side Gateway at hitBTC by masterOfDisaster 
+
+              </h1>
+            </div>
+          </header>
+          <section class="row page_content">
+            <div class="col-md-12">
+              
+<div class="row container">
+
+  <div class="col-md-4 sidebar">
+
+    <div class="scroll_title">
+      <p class="supertitle">Proposal  <span style="breadcrumb-separator">//</span> Nu <span style="breadcrumb-separator">/</span> NuShares</p>
+      <p class="title">Dual side gateway at hitBTC by masterOfDisaster </p>
+      <p class="author">By
+        lamz0rnewb
+        
+      </p>
+      <p class="meta_text date">
+        <script>
+document.write(moment("2016-05-16T11:52:50 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+        &nbsp;|&nbsp;&nbsp;<span class="updated">Updated: <script>
+document.write(moment("2016-05-25T07:11:44 Z").calendar());
+</script></span>
+        
+      </p>
+      <hr>
+      <div class="content-toc"></div>
+    </div>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="meta_text">
+          <a href="/u/lamz0rnewb/">
+            <img src="https://avatars.githubusercontent.com/u/5789219?v=3" class="profile">
+            <div class="authorname_block">
+                <div class="nolink">By lamz0rnewb</div>
+                <div class="nickname">@lamz0rnewb</div>
+              </div>
+            
+          </a>
+        </p>
+        <div class="row">
+          <div class="col-md-12">
+          <p class="meta_text date">
+            <script>
+document.write(moment("2016-05-16T11:52:50 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+            
+            &nbsp;|&nbsp;&nbsp;
+            
+            <span class="updated">Updated: <script>
+document.write(moment("2016-05-25T07:11:44 Z").calendar());
+</script></span>
+            
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="sidebar_title">Text Hash ( RIPEMD-160 )</p>
+        <p class="meta_text hash">c178a7fcd6941ae8845bdd286eef3130460eaab3  </p>
+      </div>
+    </div>
+    
+
+    
+
+    
+    
+
+  
+
+  
+
+
+
+  </div>
+
+  
+  
+    <div class="content_body col-md-8">
+  
+
+
+
+
+    
+    <div class="reading-time-wrapper" data-target="216296a298ff19a8496e448d7c590ead0f4bfd1c">
+    <span class="reading-time"></span> read (<span class="word-count"></span> words)
+  </div>
+
+    <article class="rtCalc no-fouc" id="216296a298ff19a8496e448d7c590ead0f4bfd1c">
+      
+        <h3>Intro</h3>
+<p>@masterOfDisaster - below called "the operator" - will operate a NuBot on the exchange mentioned below. The liquidity is being broadcast using a custodial address to allow tracking the liquidity situation of the bot. If the gateway needs funding, Nu (FSRT, FLOT, JordanLee, etc.) sends NBT or BTC to the exchange account deposit address. The NBT or BTC are used for a dual side operation.</p>
+<p>The status of the orders can be tracked with the getliquiditydetails RPC.</p>
+<h3>Disclaimer</h3>
+<p>The operator charges a low fee for this dual side gateway, but offers no guarantee for anything - neither the availability of NuBot nor malfunctions of NuBot nor outages of the internet access nor the funds on the exchange.
+The operator promises to send all Nu owned NBT and BTC to Nu (FSRT, FLOT) upon request.
+The operator is not responsible for tracking the funding level of the gateway.
+One balancing per week is included in the operator fee, which needs to be requested by FLOT. If a side runs dry, but no balancing is intended, deposits to the weak side may be made.</p>
+<p>The operator won't take any of the funds or trade them.
+Nobody except Nu representatives should send NBT or BTC to the gateway as <strong>all</strong> funds on the account will solely be sent to Nu addresses.
+Funds that have been put on the exchange account by the operator for testing/monitoring purposes before the contract starts, are excluded from this rule.</p>
+<h3>Parameters</h3>
+<ul>
+<li>Operator: @masterOfDisaster</li>
+<li>Type: NuBot</li>
+<li>Exchange: hitBTC.com</li>
+<li>NBT deposit address: BQuc7rf5NTbcCQ4zonjBSPq5gBFw4ibUYH</li>
+<li>BTC deposit address: 1G1dDsJciNxs5NrKdKVD5kLi6tHoerQY3T</li>
+<li>Pair: NBT/BTC</li>
+<li>Mode: dual side</li>
+<li>Spread: 0.5% spread &lt; 1%; details to be negotiated; the lower limit is to avoid collisions</li>
+<li>Duration: 30 days, automatically extended by 30 days until withdrawal of all funds has been requested by authorized entity (NSR holder motion, FLOT majority in the respective group)</li>
+<li>Liquidity broadcast address: BETwD8nSjtj9ADSvej2na34xmsMYwPRymv as long as it's valid, B9gXptkoqAApF3AFrQyhUbhSzvuEudxupt thereafter</li>
+<li>Operator Fee: 50 NBT</li>
+</ul>
+<h3>Activation of the gateway / starting the contract</h3>
+<p>Operation starts the day a Nu representative group or person (JordanLee, FLOT, FSRT) deposits funds at the deposit address or the motion passes</p>
+<h3>Impact for other motions or contracts</h3>
+<p>If this contract gets activated, the <a href="https://discuss.nubits.com/t/activated-at-2016-03-023-sell-side-gateway-at-hitbtc-by-masterofdisaster/3690">sell side gateway at hitBTC by masterOfDisaster </a> gets replaced by this operation.</p>
+<hr>
+<p><a href="https://daology.org/p/216296a298ff19a8496e448d7c590ead0f4bfd1c">Proposal</a> created with <a href="https://daology.org">Daology.org</a> by <a href="https://daology.org/u/lamz0rnewb">lamz0rnewb</a> for <a href="https://daology.org/o/Nu">Nu</a></p>
+
+      
+    </article>
+  </div>
+</div>
+
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div id="app-footer">
+  <footer class="footer footer-branded">
+
+    <div class="container">
+      <nav class="pull-left col-xs-12 col-md-10">
+        <ul>
+          <li role="presentation"><a href="/about">About Daology</a></li>
+          <li role="presentation"><a href="/terms">Terms</a></li>
+          <li role="presentation"><a href="/privacy">Privacy</a></li>
+          <li role="presentation"><a href="/cookies">Cookies</a></li>
+          <li role="presentation"><a href="/support">Support</a></li>
+        </ul>
+      </nav>
+      <div class="copyright col-xs-12 col-md-2 pull-right">
+        &copy; 2017 Daology, LLC
+      </div>
+    </div>
+  </footer>
+</div>
+    </div>
+      
+
+
+  
+  
+
+    
+
+    
+
+    
+      <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+      <script src="//code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/highlight.js/latest/highlight.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+      <script src="/static/public/javascripts/dao.min.js"></script>
+    
+
+  
+
+
+
+  <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='https://www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-62932153-1','auto');ga('send','pageview');
+  </script>
+
+  </body>
+  
+  
+</html>

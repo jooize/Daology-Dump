@@ -1,0 +1,22 @@
+Nu needs a source of revenue to continue liquidity operations. One step can be accomplished by implementing a dynamic transaction fee based upon coin age. 
+
+We set the fee to reduce NBT by X% every year. Where X% is a variable to be determined and voted on by shareholders in a manner similar to voting on park rates. 
+
+This would generate a yearly revenue stream for Nu which would be less than X%, but greater than 0 because the overall number of coins in circulation would decrease. 
+
+Coins on an exchange would not face this problem. But as soon as they are withdrawn and transferred the end used would be hit with the fee. 
+
+Positives: 
+A revenue stream that Nu is currently lacking.
+
+Cons:
+This would be inflationary - NBT holders would see decreasing value in their investment
+This would require a hard fork
+
+
+
+
+
+---
+
+[Proposal](https://daology.org/p/8148697b3f8bd4ca5996bf89e6b4050773d3960e) created with [Daology.org](https://daology.org) by [nejt](https://daology.org/u/nejt) for [Nu](https://daology.org/o/Nu)

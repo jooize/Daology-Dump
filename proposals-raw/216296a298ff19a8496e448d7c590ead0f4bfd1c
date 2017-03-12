@@ -1,0 +1,41 @@
+###Intro
+
+@masterOfDisaster - below called "the operator" - will operate a NuBot on the exchange mentioned below. The liquidity is being broadcast using a custodial address to allow tracking the liquidity situation of the bot. If the gateway needs funding, Nu (FSRT, FLOT, JordanLee, etc.) sends NBT or BTC to the exchange account deposit address. The NBT or BTC are used for a dual side operation.
+
+The status of the orders can be tracked with the getliquiditydetails RPC.
+
+### Disclaimer
+
+The operator charges a low fee for this dual side gateway, but offers no guarantee for anything - neither the availability of NuBot nor malfunctions of NuBot nor outages of the internet access nor the funds on the exchange.
+The operator promises to send all Nu owned NBT and BTC to Nu (FSRT, FLOT) upon request.
+The operator is not responsible for tracking the funding level of the gateway.
+One balancing per week is included in the operator fee, which needs to be requested by FLOT. If a side runs dry, but no balancing is intended, deposits to the weak side may be made.
+
+The operator won't take any of the funds or trade them.
+Nobody except Nu representatives should send NBT or BTC to the gateway as **all** funds on the account will solely be sent to Nu addresses.
+Funds that have been put on the exchange account by the operator for testing/monitoring purposes before the contract starts, are excluded from this rule.
+
+### Parameters
+
+* Operator: @masterOfDisaster
+* Type: NuBot
+* Exchange: hitBTC.com
+* NBT deposit address: BQuc7rf5NTbcCQ4zonjBSPq5gBFw4ibUYH
+* BTC deposit address: 1G1dDsJciNxs5NrKdKVD5kLi6tHoerQY3T
+* Pair: NBT/BTC
+* Mode: dual side
+* Spread: 0.5% spread < 1%; details to be negotiated; the lower limit is to avoid collisions
+* Duration: 30 days, automatically extended by 30 days until withdrawal of all funds has been requested by authorized entity (NSR holder motion, FLOT majority in the respective group)
+* Liquidity broadcast address: BETwD8nSjtj9ADSvej2na34xmsMYwPRymv as long as it's valid, B9gXptkoqAApF3AFrQyhUbhSzvuEudxupt thereafter
+* Operator Fee: 50 NBT
+
+### Activation of the gateway / starting the contract
+
+Operation starts the day a Nu representative group or person (JordanLee, FLOT, FSRT) deposits funds at the deposit address or the motion passes
+
+### Impact for other motions or contracts
+If this contract gets activated, the [sell side gateway at hitBTC by masterOfDisaster ](https://discuss.nubits.com/t/activated-at-2016-03-023-sell-side-gateway-at-hitbtc-by-masterofdisaster/3690) gets replaced by this operation.
+
+---
+
+[Proposal](https://daology.org/p/216296a298ff19a8496e448d7c590ead0f4bfd1c) created with [Daology.org](https://daology.org) by [lamz0rnewb](https://daology.org/u/lamz0rnewb) for [Nu](https://daology.org/o/Nu)

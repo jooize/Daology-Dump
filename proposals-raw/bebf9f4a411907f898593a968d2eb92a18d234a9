@@ -1,0 +1,34 @@
+Hi Shareholders,
+
+It's time to start the voting on the next NuPool operation.   
+After bit of a flaky start (flakier than I had hoped) the ALPv2 software came into use and after a few adjustments is now in a very stable position. I've not had to touch the software for ~15 days so I am happy that it is in a good place for running the liquidity pool.   
+  
+For this  next operation we would like to keep the parameters the same as for the last operation. Thanks to Muchgusto we not only easily made target but also have a view on the profitability of liquidity operations. I would hope that by continuing with the same parameters, we can attract a similar level of support.  As the software is stable we would like to extend the operation period to 60 days.  (Edit. in light of liquidity discussions , the parameters are in fact changing).  
+The one problem that we are still experiencing is with the Bittrex connection in NuBot. I have found it difficult to diagnose the issue as all my attempts to replicate the issue have failed. There is definitely at least one other user who is using Bittrex successfully so I'm not sure if  it's a wrapper issue or an issue with their API. Either way, I would like to explore that a little more to try and get liquidity flowing there too.  
+My other aim for this period is to explore automatic updates to the pool configuration. The pool config is reloaded before each credit round which provides an opportunity to assess the condition of the liquidity on the exchange and adjust the parameters accordingly. This could be used to tune the rewards so that unsupported sides become more attractive to providers and give initiative to balance the sides. I would be very interested in the thoughts of Shareholders on this. What triggers should the pool watch for and what action should it take? I have a few ideas but  feel that it is a good opportunity for shareholders to agree a set of rules around liquidity.   
+  
+The parameters for the next operation are as follows:  
+   
+> Poloniex:  
+*Reward*: **0.02 NBT / minute** (864 NBT total)  
+*Tolerance*: **0.01** (1%)  
+*Target*: **5000 NBT**  
+    
+>Bittrex:  
+*Reward*: **0.003 NBT / minute** (216 NBT total)  
+*Tolerance*: **0.01** (1%)  
+*Target*: **1000 NBT**  
+  
+>Pool  
+*Period*: **30 days**  
+*Fee*: **200 NBT** (Pay for the server, maintenance and support queries)  
+  
+*Total Requested*: **1280**  
+  
+Custodial address: BRsLYtJhPhz7QdkKK54HkoizUrNk64wFwf  
+
+
+
+---
+
+[Proposal](https://daology.org/p/bebf9f4a411907f898593a968d2eb92a18d234a9) created with [Daology.org](https://daology.org) by [inuitwallet](https://daology.org/u/inuitwallet) for [Nu](https://daology.org/o/Nu)

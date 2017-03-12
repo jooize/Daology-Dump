@@ -1,0 +1,663 @@
+<!-- extend base layout -->
+
+<!doctype html>
+<html lang="">
+  <head>
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Daology</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/static/public/images/favicon.ico">
+
+    
+  
+  
+
+    
+      <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic|Lato:400,700|Inconsolata' rel='stylesheet' type='text/css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/highlight.js/latest/styles/github.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/flick/jquery-ui.css">
+      <link rel="stylesheet" href="/static/assets/stylesheets/_vendor/jquery.tagit.min.css">
+
+      <link rel="stylesheet" href="/static/public/stylesheets/dao.min.css">
+    
+
+    
+
+    
+
+  
+
+    
+  
+  
+
+    
+
+    
+      <script src="/static/assets/javascripts/vendor/moment.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/contrib/auto-render.min.js"></script>
+    
+
+    
+
+  
+
+  </head>
+  <body role="document">
+    <div id="fullpage_wrapper">
+    
+      <div id="app-navbar">
+  <nav class="navbar" role="navigation">
+    <div class="container-fluid">
+      <div class="brand-bar row">
+        <div class="col-md-12">
+          <button id="menu-toggle" type="button" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar bar1"></span>
+            <span class="icon-bar bar2"></span>
+            <span class="icon-bar bar3"></span>
+          </button>
+          <a class="word_mark" href="/" name="home_link">daology</a>
+          
+        </div>
+      </div>
+      <div class="primary_nav row">
+        <div class="col-md-12">
+          <div class="collapse navbar-collapse" id="app-navbar-collapse">
+            <ul class="subnav">
+              <li class="subnav-item"><a href="/organizations/" name="dao_list_link">Organizations</a></li>
+              <li class="subnav-item"><a href="/articles" name="dao_list_link">Articles</a></li>
+              <li class="subnav-item"><a href="/proposals" name="dao_list_link">Proposals</a></li>
+              
+              <li class="subnav-item"><a href="/login" name="login_link" class="signin_btn">Sign in with Github</a></li>
+              
+
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+</div>
+      
+  
+  
+
+
+      
+
+  
+
+  
+
+  
+
+  
+
+
+
+      <div class="main row">
+        <div class="container">
+          <header class="row page_title">
+            
+            <div class="row">
+              <div class="page_actions col-md-12 pull-right">
+                <ul>
+                
+  <li class="action_btn"><a href="/proposals/aef583f0140da252050da7856515e49165037ba2/raw" target="_blank" class="btn btn-sm btn-primary">Raw</a></li>
+  
+
+
+                
+                  
+
+
+                
+                </ul>
+              </div>
+            </div>
+            
+            
+            <div class="col-xs-9 col-md-11">
+              <span class="supertitle">
+                
+  Proposal  <span style="breadcrumb-separator">// </span><a href="/organizations/Peercoin">Peercoin</a>
+
+              </span>
+              <h1>
+                
+  Vision for Peercoin.net
+
+              </h1>
+            </div>
+          </header>
+          <section class="row page_content">
+            <div class="col-md-12">
+              
+<div class="row container">
+
+  <div class="col-md-4 sidebar">
+
+    <div class="scroll_title">
+      <p class="supertitle">Proposal  <span style="breadcrumb-separator">//</span> Peercoin</p>
+      <p class="title">Vision for Peercoin.net</p>
+      <p class="author">By
+        Esko
+        
+      </p>
+      <p class="meta_text date">
+        <script>
+document.write(moment("2015-11-06T18:00:19 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+        &nbsp;|&nbsp;&nbsp;<span class="updated">Updated: <script>
+document.write(moment("2015-12-03T10:03:24 Z").calendar());
+</script></span>
+        
+      </p>
+      <hr>
+      <div class="content-toc"></div>
+    </div>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="meta_text">
+          <a href="/u/jooize/">
+            <img src="https://avatars.githubusercontent.com/u/719371?v=3" class="profile">
+            <div class="authorname_block">
+                <div class="nolink">By Esko</div>
+                <div class="nickname">@jooize</div>
+              </div>
+            
+          </a>
+        </p>
+        <div class="row">
+          <div class="col-md-12">
+          <p class="meta_text date">
+            <script>
+document.write(moment("2015-11-06T18:00:19 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+            
+            &nbsp;|&nbsp;&nbsp;
+            
+            <span class="updated">Updated: <script>
+document.write(moment("2015-12-03T10:03:24 Z").calendar());
+</script></span>
+            
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="sidebar_title">Text Hash ( RIPEMD-160 )</p>
+        <p class="meta_text hash">5d52af1341c8eaecacd3a4129a7b285f98a90f66  </p>
+      </div>
+    </div>
+    
+
+    
+
+    
+    
+
+  
+
+
+
+  </div>
+
+  
+  
+    <div class="content_body col-md-8">
+  
+
+
+
+
+    
+    <div class="reading-time-wrapper" data-target="aef583f0140da252050da7856515e49165037ba2">
+    <span class="reading-time"></span> read (<span class="word-count"></span> words)
+  </div>
+
+    <article class="rtCalc no-fouc" id="aef583f0140da252050da7856515e49165037ba2">
+      
+        <h2>Introduction</h2>
+<p><strong>Greetings,</strong></p>
+<p><em>I originally wrote this in February, but never posted it. I've updated parts since, but some of it might be out of date (or just wrong!).</em></p>
+<p>You might have seen the discussion about forum software and that we're not all in agreement. The views I hold will be obvious and I'd like to raise relevant points with some examples.</p>
+<p>First I want to say that <em>the last I want is to divide the community or cause excessive chaos.</em> I present what I believe will give a superior user experience and public image. While marketing isn't everything and perhaps won't make or break Peercoin, I perceive a general underestimation of its value.</p>
+<p>There will be drawbacks, and work to be done, probably issues, but we should move forward. We can handle disagreement, nobody is being attacked, we're mature people in one of the best cryptocommunities, so <strong>let's seriously consider what is best for the future of Peercoin.</strong> You'll see this is more than “change for change's sake”.</p>
+<p>Parts have already been posted in the thread about <a href="https://www.peercointalk.org/index.php?topic=3929">integrating with Peercoin.net and forum software</a> (post <a href="https://www.peercointalk.org/index.php?topic=3929.msg37675#msg37675">#26</a>, <a href="https://www.peercointalk.org/index.php?topic=3929.msg37695#msg37695">#33</a>, <a href="https://www.peercointalk.org/index.php?topic=3929.msg37726#msg37726">#41</a>).</p>
+<p>I hope it can be of value even if you don't agree with the ideas. Nothing is meant to be criticising against the work of everyone involved, it has been great and all had its time.</p>
+<p>&gt; <em>There is tremendous technical and sociological friction to change in any established community. Engage in serious discussions with your community about any such change well in advance. There needs to be broad dissatisfaction with the status quo and strong support for change from the community leaders.</em></p>
+<p>— <a href="http://www.discourse.org/faq/">Discourse FAQ</a></p>
+<h2>Recap of events</h2>
+<p>The whole discussion triggered the creation of an improved theme for PeercoinTalk. <del>Follow the development <a href="https://www.peercointalk.org/index.php?topic=3929.msg37840#msg37840">in the other thread</a>. It's already available to select under Profile &gt; Account Settings &gt; Modify Profile &gt; Look and Layout &gt; Current Theme &gt; <a href="https://www.peercointalk.org/index.php?action=theme;sa=pick;">(change)</a>, but I don't think it's finished yet.</del> <em>Now set as default theme!</em></p>
+<p>It began with Sentinelrv <a href="http://chatboxhistory.peercointalk.org/?Pagenumber=763">mentioning in the chatbox</a> he'd like us to integrate the forum with Peercoin.net and switch to Discourse. He's since <a href="https://www.peercointalk.org/index.php?topic=3929.msg37840#msg37840">decided not to pursue this path</a>.</p>
+<p>I and others also <a href="https://www.peercointalk.org/index.php?topic=2373.msg22352#msg22352">rooted for new forum software</a> about a year ago.</p>
+<p>After I setup Discourse and PM:ed the three people that discussed it in the chatbox at time, Sentinelrv had the idea to put the <a href="http://peercoin.net">Peercoin.net</a> menu in the Discourse menu bar and <a href="https://i.imgur.com/01lb5yQ.png">edited a screenshot</a> plus set the colors of buttons and categories in line with Peercoin's colorscheme.</p>
+<p>I've since been working to give you the best impression of Discourse possible. We'll see what you think of it.</p>
+<h2>Forum software</h2>
+<p><strong>Alternatives I'm aware of:</strong></p>
+<ul>
+<li><a href="https://http://www.discourse.org/">Discourse</a>: open-source and free of charge.</li>
+<li><a href="https://xenforo.com/">XenForo</a>: 140+ USD with one year of upgrades, and $40 per each additional year.</li>
+<li><a href="http://vanillaforums.org/">Vanilla</a>: $99+/month.</li>
+<li><a href="https://nodebb.org/">NodeBB</a>: Popular alternative to Discourse.</li>
+<li><a href="http://simplemachines.org/">Simple Machines Forum</a> (SMF): our current software. <em>Upcoming <a href="http://www.simplemachines.org/community/index.php?topic=530233.msg3764642#msg3764642">version 2.1</a> brings improvements. <a href="http://smf21.chelloo.com/">(demo of beta 1)</a></em></li>
+</ul>
+<h3>Discourse</h3>
+<ul>
+<li><a href="http://www.discourse.org/"><strong>Website</strong></a></li>
+<li><a href="http://www.discourse.org/about/"><strong>About</strong></a></li>
+<li><a href="http://www.discourse.org/faq/"><strong>FAQ</strong></a></li>
+</ul>
+<p>At first I was admittedly a little intimidated by Discourse, but it really is a <em>wonderful software</em> after having familiarised with it. I understand most people are used to the classic forums, but I'm surprised by some's perception that Discourse is complicated and makes it difficult to overview and follow threads. Quite the opposite in my experience!</p>
+<p>If you're used to classic forums like this one (SMF), phpBB, vBulletin, and the others, <em>use the Categories view</em> in Discourse. I've set it as default for Peercoin's Discourse, but I think the ‘Latest’ view is more useful. Play around on <a href="https://discuss.nubits.com/">NuBits' Discourse</a>!</p>
+<p>I said in the thread a year ago that Discourse looks more radically different, but it's basically just a forum that's made with how people actually use them in mind.</p>
+<h4>Feature improvements with Discourse</h4>
+<p>We get a modern forum with all it entails. <strong>I recommend looking at their own examples at <a href="http://www.discourse.org/">Discourse.org</a> and the <a href="http://www.discourse.org/about/">About</a> page.</strong> They show it better than text explains.</p>
+<ul>
+<li><strong>Built for mobile</strong>, and is pleasant to use <del>without users having to download <a href="https://tapatalk.com/">an app</a> or us <a href="http://smf-media.com/">purchasing a theme</a> (not that $20 is much).</del> Mobile view in SMF 2.1!</li>
+<li>Automatically updating everything, <em>real-time</em>.</li>
+<li>Paste a link and it <em>integrates the content</em> into your post.</li>
+<li>Following a thread happens “intelligently” (with choice) and gives notifications.</li>
+<li><strong>Linked topics.</strong> Break off discussion at any point.</li>
+<li>When returning to a thread you're placed where you left to continue reading immediately.</li>
+<li>An editor that doesn't cause hairloss during use. Explained after screenshots.</li>
+<li>Mentions. (Fuzzybear added a plugin for this to SMF) “Alerts” come in SMF 2.1, including Mentions integrated.</li>
+<li><strong>Notifications</strong> through browser to desktop OS native ones.</li>
+<li><em>One</em> search.</li>
+<li>Built-in mechanism for <strong>daily backups</strong>. Local and to Amazon S3.</li>
+<li><strong>Simple upgrades</strong> by pressing a button. Good for urgent security fixes, “all software has bugs”. You may argue that software shouldn't have write access to itself. It's a trade-off that appears to make sense in this case.</li>
+</ul>
+<p>There is simply so much that is better with Discourse than SMF. Sure, plugins and customisation can improve SMF to an extent, but we would have to maintain all that and it would realistically just not reach the same level. Even with the new upcoming version 2.1 while very welcome it doesn't improve SMF <em>that</em> much.</p>
+<p>Compare to an alternative which already has everything we want. Except the <a href="https://meta.discourse.org/t/has-anyone-built-something-for-informal-status-updates-chat/10550/44?u=jooize">chatbox, yet!</a></p>
+<p>The developers are very active and friendly. By the way @irritant, they're open to a site-wide setting to <a href="https://meta.discourse.org/t/disable-u-user-in-shared-links/25356/9?u=jooize">disable the “?u=&lt;user&gt;” appendage</a> in Share links in case you didn't see in the other thread. Someone would have to code it, though.</p>
+<p>We could benefit from the <a href="https://discuss.nubits.com/t/introducing-assistant-bot/1303?u=jooize">Assistant bot</a> written by woolly_sammoth for NuBits' Discourse.</p>
+<p>Found this about SMF backups: <em>(emphasis theirs)</em></p>
+<p>&gt; SMF's Admin section has a built-in database backup function. <strong>Do not use it!</strong> It does work in some cases, but not in others, so it should not be used, unless you have no other way to acquire the backup of the database.</p>
+<p>— <a href="http://wiki.simplemachines.org/smf/Backup">http://wiki.simplemachines.org/smf/Backup</a></p>
+<p><strong><em>Continued after screenshots!</em></strong></p>
+<h4>Screenshots</h4>
+<p>These are also available in an <a href="https://imgur.com/a/c70ZV#0">Imgur album</a>. <strong>Live demo</strong> at <a href="https://talk.peercoin.se">https://talk.peercoin.se</a> (registrations are disabled).</p>
+<p><strong>Discourse's category view and currently the startpage:</strong></p>
+<p><img src="https://i.imgur.com/D1CL2D3.png" alt=""></p>
+<p><strong>Discourse's welcome thread:</strong></p>
+<p><img src="https://i.imgur.com/1wdisVE.png" alt=""></p>
+<p><strong>Sunny King's Weekly Update thread:</strong></p>
+<p><img src="https://i.imgur.com/gQJVF4W.png" alt=""></p>
+<p><em>I've since added the “Weekly Update #130” into the post like Sunny King does. Perhaps it's there to simplify for people copying the whole update.</em></p>
+<p><strong>Discourse profile:</strong></p>
+<p><img src="https://i.imgur.com/RFYBgwy.png" alt=""></p>
+<h5>Dark theme</h5>
+<p><strong>Discourse categories in dark:</strong></p>
+<p><img src="https://i.imgur.com/b6rSQTN.png" alt=""></p>
+<p><strong>Discourse welcome topic in dark:</strong></p>
+<p><img src="https://i.imgur.com/jn73Hoz.png" alt=""></p>
+<p>I implemented the dark theme with help of <a href="https://meta.discourse.org/t/its-a-dark-theme/15662?u=jooize">a thread</a> at meta.discourse.org and it's not perfect.</p>
+<p>Unfortunately, there might not be a convenient way to switch between them per user preference. I recall seeing a way to set custom themes with a query string, but I don't find it now.</p>
+<p><strong>Intelligent following:</strong></p>
+<p><img src="https://i.imgur.com/L6o6y96.png" alt=""></p>
+<p><strong>Mobile view of Sunny King's Weekly Update #129:</strong></p>
+<p><img src="https://i.imgur.com/AmeXAV1.png" alt=""></p>
+<h4>Editor</h4>
+<ul>
+<li>Simpler syntax for posts with <strong>Markdown</strong>, while still supporting <strong>BBCode</strong> that you're familiar with in SMF.</li>
+<li>Browse the forum while writing your post.</li>
+<li><strong>Autosaves</strong> so you may <strong>continue composing from another device</strong> (comes in SMF 2.1). Protects against loss in the event of browser crashes or power outages.</li>
+<li>Inline code snippets (`example`).</li>
+<li>Code syntax highlighting.</li>
+</ul>
+<p><code>[code]</code> isn't inline and [inline]isn't implemented[/inline], neither is <a href="https://www.phpbb.com/customise/db/bbcode/inline_bbcode/">[c][/c]</a>.</p>
+<p><img src="https://i.imgur.com/sB24AcG.png" alt=""></p>
+<h5>Syntax examples</h5>
+<p>A list with BBCode in SMF:</p>
+<pre><code>[list]
+[li]Ice.[/li]
+[li]Water.[/li]
+[li]Steam.[/li]
+[/list]
+</code></pre>
+<p>Ordered with “list type=decimal”.</p>
+<p>Lists with Markdown in Discourse: <em>(asterisk (*) and plus (+) do the same)</em></p>
+<pre><code>- Ice.
+- Water.
+- Steam.
+
+1. One
+2. Two
+3. Three
+</code></pre>
+<p>Headings with BBCode in SMF:</p>
+<pre><code>[size=18pt]Food[/size]
+[size=16pt]Maize[/size]
+[size=14pt]Popcorn[/size]
+</code></pre>
+<p>Headings with Markdown in Discourse:</p>
+<pre><code># Food
+## Maize
+### Popcorn
+</code></pre>
+<p>Bold and italics in SMF:</p>
+<pre><code>[b]bold[/b]
+[i]italics[/i]
+</code></pre>
+<p>Bold and italics in Discourse:</p>
+<pre><code>**bold**
+_italics_
+or
+__bold__
+*italics*
+</code></pre>
+<ul>
+<li>Super User <a href="https://superuser.com/editing-help">reference for Markdown</a>.</li>
+<li>GitHub article with <a href="https://help.github.com/articles/markdown-basics/">Markdown basics</a>.</li>
+<li>Creator John Gruber at Daring Fireball <a href="https://daringfireball.net/projects/markdown/basics">about Markdown and its syntax</a>.</li>
+<li><a href="http://www.bbcode.org/reference.php">BBCode reference</a>.</li>
+</ul>
+<p>Relevant is also <a href="http://commonmark.org/">CommonMark</a> (“A strongly specified, highly compatible implementation of Markdown”), but it's not strictly what's used in Discourse.</p>
+<h4>Spam</h4>
+<p>Discourse has <strong>powerful built-in countermeasures against spam.</strong></p>
+<p>The <a href="https://meta.discourse.org/t/what-do-user-trust-levels-do/4924">trust level system</a>, rate limiting, plus more! <a href="https://meta.discourse.org/t/what-about-the-spam-problem/2724/8">Co-founder of Stack Overflow and Discourse about spam</a>.</p>
+<p>No need for captchas or questions. Discourse makes housekeeping quick and easy.</p>
+<h4>System requirements</h4>
+<p>&gt; Discourse is a <em>JavaScript</em> application designed for the next 10 years of the Internet, so the minimum web browser requirements are high:</p>
+<ul>
+<li>Internet Explorer 10+</li>
+<li>Google Chrome 24+</li>
+<li>Firefox 14+</li>
+<li>Safari 5.1+</li>
+</ul>
+<p>&gt; We do officially support Internet Explorer 9, but some functionality will be unavoidably broken.</p>
+<ul>
+<li>Mobile Safari, iOS 6+</li>
+<li>Mobile Chrome, Android 4.1+</li>
+<li>Mobile IE, Windows Phone 8 or later</li>
+</ul>
+<p>— <a href="http://www.discourse.org/faq/">Discourse FAQ</a></p>
+<p>We are building something futuristic here. NuBits' discussion forum thrives “despite” running Discourse.</p>
+<h5>JavaScript</h5>
+<p>There has been concern the JavaScript requirement might exclude those surfing through <a href="https://www.torproject.org/">Tor</a>. It was mentioned also that Sunny King likes the chatbox because it's accessible through Tor, but <a href="https://www.peercointalk.org/Themes/default/shoutbox.js">the chatbox requires JavaScript</a> as well.</p>
+<p>It's possible to use JavaScript through Tor, so it'd be similarly daring to use Discourse as the current chatbox.</p>
+<p>The argument may have some merit, but I think it's thin.</p>
+<h3>Structural revamp</h3>
+<p>We currently have a list of services hosted at <a href="http://services.peercointalk.org">services.peercointalk.org</a>.</p>
+<p><a href="https://www.peercointalk.org/">peercointalk.org</a> → talk.peercoin.net<br>
+<a href="https://wiki.peercointalk.org/">wiki.peercointalk.org</a> → wiki.peercoin.net</p>
+<p><a href="https://wallet.peercointalk.org/">wallet.peercointalk.org</a> – Paper wallet generator<br>
+<a href="https://blockexplorer.peercointalk.org/">blockexplorer.peercointalk.org</a> vs <a href="https://ppc.blockr.io/">Blockr</a> and <a href="https://bkchain.org/ppc">bkchain</a>?<br>
+<a href="https://articles.peercointalk.org/">articles.peercointalk.org</a> (broken)<br>
+<a href="https://vanity.peercointalk.org/">vanity.peercointalk.org</a> – Vanity address generator
+<a href="https://phpcoinaddress.peercointalk.org/">phpcoinaddress.peercointalk.org</a><br>
+<a href="https://builds.peercointalk.org/">builds.peercointalk.org</a> – Fuzzybear's Peercoin builds<br>
+<a href="https://poscalculator.peercointalk.org/">poscalculator.peercointalk.org</a> – Proof-of-stake calculator<br>
+<a href="https://findstakejs.peercointalk.org/">findstakejs.peercointalk.org</a> – Determine when staking is likely to occur (broken?)<br>
+<a href="https://charts.peercointalk.org/">charts.peercointalk.org</a> (slow)</p>
+<p>I don't want to be rude, but I find this messy.</p>
+<p><strong>Suggestion:</strong></p>
+<p><img src="https://i.imgur.com/FTDuyfn.png" alt=""></p>
+<h4>Branding</h4>
+<p>“PeercoinTalk” is established, and I agree it's better we continue calling the forum that. It would reside on talk.peercoin.net. Perhaps lowercase the ‘T’ (I think this particular one looks worse lowercased, but I'm in favor of consistency).</p>
+<h4>Search Engine Optimisation (SEO)</h4>
+<p>&gt; We already provide a special <strong>highly crawlable</strong> and <strong>SEO optimized</strong> Discourse for crawlers (in NOSCRIPT tags).</p>
+<p>— <a href="https://meta.discourse.org/t/seo-compared-to-other-well-known-tools/3914/2">https://meta.discourse.org/t/seo-compared-to-other-well-known-tools/3914/2</a></p>
+<p>There are several more threads at <a href="https://meta.discourse.org">Discourse Meta</a> about the matter. Considering they (Jeff Atwood &amp; Co.) created and run large websites like Stack Overflow, they have some credibility.</p>
+<p>Regarding the current search results for PeercoinTalk.org, it will indeed take some time for the new forum to show up.</p>
+<p><em>I've disabled indexing of the demo site in <code>robots.txt</code>.</em></p>
+<h5>Sitelinks – Applicable regardless of Discourse</h5>
+<p>&gt; At the moment, sitelinks are automated. We're always working to improve our sitelinks algorithms, and we may incorporate webmaster input in the future. There are best practices you can follow, however, to improve the quality of your sitelinks. For example, for your site's internal links, make sure you use anchor text and alt text that's informative, compact, and avoids repetition.</p>
+<p>— <a href="https://support.google.com/webmasters/answer/47334">https://support.google.com/webmasters/answer/47334</a></p>
+<p>We do not seem to adhere to this on <a href="http://Peercoin.net">Peercoin.net</a> in the menu:</p>
+<pre><code>&lt;li&gt;&lt;a href="newcomers"&gt;﻿Newcomers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="investors"&gt;﻿Investors&lt;/a&gt;&lt;/li&gt;
+</code></pre>
+<p>...and even less at the bottom of the front page:</p>
+<pre><code>&lt;a href="newcomers"&gt;﻿Get started&lt;/a&gt;
+[...]
+&lt;a href="investors"&gt;﻿Get started&lt;/a&gt;
+</code></pre>
+<p>I assume from what Google says we should at least add a descriptive alt text to the ones in our menu. Perhaps also redesign the bottom to have the the links say “Newcomers”, “Investors”, and so on. I like how it looks—<em>I think the site is gorgeous</em>—but it might be possible to improve.</p>
+<p>We can't choose what to display there, but it seems we can make what does show up look good.</p>
+<p><strong>The dream would be to have something like this in Google Search:</strong></p>
+<p><img src="https://i.imgur.com/4x6ALxW.png" alt=""></p>
+<h3>Content</h3>
+<p>We have quite some content on PeercoinTalk. It's organised well to the point it can, but it should be more visible and accessible. I'm not sure how much sense it makes to serve it on the forum, but it might. Discourse has a wiki mode for posts if that would help.</p>
+<p>I think it's a project to put time into. Decide suitable places to put knowledge and media that doesn't fit on Peercoin.net itself and migrate content from the current PeercoinTalk. The wiki, I guess.</p>
+<h4>Wiki</h4>
+<p><strong>Alternatives:</strong> (<a href="http://www.wikimatrix.org/compare/Confluence+Foswiki+MediaWiki+MoinMoin+TiddlyWiki+XWiki">WikiMatrix comparison</a>)</p>
+<ul>
+<li><a href="https://www.mediawiki.org/">MediaWiki</a>: open-source, proven by Wikipedia, good mobile view.</li>
+<li><a href="https://www.atlassian.com/opensource/overview">Confluence</a>: free for open-source projects.</li>
+<li><a href="http://www.tiddlywiki.com/">TiddlyWiki</a>: open-source, JavaScript.</li>
+<li><a href="https://moinmo.in/">MoinMoin</a>: open-source.</li>
+<li><a href="https://www.dokuwiki.org/">DokuWiki</a>: open-source, mobile view.</li>
+<li><a href="http://xwiki.org/">XWiki</a>: open-source, mobile view. <a href="http://www.xwiki.com/lang/en/XWikivsOtherSolutions/XWikivsMediaWiki">Compared to MediaWiki</a>.</li>
+<li><a href="https://slimwiki.com/">SlimWiki</a>: Beautiful, simple, but only WYSIWYG, their servers, and costly.</li>
+<li><a href="https://torchpad.com/">Torchpad</a>: Their servers, <a href="https://markdown.torchpad.com/Home">Markdown</a>.</li>
+</ul>
+<p>MediaWiki is probably the most sensible choice after all, which is what's currently hosted at <a href="http://wiki.peercointalk.org">wiki.peercointalk.org</a>. There is quality content on it, <del>but we should brush the Main Page up</del>. A <em>transparent</em> Peercoin logo should be in the upper left corner.</p>
+<h5>Important content</h5>
+<ul>
+<li><a href="https://www.peercointalk.org/index.php?topic=3379.0">"EVERYTHING" you Need to Know About Peercoin - Important Links &amp; Intro</a></li>
+<li><a href="https://www.peercointalk.org/index.php?topic=8.0">Peercoins FAQ</a></li>
+<li><a href="https://www.peercointalk.org/index.php?topic=885.0">New Members Please Read This First</a></li>
+</ul>
+<h6>Marketing fund</h6>
+<ul>
+<li><a href="https://www.peercointalk.org/index.php?topic=3038.0">Marketing Fund Charter</a></li>
+<li><a href="https://www.peercointalk.org/index.php?topic=3039.0">Template for Submissions</a></li>
+</ul>
+<h6>Peer4commit</h6>
+<ul>
+<li><a href="https://www.peercointalk.org/index.php?topic=2590.0">Peer4Commit.com (Create Projects &amp; Raise Funds, Donate &amp; Get Paid to Contribute)</a></li>
+</ul>
+<h6>Peerbox</h6>
+<ul>
+<li><a href="https://www.peercointalk.org/index.php?topic=3654.0">[GUIDE] Create your own Raspberry Pi's Peercoin wallet and Full Active Node</a></li>
+<li><a href="https://www.peercointalk.org/index.php?topic=2932.0">[ANN] Peerbox project</a></li>
+</ul>
+<h6>Peerunity</h6>
+<ul>
+<li><a href="https://www.peercointalk.org/index.php?topic=3470.0">Peerunity v0.1.1 has been released</a></li>
+</ul>
+<h6>Mining</h6>
+<ul>
+<li><a href="https://www.peercointalk.org/index.php?topic=1470.0">Guide for CPU and GPU Peercoin Mining on Mac OS X - Tested</a></li>
+<li><a href="https://www.peercointalk.org/index.php?topic=900.0">Cgminer.conf example file for Peercoin mining</a></li>
+</ul>
+<h6>Trading &amp; Exchanges</h6>
+<ul>
+<li><a href="https://www.peercointalk.org/index.php?topic=127.0">List of Exchanges accepting Peercoin (PPC)</a> – Maintain <em>one</em> list, at Peercoin.net.</li>
+<li><a href="https://www.peercointalk.org/index.php?topic=556.0">Fuzzybear PPC Escrow Service</a> – This we want of course.</li>
+</ul>
+<h6>Bounties</h6>
+<ul>
+<li><a href="https://www.peercointalk.org/index.php?topic=1906.0">Development Bounty Fund</a> – Is this still active?</li>
+</ul>
+<h6>Marketplace</h6>
+<h6>Primecoin</h6>
+<ul>
+<li><a href="https://www.peercointalk.org/index.php?topic=316.0"><strong>Quick Guide!</strong> - How to mine Primecoin</a></li>
+</ul>
+<h6>Logo files</h6>
+<ul>
+<li><a href="https://www.peercointalk.org/index.php?topic=2345.0">Peershares Logos Files</a></li>
+<li><a href="https://www.peercointalk.org/index.php?topic=3317.0">Peerbox Logo Files</a></li>
+<li><a href="https://www.peercointalk.org/index.php?topic=2727.0">Peerunity Logo Files</a></li>
+</ul>
+<h6>Other</h6>
+<ul>
+<li><a href="https://www.peercointalk.org/index.php?topic=2702.0">[Download] Peercoin-Raspi-Desktop 0.4.0 - Automated installer for raspberry pi</a></li>
+</ul>
+<p>There's more that's deprecated, linking to different places, and should just be revised and put in one place.</p>
+<p>Pinned threads from 2013. Today we'd recommend Peerunity?</p>
+<ul>
+<li><a href="https://www.peercointalk.org/index.php?topic=1104.0">(Tutorial) Configuring Peercoin Proof-of-Stake Minting on OS X</a></li>
+<li><a href="https://www.peercointalk.org/index.php?topic=186.0">Peercoin Proof of Stake Minting Setup Guide</a></li>
+</ul>
+<p><strong>Not that we need a new software to wrap this up, but if we don't want to keep using SMF for the rest of the future, I think we better move sooner than later.</strong></p>
+<h4>Users</h4>
+<p><strong>Procedure:</strong></p>
+<ul>
+<li>Export users from SMF to “smf_users.tsv”.</li>
+<li>Securely transmit file to Discourse server.</li>
+<li>Disable emails in Discourse? How activate users without their interaction? Trust level!</li>
+<li>Import all users possible to Discourse. (script)[list type=decimal]<ul>
+<li>Read “smf_users.tsv”.</li>
+<li>Generate new password.</li>
+<li>Create user.</li>
+<li>Write list with username and generated password.</li>
+<li>Write second list with incompatible usernames.</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>Securely transmit both lists to SMF server.</li>
+<li>Private message users their Discourse password, or ask them to create an account manually if their username is incompatible. (script)</li>
+<li>Freeze SMF and place an obvious pleasant notice explaining the situation with a link to the user's inbox and Discourse.</li>
+</ul>
+<p><strong>Task:</strong> Export users from SMF.</p>
+<p><strong>Approach:</strong> Produce a <a href="https://en.wikipedia.org/wiki/Tab-separated_values">tab-separated list</a> consisting of the fields <em>email_address</em>, <em>real_name</em>, <em>member_name</em> from SMF's MySQL database.</p>
+<pre><code>SELECT 'email', 'name', 'username' UNION ALL SELECT email_address, real_name, member_name FROM smf_members INTO OUTFILE 'C:\safe\directory\members.tsv' FIELDS TERMINATED BY "\t"
+</code></pre>
+<p>I'm not familiar with how to run this on Windows Server, but under Linux one could do:</p>
+<pre><code>mysql -u &amp;lt;user&amp;gt; -p -e "SELECT 'email', 'name', 'username' UNION ALL SELECT email_address, real_name, member_name FROM smf_members INTO OUTFILE '/safe/directory/members.tsv' FIELDS TERMINATED BY \"\t\"" &amp;lt;database&amp;gt;
+</code></pre>
+<p><strong>Problem:</strong> Users with non-alphanumeric (plus underline) usernames can't be migrated as Discourse chose not to support usernames like <a href="https://www.peercointalk.org/index.php?action=profile;u=31357">▲ λ έ ξ α ν δ ρ ο ς</a>. (might be a display name, but it would be valid as username in SMF)</p>
+<p><strong>Approach:</strong> Import all users possible, and create a list with those that can't be. Send them a private message on PeercoinTalk telling them they'll have to manually create an account, and include a link.</p>
+<p>We could alternatively do it through the Discourse API, but I think that's more work.</p>
+<p><em>It is technically possible to make the PeercoinTalk (SMF) password hashes work with Discourse, but I advice against it because we would have to write custom security code (which must never be taken lightly) and maintain it with upgrades.</em></p>
+<h3>Server</h3>
+<p><strong>I've set up Discourse at <a href="https://talk.peercoin.se">https://talk.peercoin.se</a></strong>. Registrations are disabled to avoid misunderstandings.</p>
+<p><em>Please note it's not the real Sunny King, but an account I made to show how it would look.</em></p>
+<p>Currently hosted on <a href="https://www.digitalocean.com/">DigitalOcean</a>.</p>
+<ul>
+<li>VPS with 2 GB RAM, dual-core, 40 GB, 3 TB traffic, and Ubuntu 14.04 LTS. Runs at $20/month. Scalable.</li>
+<li>Mandrill account for SMTP (email sending).</li>
+<li>SPF and DKIM records in DNS for Mandrill.</li>
+<li>webmaster@peercoin[.net] – forward necessary for some emails from providers.</li>
+<li>HTTPS/TLS.</li>
+<li>Automatic daily backups to Amazon S3.</li>
+<li>Discourse configuration, theming, and categories.</li>
+<li>Reply and create threads with email. (via Gmail)</li>
+</ul>
+<p>I opted for a common setup (as per <a href="https://github.com/discourse/discourse/blob/master/docs/INSTALL-digital-ocean.md">their guide</a>) to avoid unnecessary complications. They now even have a Discourse application image making setup even simpler.</p>
+<p>Our Discourse server would stay separate from the one hosting Peercoin.net for security reasons and in case any of them unexpectedly go down. A risk that remains is super3 who controls Peercoin.net being compromised and the DNS records being changed. I have a professional impression of super3, and considering the work he's doing with Storj I don't think this is a concern with much weight. Still valid of course, but we have to trust <em>someone</em> as far as I know. Perhaps Amazon's Route 53 or similar has useful access controls.</p>
+<h4>Wildcard certificate (SSL/TLS) and security</h4>
+<p>Using one wildcard certificate on all servers is not a good idea. If one of the servers is compromised, the attacker can <a href="https://en.wikipedia.org/wiki/Man-in-the-middle_attack">man-in-the-middle (MITM)</a> people connecting to either of them.</p>
+<p>Let's say we host a calculator at calculator.peercoin.net and the server happens to have a security hole giving an attacker access to the wildcard certificate. We could assume for argument's sake the private key is passphrase protected and thus would require its passphrase each startup. The attacker if savvy (and not technically prevented) may then be able grab the passphrase next time it's entered and the same situation ensues. Intrusion detection would help, and the scenario might be unlikely, but why take this risk at all if we can avoid it?</p>
+<p>Whichever way a wildcard certificate's private key is acquired it grants the ability to pretend to be <em>any</em> subdomain of peercoin.net if in a position to MITM. It puts users at risk of downloading a maliciously modified wallet. We could simply use a wildcard certificate and not include the root domain (peercoin.net) as alternate name, get another certificate for the root domain and then host wallets only from there, but there is a better way approaching.</p>
+<p>Furthermore, if <a href="https://community.qualys.com/blogs/securitylabs/2013/06/25/ssl-labs-deploying-forward-secrecy">Forward Secrecy</a> is not implemented then all previous traffic between any of the sites and the users can be decrypted. It would of course require the attacker to have captured that traffic.</p>
+<p>“some certificate providers, like DigiCert, allow you to create as many new wildcard certificates (using the same domain name) as needed for all of your servers, <em>each with a [unique] private key</em>.” — <a href="https://www.sslshopper.com/article-the-risks-in-wildcard-certificates.html">https://www.sslshopper.com/article-the-risks-in-wildcard-certificates.html</a></p>
+<p>That should prevent a compromise's impact to other servers' data transfers, but not impersonation (MITM).</p>
+<p>The reason I mention it is because I noted this was the intention for PeercoinTalk.org and its subdomains.</p>
+<p><a href="https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions">DNSSEC</a> would be welcome too. Some will claim what I ask is overkill and the situations are unrealistic, but <em>we're supposed to be secure and should glow with competency</em>. Specifically DNSSEC might require too much work for the time being though.</p>
+<p><em>Keep in mind I'm an amateur enthusiast, so I might be inaccurate or misguided in some statements.</em></p>
+<h5><a href="https://letsencrypt.org/">Let's Encrypt</a> by Mozilla</h5>
+<p>Luckily, there's a great option about to be released! Let's Encrypt is an initiative by Mozilla to simplify TLS certificate management.</p>
+<p>&gt; Let’s Encrypt is a new Certificate Authority: <em>It’s free, automated, and open.</em></p>
+<p>— <a href="https://letsencrypt.org/">https://letsencrypt.org/</a></p>
+<p>&gt; Let's Encrypt CA is planning for general availability of its services in <strong>the week of November 16, 2015</strong>.</p>
+<p>— <a href="https://community.letsencrypt.org/t/frequently-asked-questions-faq/26">https://community.letsencrypt.org/t/frequently-asked-questions-faq/26</a></p>
+<p><a href="https://letsencrypt.org/2015/08/07/updated-lets-encrypt-launch-schedule.html">https://letsencrypt.org/2015/08/07/updated-lets-encrypt-launch-schedule.html</a></p>
+<h3>Administration</h3>
+<p>I'm hoping someone trusted with the time and energy can setup and manage this (Fuzzybear?). I previously said I could do it, but with better alternatives I'd rather not and perhaps shouldn't. I'm still at least partially available if there's demand, though.</p>
+<p><del>I want to re-express my willingness to operate the Discourse server.</del></p>
+<p>I'm strict with security, but you be the judge (<a href="https://i.imgur.com/DnBGGYT.png">some operational details</a>) and I'm certainly not infallible. I'd be wary of anyone making the same claim, and I fully understand a hesitance to trust me with the responsibility of running the server and handle your personal information (email address, PMs, IPs, possibly full name). I have no references either. Fuzzybear has built up recognition and trust from running PeercoinTalk.</p>
+<p><del>I'm rarely unavailable for longer than a week, and if I get this role a sort of hotline could be set up in case there is urgent need for action</del>. I shouldn't be the only one in control if possible.</p>
+<p>I have a passion for this and happily work long hours to make everything excellent, but saving money or time should not weigh heavily as argument when picking such an operation critical person like system administrator.</p>
+<p><em>All the current moderators would remain in charge of course.</em></p>
+<p><strong><del>You the community will have to wager whether I am trustworthy, competent, and reliable enough to take on this responsibility.</del> <em>I'm happy as long as the job is done well.</em></strong></p>
+<p>I'm public with who I am, whether this has value or even is disadvantageous is up to you. I would prefer not being a target.</p>
+<h3>Timing, and an alternative?</h3>
+<p>Assuming we decide to change, when is a good time?</p>
+<p>On the NuBits forum there is a thread about <a href="https://discuss.nubits.com/t/discussion-on-creating-a-peershares-master-forum-level/2388">creating a ‘Peershares master forum’</a>. I'm not sure whether that's relevant for Peercoin, but you should be aware of it.</p>
+<p><strong>Cheers,</strong><br>
+Esko (jooize)</p>
+<p><em>Discuss in <a href="https://www.peercointalk.org/index.php?topic=4308">PeercoinTalk thread</a>.</em></p>
+<hr>
+<p><a href="https://daology.org/p/aef583f0140da252050da7856515e49165037ba2">Proposal</a> created with <a href="https://daology.org">Daology.org</a> by <a href="https://daology.org/u/jooize">jooize</a> for <a href="https://daology.org/o/Peercoin">Peercoin</a></p>
+
+      
+    </article>
+  </div>
+</div>
+
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div id="app-footer">
+  <footer class="footer footer-branded">
+
+    <div class="container">
+      <nav class="pull-left col-xs-12 col-md-10">
+        <ul>
+          <li role="presentation"><a href="/about">About Daology</a></li>
+          <li role="presentation"><a href="/terms">Terms</a></li>
+          <li role="presentation"><a href="/privacy">Privacy</a></li>
+          <li role="presentation"><a href="/cookies">Cookies</a></li>
+          <li role="presentation"><a href="/support">Support</a></li>
+        </ul>
+      </nav>
+      <div class="copyright col-xs-12 col-md-2 pull-right">
+        &copy; 2017 Daology, LLC
+      </div>
+    </div>
+  </footer>
+</div>
+    </div>
+      
+
+
+  
+  
+
+    
+
+    
+
+    
+      <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+      <script src="//code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/highlight.js/latest/highlight.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+      <script src="/static/public/javascripts/dao.min.js"></script>
+    
+
+  
+
+
+
+  <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='https://www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-62932153-1','auto');ga('send','pageview');
+  </script>
+
+  </body>
+  
+  
+</html>

@@ -1,0 +1,384 @@
+<!-- extend base layout -->
+
+<!doctype html>
+<html lang="">
+  <head>
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Daology</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/static/public/images/favicon.ico">
+
+    
+  
+  
+
+    
+      <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic|Lato:400,700|Inconsolata' rel='stylesheet' type='text/css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/highlight.js/latest/styles/github.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/flick/jquery-ui.css">
+      <link rel="stylesheet" href="/static/assets/stylesheets/_vendor/jquery.tagit.min.css">
+
+      <link rel="stylesheet" href="/static/public/stylesheets/dao.min.css">
+    
+
+    
+
+    
+
+  
+
+    
+  
+  
+
+    
+
+    
+      <script src="/static/assets/javascripts/vendor/moment.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/contrib/auto-render.min.js"></script>
+    
+
+    
+
+  
+
+  </head>
+  <body role="document">
+    <div id="fullpage_wrapper">
+    
+      <div id="app-navbar">
+  <nav class="navbar" role="navigation">
+    <div class="container-fluid">
+      <div class="brand-bar row">
+        <div class="col-md-12">
+          <button id="menu-toggle" type="button" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar bar1"></span>
+            <span class="icon-bar bar2"></span>
+            <span class="icon-bar bar3"></span>
+          </button>
+          <a class="word_mark" href="/" name="home_link">daology</a>
+          
+        </div>
+      </div>
+      <div class="primary_nav row">
+        <div class="col-md-12">
+          <div class="collapse navbar-collapse" id="app-navbar-collapse">
+            <ul class="subnav">
+              <li class="subnav-item"><a href="/organizations/" name="dao_list_link">Organizations</a></li>
+              <li class="subnav-item"><a href="/articles" name="dao_list_link">Articles</a></li>
+              <li class="subnav-item"><a href="/proposals" name="dao_list_link">Proposals</a></li>
+              
+              <li class="subnav-item"><a href="/login" name="login_link" class="signin_btn">Sign in with Github</a></li>
+              
+
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+</div>
+      
+  
+  
+
+
+      
+
+  
+
+  
+
+  
+
+  
+
+
+
+      <div class="main row">
+        <div class="container">
+          <header class="row page_title">
+            
+            <div class="row">
+              <div class="page_actions col-md-12 pull-right">
+                <ul>
+                
+  <li class="action_btn"><a href="/proposals/8bbc95f76e5942018daa4b811b19308ed424c7b0/raw" target="_blank" class="btn btn-sm btn-primary">Raw</a></li>
+  
+
+
+                
+                  
+
+
+                
+                </ul>
+              </div>
+            </div>
+            
+            
+            <div class="col-xs-9 col-md-11">
+              <span class="supertitle">
+                
+  Proposal  <span style="breadcrumb-separator">// </span><a href="/organizations/Nu">Nu</a> <span style="breadcrumb-separator">/</span> <a href="/organizations/Nu/NuBits">NuBits</a> 
+
+              </span>
+              <h1>
+                
+  LiquidBits Term 7
+
+              </h1>
+            </div>
+          </header>
+          <section class="row page_content">
+            <div class="col-md-12">
+              
+<div class="row container">
+
+  <div class="col-md-4 sidebar">
+
+    <div class="scroll_title">
+      <p class="supertitle">Proposal  <span style="breadcrumb-separator">//</span> Nu <span style="breadcrumb-separator">/</span> NuBits</p>
+      <p class="title">LiquidBits term 7</p>
+      <p class="author">By
+        cybnate
+        
+      </p>
+      <p class="meta_text date">
+        <script>
+document.write(moment("2016-01-30T00:52:56 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+        &nbsp;|&nbsp;&nbsp;<span class="updated">Updated: <script>
+document.write(moment("2016-01-30T05:32:55 Z").calendar());
+</script></span>
+        
+      </p>
+      <hr>
+      <div class="content-toc"></div>
+    </div>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="meta_text">
+          <a href="/u/cybnate/">
+            <img src="https://avatars.githubusercontent.com/u/6694926?v=3" class="profile">
+            <div class="authorname_block">
+                <div class="nolink">By cybnate</div>
+                <div class="nickname">@cybnate</div>
+              </div>
+            
+          </a>
+        </p>
+        <div class="row">
+          <div class="col-md-12">
+          <p class="meta_text date">
+            <script>
+document.write(moment("2016-01-30T00:52:56 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+            
+            &nbsp;|&nbsp;&nbsp;
+            
+            <span class="updated">Updated: <script>
+document.write(moment("2016-01-30T05:32:55 Z").calendar());
+</script></span>
+            
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="sidebar_title">Text Hash ( RIPEMD-160 )</p>
+        <p class="meta_text hash">DRAFT  </p>
+      </div>
+    </div>
+    
+    <hr>
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="sidebar_title">Tags</p>
+        
+        <script data-type="tagDataVar">
+    
+      var tagList = ["liquidbits", "liquidity", "fiat"];
+    
+  </script>
+  <ul class="readonly_tag_wrapper">
+  </ul>
+
+      </div>
+    </div>
+    
+
+    
+
+    
+    
+
+  
+    <hr>
+    <div class="row meta_element">
+        <div class="col-md-12">
+          <span class="sidebar_title">
+            Grant
+          </span>
+          <p class="meta_text">299 NBT</p>
+        </div>
+    </div>
+    <hr>
+    <div class="row meta_element">
+        <div class="col-md-12">
+          <span class="sidebar_title">
+            Grant Address
+          </span>
+          <p class="meta_text">B954pkUEdkeT1G5Lq14Cisij5no3RVxHYe</p>
+        </div>
+    </div>
+
+  
+
+
+
+  </div>
+
+  
+  
+    <div class="content_body col-md-8 draft">
+      <div class="status_callout well">
+        <p>The author has made a <strong>DRAFT VERSION</strong> of the proposal available for review. The final published version may contain different content.</p>
+      </div>
+  
+
+
+
+
+    
+    <div class="reading-time-wrapper" data-target="8bbc95f76e5942018daa4b811b19308ed424c7b0">
+    <span class="reading-time"></span> read (<span class="word-count"></span> words)
+  </div>
+
+    <article class="rtCalc no-fouc" id="8bbc95f76e5942018daa4b811b19308ed424c7b0">
+      
+        <p><strong>Funding request to operate Liquidbits.net, an automatic liquidity pool for NuBits.</strong></p>
+<p>The independent automatic liquidity pool (ALP, also known as TLLP) will provide liquidity on the EUR/NBT, USD/NBT and BTC/NBT markets on CCEDK.com. A target of 6,000 NBT on the bid and ask side of the order books will be provided by the pool split over 3 currency pairs and 1 exchange, resulting in a total maximum compensated liquidity of 12,000 NBT. The operation will end after sixty (60) days when a motion or grant to continue operations haven't passed before.</p>
+<p><strong>Liquidity provided by users will be compensated as follows:</strong></p>
+<p>with up to 5.7% per month (<strong>0.19%</strong> per day) on CCEDK’s <strong>NBT/EUR</strong> pair on both sell and buy side to a maximum of 2,500 NBT on each side ( max pay-out  285 NBT/60 days)</p>
+<p>with up to 5.1% per month (<strong>0.17%</strong> per day) on CCEDK’s <strong>NBT/USD</strong> pair on both sell and buy side to a maximum of 2,500 NBT on each side (max pay-out  285 NBT/60 days)</p>
+<p>with on average 7.2% per month (<strong>0.24%</strong> per day) per month on CCEDK's <strong>NBT/BTC</strong> pair to a maximum of 1000 NBT in total but split as follows:</p>
+<ul>
+<li>0.19% per day up to 500 NBT on sell side ( max pay-out 57 NBT/60 days)</li>
+<li>0.29% per day up to 500 NBT on buy side ( max pay-out 87 NBT/60 days)</li>
+</ul>
+<p>using the pool’s calculations based on the Dutch auction model to allow a fair distribution of returns amongst liquidity providers. 714.00 NBT of the requested amount in this grant will be held as reserve to make pay-outs to connected users.</p>
+<p><strong>Breakdown grant amount</strong></p>
+<p>The current grant has 915 NBT left as of 30 Jan UTC with about 10 days to go at a current payout rate of 20 NBT on average. 10 * 20 = 200 NBT. Therefore there will be approx.  915- 200 = 715  NBT left for rollover.</p>
+<h6> </h6>
+<h6>&gt; Total required:</h6>
+<h6>&gt;  714 + 300 (fee) - 715 (rollover) =  299 NBT for 2 months.</h6>
+<hr>
+<p><strong>Terms and conditions</strong></p>
+<p>Pay-outs take place every 24 hours. The minimum pay-out is 1 NBT. The spread continues to be 2% on either side with 0.0085 tolerance. Operations and pay-outs will start within 5 days after the custodial grant has passed successfully. The pool will continue to operate under the name LiquidBits.net. Remaining funds will be settled with future grants or when the pool is discontinued, burned.</p>
+<p><strong>Fee</strong></p>
+<p>The pool 2 month fee is a one-off 300 NBT and serves as a contribution for the effort of supporting the pool, the website, reporting, supporting the users and the monthly costs of operating the server including Cloudflare protection with SSL certificates.</p>
+<p><strong>Instructions</strong>
+Instructions on how to participate in the pool can be found here: <a href="http://cybnate.github.io/index-liquidbits.html">http://cybnate.github.io/index-liquidbits.html</a></p>
+<p><strong>Disclaimer and risks</strong>
+The provisioning of the pool is based on best efforts. No claims can be made by users when the pool server or client software is not available or not working properly.</p>
+<p>Liquidity providers remain in full control of their funds throughout the operation of the pool. The pool operator won’t have access to any of the funds hence the reference to trust less liquidity pool. Therefore liquidity providers bear the full risk having their funds on the exchange and won’t be compensated by this pool on an exchange default or inability to withdraw their funds.</p>
+<p>Liquidity providers are exposed to the risks of speculators hedging against them on other pairs than NBT/USD like NBT/EUR with the NBT/BTC pairs a particular high risk due to BTC's high volatility. Therefore the compensation on the riskier pairs is higher.</p>
+<p>Finally, please be reminded of the following:</p>
+<p><strong>Don’t risk more than you can afford to lose!</strong></p>
+<p><strong>Key changes from term 6</strong></p>
+<ul>
+<li>Reduced maximum from 5000 NBT to 2500 NBT on NBT/USD pair</li>
+<li>Reduced maximum from 1000 NBT to 500 NBT on NBT/BTC pair</li>
+<li>Reduced payout from 0.18% to 0.17% for NBT/USD pair</li>
+<li>Reduced payout from 0.20% to 0.19% for NBT/EUR pair</li>
+</ul>
+<p>The changes are made to further reduce the liquidity cost for Nu on pairs without a lot of volume.</p>
+<hr>
+<p><a href="https://daology.org/p/8bbc95f76e5942018daa4b811b19308ed424c7b0">Proposal</a> created with <a href="https://daology.org">Daology.org</a> by <a href="https://daology.org/u/cybnate">cybnate</a> for <a href="https://daology.org/o/Nu">Nu</a></p>
+
+      
+    </article>
+  </div>
+</div>
+
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div id="app-footer">
+  <footer class="footer footer-branded">
+
+    <div class="container">
+      <nav class="pull-left col-xs-12 col-md-10">
+        <ul>
+          <li role="presentation"><a href="/about">About Daology</a></li>
+          <li role="presentation"><a href="/terms">Terms</a></li>
+          <li role="presentation"><a href="/privacy">Privacy</a></li>
+          <li role="presentation"><a href="/cookies">Cookies</a></li>
+          <li role="presentation"><a href="/support">Support</a></li>
+        </ul>
+      </nav>
+      <div class="copyright col-xs-12 col-md-2 pull-right">
+        &copy; 2017 Daology, LLC
+      </div>
+    </div>
+  </footer>
+</div>
+    </div>
+      
+
+
+  
+  
+
+    
+
+    
+
+    
+      <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+      <script src="//code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/highlight.js/latest/highlight.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+      <script src="/static/public/javascripts/dao.min.js"></script>
+    
+
+  
+
+
+
+  <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='https://www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-62932153-1','auto');ga('send','pageview');
+  </script>
+
+  </body>
+  
+  
+</html>

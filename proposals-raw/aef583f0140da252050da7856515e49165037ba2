@@ -1,0 +1,529 @@
+## Introduction
+
+**Greetings,**
+
+*I originally wrote this in February, but never posted it. I've updated parts since, but some of it might be out of date (or just wrong!).*
+
+You might have seen the discussion about forum software and that we're not all in agreement. The views I hold will be obvious and I'd like to raise relevant points with some examples.
+
+First I want to say that *the last I want is to divide the community or cause excessive chaos.* I present what I believe will give a superior user experience and public image. While marketing isn't everything and perhaps won't make or break Peercoin, I perceive a general underestimation of its value.
+
+There will be drawbacks, and work to be done, probably issues, but we should move forward. We can handle disagreement, nobody is being attacked, we're mature people in one of the best cryptocommunities, so **let's seriously consider what is best for the future of Peercoin.** You'll see this is more than “change for change's sake”.
+
+Parts have already been posted in the thread about [integrating with Peercoin.net and forum software](https://www.peercointalk.org/index.php?topic=3929) (post [#26](https://www.peercointalk.org/index.php?topic=3929.msg37675#msg37675), [#33](https://www.peercointalk.org/index.php?topic=3929.msg37695#msg37695), [#41](https://www.peercointalk.org/index.php?topic=3929.msg37726#msg37726)).
+
+I hope it can be of value even if you don't agree with the ideas. Nothing is meant to be criticising against the work of everyone involved, it has been great and all had its time.
+
+> *There is tremendous technical and sociological friction to change in any established community. Engage in serious discussions with your community about any such change well in advance. There needs to be broad dissatisfaction with the status quo and strong support for change from the community leaders.*
+
+— [Discourse FAQ](http://www.discourse.org/faq/)
+
+## Recap of events
+
+The whole discussion triggered the creation of an improved theme for PeercoinTalk. ~~Follow the development [in the other thread](https://www.peercointalk.org/index.php?topic=3929.msg37840#msg37840). It's already available to select under Profile > Account Settings > Modify Profile > Look and Layout > Current Theme > [(change)](https://www.peercointalk.org/index.php?action=theme;sa=pick;), but I don't think it's finished yet.~~ *Now set as default theme!*
+
+It began with Sentinelrv [mentioning in the chatbox](http://chatboxhistory.peercointalk.org/?Pagenumber=763) he'd like us to integrate the forum with Peercoin.net and switch to Discourse. He's since [decided not to pursue this path](https://www.peercointalk.org/index.php?topic=3929.msg37840#msg37840).
+
+I and others also [rooted for new forum software](https://www.peercointalk.org/index.php?topic=2373.msg22352#msg22352) about a year ago.
+
+After I setup Discourse and PM:ed the three people that discussed it in the chatbox at time, Sentinelrv had the idea to put the [Peercoin.net](http://peercoin.net) menu in the Discourse menu bar and [edited a screenshot](https://i.imgur.com/01lb5yQ.png) plus set the colors of buttons and categories in line with Peercoin's colorscheme.
+
+I've since been working to give you the best impression of Discourse possible. We'll see what you think of it.
+
+
+## Forum software
+
+**Alternatives I'm aware of:**
+
+- [Discourse](https://http://www.discourse.org/): open-source and free of charge.
+- [XenForo](https://xenforo.com/): 140+ USD with one year of upgrades, and $40 per each additional year.
+- [Vanilla](http://vanillaforums.org/): $99+/month.
+- [NodeBB](https://nodebb.org/): Popular alternative to Discourse.
+- [Simple Machines Forum](http://simplemachines.org/) (SMF): our current software. *Upcoming [version 2.1](http://www.simplemachines.org/community/index.php?topic=530233.msg3764642#msg3764642) brings improvements. [(demo of beta 1)](http://smf21.chelloo.com/)*
+
+
+### Discourse
+
+- [**Website**](http://www.discourse.org/)
+- [**About**](http://www.discourse.org/about/)
+- [**FAQ**](http://www.discourse.org/faq/)
+
+
+At first I was admittedly a little intimidated by Discourse, but it really is a *wonderful software* after having familiarised with it. I understand most people are used to the classic forums, but I'm surprised by some's perception that Discourse is complicated and makes it difficult to overview and follow threads. Quite the opposite in my experience!
+
+If you're used to classic forums like this one (SMF), phpBB, vBulletin, and the others, *use the Categories view* in Discourse. I've set it as default for Peercoin's Discourse, but I think the ‘Latest’ view is more useful. Play around on [NuBits' Discourse](https://discuss.nubits.com/)!
+
+I said in the thread a year ago that Discourse looks more radically different, but it's basically just a forum that's made with how people actually use them in mind.
+
+#### Feature improvements with Discourse
+
+We get a modern forum with all it entails. **I recommend looking at their own examples at [Discourse.org](http://www.discourse.org/) and the [About](http://www.discourse.org/about/) page.** They show it better than text explains.
+
+- **Built for mobile**, and is pleasant to use ~~without users having to download [an app](https://tapatalk.com/) or us [purchasing a theme](http://smf-media.com/) (not that $20 is much).~~ Mobile view in SMF 2.1!
+- Automatically updating everything, *real-time*.
+- Paste a link and it *integrates the content* into your post.
+- Following a thread happens “intelligently” (with choice) and gives notifications.
+- **Linked topics.** Break off discussion at any point.
+- When returning to a thread you're placed where you left to continue reading immediately.
+- An editor that doesn't cause hairloss during use. Explained after screenshots.
+- Mentions. (Fuzzybear added a plugin for this to SMF) “Alerts” come in SMF 2.1, including Mentions integrated.
+- **Notifications** through browser to desktop OS native ones.
+- *One* search.
+- Built-in mechanism for **daily backups**. Local and to Amazon S3.
+- **Simple upgrades** by pressing a button. Good for urgent security fixes, “all software has bugs”. You may argue that software shouldn't have write access to itself. It's a trade-off that appears to make sense in this case.
+
+
+There is simply so much that is better with Discourse than SMF. Sure, plugins and customisation can improve SMF to an extent, but we would have to maintain all that and it would realistically just not reach the same level. Even with the new upcoming version 2.1 while very welcome it doesn't improve SMF *that* much.
+
+Compare to an alternative which already has everything we want. Except the [chatbox, yet!](https://meta.discourse.org/t/has-anyone-built-something-for-informal-status-updates-chat/10550/44?u=jooize)
+
+The developers are very active and friendly. By the way @irritant, they're open to a site-wide setting to [disable the “?u=<user>” appendage](https://meta.discourse.org/t/disable-u-user-in-shared-links/25356/9?u=jooize) in Share links in case you didn't see in the other thread. Someone would have to code it, though.
+
+We could benefit from the [Assistant bot](https://discuss.nubits.com/t/introducing-assistant-bot/1303?u=jooize) written by woolly_sammoth for NuBits' Discourse.
+
+
+Found this about SMF backups: *(emphasis theirs)*
+
+> SMF's Admin section has a built-in database backup function. **Do not use it!** It does work in some cases, but not in others, so it should not be used, unless you have no other way to acquire the backup of the database.
+
+— [http://wiki.simplemachines.org/smf/Backup](http://wiki.simplemachines.org/smf/Backup)
+
+
+***Continued after screenshots!***
+
+
+#### Screenshots
+
+These are also available in an [Imgur album](https://imgur.com/a/c70ZV#0). **Live demo** at [https://talk.peercoin.se](https://talk.peercoin.se) (registrations are disabled).
+
+**Discourse's category view and currently the startpage:**
+
+![](https://i.imgur.com/D1CL2D3.png)
+
+**Discourse's welcome thread:**
+
+![](https://i.imgur.com/1wdisVE.png)
+
+**Sunny King's Weekly Update thread:**
+
+![](https://i.imgur.com/gQJVF4W.png)
+
+*I've since added the “Weekly Update #130” into the post like Sunny King does. Perhaps it's there to simplify for people copying the whole update.*
+
+**Discourse profile:**
+
+![](https://i.imgur.com/RFYBgwy.png)
+
+##### Dark theme
+
+**Discourse categories in dark:**
+
+![](https://i.imgur.com/b6rSQTN.png)
+
+**Discourse welcome topic in dark:**
+
+![](https://i.imgur.com/jn73Hoz.png)
+
+I implemented the dark theme with help of [a thread](https://meta.discourse.org/t/its-a-dark-theme/15662?u=jooize) at meta.discourse.org and it's not perfect.
+
+Unfortunately, there might not be a convenient way to switch between them per user preference. I recall seeing a way to set custom themes with a query string, but I don't find it now.
+
+**Intelligent following:**
+
+![](https://i.imgur.com/L6o6y96.png)
+
+**Mobile view of Sunny King's Weekly Update #129:**
+
+![](https://i.imgur.com/AmeXAV1.png)
+
+#### Editor
+
+- Simpler syntax for posts with **Markdown**, while still supporting **BBCode** that you're familiar with in SMF.
+- Browse the forum while writing your post.
+- **Autosaves** so you may **continue composing from another device** (comes in SMF 2.1). Protects against loss in the event of browser crashes or power outages.
+- Inline code snippets (\`example\`).
+- Code syntax highlighting.
+
+
+`[code]` isn't inline and [inline]isn't implemented[/inline], neither is [\[c\]\[/c\]](https://www.phpbb.com/customise/db/bbcode/inline_bbcode/).
+
+![](https://i.imgur.com/sB24AcG.png)
+
+##### Syntax examples
+
+A list with BBCode in SMF:
+```
+[list]
+[li]Ice.[/li]
+[li]Water.[/li]
+[li]Steam.[/li]
+[/list]
+```
+
+Ordered with “list type=decimal”.
+
+Lists with Markdown in Discourse: _(asterisk (\*) and plus (+) do the same)_
+```
+- Ice.
+- Water.
+- Steam.
+
+1. One
+2. Two
+3. Three
+```
+
+Headings with BBCode in SMF:
+```
+[size=18pt]Food[/size]
+[size=16pt]Maize[/size]
+[size=14pt]Popcorn[/size]
+```
+
+Headings with Markdown in Discourse:
+```
+# Food
+## Maize
+### Popcorn
+```
+
+Bold and italics in SMF:
+```
+[b]bold[/b]
+[i]italics[/i]
+```
+
+Bold and italics in Discourse:
+```
+**bold**
+_italics_
+or
+__bold__
+*italics*
+```
+
+- Super User [reference for Markdown](https://superuser.com/editing-help).
+- GitHub article with [Markdown basics](https://help.github.com/articles/markdown-basics/).
+- Creator John Gruber at Daring Fireball [about Markdown and its syntax](https://daringfireball.net/projects/markdown/basics).
+- [BBCode reference](http://www.bbcode.org/reference.php).
+
+Relevant is also [CommonMark](http://commonmark.org/) (“A strongly specified, highly compatible implementation of Markdown”), but it's not strictly what's used in Discourse.
+
+
+#### Spam
+
+Discourse has **powerful built-in countermeasures against spam.**
+
+The [trust level system](https://meta.discourse.org/t/what-do-user-trust-levels-do/4924), rate limiting, plus more! [Co-founder of Stack Overflow and Discourse about spam](https://meta.discourse.org/t/what-about-the-spam-problem/2724/8). 
+
+No need for captchas or questions. Discourse makes housekeeping quick and easy.
+
+#### System requirements
+
+> Discourse is a *JavaScript* application designed for the next 10 years of the Internet, so the minimum web browser requirements are high:
+
+- Internet Explorer 10+
+- Google Chrome 24+
+- Firefox 14+
+- Safari 5.1+
+
+> We do officially support Internet Explorer 9, but some functionality will be unavoidably broken. 
+
+- Mobile Safari, iOS 6+
+- Mobile Chrome, Android 4.1+
+- Mobile IE, Windows Phone 8 or later
+
+— [Discourse FAQ](http://www.discourse.org/faq/)
+
+We are building something futuristic here. NuBits' discussion forum thrives “despite” running Discourse.
+
+##### JavaScript
+
+There has been concern the JavaScript requirement might exclude those surfing through [Tor](https://www.torproject.org/). It was mentioned also that Sunny King likes the chatbox because it's accessible through Tor, but [the chatbox requires JavaScript](https://www.peercointalk.org/Themes/default/shoutbox.js) as well.
+
+It's possible to use JavaScript through Tor, so it'd be similarly daring to use Discourse as the current chatbox.
+
+The argument may have some merit, but I think it's thin.
+
+
+### Structural revamp
+
+We currently have a list of services hosted at [services.peercointalk.org](http://services.peercointalk.org).
+
+[peercointalk.org](https://www.peercointalk.org/) → talk.peercoin.net  
+[wiki.peercointalk.org](https://wiki.peercointalk.org/) → wiki.peercoin.net  
+
+[wallet.peercointalk.org](https://wallet.peercointalk.org/) – Paper wallet generator  
+[blockexplorer.peercointalk.org](https://blockexplorer.peercointalk.org/) vs [Blockr](https://ppc.blockr.io/) and [bkchain](https://bkchain.org/ppc)?  
+[articles.peercointalk.org](https://articles.peercointalk.org/) (broken)  
+[vanity.peercointalk.org](https://vanity.peercointalk.org/) – Vanity address generator
+[phpcoinaddress.peercointalk.org](https://phpcoinaddress.peercointalk.org/)  
+[builds.peercointalk.org](https://builds.peercointalk.org/) – Fuzzybear's Peercoin builds  
+[poscalculator.peercointalk.org](https://poscalculator.peercointalk.org/) – Proof-of-stake calculator  
+[findstakejs.peercointalk.org](https://findstakejs.peercointalk.org/) – Determine when staking is likely to occur (broken?)  
+[charts.peercointalk.org](https://charts.peercointalk.org/) (slow)
+
+I don't want to be rude, but I find this messy.
+
+**Suggestion:**
+
+![](https://i.imgur.com/FTDuyfn.png)
+
+
+#### Branding
+
+“PeercoinTalk” is established, and I agree it's better we continue calling the forum that. It would reside on talk.peercoin.net. Perhaps lowercase the ‘T’ (I think this particular one looks worse lowercased, but I'm in favor of consistency).
+
+
+#### Search Engine Optimisation (SEO)
+
+> We already provide a special **highly crawlable** and **SEO optimized** Discourse for crawlers (in NOSCRIPT tags).
+
+— [https://meta.discourse.org/t/seo-compared-to-other-well-known-tools/3914/2](https://meta.discourse.org/t/seo-compared-to-other-well-known-tools/3914/2)
+
+There are several more threads at [Discourse Meta](https://meta.discourse.org) about the matter. Considering they (Jeff Atwood & Co.) created and run large websites like Stack Overflow, they have some credibility.
+
+Regarding the current search results for PeercoinTalk.org, it will indeed take some time for the new forum to show up.
+
+*I've disabled indexing of the demo site in `robots.txt`.*
+
+
+##### Sitelinks – Applicable regardless of Discourse
+
+> At the moment, sitelinks are automated. We're always working to improve our sitelinks algorithms, and we may incorporate webmaster input in the future. There are best practices you can follow, however, to improve the quality of your sitelinks. For example, for your site's internal links, make sure you use anchor text and alt text that's informative, compact, and avoids repetition.
+
+— https://support.google.com/webmasters/answer/47334
+
+We do not seem to adhere to this on [Peercoin.net](http://Peercoin.net) in the menu:
+
+```
+<li><a href="newcomers">﻿Newcomers</a></li>
+<li><a href="investors">﻿Investors</a></li>
+```
+
+...and even less at the bottom of the front page:
+
+```
+<a href="newcomers" class="btn btn-primary btn-lg">﻿Get started</a>
+[...]
+<a href="investors" class="btn btn-primary btn-lg">﻿Get started</a>
+```
+
+I assume from what Google says we should at least add a descriptive alt text to the ones in our menu. Perhaps also redesign the bottom to have the the links say “Newcomers”, “Investors”, and so on. I like how it looks—*I think the site is gorgeous*—but it might be possible to improve.
+
+We can't choose what to display there, but it seems we can make what does show up look good.
+
+**The dream would be to have something like this in Google Search:**
+
+![](https://i.imgur.com/4x6ALxW.png)
+
+
+### Content
+
+We have quite some content on PeercoinTalk. It's organised well to the point it can, but it should be more visible and accessible. I'm not sure how much sense it makes to serve it on the forum, but it might. Discourse has a wiki mode for posts if that would help.
+
+I think it's a project to put time into. Decide suitable places to put knowledge and media that doesn't fit on Peercoin.net itself and migrate content from the current PeercoinTalk. The wiki, I guess.
+
+#### Wiki
+
+**Alternatives:** ([WikiMatrix comparison](http://www.wikimatrix.org/compare/Confluence+Foswiki+MediaWiki+MoinMoin+TiddlyWiki+XWiki))
+
+- [MediaWiki](https://www.mediawiki.org/): open-source, proven by Wikipedia, good mobile view.
+- [Confluence](https://www.atlassian.com/opensource/overview): free for open-source projects.
+- [TiddlyWiki](http://www.tiddlywiki.com/): open-source, JavaScript.
+- [MoinMoin](https://moinmo.in/): open-source.
+- [DokuWiki](https://www.dokuwiki.org/): open-source, mobile view.
+- [XWiki](http://xwiki.org/): open-source, mobile view. [Compared to MediaWiki](http://www.xwiki.com/lang/en/XWikivsOtherSolutions/XWikivsMediaWiki).
+- [SlimWiki](https://slimwiki.com/): Beautiful, simple, but only WYSIWYG, their servers, and costly.
+- [Torchpad](https://torchpad.com/): Their servers, [Markdown](https://markdown.torchpad.com/Home).
+
+
+MediaWiki is probably the most sensible choice after all, which is what's currently hosted at [wiki.peercointalk.org](http://wiki.peercointalk.org). There is quality content on it, ~~but we should brush the Main Page up~~. A *transparent* Peercoin logo should be in the upper left corner.
+
+##### Important content
+- ["EVERYTHING" you Need to Know About Peercoin - Important Links & Intro](https://www.peercointalk.org/index.php?topic=3379.0)
+- [Peercoins FAQ](https://www.peercointalk.org/index.php?topic=8.0)
+- [New Members Please Read This First](https://www.peercointalk.org/index.php?topic=885.0)
+
+###### Marketing fund
+- [Marketing Fund Charter](https://www.peercointalk.org/index.php?topic=3038.0)
+- [Template for Submissions](https://www.peercointalk.org/index.php?topic=3039.0)
+
+###### Peer4commit
+- [Peer4Commit.com (Create Projects & Raise Funds, Donate & Get Paid to Contribute)](https://www.peercointalk.org/index.php?topic=2590.0)
+
+###### Peerbox
+- [\[GUIDE\] Create your own Raspberry Pi's Peercoin wallet and Full Active Node](https://www.peercointalk.org/index.php?topic=3654.0)
+- [\[ANN\] Peerbox project](https://www.peercointalk.org/index.php?topic=2932.0)
+
+###### Peerunity
+- [Peerunity v0.1.1 has been released](https://www.peercointalk.org/index.php?topic=3470.0)
+
+###### Mining
+- [Guide for CPU and GPU Peercoin Mining on Mac OS X - Tested](https://www.peercointalk.org/index.php?topic=1470.0)
+- [Cgminer.conf example file for Peercoin mining](https://www.peercointalk.org/index.php?topic=900.0)
+
+###### Trading & Exchanges
+- [List of Exchanges accepting Peercoin (PPC)](https://www.peercointalk.org/index.php?topic=127.0) – Maintain *one* list, at Peercoin.net.
+- [Fuzzybear PPC Escrow Service](https://www.peercointalk.org/index.php?topic=556.0) – This we want of course.
+
+###### Bounties
+- [Development Bounty Fund](https://www.peercointalk.org/index.php?topic=1906.0) – Is this still active?
+
+###### Marketplace
+
+
+###### Primecoin
+- [**Quick Guide!** - How to mine Primecoin](https://www.peercointalk.org/index.php?topic=316.0)
+
+
+###### Logo files
+- [Peershares Logos Files](https://www.peercointalk.org/index.php?topic=2345.0)
+- [Peerbox Logo Files](https://www.peercointalk.org/index.php?topic=3317.0)
+- [Peerunity Logo Files](https://www.peercointalk.org/index.php?topic=2727.0)
+
+###### Other
+- [\[Download\] Peercoin-Raspi-Desktop 0.4.0 - Automated installer for raspberry pi](https://www.peercointalk.org/index.php?topic=2702.0)
+
+
+There's more that's deprecated, linking to different places, and should just be revised and put in one place.
+
+Pinned threads from 2013. Today we'd recommend Peerunity?
+- [(Tutorial) Configuring Peercoin Proof-of-Stake Minting on OS X](https://www.peercointalk.org/index.php?topic=1104.0)
+- [Peercoin Proof of Stake Minting Setup Guide](https://www.peercointalk.org/index.php?topic=186.0)
+
+**Not that we need a new software to wrap this up, but if we don't want to keep using SMF for the rest of the future, I think we better move sooner than later.**
+
+#### Users
+
+**Procedure:**
+
+- Export users from SMF to “smf_users.tsv”.
+- Securely transmit file to Discourse server.
+- Disable emails in Discourse? How activate users without their interaction? Trust level!
+- Import all users possible to Discourse. (script)[list type=decimal]
+    - Read “smf_users.tsv”.
+    - Generate new password.
+    - Create user.
+    - Write list with username and generated password.
+    - Write second list with incompatible usernames.
+    
+
+- Securely transmit both lists to SMF server.
+- Private message users their Discourse password, or ask them to create an account manually if their username is incompatible. (script)
+- Freeze SMF and place an obvious pleasant notice explaining the situation with a link to the user's inbox and Discourse.
+
+
+**Task:** Export users from SMF.
+
+**Approach:** Produce a [tab-separated list](https://en.wikipedia.org/wiki/Tab-separated_values) consisting of the fields *email_address*, *real_name*, *member_name* from SMF's MySQL database.
+
+```
+SELECT 'email', 'name', 'username' UNION ALL SELECT email_address, real_name, member_name FROM smf_members INTO OUTFILE 'C:\safe\directory\members.tsv' FIELDS TERMINATED BY "\t"
+```
+
+I'm not familiar with how to run this on Windows Server, but under Linux one could do:
+
+```
+mysql -u <user> -p -e "SELECT 'email', 'name', 'username' UNION ALL SELECT email_address, real_name, member_name FROM smf_members INTO OUTFILE '/safe/directory/members.tsv' FIELDS TERMINATED BY \"\t\"" <database>
+```
+
+**Problem:** Users with non-alphanumeric (plus underline) usernames can't be migrated as Discourse chose not to support usernames like [▲ λ έ ξ α ν δ ρ ο ς](https://www.peercointalk.org/index.php?action=profile;u=31357). (might be a display name, but it would be valid as username in SMF)
+
+**Approach:** Import all users possible, and create a list with those that can't be. Send them a private message on PeercoinTalk telling them they'll have to manually create an account, and include a link.
+
+We could alternatively do it through the Discourse API, but I think that's more work.
+
+*It is technically possible to make the PeercoinTalk (SMF) password hashes work with Discourse, but I advice against it because we would have to write custom security code (which must never be taken lightly) and maintain it with upgrades.*
+
+### Server
+
+**I've set up Discourse at [https://talk.peercoin.se](https://talk.peercoin.se)**. Registrations are disabled to avoid misunderstandings.
+
+*Please note it's not the real Sunny King, but an account I made to show how it would look.*
+
+Currently hosted on [DigitalOcean](https://www.digitalocean.com/).
+
+- VPS with 2 GB RAM, dual-core, 40 GB, 3 TB traffic, and Ubuntu 14.04 LTS. Runs at $20/month. Scalable.
+- Mandrill account for SMTP (email sending).
+- SPF and DKIM records in DNS for Mandrill.
+- webmaster@peercoin[.net] – forward necessary for some emails from providers.
+- HTTPS/TLS.
+- Automatic daily backups to Amazon S3.
+- Discourse configuration, theming, and categories.
+- Reply and create threads with email. (via Gmail)
+
+
+I opted for a common setup (as per [their guide](https://github.com/discourse/discourse/blob/master/docs/INSTALL-digital-ocean.md)) to avoid unnecessary complications. They now even have a Discourse application image making setup even simpler.
+
+Our Discourse server would stay separate from the one hosting Peercoin.net for security reasons and in case any of them unexpectedly go down. A risk that remains is super3 who controls Peercoin.net being compromised and the DNS records being changed. I have a professional impression of super3, and considering the work he's doing with Storj I don't think this is a concern with much weight. Still valid of course, but we have to trust *someone* as far as I know. Perhaps Amazon's Route 53 or similar has useful access controls.
+
+#### Wildcard certificate (SSL/TLS) and security
+
+Using one wildcard certificate on all servers is not a good idea. If one of the servers is compromised, the attacker can [man-in-the-middle (MITM)](https://en.wikipedia.org/wiki/Man-in-the-middle_attack) people connecting to either of them.
+
+Let's say we host a calculator at calculator.peercoin.net and the server happens to have a security hole giving an attacker access to the wildcard certificate. We could assume for argument's sake the private key is passphrase protected and thus would require its passphrase each startup. The attacker if savvy (and not technically prevented) may then be able grab the passphrase next time it's entered and the same situation ensues. Intrusion detection would help, and the scenario might be unlikely, but why take this risk at all if we can avoid it?
+
+Whichever way a wildcard certificate's private key is acquired it grants the ability to pretend to be *any* subdomain of peercoin.net if in a position to MITM. It puts users at risk of downloading a maliciously modified wallet. We could simply use a wildcard certificate and not include the root domain (peercoin.net) as alternate name, get another certificate for the root domain and then host wallets only from there, but there is a better way approaching.
+
+Furthermore, if [Forward Secrecy](https://community.qualys.com/blogs/securitylabs/2013/06/25/ssl-labs-deploying-forward-secrecy) is not implemented then all previous traffic between any of the sites and the users can be decrypted. It would of course require the attacker to have captured that traffic.
+
+“some certificate providers, like DigiCert, allow you to create as many new wildcard certificates (using the same domain name) as needed for all of your servers, *each with a [unique] private key*.” — https://www.sslshopper.com/article-the-risks-in-wildcard-certificates.html
+
+That should prevent a compromise's impact to other servers' data transfers, but not impersonation (MITM).
+
+The reason I mention it is because I noted this was the intention for PeercoinTalk.org and its subdomains.
+
+[DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) would be welcome too. Some will claim what I ask is overkill and the situations are unrealistic, but *we're supposed to be secure and should glow with competency*. Specifically DNSSEC might require too much work for the time being though.
+
+*Keep in mind I'm an amateur enthusiast, so I might be inaccurate or misguided in some statements.*
+
+##### [Let's Encrypt](https://letsencrypt.org/) by Mozilla
+
+Luckily, there's a great option about to be released! Let's Encrypt is an initiative by Mozilla to simplify TLS certificate management.
+
+> Let’s Encrypt is a new Certificate Authority: *It’s free, automated, and open.*
+
+— [https://letsencrypt.org/](https://letsencrypt.org/)
+
+> Let's Encrypt CA is planning for general availability of its services in **the week of November 16, 2015**.
+
+— [https://community.letsencrypt.org/t/frequently-asked-questions-faq/26](https://community.letsencrypt.org/t/frequently-asked-questions-faq/26)
+
+[https://letsencrypt.org/2015/08/07/updated-lets-encrypt-launch-schedule.html](https://letsencrypt.org/2015/08/07/updated-lets-encrypt-launch-schedule.html)
+
+
+### Administration
+
+I'm hoping someone trusted with the time and energy can setup and manage this (Fuzzybear?). I previously said I could do it, but with better alternatives I'd rather not and perhaps shouldn't. I'm still at least partially available if there's demand, though.
+
+~~I want to re-express my willingness to operate the Discourse server.~~
+
+I'm strict with security, but you be the judge ([some operational details](https://i.imgur.com/DnBGGYT.png)) and I'm certainly not infallible. I'd be wary of anyone making the same claim, and I fully understand a hesitance to trust me with the responsibility of running the server and handle your personal information (email address, PMs, IPs, possibly full name). I have no references either. Fuzzybear has built up recognition and trust from running PeercoinTalk.
+
+~~I'm rarely unavailable for longer than a week, and if I get this role a sort of hotline could be set up in case there is urgent need for action~~. I shouldn't be the only one in control if possible.
+
+I have a passion for this and happily work long hours to make everything excellent, but saving money or time should not weigh heavily as argument when picking such an operation critical person like system administrator.
+
+*All the current moderators would remain in charge of course.*
+
+**~~You the community will have to wager whether I am trustworthy, competent, and reliable enough to take on this responsibility.~~ *I'm happy as long as the job is done well.***
+
+I'm public with who I am, whether this has value or even is disadvantageous is up to you. I would prefer not being a target.
+
+
+### Timing, and an alternative?
+
+Assuming we decide to change, when is a good time?
+
+On the NuBits forum there is a thread about [creating a ‘Peershares master forum’](https://discuss.nubits.com/t/discussion-on-creating-a-peershares-master-forum-level/2388). I'm not sure whether that's relevant for Peercoin, but you should be aware of it.
+
+
+**Cheers,**  
+Esko (jooize)
+
+*Discuss in [PeercoinTalk thread](https://www.peercointalk.org/index.php?topic=4308).*
+
+---
+
+[Proposal](https://daology.org/p/aef583f0140da252050da7856515e49165037ba2) created with [Daology.org](https://daology.org) by [jooize](https://daology.org/u/jooize) for [Peercoin](https://daology.org/o/Peercoin)

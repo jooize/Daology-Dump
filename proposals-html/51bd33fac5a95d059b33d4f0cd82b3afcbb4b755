@@ -1,0 +1,596 @@
+<!-- extend base layout -->
+
+<!doctype html>
+<html lang="">
+  <head>
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Daology</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/static/public/images/favicon.ico">
+
+    
+  
+  
+
+    
+      <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic|Lato:400,700|Inconsolata' rel='stylesheet' type='text/css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/highlight.js/latest/styles/github.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/flick/jquery-ui.css">
+      <link rel="stylesheet" href="/static/assets/stylesheets/_vendor/jquery.tagit.min.css">
+
+      <link rel="stylesheet" href="/static/public/stylesheets/dao.min.css">
+    
+
+    
+
+    
+
+  
+
+    
+  
+  
+
+    
+
+    
+      <script src="/static/assets/javascripts/vendor/moment.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/contrib/auto-render.min.js"></script>
+    
+
+    
+
+  
+
+  </head>
+  <body role="document">
+    <div id="fullpage_wrapper">
+    
+      <div id="app-navbar">
+  <nav class="navbar" role="navigation">
+    <div class="container-fluid">
+      <div class="brand-bar row">
+        <div class="col-md-12">
+          <button id="menu-toggle" type="button" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar bar1"></span>
+            <span class="icon-bar bar2"></span>
+            <span class="icon-bar bar3"></span>
+          </button>
+          <a class="word_mark" href="/" name="home_link">daology</a>
+          
+        </div>
+      </div>
+      <div class="primary_nav row">
+        <div class="col-md-12">
+          <div class="collapse navbar-collapse" id="app-navbar-collapse">
+            <ul class="subnav">
+              <li class="subnav-item"><a href="/organizations/" name="dao_list_link">Organizations</a></li>
+              <li class="subnav-item"><a href="/articles" name="dao_list_link">Articles</a></li>
+              <li class="subnav-item"><a href="/proposals" name="dao_list_link">Proposals</a></li>
+              
+              <li class="subnav-item"><a href="/login" name="login_link" class="signin_btn">Sign in with Github</a></li>
+              
+
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+</div>
+      
+  
+  
+
+
+      
+
+  
+
+  
+
+  
+
+  
+
+
+
+      <div class="main row">
+        <div class="container">
+          <header class="row page_title">
+            
+            <div class="row">
+              <div class="page_actions col-md-12 pull-right">
+                <ul>
+                
+  <li class="action_btn"><a href="/proposals/51bd33fac5a95d059b33d4f0cd82b3afcbb4b755/raw" target="_blank" class="btn btn-sm btn-primary">Raw</a></li>
+  
+
+
+                
+                  
+
+
+                
+                </ul>
+              </div>
+            </div>
+            
+            
+            <div class="col-xs-9 col-md-11">
+              <span class="supertitle">
+                
+  Proposal  <span style="breadcrumb-separator">// </span><a href="/organizations/B%26C%20Exchange">B&amp;C Exchange</a> <span style="breadcrumb-separator">/</span> <a href="/organizations/B%26C%20Exchange/BlockShares">BlockShares</a> 
+
+              </span>
+              <h1>
+                
+  Bylaws of the Board of Reputed Signers
+
+              </h1>
+            </div>
+          </header>
+          <section class="row page_content">
+            <div class="col-md-12">
+              
+<div class="row container">
+
+  <div class="col-md-4 sidebar">
+
+    <div class="scroll_title">
+      <p class="supertitle">Proposal  <span style="breadcrumb-separator">//</span> B&amp;C Exchange <span style="breadcrumb-separator">/</span> BlockShares</p>
+      <p class="title">Bylaws of the Board of Reputed Signers</p>
+      <p class="author">By
+        financist0
+        
+      </p>
+      <p class="meta_text date">
+        <script>
+document.write(moment("2016-12-15T12:51:26 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+        &nbsp;|&nbsp;&nbsp;<span class="updated">Updated: <script>
+document.write(moment("2016-12-15T13:01:47 Z").calendar());
+</script></span>
+        
+      </p>
+      <hr>
+      <div class="content-toc"></div>
+    </div>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="meta_text">
+          <a href="/u/financist0/">
+            <img src="https://avatars.githubusercontent.com/u/24587964?v=3" class="profile">
+            <div class="authorname_block">
+                <div class="nolink">By financist0</div>
+                <div class="nickname">@financist0</div>
+              </div>
+            
+          </a>
+        </p>
+        <div class="row">
+          <div class="col-md-12">
+          <p class="meta_text date">
+            <script>
+document.write(moment("2016-12-15T12:51:26 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+            
+            &nbsp;|&nbsp;&nbsp;
+            
+            <span class="updated">Updated: <script>
+document.write(moment("2016-12-15T13:01:47 Z").calendar());
+</script></span>
+            
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="sidebar_title">Text Hash ( RIPEMD-160 )</p>
+        <p class="meta_text hash">DRAFT  </p>
+      </div>
+    </div>
+    
+    <hr>
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="sidebar_title">Tags</p>
+        
+        <script data-type="tagDataVar">
+    
+      var tagList = ["rsot", "brs", "bcx", "bylaws"];
+    
+  </script>
+  <ul class="readonly_tag_wrapper">
+  </ul>
+
+      </div>
+    </div>
+    
+
+    
+
+    
+    
+
+  
+
+
+
+  </div>
+
+  
+  
+    <div class="content_body col-md-8 draft">
+      <div class="status_callout well">
+        <p>The author has made a <strong>DRAFT VERSION</strong> of the proposal available for review. The final published version may contain different content.</p>
+      </div>
+  
+
+
+
+
+    
+    <div class="reading-time-wrapper" data-target="51bd33fac5a95d059b33d4f0cd82b3afcbb4b755">
+    <span class="reading-time"></span> read (<span class="word-count"></span> words)
+  </div>
+
+    <article class="rtCalc no-fouc" id="51bd33fac5a95d059b33d4f0cd82b3afcbb4b755">
+      
+        <p><strong>BYLAWS OF BOARD OF REPUTED SIGNERS, DAO</strong></p>
+<p><strong>ARTICLE I – DENOMINATION, TERM AND HEAD-OFFICE</strong></p>
+<p>1.1   DENOMINATION</p>
+<p>The denomination of the decentralized autonomous organization governed by these bylaws is “Board of Reputed Signers”, hereinafter referred to as the “Board” or “Organization”, with a duration for an indeterminate period of time has its head-office and legal address all over the decentralized worldwide network aka the Internet.</p>
+<p>1.2        TERM</p>
+<p>No time has been agreed upon for the term for which the Board of Reputed Signers is to remain operational so it's a permanent group until its members propose a motion to shareholders vote to disband the Board.</p>
+<p>1.3        TERMINATION</p>
+<p>Before proposing to shareholders the motion asking for termination of the Board of Reputed Signers, the same cease of operations must be unanimously approved by the Board members themselves.</p>
+<p>1.4        The motion proposed and ratified by all members of the Board of Reputed Signers to terminate its operation need a minimum percentage of votes of 75% (i.e. 7500 blocks and 75.00 block percentage) or three-quarters (3/4) from BlockShares (BKS) owners (shareholders) to take effect.</p>
+<p><strong>ARTICLE II – PURPOSE AND GOALS</strong></p>
+<p>2.1        INTENTION</p>
+<p>The Board of Reputed Signers' aim, purpose and intention is to work as an collegiate deliberation organization for management, development and representation of Blocks and Chains Exchange (BCX) project which limited powers mentioned by these bylaws are delegated by the shareholders via motion approved by them.</p>
+<p>2.2        BLOCKS AND CHAINS EXCHANGE</p>
+<p>As for use in these bylaws, BCX project means the continuous development of a “a decentralized exchange where native blockchain assets are traded directly, without the use of proxy assets” as shown in the document entitled “Blocks &amp; Chains Decentralized Exchange, A Peershare for exchanging cryptoassets by Jordan Lee with contributions from Tom Joad and Michael Witrant (aka sigmike)”.</p>
+<p>2.3        GOALS</p>
+<p>The main goals of the Board of Reputed Signers is to promote, protect, direct, control, improve and speed up BCX's development, supervise all its development effort, decrease third party risks of holding and managing development fund raised by previous token sale (BKS crowdsale or crowdfunding), increase accountability and transparency, improve communication between developers and shareholders.</p>
+<p><strong>ARTICLE III – BLOCKS AND CHAINS EXCHANGE SHAREHOLDERS</strong></p>
+<p>3.1        DELIBERATION</p>
+<p>The Shareholders’ vote has the power to decide on all matters related to the purpose of the Board of Reputed Signers and to take any resolutions it may deem advisable for its protection and development.</p>
+<p>3.2        CONVOCATION</p>
+<p>Shareholders’ evaluation and deliberation about any matter stated in these bylaws shall be convened by the Chairman of the Board of Reputed Signers, or by the Vice Chairman in case of Chairman's absence.</p>
+<p>3.3        REQUIREMENT OF VOTES</p>
+<p>Any resolution, deliberation or decision of the shareholders’ motions about matters concerning the Board of Reputed Signers or modifications of these bylaws shall be taken by three-quarters (3/4) or 75% (i.e. 7500 blocks and 75.00 block percentage) of shareholders' votes to take effect unless otherwise expressly mentioned in these bylaws.</p>
+<p><strong>ARTICLE IV – MANAGEMENT</strong></p>
+<p>4.1        BOARD OF REPUTED SIGNERS</p>
+<p>BCX project's development will be managed by a Board of Reputed Signers. Pursuant to these Bylaws, the Board will act in a guidance, elective and supervisory role.</p>
+<p>4.2        FEES AND COMPENSATION OF MEMBERS OF THE BOARD</p>
+<p>The compensation or fees to be paid to the members of the Board of Reputed Signers shall be such as the members shall from time to time by resolution determine and such remuneration shall be equal in value for all members and no additional or special compensation, fees, remuneration shall be awarded to any member of the Board that undertakes any special services on the Organization’s behalf other than the normal work ordinarily required of a member of the Board. The confirmation of any such resolution or resolutions by the shareholders shall be required.</p>
+<p>The Chairman of the Board of Reputed Signers is eligible to receive compensation or fees as (up to) twice the value as the other remaining members of the Board.</p>
+<p>4.3        COMPOSITION AND MANDATE</p>
+<p>The Board of Reputed Signers shall consist of five (5) to fifteen (15) members elected from among and by the shareholders, with a one (1) year term of office and they can be reelected for consecutive terms. The members elected will choose, among themselves, in accordance with the provisions of these bylaws, one (1) Chairman and one (1) Vice Chairman.</p>
+<p>4.4        LIMIT NUMBER OF MEMBERS</p>
+<p>The maximum limited number of members of the Board of Reputed Signers allowed will be compatible with the imposed working limit of blockchain multi-signature (multisig) technology and no reduction of the authorized number of Board members shall have the effect of removing any member prior to the expiration of such member’s term of office.</p>
+<p>If there are less than five (5) elected members to form the Board of Reputed Signers, motion might be proposed by those already elected members to shareholders in order to downgrade the minimum required working composition for the Board to be set to three (3) members.</p>
+<p><strong>ARTICLE V – MEETINGS AND DELIBERATIONS</strong></p>
+<p>5.1        FREQUENCY OF MEETINGS</p>
+<p>The Board of Reputed Signers, which is convened by the Chairman or by (at least) two effective Board members, will meet (at least) on a quarterly basis and, specially, the Board shall meet as frequently as the interests of the organization shall require, its decisions only being valid in the manifestation of at least an absolute majority of its appointed members.</p>
+<p>5.2        PLACE OF MEETINGS</p>
+<p>Meetings of members of the Board of Reputed Signers and of any committee may be held at any place. For the meetings, will be admitted the participation of any member, absent for justifiable reason, by means of webchat, webforum, teleconference or videoconference or by any other means of communication that can ensure the effectiveness of his or her participation, with his or her vote considered valid for all legal purposes. The Board of Reputed Signers may permit any or all members to participate in a regular or special meeting by, or conduct the meeting through, use of any means of communication by which all participating members may simultaneously read or hear each substantially concurrently with their occurrence, vote on matters submitted to the members, pose questions, and make comments. A member participating in a meeting by this means is deemed to be present in person at the meeting.</p>
+<p>5.3        ADJOURNMENT</p>
+<p>Any meeting of members of the Board of Reputed Signers or of any committee member may be adjourned from time to time by the chair of the meeting, with the consent of the meeting, to a fixed time and place. No notice of the time and place for the holding of the adjourned meeting need be given to any member if the time and place of the adjourned meeting is announced at the original meeting. Any adjourned meeting shall be duly constituted if held in accordance with the terms of the adjournment and a quorum is present thereat. The members who form the quorum at the adjourned meeting need not be the same members who formed the quorum at the original meeting. If there is no quorum present at the adjourned meeting, the original meeting shall be deemed to have terminated forthwith after its adjournment.</p>
+<p>5.4        DELIBERATIONS</p>
+<p>The Board's decisions will only be valid if supported by the absolute majority of the effective members and according to required by Section 5.8, including the Chairman, who will have the casting vote, in the event of a tie.</p>
+<p>5.5        RESOLUTIONS IN WRITING</p>
+<p>A resolution in writing, signed by all the members of the Board of Reputed Signers entitled to vote on that resolution at a meeting of members of the Board or committee, is as valid as if it had been passed at a meeting of members of the Board or committee. Any action required or permitted by these Bylaws to be taken by the Board of Reputed Signers may be taken without a meeting, if all members of the Board shall individually or collectively consent in writing to such action. Such action by written consent shall have the same force and effect as the unanimous vote of such members.</p>
+<p>5.6        VOTING AND TRANSACTIONS</p>
+<p>All voting and transactions made by members of the Board of Reputed Signers shall be cast/sent using BlockShares signed message or Gnu Privacy Guard (GPG) signed message (or similar OpenPGP-compliant systems) and shall be made public (for verification of authenticity) by posting it at public forum threads or at similar public ledgers. Cumulative voting shall not be authorized.</p>
+<p>5.7        MULTISIGNATURE TRANSACTIONS</p>
+<p>Multi-signature is a digital signature scheme which allows a group of users to sign a single document. Multisignature (often called multisig) addresses require another user or users to sign a transaction before it can be broadcast onto the blockchain.</p>
+<p>5.8        QUORUM AND NUMBER OF SIGNATURES</p>
+<p>According to the total number of members of the Board of Reputed Signers, the number of signatures required for the multisig address to allow a transaction, and also for deliberations of the Board to be considered valid, shall be:</p>
+<p>(a) 3-of-5 signatures if there are five (5) members of the Board of Reputed Signers;</p>
+<p>(b) 4-of-6 signatures if there are six (6) members of the Board of Reputed Signers;</p>
+<p>(c) 4-of-7 signatures if there are seven (7) members of the Board of Reputed Signers;</p>
+<p>(d) 5-of-8 signatures if there are eight (8) members of the Board of Reputed Signers;</p>
+<p>(e) 6-of-9 signatures if there are nine (9) members of the Board of Reputed Signers;</p>
+<p>(f) 6-of-10 signatures if there are ten (10) members of the Board of Reputed Signers;</p>
+<p>(g) 7-of-11 signatures if there are eleven (11) members of the Board of Reputed Signers;</p>
+<p>(h) 7-of-12 signatures if there are twelve (12) members of the Board of Reputed Signers;</p>
+<p>(i) 8-of-13 signatures if there are thirteen (13) members of the Board of Reputed Signers;</p>
+<p>(j) 8-of-14 signatures if there are fourteen (14) members of the Board of Reputed Signers; or</p>
+<p>(k) 9-of-15 signatures if there are fifteen (15) members of the Board of Reputed Signers;</p>
+<p><strong>ARTICLE VI – VACANCY, SUBSTITUTION AND RESIGNATION</strong></p>
+<p>6.1        VACANCY</p>
+<p>In the event the position of the Chairman of the Board being vacant or the Chairman being absent or temporarily unavailable, the Vice Chairman will take over. In the absence or temporary unavailability of the Vice Chairman, the Chairman will appoint a substitute among other Board members. In the event of a vacancy of the Vice Chairman’s position, the Board will appoint a substitute, who will serve for the time remaining to complete the term of office of the replaced member.</p>
+<p>For the purposes of these By-laws, a vacancy will be deemed to have occurred in the event
+of death, permanent disability, resignation, dismissal or unjustified absence for more than three
+consecutive meetings.</p>
+<p>6.2        RESIGNATION</p>
+<p>Any member of the Board of Reputed Signers may resign at any time by giving written and signed notice to the Board or to the Chairman of the Board of Reputed Signers. Unless the resignation is contingent on acceptance by the Board of Reputed Signers, or as otherwise stated in the notice of resignation, it shall take effect when delivered.</p>
+<p><strong>ARTICLE VII – POWERS, DUTIES AND PROHIBITIONS</strong></p>
+<p>7.1        CONDUCT</p>
+<p>Every member of the Board of Reputed Signers in exercising his or her powers and discharging his or her duties shall:</p>
+<p>(a) act honestly and in good faith with a view to the best interests of the organization; and</p>
+<p>(b) exercise the care, diligence and skill that a reasonably prudent person would exercise in comparable circumstances.</p>
+<p>Every member of the Board of Reputed Signers shall comply with the regulations thereunder, the Organization's articles and bylaws and any unanimous shareholder agreement.</p>
+<p>7.2        POWERS AND DUTIES</p>
+<p>The Board of Reputed Signers holds all the powers to carry out the acts required for the organization's normal operation and for fulfilling its purpose, however special they may be, including negotiation and agreement. In addition to the duties set forth by the present Bylaws, the Board's responsibilities, attributions and duties include the following:</p>
+<p>(a) to elaborate and submit the Annual Strategic Development Plan (consisted of work plan, budget, investment plan and development road map) to the BCX's shareholders for approval, causing them to be carried out, pursuant to their approval;</p>
+<p>(b) submit, annually, for evaluation by the shareholders, the Management Report and the accounts of the Board, accompanied by the report of the independent auditors (if available), as well as the proposal for allocation of profits (if any) from the previous year;</p>
+<p>(c) to present, on a quarterly basis, to the shareholders, the project's development economic-financial and detailed equity balance sheets;</p>
+<p>(d) to ensure that the Technical Lead Developer and all developers are always rigorously capable to perform their duties;</p>
+<p>(e) to make sure that the development tasks are being conducted with probity, in order to preserve the BCX project's credibility;</p>
+<p>(f) to maintain development continuity, whenever possible, which is highly recommended for the stability, prosperity, evolution and security of the BCX platform and project;</p>
+<p>(g) to establish the general working guidelines of the organization;</p>
+<p>(h) to spend and use development funds only on BCX's platform development, enter into any contract or execute any contract or other instrument in the name of or on behalf of the Organization and perform tasks only related to its purpose according to previous strategic development plan approved by shareholders;</p>
+<p>(i) to hire and fire developers and set their grants, payments (based upon market parameters), goals, tasks, attributions and duties according to the provisions of these bylaws after approval of Annual Strategic Development Plan from sharesholders;</p>
+<p>(j) to suggest and appoint to shareholders to choose, replace, designate, elect and dismiss the Technical Lead Developer of the BCX's project development establishing his or her duties subject to provisions of these bylaws in this respect;</p>
+<p>(k) to pay developers according to previous Annual Strategic Development Plan approved by shareholders;</p>
+<p>(l) to appoint, hire, dismiss skilled, acclaimed and reputed independent security auditors, code-review consultants or auditing team in order to address fatal bugs, failures or any coding issues that might doom the BCX's platform if really necessary and demanded by shareholders;</p>
+<p>(m) to appoint and remove the Audit Committee members and members of the Development Committee, fill vacancies in such bodies due to death, resignation or removal and approve the internal regulations of each body or of any other committee, as applicable;</p>
+<p>(n) to supervise the work of developers, request information and examine at any time their contributions and actions towards the evolution of BCX's platform;</p>
+<p>(o) to serve as multi-signature trusted escrow and custodian of development fund;</p>
+<p>(p) to promote meetings for its members, shareholders, community and other stakeholders;</p>
+<p>(q) to do accountability of held funds and its expenses;</p>
+<p>(r) to report its activities to shareholders periodically;</p>
+<p>(s) to ask shareholders (by motion) for additional token sale, crowdfunding, crowdsale in order to fund more development effort if necessary;</p>
+<p>(t) to manifest opinion about acts and contracts whenever these bylaws or the shareholders demand;</p>
+<p>(u) to resolve on the creation and termination of advisory committees, permanent or not, to assess and provide opinion on any matters, as determined by the Board of Reputed Signers, with a view to advice the Board in its duties and to appoint and delegate responsibilities and authority to those committees;</p>
+<p>(v) call the independent auditors, the Audit Committee members and members of the Development Committee to provide clarifications deemed necessary on any matter;</p>
+<p>(w) to deliberate of its day-to-day activities;</p>
+<p>(x) to recommend to the shareholders correction or improvement in policies, practices and procedures included in its attributions or to submit to their appreciation proposals aiming at reforms in these Bylaws whenever necessary;</p>
+<p>(y) resolve on any cases omitted by these By-laws and perform other attributions related to development not conferred by these By-laws.</p>
+<p>7.3        The Board may, within the scope of its purpose, engage in all civil, commercial, industrial and financial transactions.</p>
+<p>7.4        All members of the Board shall be provided with all information that the Board of Reputed Signers considers necessary for the performance of its duties and all information that the Board of
+Reputed Signers considers is material to the BCX's project.</p>
+<p>7.5        PROHIBITIONS</p>
+<p>It's expressly forbidden for the Board of Reputed Signers and its members:</p>
+<p>(a) the acts of any member of the Board or developer involving business or operations strange to the organization's purpose, being void and inoperative with respect to the BCX's project;</p>
+<p>(b) to use development fund for any other purpose other than software development and tasks related to development itself (i.e. code auditing, bug grants, etc);</p>
+<p>(c) to speculate or trade development fund with or against any other cryptocurrency, crypto-asset, crypto-token, or gamble with development fund;</p>
+<p>(d) to use development fund as loan, or use the fund for one’s own benefit, for partnership in which has interests or for third party's interests;</p>
+<p>(e) to keep development fund in any other cryptocurrency, crypto-asset, crypto-token, other than Bitcoin (XBT) or alternative cryptocurrency (altcoin) that might overcome XBT in liquidity, market capitalization and adoption in the future;</p>
+<p>(f) to use development fund to pay bonus to themselves, their friends, other shareholders or anyone that is not related to the goals mentioned in Section 2.3;</p>
+<p>(g) to substitute an assignee as a member in his or her place or delegate the powers and responsibilities mentioned in these bylaws to an assignee;</p>
+<p>(h) to use development fund for the advertising of products or services of it or third parties, and the trading of promotional and advertising materials or for marketing, general advertisement and public relations duties;</p>
+<p>(i) to decide on buy-back operations on a permanent or non-permanent basis or to use development funds for share buy-backs even after the authorization of the Board of Reputed Signers or from any shareholder.</p>
+<p>7.6        PROXY</p>
+<p>No member of the Board of Reputed Signers may grant a proxy to another member in order to be represented at a specific meeting.</p>
+<p>7.7        OUTSOURCING</p>
+<p>The duties and powers granted and limited by these bylaws to the Board of Reputed Signers must not be delegated, outsourced, sub-granted or rented to a third party, team, member or individual designated (or not) by motion, except those expressly mentioned in these bylaws.</p>
+<p>7.8        PROPERTY RIGHTS</p>
+<p>No member or the Board of Reputed Signers shall have any right or interest in any of the organization's property or assets, except for intellectual property rights retained in any work contributed to the organization by the member, but even then, only to the extent permitted by any intellectual property rights policy approved by the Board of Reputed Signers and then in force.</p>
+<p>7.9        NON-LIABILITY</p>
+<p>No member of the Board of Reputed Signers shall be liable for the organization's debts, liabilities, or obligations merely by reason of being a member.</p>
+<p>7.10    NON-TRANSFERABILITY</p>
+<p>No member of the Board of Reputed Signers may transfer, for value or otherwise, his or her membership in the organization, or any right arising therefrom. All rights of membership shall cease upon a member's death, resignation, expulsion or termination.</p>
+<p><strong>ARTICLE VIII – MEMBERSHIP, ELIGIBILITY, ELECTION AND REMOVAL</strong></p>
+<p>8.1        ELIGIBILITY</p>
+<p>The members of the Board of Reputed Signers shall be elected by the shareholders in accordance with these bylaws. Each member shall hold membership until he or she resigns or is removed or replaced. In order to become eligible as a candidate to join the Board of Reputed Signers the person needs:</p>
+<p>(a) to be an already elected BCX's Reputed Signer; or</p>
+<p>(b) to be a relevant BCX shareholder (i.e. candidate needs to sign a message from BlockShares address(es) containing a minimum of 2000 BKS and make it public for verification in the following proposed Board of Reputed Signers member candidacy motion); and</p>
+<p>(c) to be a registered user in the Nu Forum/BCX community for at least over a year (i.e. ANNIVERSARY community badge granted); and</p>
+<p>(d) to be an active user in the Nu Forum/BCX community (i.e. REGULAR or LEADER trust level badge granted); and</p>
+<p>(e) to be a respected or admired leader or collaborator in the Nu Forum/BCX community (i.e. RESPECTED or ADMIRED or EMPATHETIC community badge granted).</p>
+<p>8.2        ELECTION MOTION</p>
+<p>In order to run for election to become a member of the Board of Reputed Signers all candidates need to propose a motion to be voted and approved by BCX shareholders introducing themselves as a BRS member candidate.</p>
+<p>8.3        ELECTION VOTING</p>
+<p>The motion mentioned in the previous Section 8.2 proposed by its candidate need a minimum percentage of votes of 50% (i.e. 5000 blocks and 50.00 block percentage) from shareholders to take effect and for that person to be considered an elected member of the Board of Reputed Signers.</p>
+<p>8.4        ELECTION REQUIREMENTS</p>
+<p>Proposed motions that don't obey, follow and contain all the requirements mentioned in Section 8.1(a) for election of members of the Board of Reputed Signers, or Section 8.1(b,c,d,e) for election of independent members of the Board of Reputed Signers, will be considered null and won't generate any effects (even if/after passed).</p>
+<p>No person shall be eligible for election as a member of the Board of Reputed Signers unless nominated in accordance with the procedures set forth in this Article VIII.</p>
+<p>8.5        COLLATERAL</p>
+<p>The members of the Board of Reputed Signers shall not be required to hold or offer collateral in order to exercise their position and duties.</p>
+<p>8.6        REMOVAL</p>
+<p>Only after deliberation and approval of two-thirds ( 2 / 3 ) of the members of the Board of Reputed Signers, shall the Chairman of the Board of Reputed Signers, or the Vice Chairman, propose to shareholders a motion of removal of any member of the Board before the end of the mandate. A member of the Board of Reputed Signers may be removed by shareholders only if the number of votes cast to remove that member would be sufficient to elect him or her. No motion proposed by any other shareholders outside the Board shall be considered valid for that purpose (Board member removal) even if passed or ratified.</p>
+<p><strong>ARTICLE IX – CHAIRMAN AND VICE CHAIRMAN OF THE BOARD</strong></p>
+<p>9.1        CHAIRMAN OF THE BOARD</p>
+<p>The Chairman of the Board of Reputed Signers is responsible for:</p>
+<p>(a) convening and chair the meetings of the Board of Reputed Signers, coordinating those meetings;</p>
+<p>(b) structuring and directing all the services of the organization and establishing internal and operating norms in accordance with the guidelines laid down by these bylaws and by Annual Strategic Development Plan;</p>
+<p>(c) supervising all the Board’s activities, providing the guidelines best suited to its purpose;</p>
+<p>(d) coordinating and overseeing the activities of the Board of Reputed Signers; and</p>
+<p>(e) exercising the other prerogatives conferred upon it by the Board of Reputed Signers.</p>
+<p>9.2        VICE CHAIRMAN OF THE BOARD</p>
+<p>The Vice Chairman of the Board of Reputed Signers is responsible for collaborating with the Chairman in the management of the organization and the direction of its services. The Vice Chairman shall perform all the duties of the Chairman of the Board and, in so acting, shall have all of the powers of the Chairman of the Board in the event of the Chairman of the Board's absence, death, removal, resignation, or incapacity.</p>
+<p>9.3        MANDATE</p>
+<p>The Chairman and the Vice Chairman of the Board of Reputed Signers will hold their office for a term of one (1) year, being eligible for reelection, and will remain in their post until the newly elected chairman takes office. They shall not be considered officers of the Blocks and Chains Exchange.</p>
+<p>9.4        REMOVAL</p>
+<p>Only after deliberation and approval of two-thirds ( 2 / 3 ) of the members of the Board of Reputed Signers, shall the Chairman of the Board of Reputed Signers, or the Vice Chairman of the Board, be removed from his or her duties, replaced or had his or her powers suspended as chair of the Board before the end of their mandate. No motion proposed by any other shareholders outside the Board shall be considered valid for that purpose even if passed or ratified.</p>
+<p><strong>ARTICLE X – COMMITTEES</strong></p>
+<p>10.1        CREATION</p>
+<p>If its composition consists of ten (10) or more members, the Board of Reputed Signers may determine the creation of advisory committees to assist the respective members of the Board, particularly the Audit Committee and the Development Committee as provided for below, as well as to define their composition and specific assignments.</p>
+<p>10.2        CHARACTERISTICS</p>
+<p>The Board of Reputed Signers shall not be bound by any of the committees' advice or decision. Committee members shall not have the rights or privileges of members of the Board, nor the power or authority over operations of the organization. A Committee member may be removed at any time by the Board of Reputed Signers with or without cause.</p>
+<p>10.3        NUMBER OF MEMBERS</p>
+<p>Any committee having authority of the Board of Reputed Signers shall consist of two (2) or more members who serve at the pleasure of the Board. The Board of Reputed Signers shall retain in its sole discretion both the right to limit the powers and duties of any committee that it creates, and to disband any such committee.</p>
+<p>10.4        STRUCTURE</p>
+<p>The Board of Reputed Signers will appoint members to each committee meeting any applicable qualifications set forth in that committee’s charter and designate the committee’s chair at the Board of Reputed Signers’ annual organizational meeting or at such other time as the Board of
+Reputed Signers may determine. The chair and each committee member will serve until he or she resigns or is removed and a successor is appointed. If the Board of Reputed Signers does not designate a chair, the committee members may designate a chair by a majority vote. The Board of Reputed Signers may remove any committee member at any time, with or without cause, voting and deliberating about the proposed situation. Any vacancy occurring on any committee may be filled by the Board of Reputed Signers. Each committee may delegate any of its responsibilities to the chair or another committee member, unless prohibited by these bylaws or regulation (if any).</p>
+<p>10.5        MEMBERSHIP</p>
+<p>Members of the Board of Reputed Signers, shareholders, proven and acclaimed skilled developers or auditors may be indicated to sit on the advisory committees. The members of such committees, shareholders or not, shall have specific experience in the areas of competence of the relevant committees and they shall be elected to handle specific issues within the scope of the Board of Reputed Signers.</p>
+<p>10.6        MEETINGS</p>
+<p>A committee may meet in person, by telephone, video conference call, Internet forum or web chat, and may act by unanimous written consent. Each committee shall keep a record of its acts and proceedings and report the same from time to time to the Board of Reputed Signers.</p>
+<p>10.7        DELIBERATIONS</p>
+<p>Unless the Board of Reputed Signers otherwise prescribes by resolution, the act of a majority of the committee members present at a meeting at which there is a quorum present will be the act of that committee. Each committee of the Board of Reputed Signers may prescribe its own rules for calling and holding meetings and its method of procedure, subject to any rules prescribed by the Board of Reputed Signers.</p>
+<p>10.8        RESIGNATION</p>
+<p>Any member of any committee may resign at any time by delivering written notice to the Chairman of the Board of Reputed Signers, the Board or the chairman of such committee. Any such resignation shall take effect at the time specified therein or, if the time is not specified, upon delivery thereof and, unless otherwise specified therein, the acceptance of such resignation shall not be necessary to make it effective.</p>
+<p>10.9        INTERNAL RULES</p>
+<p>Upon appointment of the members of a committee, one of them shall be appointed as its coordinator and the Board of Reputed Signers shall establish, in Internal Rules, the functioning rules for all the committees.</p>
+<p>10.10        PROHIBITIONS</p>
+<p>The members of the Board of Reputed Signers may delegate to each such committee any of the powers of the members of the Board disposed by these Bylaws, except that no such committee shall have the authority to:</p>
+<p>(a) submit directly to the shareholders any question or matter requiring the approval of the shareholders;</p>
+<p>(b) proceed with the approval of any action which also requires shareholders’ approval or approval of the outstanding shares;</p>
+<p>(c) fill a vacancy among the members of the Board of Reputed Signers or in the office of auditor, or appoint additional members of the Board;</p>
+<p>(d) fix compensation of any member for serving on the Board of Reputed Signers or on any committee;</p>
+<p>(e) approve any annual financial statements to be placed before the shareholders;</p>
+<p>(f) adopt, amend or repeal bylaws of the organization;</p>
+<p>(g) amend or repeal any resolution of the Board of Reputed Signers which by its express terms is not so amendable or repealable;</p>
+<p>(h) appoint or designate any other committee of the Board of Reputed Signers or the members thereof.</p>
+<p>10.11    COMMITTEE MINUTES.</p>
+<p>Each committee shall keep regular minutes of its meetings and report to the Board of Reputed Signers when required.</p>
+<p>10.12    SUBCOMMITTEES</p>
+<p>Unless otherwise provided in these bylaws or the resolutions of the Board of Reputed Signers designating the committee, a committee may create one or more subcommittees, each subcommittee to consist of one or more members of the committee, and delegate to a subcommittee any or all of the powers and authority of the committee.</p>
+<p><strong>ARTICLE XI – AUDIT COMMITTEE</strong></p>
+<p>11.1        COMPOSITION</p>
+<p>If requirement of Section 10.1 is met the Audit Committee shall consist of three (3) members, serving for a term to coincide with the term of the members of the Board of Reputed Signers, with reelection permitted. Exclusively the Members from the Board of Reputed Signers will appoint the members of the Audit Committee.</p>
+<p>11.2        VACANCY</p>
+<p>In the event of absence or temporary impediment of a member of the Audit Committee, the
+absent member should indicate, from among the other members, one to replace him or her. In the event of a vacancy, the chairman of the Board of Reputed Signers will convene a meeting of the Board for the election of a new member of the Audit Committee, until the end of its term of office.</p>
+<p>11.3        MEETINGS</p>
+<p>The members of the Audit Committee will meet whenever convened by any of its
+members.</p>
+<p>11.4        DUTIES</p>
+<p>It is incumbent upon the Audit Committee:</p>
+<p>(a) to review the BCX's project annual and quarterly financial statements related to development expenses, reporting its findings periodically, each quarter, to the Board of Reputed Signers;</p>
+<p>(b) to review the BCX's project internal control systems, as well as the procedures for auditing,
+accounting and administration, reporting its findings periodically, each quarter, to the Board of
+Reputed Signers;</p>
+<p>(c) to recommend to the Board of Reputed Signers correction or improvement of policies, practices and procedures identified within the scope their duties.</p>
+<p><strong>ARTICLE XII – DEVELOPMENT COMMITTEE</strong></p>
+<p>12.1    COMPOSITION</p>
+<p>In addition to the Audit Committee, if requirement of Section 10.1 is met, the BCX's project shall have a Development Committee, which will consist of (at least) two (2) members appointed by the Board of Reputed Signers, of which at least one (1) will be proven and acclaimed skilled developer or security auditor, for a term that will coincide with the term of the members of the Board of Signers, reelection being permitted.</p>
+<p>12.2    DUTIES</p>
+<p>It is incumbent upon the Development Committee:</p>
+<p>(a) to indicate to the Board of Reputed Signers the candidates whose names will be submitted to the shareholders for the election of Technical Lead Developer for BKC's project;</p>
+<p>(b) to indicate skilled developers to the Board of Reputed Signers in order to work on BCX’s development;</p>
+<p>(c) to submit to the Board of Reputed Signers proposal for the distribution of the global annual compensation of the developers and Technical Lead Developer, based on standards practiced in the market, as well as monitor the payment of the compensation and, in case the compensation does not follow the standards prevailing in the software market, notify the Board;</p>
+<p>(d) to provide opinion on the value of development grants proposed to attract developers for the BCX's project;</p>
+<p><strong>ARTICLE XIII – ANNUAL STRATEGIC DEVELOPMENT PLAN</strong></p>
+<p>13.1    CHARACTERISTICS AND CONTENT</p>
+<p>The Annual Strategic Development Plan shall be presented to the shareholders’ evaluation and approval every accounting year. The plan consists of:</p>
+<p>(a) Work plan – which detailed steps are planned to be taken in order to reach the goals of development for the year;</p>
+<p>(b) Budget – the available funds (development fund), estimate of expenses and revenues (if any) for the year;</p>
+<p>(c) Investment plan – how (and in what) the funds are going to be spent in order to fulfill the development effort for the year; and</p>
+<p>(d) Development road map – the dates of milestones for the software/platform that are estimated to be reached for the year.</p>
+<p>13.2    MOTION APPROVAL</p>
+<p>The Annual Strategic Development Plan draft shall be proposed by the Chairman of the Board of Reputed Signers, until thirty (30) days after his election, as a motion and approved by the shareholders before the development management work duties of the Board of Reputed Signers starts for that same year.</p>
+<p>13.3    ELABORATION</p>
+<p>All members of the Board of Reputed Signers, the Technical Lead Developer, all developers and the Development Committee (if any) shall help the Chairman elaborating the Annual Strategic Development Plan.</p>
+<p><strong>ARTICLE XIV – GENERAL AND TRANSITIONAL PROVISIONS</strong></p>
+<p>14.1    BOOKS OF ACCOUNTS, MINUTES AND RECORDS</p>
+<p>Except as otherwise provided by these Bylaws the organization, as may be necessary or advisable,:</p>
+<p>(a) Shall keep as permanent records minutes of all meetings of its shareholders and Board, a
+record of all actions taken by the Board without a meeting, and a record of all actions taken by a
+committee;</p>
+<p>(b) Shall maintain appropriate accounting records; and</p>
+<p>(c) Shall keep a copy of the following records at its principal office place:</p>
+<p>(i) The Bylaws or Restated Bylaws and all amendments to them currently in effect;</p>
+<p>(ii) Its financial statements for the past three (3) years, including balance sheets showing in reasonable detail the financial condition of the organization as of the close of each accounting year, and an income statement (if necessary) showing the results of its operations during each accounting year prepared on the basis of generally accepted accounting principles or, if not, prepared on a basis explained therein; and</p>
+<p>(iii) All communications to shareholders generally within the past three (3) years.</p>
+<p>14.2    ACCOUNTING YEAR</p>
+<p>The accounting year shall begin on the first of January and end on the thirty-first of December each year.</p>
+<p>At the end of each financial year, the Board of Reputed Signers shall elaborate and disclose to shareholders a Management Report and the Annual Accounts of the BCX's project development.</p>
+<p>14.3    FREELANCERS</p>
+<p>Developers and Technical Lead Developer shall fulfill their duties as freelancers and no developer nor Technical Lead Developer shall represent that he or she has any employment relationship with BCX's project, the Board or any of its affiliated members and/or other developers.</p>
+<p>Developers and Technical Lead Developer shall not give a false representation as to the nature of the relationship between BCX's project, the Board and their Developers, or make any representation except in accordance with these bylaws or other BCX's literature.</p>
+<p>BCX's Developers and Technical Lead Developer are independent freelancers operating their own businesses and work. They shall not imply that they are employees of BCX or of its Board, nor shall they refer to themselves as “agents,” “managers,” or “company representatives”, nor shall they use such terminology or descriptive phrases on their stationery or other printed material.</p>
+<p>The Board of Reputed Signers may select and remove all contractors related to software development or security audit working as freelancers, and to fix reasonable compensation therefor;</p>
+<p>14.4    CORPORATE LOANS, GUARANTEES, AND ADVANCES</p>
+<p>The Organization shall not make any advances or loan of money or property to any member of the Board or committee, nor shall the Organization guarantee the obligation of any of those members.</p>
+<p>14.5    AMENDMENTS AND REPEALS</p>
+<p>The Board of Reputed Signers shall have the power to adopt, amend or repeal the Bylaws of this organization. The proposed amendment or modification shall only pass after deliberation and approval of two-thirds ( 2 / 3 ) of the members of the Board about the proposed alterations.</p>
+<p>The shareholders shall also have the power to adopt, amend or repeal the Bylaws of this organization only after passed motion with a minimum percentage of votes of 75% (i.e. 7500 blocks and 75.00 block percentage) or 3/4 (three-quarters) from BlockShares (BKS) owners (shareholders) to take effect.</p>
+<p>Amendment proposals need to be presented as draft to the community in order to promote debates, ideas and contributions around the matter for at least seven (7) days prior to voting.</p>
+<p>14.6    PREVIOUS MOTIONS</p>
+<p>All rules and provisions stipulated in the passed Motion 1b2364f0a9ac919a2372feb84c9ad616400b42e0 (Motion to establish Reputed Signers Operations Team – RSOT) that don’t conflict, diverge or contradict what is mentioned in these Bylaws are to be considered valid in order to complement these bylaws only. And the organization previously know as Reputed Signers Operations Team (RSOT), as stated in the aforementioned motion, is to be renamed and all its attributions, duties, tasks are to be incorporated by the Board of Reputed Signers.</p>
+<p>All members already elected for the RSOT are to be considered elected members of the Board of Reputed Signers with their mandates starting from January 1st, 2017 and with all their granted powers, duties, rights and terms being ruled by these bylaws from now on. The considered passed motions of the elected members of RSOT incorporated to the Board of Reputed Signers are as follows:</p>
+<p>(a) 1f8d60f8c1ab0016aa2653fd9c7ef6de89d7b8bb (Sabreiib joining RSOT);</p>
+<p>(b) 58ca74b14b6ea4fc73aa943688d52c590f60b1e5 (backpacker joining RSOT);</p>
+<p>(c) f73d264a2053b6eb3bcd2166a2052083f4083972 (Dhume Joining RSOT);</p>
+<p>(d) cd63006bb3e159b6224ad2e619b72336f4c9ddc9 (Motion to Join RSOT - @mhps); and</p>
+<p>(e) 7cb62d597ecb809416a8932245124fb2722e7123 (Motion to join RSOT - @Cybnate).</p>
+<p>All rules and provisions stipulated in the passed Motion a2a32c8ef97f7145f05e97e0e7d69ead6a61dc47 (Re-evaluation of RSOT Implementation) are to be considered null and void by the passage of the motion that establishes these bylaws.</p>
+<p>14.7    EFFECTIVE DATE</p>
+<p>These Bylaws shall become effective immediately upon their adoption. Unless the adopting Board of Reputed Signers provide for a later date, any amendments to these Bylaws shall become effective immediately upon their adoption.</p>
+<p>14.8    MISCELLANEOUS</p>
+<p>Cases not covered herein shall be regulated by current rules (if any) concerning distributed ledgers and decentralized autonomous organizations (DAO).</p>
+<p>The foregoing Amended and Restated Bylaws were adopted by the Board of Reputed Signers on January 1st, 2017.</p>
+<hr>
+<p><a href="https://daology.org/p/51bd33fac5a95d059b33d4f0cd82b3afcbb4b755">Proposal</a> created with <a href="https://daology.org">Daology.org</a> by <a href="https://daology.org/u/financist0">financist0</a> for <a href="https://daology.org/o/B&amp;C Exchange">B&amp;C Exchange</a></p>
+
+      
+    </article>
+  </div>
+</div>
+
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div id="app-footer">
+  <footer class="footer footer-branded">
+
+    <div class="container">
+      <nav class="pull-left col-xs-12 col-md-10">
+        <ul>
+          <li role="presentation"><a href="/about">About Daology</a></li>
+          <li role="presentation"><a href="/terms">Terms</a></li>
+          <li role="presentation"><a href="/privacy">Privacy</a></li>
+          <li role="presentation"><a href="/cookies">Cookies</a></li>
+          <li role="presentation"><a href="/support">Support</a></li>
+        </ul>
+      </nav>
+      <div class="copyright col-xs-12 col-md-2 pull-right">
+        &copy; 2017 Daology, LLC
+      </div>
+    </div>
+  </footer>
+</div>
+    </div>
+      
+
+
+  
+  
+
+    
+
+    
+
+    
+      <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+      <script src="//code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/highlight.js/latest/highlight.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+      <script src="/static/public/javascripts/dao.min.js"></script>
+    
+
+  
+
+
+
+  <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='https://www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-62932153-1','auto');ga('send','pageview');
+  </script>
+
+  </body>
+  
+  
+</html>

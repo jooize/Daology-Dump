@@ -1,0 +1,69 @@
+# Proposal Begin
+
+We would like to create and operate a new liquidity pool: Exchange-traded Pool A, two sub-funds of Exchange-traded Pool A: BearBTC and BullBTC, and a new exchange to trade them. Their features are outlined as following.
+
+## Basic Features:
+
+- The money from the sale of NuLagoon ETP A will be used in the liquidity operation to support NuBits pegging at $1. As a compensation, NuShareholders grant NuLagoon custodian fee, which will be shared by liquidity Pool A, C, D and ETP A.
+
+- Typically, about half of the holding in ETP A will be in the form of BTC. As a result, the NAV of ETP A will fluctuate along the price of BTC. For users who are familiar with NuLagoon,  just think that ETP A's NAV will go exact same way as Pool A.
+ 
+- Using coin control feature to send 1000 (or more) NBT to any of ETP A sub-funds addresses to purchase ETP A shares.
+ 
+- Using coin control feature to send some NBT from a specific user address to any of ETP A sub-funds addresses to redeem ETP A shares.
+
+- ETP A is open for purchase and redemption once a month. Before the total asert of ETP A is more than $40,000 and the build-in exchange can provide normal liquidity at its close period, it opens once a week. The close period could be extended to 1 month or even longer in future if there is ample liquidity of BearBTC and BullBTC in exchanges. 
+
+## Advanced Features
+
+- 2 shares of ETP A equal to 1 share of BearBTC and 1 share of BullBTC.
+ 
+- BearBTC is an inverse ETF. Its NAV move exact 2 times of Bitcoin price move in the opposite direction.
+
+- BullBTC is an leverage ETF. Its NAV move approximately 2.5 times of Bitcoin price in the same direction.
+
+- BearBTC and BullBTC share holders can transfer his/her shares to another one's UserAddr.
+
+- During the close period of ETP A, BearBTC and BullBTC can trade with NuBits on the exchange.
+
+- BearBTC or BullBTC will pay dividends to holders when one's NAV is 5 times or more than another's.
+
+# Highlights for NuShareholders
+
+- ETP A only open once each month and can even close for longer in the future. This will address the issue where there is increased risk that the peg will be lost that emerges fairly quickly. In that case, if people can, they may remove liquidity just at the time it is most needed. This panic among liquidity providers may cause the peg to break as liquidity disappears, whereas If they are contractually obligated to keep providing liquidity for weeks or months and there is a way to enforce that, then we will have liquidity even in high risk scenarios.
+
+- BearBTC and BullBTC will be very attractive to the vast majority of Bitcoin investors. Besides being listed and traded on build-in exchanges, they can even be listed on other exchanges. The demand of BearBTC and BullBTC will increase demand of ETP A, and eventually increase NuBits demand.
+ 
+- ETP A will not charge NuShareholders extra custodian fee which is not included in previous and effective motion of NuLagoon custodian fee. 
+
+- BearBTC and BullBTC build-in exchange will set trading fee to zero at starting stage. All the traders have to pay is just NuBits blockchain transaction fee. So it will bring much more transaction, i.e. consumption to NuBits.
+
+- If exchange fee is charged in future, half of the profit made by exchange fee will be shared by NuShareholders until the 38,500 NBT of investment is recouped.
+
+# Default risk of NuLagoon
+
+- If ETP A is success and the fund come from it is more than what needed in NuBits liquidity operation. We can just burn the excess part of the fund in NuBits. At the date ETP A is open for redemption, we request FLOT team to grant NuBits to us to pay the user redemptions. Because all the activity is public on NuBits block chain. It is very easy for FLOT team to verify the request. In this way, we can mitigate the default risk of our side. 
+
+- After B&C Exchange begin work, NuLagoon can move its liquidity operation to B&C Exchange and use its escrow function. All the ETP A fund can be locked on the B&C Exchange's multi-signature address during its close period. Then we can not really run away with those money.
+
+# Proposal for NBT grant
+
+- We realized that NuLagoon can only succeed as long as NuBits succeeds. So we decided not to charge extra custodian fee and exchange trades fee on our next NuLagoon product. Instead, we come to NuShareholders to fund our project.
+
+- We would like to ask for $16,500 in NBT for the creation of ETP A, BearBTC, BullBTC, and $22,000 in NBT for BearBTC, BullBTC build-in exchange. 
+
+- The operation fee of ETP A, BearBTC, BullBTC and build-in exchange will be covered by existed and effective NuLagoon custodian fee motions. No more extra fee would be charged to NuShareholders.
+ 
+- NBT will be paid by FLOT team in three payments. 
+
+a) $10,000 in NBT upfront will be paid after the motion is approved and passed by NuShareholders, 
+
+b) $15,000 in NBT after ETP A, BearBTC, BullBTC start operation. Including all the off-exchange interfaces: purchase, redemption and transfer. NAV calculation for ETP A, BearBTC, BullBTC, and dividend payment & NAV adjustment features. Also basic web pages to show NAVs, Userholding and Transfer records.
+
+c)  $13,500 in NBT after build-in exchange start operation. Including all the on-exchange interfaces: deposit, selling orders, buying orders, cancel orders and withdraw. Also basic web pages to show exchange orderbook, cash holding and trade records.
+
+#Proposal end
+
+---
+
+[Proposal](https://daology.org/p/c1d00af403da1f32dba1d261889056f96d36605e) created with [Daology.org](https://daology.org) by [nulagoon](https://daology.org/u/nulagoon) for [Nu](https://daology.org/o/Nu)

@@ -1,0 +1,45 @@
+## Requirements
+
+- Multisig address redeem script.
+- Target address(es).
+- Cointoolkit support for loading unspent inputs with the cryptocoin.
+
+## Procedure
+
+1. Open [Cointoolkit](https://ttutdxh-nubits.github.io/cointoolkit/).
+2. Choose cryptocoin in the upper right corner dropdown list.
+3. Go to New → Transaction.
+4. Enter multisig address redeem script and press “Load”.
+5. Enter target addresses with intended amounts. Add more entries with the plus to the right.
+6. (optional) Go to the tab “Inputs”.
+7. (optional) Remove entries until the “Transaction Fee” number is as close to your intended transaction fee as possible *to reduce transaction size*.
+8. (optional) Return to the tab “Outputs”.
+9. Add entry with multisig address. *You can copy it from under the redeem script box.*
+10. Set amount to multisig address to what the “Transaction Fee” box says minus intended transaction fee.
+11. Press “Generate”.
+12. Check the transaction fee against the resulting transaction size and judge whether it's appropriate (or ask).
+13. Copy the entire (raw) transaction text.
+14. Send the transaction to the signers or press “Continue to Sign” to sign.
+15. *Make sure you trust GitHub and the author of the Cointoolkit version you're using. You may look at the GitHub commit history, but safer is to download and run it offline.*
+16. Enter your multisig private key in WIF format and press “Sign”.
+17. Press “Verify and share” (or “Broadcast” if sufficiently signed).
+18. Check transaction, and send the shareable link at the bottom to the other signers. You may want to include the raw transaction (at the top) in the message to simplify for some signers.
+
+## Example
+
+1. Acquire [multisig address redeem script](https://discuss.nubits.com/t/flot-operations-buy-side-btc-related/3117).
+    ```
+	55210234139729dd413c84a71a0bfd6f236790be861b37311cef3240277c940e4b0c072102435b894b94b4b27dd24436b3f9ad0b9409d855ab4be6e91141d445804e84750b2102e2fcdfe246e9cd4864d9119b8af465487385eccd0ea30a8cb21d44d36818189f210312cd6eb361c9ebb0d90e44946492a237eab4c7a7d88a0db800f2f460937cc22f210326c19862fb329470c828ace6749b64c50b4d9a8da60d60e4e32ebe96b388b2ae21034b0bd0f653d4ac0a2e9e81eb1863bb8e5743f6cb1ea40d845b939c225a1a80ff2103661a4370dfcfbcea25d1800057220f4572b6eecab95bb0670e8676a9e34451dc2103da8082062298c40f0b473b74f3c95b57eaaebe3e67ed30ce56347b2e727915fb58ae
+    ```
+2. Acquire target address (possibly from the same thread).
+3. Follow outlined procedure.
+
+## Improve
+
+- Calculate transaction size on the fly.
+- Let user set transaction fee by number, and return excess to multisig address.
+- Allow entering transaction fee per byte.
+- Suggest transaction fee.
+- Fetch appropriate transaction fee from https://bitcoinfees.21.co/ (Bitcoin only).
+- Links to verify transaction after creating transaction without having signed.
+- Produce summary of transaction useful for other signers.

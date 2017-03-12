@@ -1,0 +1,14 @@
+The script underlying the output that is the focus of this thread:
+https://discuss.nubits.com/t/nsr-buyback-calculations/3347
+
+shall be changed to reserve 100% of outstanding NuBits instead of the current figure of 15%.
+
+A minimum of 0.5% of the total NuShare supply must be sold each week while so long as either one of these two conditions exist:
+1) There is not a buy wall equal to or greater than $0.98
+2) The 100% reserve requirement is not met.
+
+This minimum applies to the aggregate NSR sales by all custodians. Stating the weekly NuShare sales requirement as a minimum permits the negotiation of a sale of a large block of NSR to a single buyer, which would be tremendously helpful in meeting our primary objective: restoration and maintenance of the $1.00 peg.
+
+---
+
+[Proposal](https://daology.org/p/4035cbbe38c0dc28c734c2e8e4cc622a5a96dbee) created with [Daology.org](https://daology.org) by [phoenixnubits](https://daology.org/u/phoenixnubits) for [Nu](https://daology.org/o/Nu)

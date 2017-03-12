@@ -1,0 +1,15 @@
+Custodial grant proposal for SkyCatchFire to migrate NuBits.com to a jekyll based open source website hosted on GitHub.
+
+It is estimated that the process will be 20 hours of work at a cost of $150/hr. This brings a projected total of $3,000 for the migration. For this cost SkyCatchFire will provide us with the following:
+
+1. The site will be migrated from Drupal to Jekyll.
+1. The templates will be updated to work with the new Liquid template syntax.
+1. Code will be cleaned up to make committing very straight forward for the community.
+1. Provide detailed README with instructions for making Pull Requests.
+1. 1 week of post-launch support.
+
+SkyCatchFire will provide a progress report on the migration when they've reached 10 hours. CoinGame will receive the custodial grant of 3,000 NBT and handle the payment with SkyCatchFire. Any unused funds will be burned with transaction ID of burned funds provided to shareholders.
+
+---
+
+[Proposal](https://daology.org/p/9d51e6acffb6ebffc5dc49fbba4ba08df41bb4c1) created with [Daology.org](https://daology.org) by [coingame](https://daology.org/u/coingame) for [Nu](https://daology.org/o/Nu)

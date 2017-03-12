@@ -1,0 +1,1014 @@
+<!-- extend base layout -->
+
+<!doctype html>
+<html lang="">
+  <head>
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Daology</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/static/public/images/favicon.ico">
+
+    
+  
+  
+
+    
+      <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic|Lato:400,700|Inconsolata' rel='stylesheet' type='text/css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/highlight.js/latest/styles/github.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/flick/jquery-ui.css">
+      <link rel="stylesheet" href="/static/assets/stylesheets/_vendor/jquery.tagit.min.css">
+
+      <link rel="stylesheet" href="/static/public/stylesheets/dao.min.css">
+    
+
+    
+
+    
+
+  
+
+    
+  
+  
+
+    
+
+    
+      <script src="/static/assets/javascripts/vendor/moment.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/contrib/auto-render.min.js"></script>
+    
+
+    
+
+  
+
+  </head>
+  <body role="document">
+    <div id="fullpage_wrapper">
+    
+      <div id="app-navbar">
+  <nav class="navbar" role="navigation">
+    <div class="container-fluid">
+      <div class="brand-bar row">
+        <div class="col-md-12">
+          <button id="menu-toggle" type="button" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar bar1"></span>
+            <span class="icon-bar bar2"></span>
+            <span class="icon-bar bar3"></span>
+          </button>
+          <a class="word_mark" href="/" name="home_link">daology</a>
+          
+        </div>
+      </div>
+      <div class="primary_nav row">
+        <div class="col-md-12">
+          <div class="collapse navbar-collapse" id="app-navbar-collapse">
+            <ul class="subnav">
+              <li class="subnav-item"><a href="/organizations/" name="dao_list_link">Organizations</a></li>
+              <li class="subnav-item"><a href="/articles" name="dao_list_link">Articles</a></li>
+              <li class="subnav-item"><a href="/proposals" name="dao_list_link">Proposals</a></li>
+              
+              <li class="subnav-item"><a href="/login" name="login_link" class="signin_btn">Sign in with Github</a></li>
+              
+
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+</div>
+      
+  
+  
+
+
+      
+
+  
+
+  
+
+  
+    
+      
+    
+    
+    
+    
+  
+
+  
+
+<div class="jumbotron articles">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text_content">
+          <h2>Be Opinionated</h2>
+          <p>
+            Daology helps you create impressive articles. With tools like Markdown you can easily organize and style your ideas to communicate them effectively.
+            Articles help shape peoples understanding of a concept, or provide contrasting perspective.
+          </p>
+        </div>
+      </div>
+    
+    </div>
+  </div>
+  <div class="row">
+      
+    </div>
+  
+
+
+
+      <div class="main row">
+        <div class="container">
+          <header class="row page_title">
+            
+            <div class="row">
+              <div class="page_actions col-md-12 pull-right">
+                <ul>
+                
+
+                
+                  
+
+                
+                </ul>
+              </div>
+            </div>
+            
+            
+            <div class="col-xs-9 col-md-11">
+              <span class="supertitle">
+                
+  
+    Latest On Daology
+  
+
+              </span>
+              <h1>
+                
+  Articles
+
+              </h1>
+            </div>
+          </header>
+          <section class="row page_content">
+            <div class="col-md-12">
+              
+<div class="row container">
+  <div class="sidebar col-md-4">
+    <div class="row sidebar_section">
+      <!-- visible for the rest of the screen sizes -->
+        <div class="hidden-xs col-md-12">
+          
+          <div class="cd-filter-block">
+
+  <form class="controls" id="Filters">
+    
+
+    <fieldset class="sidebar_section">
+      <p class="sidebar_title">Statuses</p>
+      
+      <button class="filter btn btn-sm" data-filter=".draft">Draft</button>
+      
+      <button class="filter btn btn-sm" data-filter=".published">Published</button>
+      
+      
+      
+      <button class="filter btn btn-sm active show-all" data-filter="">All</button>
+    </fieldset>
+    
+    
+    <button id="Reset" class="btn-link">Clear Filters</button>
+  </form>
+
+</div>
+
+
+        </div>
+      
+    </div>
+  </div>
+  <div class="col-md-8 content_body">
+    <div class="row">
+      <div class="col-md-12 card_list">
+        
+        
+
+        
+          
+            
+            <div class="card object_card card_list_item mix article draft">
+    <div class="card_body">
+      <div class="row meta_attr">
+        <div class="col-md-12">
+          <span class="type">ARTICLE</span>
+          
+              <span class="status">draft</span>
+            
+          
+          <div class="relations">
+            
+              <a href="/organizations/Peercoin">
+                <img src="/static/assets/images/uploads/Icon-NoShadow.png" title="Peercoin" class="org">
+              </a>
+              
+            
+          </div>
+        </div>
+      </div>
+      <div class="row content_desc">
+        <div class="col-md-12">
+          <h3><a href="/u/nagalim/articles/935cfd788c397b77be74e995da363f49eb3e027d" class="card_link">Building Spires in Sunny Kingdoms</a></h3>
+          
+        </div>
+      </div>
+      <div class="row metadata">
+        <div class="col-md-12">
+          <div class="author_info pull-left">
+            <span class="author_name">nagalim (<a href="/u/nagalim/">nagalim</a>)</span>
+            <span class="timestamp"><script>
+document.write(moment("2016-11-10T22:19:03 Z").calendar());
+</script></span>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <!-- TODO
+    <div class="card_footer row">
+      <div class="col-md-12">
+        <p>{OBJ_RESPONSE_TO}</p>
+      </div>
+    </div> -->
+  </div>
+
+          
+            
+            <div class="card object_card card_list_item mix article published">
+    <div class="card_body">
+      <div class="row meta_attr">
+        <div class="col-md-12">
+          <span class="type">ARTICLE</span>
+          
+          <div class="relations">
+            
+          </div>
+        </div>
+      </div>
+      <div class="row content_desc">
+        <div class="col-md-12">
+          <h3><a href="/u/cybnate/articles/0bec8b79d0d00b2f2ac35c8d1bfef0e031c11ede" class="card_link">NuOracle - Providing Real-Life Facts Encoded for Smart Contracts</a></h3>
+          
+        </div>
+      </div>
+      <div class="row metadata">
+        <div class="col-md-12">
+          <div class="author_info pull-left">
+            <span class="author_name">cybnate (<a href="/u/cybnate/">cybnate</a>)</span>
+            <span class="timestamp"><script>
+document.write(moment("2016-06-05T03:18:21 Z").calendar());
+</script></span>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <!-- TODO
+    <div class="card_footer row">
+      <div class="col-md-12">
+        <p>{OBJ_RESPONSE_TO}</p>
+      </div>
+    </div> -->
+  </div>
+
+          
+            
+            <div class="card object_card card_list_item mix article published">
+    <div class="card_body">
+      <div class="row meta_attr">
+        <div class="col-md-12">
+          <span class="type">ARTICLE</span>
+          
+          <div class="relations">
+            
+          </div>
+        </div>
+      </div>
+      <div class="row content_desc">
+        <div class="col-md-12">
+          <h3><a href="/u/cryptog/articles/b6481c4329c7af83145385e62ec076523d9c89e5" class="card_link">Building Companies That Live on the Internet Is the Killer App of the Blockchain Technology</a></h3>
+          
+        </div>
+      </div>
+      <div class="row metadata">
+        <div class="col-md-12">
+          <div class="author_info pull-left">
+            <span class="author_name">cryptog (<a href="/u/cryptog/">cryptog</a>)</span>
+            <span class="timestamp"><script>
+document.write(moment("2016-06-02T08:14:20 Z").calendar());
+</script></span>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <!-- TODO
+    <div class="card_footer row">
+      <div class="col-md-12">
+        <p>{OBJ_RESPONSE_TO}</p>
+      </div>
+    </div> -->
+  </div>
+
+          
+            
+            <div class="card object_card card_list_item mix article published">
+    <div class="card_body">
+      <div class="row meta_attr">
+        <div class="col-md-12">
+          <span class="type">ARTICLE</span>
+          
+          <div class="relations">
+            
+              <a href="/organizations/Bitcoin">
+                <img src="/static/assets/images/uploads/BCLogo.png" title="Bitcoin" class="org">
+              </a>
+              
+            
+          </div>
+        </div>
+      </div>
+      <div class="row content_desc">
+        <div class="col-md-12">
+          <h3><a href="/u/jooize/articles/e2e9ddfca93039886bdcd4451bdc144fe1a0bfa7" class="card_link">Cointoolkit Multisig Transaction</a></h3>
+          
+        </div>
+      </div>
+      <div class="row metadata">
+        <div class="col-md-12">
+          <div class="author_info pull-left">
+            <span class="author_name">Esko (<a href="/u/jooize/">jooize</a>)</span>
+            <span class="timestamp"><script>
+document.write(moment("2016-03-31T14:20:04 Z").calendar());
+</script></span>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <!-- TODO
+    <div class="card_footer row">
+      <div class="col-md-12">
+        <p>{OBJ_RESPONSE_TO}</p>
+      </div>
+    </div> -->
+  </div>
+
+          
+            
+            <div class="card object_card card_list_item mix article published">
+    <div class="card_body">
+      <div class="row meta_attr">
+        <div class="col-md-12">
+          <span class="type">ARTICLE</span>
+          
+          <div class="relations">
+            
+              <a href="/organizations/Nu">
+                <img src="/static/assets/images/uploads/nu-logo-250.png" title="Nu" class="org">
+              </a>
+              
+              <a href="/organizations/Nu/NuBits">
+                <img src="/static/assets/images/uploads/nubits-logo-250.png" title="NuBits" class="asset">
+              </a>
+              
+            
+          </div>
+        </div>
+      </div>
+      <div class="row content_desc">
+        <div class="col-md-12">
+          <h3><a href="/u/nagalim/articles/33c3ef4a3ea1e236cebd9b3eb8c20c81b4191f59" class="card_link">How Nu Keeps the Peg</a></h3>
+          
+        </div>
+      </div>
+      <div class="row metadata">
+        <div class="col-md-12">
+          <div class="author_info pull-left">
+            <span class="author_name">nagalim (<a href="/u/nagalim/">nagalim</a>)</span>
+            <span class="timestamp"><script>
+document.write(moment("2016-02-24T23:20:47 Z").calendar());
+</script></span>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <!-- TODO
+    <div class="card_footer row">
+      <div class="col-md-12">
+        <p>{OBJ_RESPONSE_TO}</p>
+      </div>
+    </div> -->
+  </div>
+
+          
+            
+            <div class="card object_card card_list_item mix article draft">
+    <div class="card_body">
+      <div class="row meta_attr">
+        <div class="col-md-12">
+          <span class="type">ARTICLE</span>
+          
+              <span class="status">draft</span>
+            
+          
+          <div class="relations">
+            
+              <a href="/organizations/Nu">
+                <img src="/static/assets/images/uploads/nu-logo-250.png" title="Nu" class="org">
+              </a>
+              
+              <a href="/organizations/Nu/NuBits">
+                <img src="/static/assets/images/uploads/nubits-logo-250.png" title="NuBits" class="asset">
+              </a>
+              
+            
+          </div>
+        </div>
+      </div>
+      <div class="row content_desc">
+        <div class="col-md-12">
+          <h3><a href="/u/nagalim/articles/85cc785040eacc6957c56fef0baa7e63e60dc774" class="card_link">[Draft] Stable Liquidity and Tether</a></h3>
+          
+        </div>
+      </div>
+      <div class="row metadata">
+        <div class="col-md-12">
+          <div class="author_info pull-left">
+            <span class="author_name">nagalim (<a href="/u/nagalim/">nagalim</a>)</span>
+            <span class="timestamp"><script>
+document.write(moment("2016-02-13T14:54:30 Z").calendar());
+</script></span>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <!-- TODO
+    <div class="card_footer row">
+      <div class="col-md-12">
+        <p>{OBJ_RESPONSE_TO}</p>
+      </div>
+    </div> -->
+  </div>
+
+          
+            
+            <div class="card object_card card_list_item mix article draft">
+    <div class="card_body">
+      <div class="row meta_attr">
+        <div class="col-md-12">
+          <span class="type">ARTICLE</span>
+          
+              <span class="status">draft</span>
+            
+          
+          <div class="relations">
+            
+              <a href="/organizations/B%26C%20Exchange">
+                <img src="/static/assets/images/uploads/BCEXCHANGEBIG.png" title="B&amp;C Exchange" class="org">
+              </a>
+              
+              <a href="/organizations/B%26C%20Exchange/BlockShares">
+                <img src="/static/assets/images/uploads/BLOCKSHARES.png" title="BlockShares" class="asset">
+              </a>
+              
+            
+          </div>
+        </div>
+      </div>
+      <div class="row content_desc">
+        <div class="col-md-12">
+          <h3><a href="/u/jooize/articles/79c9ae029a1a4006747be888ec70fdc8575f8441" class="card_link">Send From BlockShare Multisig Address</a></h3>
+          
+        </div>
+      </div>
+      <div class="row metadata">
+        <div class="col-md-12">
+          <div class="author_info pull-left">
+            <span class="author_name">Esko (<a href="/u/jooize/">jooize</a>)</span>
+            <span class="timestamp"><script>
+document.write(moment("2016-02-10T19:39:52 Z").calendar());
+</script></span>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <!-- TODO
+    <div class="card_footer row">
+      <div class="col-md-12">
+        <p>{OBJ_RESPONSE_TO}</p>
+      </div>
+    </div> -->
+  </div>
+
+          
+            
+            <div class="card object_card card_list_item mix article published">
+    <div class="card_body">
+      <div class="row meta_attr">
+        <div class="col-md-12">
+          <span class="type">ARTICLE</span>
+          
+          <div class="relations">
+            
+              <a href="/organizations/Nu">
+                <img src="/static/assets/images/uploads/nu-logo-250.png" title="Nu" class="org">
+              </a>
+              
+              <a href="/organizations/Nu/NuBits">
+                <img src="/static/assets/images/uploads/nubits-logo-250.png" title="NuBits" class="asset">
+              </a>
+              
+            
+          </div>
+        </div>
+      </div>
+      <div class="row content_desc">
+        <div class="col-md-12">
+          <h3><a href="/u/nagalim/articles/21c139e4d34bce404e64feebfa60af45020f448b" class="card_link">Brigading, Spamming, and Generally Being a Nice Person</a></h3>
+          
+        </div>
+      </div>
+      <div class="row metadata">
+        <div class="col-md-12">
+          <div class="author_info pull-left">
+            <span class="author_name">nagalim (<a href="/u/nagalim/">nagalim</a>)</span>
+            <span class="timestamp"><script>
+document.write(moment("2016-02-08T00:21:35 Z").calendar());
+</script></span>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <!-- TODO
+    <div class="card_footer row">
+      <div class="col-md-12">
+        <p>{OBJ_RESPONSE_TO}</p>
+      </div>
+    </div> -->
+  </div>
+
+          
+            
+            <div class="card object_card card_list_item mix article published">
+    <div class="card_body">
+      <div class="row meta_attr">
+        <div class="col-md-12">
+          <span class="type">ARTICLE</span>
+          
+          <div class="relations">
+            
+              <a href="/organizations/Nu">
+                <img src="/static/assets/images/uploads/nu-logo-250.png" title="Nu" class="org">
+              </a>
+              
+            
+          </div>
+        </div>
+      </div>
+      <div class="row content_desc">
+        <div class="col-md-12">
+          <h3><a href="/u/cryptog/articles/33aeb8cd84acd9633f9e869a8c9afdb25e6d9981" class="card_link">Let Us Talk NuBits With Pascal Hamonic (Cryptog)</a></h3>
+          
+        </div>
+      </div>
+      <div class="row metadata">
+        <div class="col-md-12">
+          <div class="author_info pull-left">
+            <span class="author_name">cryptog (<a href="/u/cryptog/">cryptog</a>)</span>
+            <span class="timestamp"><script>
+document.write(moment("2016-02-07T05:36:17 Z").calendar());
+</script></span>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <!-- TODO
+    <div class="card_footer row">
+      <div class="col-md-12">
+        <p>{OBJ_RESPONSE_TO}</p>
+      </div>
+    </div> -->
+  </div>
+
+          
+            
+            <div class="card object_card card_list_item mix article published">
+    <div class="card_body">
+      <div class="row meta_attr">
+        <div class="col-md-12">
+          <span class="type">ARTICLE</span>
+          
+          <div class="relations">
+            
+              <a href="/organizations/Nu">
+                <img src="/static/assets/images/uploads/nu-logo-250.png" title="Nu" class="org">
+              </a>
+              
+              <a href="/organizations/Nu/NuShares">
+                <img src="/static/assets/images/uploads/nushares-logo-250.png" title="NuShares" class="asset">
+              </a>
+              
+            
+          </div>
+        </div>
+      </div>
+      <div class="row content_desc">
+        <div class="col-md-12">
+          <h3><a href="/u/coingame/articles/bd3e6ac9cc5c46148097c74365535826b6e717c1" class="card_link">Stability Is Not the Hot Button Issue of Crypto Anymore. Governance Is.</a></h3>
+          
+        </div>
+      </div>
+      <div class="row metadata">
+        <div class="col-md-12">
+          <div class="author_info pull-left">
+            <span class="author_name">coingame (<a href="/u/coingame/">coingame</a>)</span>
+            <span class="timestamp"><script>
+document.write(moment("2016-01-26T16:00:30 Z").calendar());
+</script></span>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <!-- TODO
+    <div class="card_footer row">
+      <div class="col-md-12">
+        <p>{OBJ_RESPONSE_TO}</p>
+      </div>
+    </div> -->
+  </div>
+
+          
+            
+            <div class="card object_card card_list_item mix article published">
+    <div class="card_body">
+      <div class="row meta_attr">
+        <div class="col-md-12">
+          <span class="type">ARTICLE</span>
+          
+          <div class="relations">
+            
+              <a href="/organizations/Nu">
+                <img src="/static/assets/images/uploads/nu-logo-250.png" title="Nu" class="org">
+              </a>
+              
+            
+          </div>
+        </div>
+      </div>
+      <div class="row content_desc">
+        <div class="col-md-12">
+          <h3><a href="/u/cryptog/articles/822a6f945f17701ffe6d8b6e29ae19e2d781f8a0" class="card_link">Nu, the First Decentralized Central Bank in the World, Issues NuBits, the First Crypto-Dollars</a></h3>
+          
+        </div>
+      </div>
+      <div class="row metadata">
+        <div class="col-md-12">
+          <div class="author_info pull-left">
+            <span class="author_name">cryptog (<a href="/u/cryptog/">cryptog</a>)</span>
+            <span class="timestamp"><script>
+document.write(moment("2015-12-11T08:16:28 Z").calendar());
+</script></span>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <!-- TODO
+    <div class="card_footer row">
+      <div class="col-md-12">
+        <p>{OBJ_RESPONSE_TO}</p>
+      </div>
+    </div> -->
+  </div>
+
+          
+            
+            <div class="card object_card card_list_item mix article published">
+    <div class="card_body">
+      <div class="row meta_attr">
+        <div class="col-md-12">
+          <span class="type">ARTICLE</span>
+          
+          <div class="relations">
+            
+              <a href="/organizations/Nu">
+                <img src="/static/assets/images/uploads/nu-logo-250.png" title="Nu" class="org">
+              </a>
+              
+            
+          </div>
+        </div>
+      </div>
+      <div class="row content_desc">
+        <div class="col-md-12">
+          <h3><a href="/u/nagalim/articles/d39447e643178bcf317859e6ac14660629c6f706" class="card_link">T4 Zoology</a></h3>
+          
+        </div>
+      </div>
+      <div class="row metadata">
+        <div class="col-md-12">
+          <div class="author_info pull-left">
+            <span class="author_name">nagalim (<a href="/u/nagalim/">nagalim</a>)</span>
+            <span class="timestamp"><script>
+document.write(moment("2015-12-10T06:11:58 Z").calendar());
+</script></span>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <!-- TODO
+    <div class="card_footer row">
+      <div class="col-md-12">
+        <p>{OBJ_RESPONSE_TO}</p>
+      </div>
+    </div> -->
+  </div>
+
+          
+            
+            <div class="card object_card card_list_item mix article published">
+    <div class="card_body">
+      <div class="row meta_attr">
+        <div class="col-md-12">
+          <span class="type">ARTICLE</span>
+          
+          <div class="relations">
+            
+              <a href="/organizations/Nu">
+                <img src="/static/assets/images/uploads/nu-logo-250.png" title="Nu" class="org">
+              </a>
+              
+            
+          </div>
+        </div>
+      </div>
+      <div class="row content_desc">
+        <div class="col-md-12">
+          <h3><a href="/u/cryptog/articles/a36a52d48522a99a7e9764ef25a02de14290cb59" class="card_link"> NuBits Related Business Idea for the Japanese Market</a></h3>
+          
+        </div>
+      </div>
+      <div class="row metadata">
+        <div class="col-md-12">
+          <div class="author_info pull-left">
+            <span class="author_name">cryptog (<a href="/u/cryptog/">cryptog</a>)</span>
+            <span class="timestamp"><script>
+document.write(moment("2015-12-02T05:14:40 Z").calendar());
+</script></span>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <!-- TODO
+    <div class="card_footer row">
+      <div class="col-md-12">
+        <p>{OBJ_RESPONSE_TO}</p>
+      </div>
+    </div> -->
+  </div>
+
+          
+            
+            <div class="card object_card card_list_item mix article published">
+    <div class="card_body">
+      <div class="row meta_attr">
+        <div class="col-md-12">
+          <span class="type">ARTICLE</span>
+          
+          <div class="relations">
+            
+          </div>
+        </div>
+      </div>
+      <div class="row content_desc">
+        <div class="col-md-12">
+          <h3><a href="/u/coingame/articles/8c499287339772491accc390e056ede0bc56a547" class="card_link">What Is Daology?</a></h3>
+          
+        </div>
+      </div>
+      <div class="row metadata">
+        <div class="col-md-12">
+          <div class="author_info pull-left">
+            <span class="author_name">coingame (<a href="/u/coingame/">coingame</a>)</span>
+            <span class="timestamp"><script>
+document.write(moment("2015-11-24T22:24:50 Z").calendar());
+</script></span>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <!-- TODO
+    <div class="card_footer row">
+      <div class="col-md-12">
+        <p>{OBJ_RESPONSE_TO}</p>
+      </div>
+    </div> -->
+  </div>
+
+          
+            
+            <div class="card object_card card_list_item mix article published">
+    <div class="card_body">
+      <div class="row meta_attr">
+        <div class="col-md-12">
+          <span class="type">ARTICLE</span>
+          
+          <div class="relations">
+            
+              <a href="/organizations/Nu">
+                <img src="/static/assets/images/uploads/nu-logo-250.png" title="Nu" class="org">
+              </a>
+              
+              <a href="/organizations/Nu/NuBits">
+                <img src="/static/assets/images/uploads/nubits-logo-250.png" title="NuBits" class="asset">
+              </a>
+              
+            
+          </div>
+        </div>
+      </div>
+      <div class="row content_desc">
+        <div class="col-md-12">
+          <h3><a href="/u/nagalim/articles/cf86919a2603254374f290e9e3edd25e4f8015c2" class="card_link">When NBT Is Used More Than Fiat (Or Nu and Market Manipulation)</a></h3>
+          
+        </div>
+      </div>
+      <div class="row metadata">
+        <div class="col-md-12">
+          <div class="author_info pull-left">
+            <span class="author_name">nagalim (<a href="/u/nagalim/">nagalim</a>)</span>
+            <span class="timestamp"><script>
+document.write(moment("2015-11-15T16:44:45 Z").calendar());
+</script></span>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <!-- TODO
+    <div class="card_footer row">
+      <div class="col-md-12">
+        <p>{OBJ_RESPONSE_TO}</p>
+      </div>
+    </div> -->
+  </div>
+
+          
+            
+            <div class="card object_card card_list_item mix article draft">
+    <div class="card_body">
+      <div class="row meta_attr">
+        <div class="col-md-12">
+          <span class="type">ARTICLE</span>
+          
+              <span class="status">draft</span>
+            
+          
+          <div class="relations">
+            
+              <a href="/organizations/Nu">
+                <img src="/static/assets/images/uploads/nu-logo-250.png" title="Nu" class="org">
+              </a>
+              
+              <a href="/organizations/Nu/NuBits">
+                <img src="/static/assets/images/uploads/nubits-logo-250.png" title="NuBits" class="asset">
+              </a>
+              
+            
+          </div>
+        </div>
+      </div>
+      <div class="row content_desc">
+        <div class="col-md-12">
+          <h3><a href="/u/coingame/articles/8fe7550299d217e17fcb0a8f84c01f0edb64d4ce" class="card_link">NuBits Cost API</a></h3>
+          
+        </div>
+      </div>
+      <div class="row metadata">
+        <div class="col-md-12">
+          <div class="author_info pull-left">
+            <span class="author_name">coingame (<a href="/u/coingame/">coingame</a>)</span>
+            <span class="timestamp"><script>
+document.write(moment("2015-10-26T15:55:00 Z").calendar());
+</script></span>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <!-- TODO
+    <div class="card_footer row">
+      <div class="col-md-12">
+        <p>{OBJ_RESPONSE_TO}</p>
+      </div>
+    </div> -->
+  </div>
+
+          
+        
+      </div>
+    </div>
+  </div>
+  <div id="pagination">
+    
+  </div>
+</div>
+
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div id="app-footer">
+  <footer class="footer footer-branded">
+
+    <div class="container">
+      <nav class="pull-left col-xs-12 col-md-10">
+        <ul>
+          <li role="presentation"><a href="/about">About Daology</a></li>
+          <li role="presentation"><a href="/terms">Terms</a></li>
+          <li role="presentation"><a href="/privacy">Privacy</a></li>
+          <li role="presentation"><a href="/cookies">Cookies</a></li>
+          <li role="presentation"><a href="/support">Support</a></li>
+        </ul>
+      </nav>
+      <div class="copyright col-xs-12 col-md-2 pull-right">
+        &copy; 2017 Daology, LLC
+      </div>
+    </div>
+  </footer>
+</div>
+    </div>
+      
+
+
+  
+  
+
+    
+
+    
+
+    
+      <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+      <script src="//code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/highlight.js/latest/highlight.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+      <script src="/static/public/javascripts/dao.min.js"></script>
+    
+
+  
+
+
+
+  <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='https://www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-62932153-1','auto');ga('send','pageview');
+  </script>
+
+  </body>
+  
+  
+</html>

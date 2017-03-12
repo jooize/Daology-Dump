@@ -1,0 +1,34 @@
+#Problem(s)
+
+NuShare markets are very illiquid for multiple reasons. This makes the market unattractive to newcomers since they fear being stuck with an illiquid asset.  It also create fear among current holders and carries the wrong message to the outside world (dead pair feelings on CMC)
+
+#Possible solution
+
+
+Let Nu network bring automated liquidity via sophisticated market-makers on a NSR/NBT pair _(this idea has been bouncing on the discourse forum for a while now, and its time we have a separate discussion)_ 
+
+**Sell side liquidity source(s)** : NBT grants, private NBT liquidity providers
+
+**Buy-side liquidity source(s)** : NSR grants ; NSR proceeds from buybacks; private NSR
+
+Contract developer to write market making bot strategy .  A smart strategy can help achieving several goals :
+ 
+1.  Finally making NSR a liquid asset (via NBT/NSR pair)
+2. Offer better bid/ask spreads
+3. possibly drive NSR price up
+4. Attract speculators and new users
+5. Make current shareholders more confident
+6. Create a market that possibly generate profits to NBT, NSR or both liquidity providers
+7. Market forces and arbitrage opportunity should also increase volume on NSR/BTC pairs 
+8. With NBT-based pair, we also get pricing in USD (via NBT) 
+
+
+A good example of liquidity provision and market making can be seen in action with rubycoin and their software http://traderdaddy.com/ . 
+
+
+
+
+
+---
+
+[Proposal](https://daology.org/p/4a6a73c4d5f9d4a68752bbb1d41f823860888d26) created with [Daology.org](https://daology.org) by [desrever-nu](https://daology.org/u/desrever-nu) for [Nu](https://daology.org/o/Nu)

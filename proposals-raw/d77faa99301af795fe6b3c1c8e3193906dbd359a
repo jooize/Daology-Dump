@@ -1,0 +1,45 @@
+###Intro
+
+@masterOfDisaster - below called "the operator" - will be allowed to operate a NuBot on the exchanges mentioned below. The liquidity is being broadcast using a custodial address to allow tracking the liquidity situation of the bot. If the gateway needs funding, Nu (FSRT, FLOT, JordanLee, etc.) sends NBT or BTC to the exchange account deposit address.  
+
+The status of the gateways can be tracked with the getliquiditydetails RPC.
+
+### Disclaimer
+
+The operator offers no guarantee for anything - neither the availability of NuBot nor malfunctions of NuBot nor outages of the internet access nor the funds on the exchange.  
+The operator promises to send all NuOwned funds to FLOT upon request by FLOT or shareholders.  
+The operator is not responsible for tracking the funding level of the gateway.  
+The operator won't take any of the funds.  
+Nobody except Nu should deposit funds to the gateway as **all** funds will solely be sent to Nu addresses.  
+Funds that have been put on the exchange account by the operator for testing/monitoring purposes before the contract starts, are excluded from this rule.  
+
+### Parameters
+
+* Operator: @masterOfDisaster
+* Type: NuBot
+* Exchanges: hitBTC.com, SouthXchange.com, Bittrex.com, bter.com, Poloniex.com
+* NBT deposit addresses published here: https://discuss.nubits.com/t/flot-us-nbt-operations-sell-side/3118
+* BTC deposit addresses published here: https://discuss.nubits.com/t/flot-btc-operations-buy-side/3117
+* Pair: NBT/BTC
+* Mode: Dual side
+* Sell Side Offset: as tight as possible, as big as necessary; market awareness is the proposition!
+* Buy Side Offset: as tight as possible, as big as necessary; market awareness is the proposition!
+* Liquidity broadcast address: B9gXptkoqAApF3AFrQyhUbhSzvuEudxupt (as long as it remains valid; will be replaced then or liquidity broadcasing ceases)
+
+### Evading BTC volatility
+
+If BTC funds on the exchange are beyond a threshold (lacking experience I can't state numbers), BTC are allowed to be converted to USD, USDT or other USD quoted currencies, that are traded on the exchange with sufficient liquidty and tight spread.  
+The idea leans on what has been proposed long ago and has taken shape in this post:   https://discuss.nubits.com/t/a-gateway-with-a-build-in-usd-reserve/3997
+
+**It is known to shareholders that the USD or USDT (or alike) will stay on T2 at the exchange**. They will never be withdrawn as such, but might be converted back to BTC and withdrawn to FLOT or NuSafe or alike (to be converted by NuSafe  or alike to USD again and kept that way, but in a decentralized manner).  
+The value of USD, USDT, etc. kept on exchange should not exceed the value of BTC that would be kept on the exchange.  
+This way the exchange risk is not increased, but the volatility risk mitigated.
+
+### Activation of the gateway / starting the contract
+
+This motion gets prematurely activated for an exchange the day a Nu representative group or person (JordanLee, FLOT, FSRT) deposits funds at a deposit address of that exchange.  
+Shareholders are encouraged to initiate corrective actions, if they don't comply with that.
+
+---
+
+[Proposal](https://daology.org/p/d77faa99301af795fe6b3c1c8e3193906dbd359a) created with [Daology.org](https://daology.org) by [lamz0rnewb](https://daology.org/u/lamz0rnewb) for [Nu](https://daology.org/o/Nu)

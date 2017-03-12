@@ -1,0 +1,18 @@
+The original NuDroid server "SVR1" still runs on a very limited infrastructure (1Gb memory, 1 CPU, 20Gb SSD) for about 10 NBT/month. It also has Cloudflare PRO level protection and SSL certificates to prevent easy hi-jacks/imposters.
+
+Given the current memory issues it has with the Nu daemon and adding some future proofing this proposal upgrades the dedicated server to  2Gb, 2 CPU and a 30Gb SSD. This will cost 20 NBT/month.
+
+The proposed grant is for 12 months and is broken down into the following components:
+- Server 2Gb, 2CPU 20 NBT x 12 months = 240 NBT
+- Cloudflare PRO 12,50 NBT/month x 12 = 150 NBT (this shares a subscription with LiquidBits)
+- Operator fee 30 NBT x 12 months = 360 NBT (covering updates/backups/monitoring/certificates etc.)
+
+Total: 240+150+360 = 750 NBT -/- remaining grant 1/3 of NBT450 (*) =150 = 600 NBT for 12 months.
+
+The discussion thread and more details are here: https://discuss.nubits.com/t/discussion-nudroid-trusted-server-svr1-second-period/3277
+
+> *see original grant for 450 NBT for 18 months to host SVR1 https://gist.github.com/Cybnate/dcc3cd4f682754314486*
+
+---
+
+[Proposal](https://daology.org/p/815f3c2497665557f778566b827b9175a7629192) created with [Daology.org](https://daology.org) by [cybnate](https://daology.org/u/cybnate) for [Nu](https://daology.org/o/Nu)

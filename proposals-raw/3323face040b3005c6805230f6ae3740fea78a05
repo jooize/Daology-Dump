@@ -1,0 +1,182 @@
+### Introduction
+
+I'm really excited to be able to present this complete motion to the Shareholders which provides the steps towards establishing a US$1 peg and a sustainable revenue model for Nu to the Shareholders. 
+
+As said the motion which establishes the peg back to US$1 and has a sustainable revenue model and provides an overview of the pro, cons, risks, benefits and costs. More work can be done on quantifying some items, but I believe it provides a good pictures of what it takes. It also contains some optional motions which can be progressed separately to further strengthen this motion.
+ 
+I like to thank @creon for the model which he presented in the forum and on which this proposal is mostly built upon. And @mhps for the overview of Nu's cost centres and reserves and the fiat gateway proposals. Both greatly inspired this motion.
+
+### Motion start  
+==================================  
+
+###### Overview / summary
+The proposal establishes a US$1 peg and focuses on supporting B&C and decentralized exchanges. It does this by reducing the NBT liabilities by burning them at a relatively high rate by protocol in a period of about 3 months to pay off debt and increase reserve rates to at least 50%. In the first period this also includes NSR auctioning until the 50% reserve mark is established and the peg is established at US$1.
+
+The burning will be embedded in the protocol and therefore requires a client update. The amount of burning relates to the coinage and therefore discourages use of NBT on centralized exchanges or holding them in off-line wallets for longer periods. NBT value will slowly erode by protocol and the fee is paid when transactions occur. To counteract the erosion NBT holders are encouraged to park against rates which shareholders will set according to the monetary policy.
+
+The Shareholders will determine the rates and with that control the monetary deflation rates and with that have the ability to increase or decrease velocity of NBT which attracts transaction fees. The monetary deflation and the transaction fees will provide a continuous revenue stream.
+
+The cost for the required development are no more than US$ 8k payable in NSR or BTC by FLOT. Cybnate will act as the custodian for this work and asks NSR 500k payable by FLOT or custodial grant on completion and public distribution of the updated Nu client supporting the new protocol. 
+
+The main risk is that the new client doesn't reach the required uptake to activate the protocol.
+
+###### Steps to implementation / timelines
+
+The proposal leads you through the steps and provides some options along the way. I don't want to make it too prescriptive as I believe flexibility and agility during the execution is required as there will be many parameters to be considered.
+
+**Step 1 (Month 1)**  
+On passing of this proposal work on the protocol needs to start immediately as time is of the essence. This work will need to be paid from NSR sales and/or existing reserves. The cost of the development work is between US$ 5k and US$ 8k, including testing and packaging. When this proposal passes I will contract a developer and a tester/packager for this work.
+
+**Step 2 (Month 2-4)**  
+As Chronos already showed here: https://discuss.nubits.com/t/nu-can-thrive-heres-how/4177 the amount of outstanding NuBits is too high to bring back a sustainable peg at once. So we need to reduce the amount of NBT in circulation over a period of time.
+
+With the new protocol in place there will still be no peg and NBT continues to be free floating. However there is a chance that the market price increases significantly as there is a chance for NBT to be sold at $1 again in the future. The rate may fluctuate strongly during this period. During this time no NBT grants should be issued. Any payments will be preferably in NSR or if not accepted in BTC.
+
+NSR sales will continue on a weekly bases during this period according to the existing motions and structures in place. This can be changed with other motions depending on developments during this period. It is up to FLOT discretion to use some of the proceeds and/or the reserves to buy cheap NBT (e.g. <$0.50). This shouldn't exceed the cost to maintain basic infra as blockexplorer, forum, etc. (US$1,000/month) and pay for the protocol changes to be developed, tested and packaged in binaries for all users and Shareholders. NSR price may also rise with an increasing confidence that this business can be made profitable. This may significantly shorten this period as the 50% reserve level may be achieved earlier.
+
+**Optional supporting NBT pair on centralized exchanges:**  
+*When NSR shareholders want to support ongoing trading on centralized exchanges for e.g. for marketing purposes, continuing liquidity engines (as proposed by Phoenix) and/or to increase the NBT burning rates, development is likely necessary for those exchanges to maintain their listing. There are likely costs for that, and this will need to be paid out of the reserves or NSR sales.
+When this option is not taken a warning of the protocol change should go out to all exchanges listing NBT and it is highly likely that they will de-list NBT or increase the trading fees to counteract the NBT burns. Alternatively they could make preparations to park and maintain NBT before moving them in cold wallets. It requires ongoing work as parking terms will expire eventually and NBT will need to be re-parked. Possibly an auto repark option can be made, but this requires further discussion and is out of scope for this proposal and requires another motion to pass.*
+
+**Step 3 (Month 4)**  
+The peg will be established as soon as the ratio reserves/NBT circulating (not parked) hits 50%. It also assumes that B&C is working and that NBT can be listed. Nu will start providing liquidity walls on B&C on popular pairs. This motion doesn't prescribe how and by who these walls are established. Nu already has infrastructure as ALPs and gateways available to provide the liquidity by LPs.
+
+At the same time walls can be established on NBT/fiat pairs only on centralised exchanges assuming these pairs still exist. Other pairs should be initially left for arbitragers until a profitable model of liquidity provision appreciating the risks of exchange failure has been established.
+
+**Optional Fiat Gateways:**   
+*Alternatively fiat/NBT trading can start with establishing a proposal like this: https://discuss.nubits.com/t/discussion-contract-to-create-web-interface-code-that-one-can-use-to-sell-buy-nubits-with-fiat-online/3567 This would serve as entry and exit gateways from NBT to fiat and would support the peg. It should be considered to build this asap and the timing will depend on the level of NSR sales and reserves and risk appetites of shareholders to invest. It looks that some work is already started according to the thread.
+
+This will initially drain the reserves to some extent as there likely will still be sell pressure at the start, but this will stabilize quickly when confidence builds. This will be the case as long as it is clear reserves are adequate and revenues can be made topping up the reserves even further.
+For any costs related to the gateways a separate motion/grant will need to pass.*
+
+
+### Protocol configuration and establishing reserves
+The target is to achieve 50% reserve before the $1 peg can be established and defended by Nu. I believe this is a level which will provide confidence to prevent a bank run in combination with the sustainable revenue model. This roughly requires a reduction to 100k NBT in circulation and selling an additional US$30k value of NSR assuming the US$20k we have currently in reserve (20 June).
+
+To achieve the 3-4 months timeline a reasonable agressive burn rate might need to be applied.
+A burn rate of e.g. 10% month through coinage accumulation would reduce 28% of circulating NBT. Assuming 30% is parked and approximately 300-400k is in circulation, it may take 1 year to reduce the debt with 200k-300k to our target of 100k.  There is a decent degree of uncertainty here.
+
+Therefore further modelling will take place when this motion passes as some voting guidance for shareholders may be required before the peg can be established. This motion won't dictate rates.
+
+Once the peg is established the reserves should be held above 50%. This reserve is specifically for defending the peg. The existing tier 6 mechanism to top it up with NSR sales should be used for this. It can be decided by future motions whether the excess of 50% reserves will be used for dividends, buybacks, developments, establishing additional tagged reserves even further. I don't want to make this motion too prescriptive.
+
+**Reserves**  
+Ultimately once the peg is established, but ideally earlier, at least half of the reserves will need to be held in USD with NuSafe like constructions to shield Nu against high volatility. The other half can be held in a mix of BTC, ETH, LTC or other highly liquid coins which has been around for more than a year. These reserves will need to be held in multi-sig accounts on behalf of Nu or in NuSafe like constructions. Further details should be decided by a separate motion.
+
+**Burn/park rates model summary:**  
+Short term high park rates offsetting the burn rate will likely result in higher velocity and less deflation as the park rate will offset the burn rate.
+Long term high park rates offsetting the burn rate will likely result in low velocity but high deflation. The burnt NBT reduces the circulating NBT and therefore Nu's liability. This will increase the percentage of reserves and new NBT could be printed and sold.
+
+**Optional: Capping NBT grants**  
+*This would further increase the confidence in the Nu network. This should be raised as a separate motion and ideally implemented as a protocol change. The protocol wouldn't allow more than 1500 NBT/month (#blocks) to cover ongoing expenses including liquidity provisioning. These cost should be made transparent to the shareholders. Even better would be when this amount can be voted for like transaction fees so flexibility can be built in. Covering this in the protocol also provides another layer of control of the money supply as the monthly cost caps are known and the money supply can be better predicted, which will bring more confidence in the peg. The effect is that lower reserves can be maintained which will reduce costs.
+Higher grants which are more likely to be investments and will therefore need to be denominated in NSR. This will require shareholders to invest in additional shares if they don't want to be diluted. This will encourage setting strategies or roadmaps to make the best use of available funds and investment appetites and most likely result in better decisions.
+In the past we have seen a strong bias to yes for all developments paid out of the NBT reserves meant for liquidity provisioning and confidence in the peg. That is clearly not sustainable. Choices will need to be made. It makes sense to seek additional funding when major investments are made. Ideally this is set in protocol with ongoing voting (like park rates) to protect Shareholders against themselves, but a motion stating this could save costs and implemented immediately.*
+  
+  
+### The costs:
+
+**Proposal specific costs:**  
+- The cost of implementing the new protocol is estimated at between US$5k and US$8k for developing, testing and packaging new clients on Windows and Linux. This work can be done by people like creon and coingame with the help of sigmike and possibly eleven. Cybnate will establish a contract or contracts for executing this work and FLOT will provide the funds up to the equivalent of US$8k out of the reserves and/or direct proceeds of NSR auctions. The cost covers the new coinage protocol and the ability to vote for the coin age fee rate and distribution of the clients.
+
+Cybnate will ask NSR500,000 payable by FLOT on successful completion of the client.
+
+The development may take 2-3 weeks depending on Sigmike's availability. Another 1-2 weeks for testing, packaging and ditribution of the new client needs to be allowed. The client will be based on 2.0x. The changes made in version 2.1x are not deemed stable enough. The new version will be 3.0. Changes from v2.1 can potentially be retrofitted later, this is not part of this motion.
+
+**Ongoing costs of running Nu**  
+Recently mhps has kindly provide a breakdown of the cost centres and expenses. According to this post about $1000/month is required to maintain basic infrastructure and we have $28k of reserves. 
+
+A breakdown of the Nu costs centres:
+- Cost of running and maintaining basic infrastructure as the blockexplorer, the forum and the website (licenses, domains, certificates etc.)
+- Potential cost to motivate centralized exchanges to support Nu. Instead of transferring coin into a cold wallet, they will need to park them in the client for a given period.
+- Cost of reporting; Alix and buyback calculator
+- Cost of FLOT and liquidity operations (e.g. Nu-funded gateways, ALPs, individual LPs etc.)
+- Cost of NuSafe like constructions for the required USD reserves
+A separate motion should be raised to report the costs and revenues on a monthly bases to the Shareholders.
+
+**This motion includes also three options:**  
+*- Cost of running fiat gateways by Nu e.g. website as proposed by mhps
+- Cost of capping NBT grants
+  This would only cost when implement in the protocol. This will need to be estimated.
+- Cost of supporting NBT pairs on centralized exchanges
+   This hard to quantify and highly depends on the inner workings of the exchange. This will need to be negotiated with the exchange. The costs maybe offset by a promise to maintain a certain amount of liquidity.*
+
+A rough assessment learns that most of these costs can be paid from the existing reserves. This can be topped up by selling NSR according to existing motions once this proposal is in place and confidence increases the NSR price.
+The options in italics are NOT part of this motion and will need to be submitted separately.
+  
+  
+*Now the more exciting part,*  
+  
+### The revenues:
+  
+**Liquidity provisioning **  
+When using Nu-funded gateways, use double the exchange fee as a wall offset for the fiat gateways. This means that, for every NBT that's bought and then sold again, Nu earns money on the spread. That's revenue. Wider spreads shouldn't be used.
+
+**Transaction fees**  
+This will likely become more important with decentralized exchanges and on chain trading. A listing on B&C would create the usual transaction fee burns. There is an incentive to bring liquidity to increase the trading and with that the fee burning. However I'm not so sure that would really pay off on its own. The risk of providing liquidity on volatile pairs as BTC/NBT might be high and therefore relatively costly. So it would be cost neutral at best.
+
+**Coinage burns**  
+What would really pay off is the continuous burning of NuBits in circulation and not being parked.  
+Once the peg is established on 50% it is recommended to decrease the high burn rate to make the coin more attractive for traders and other NBT holders. This would be a balancing act between creating revenues, providing deep liquidity at cost and increasing trading on decentralised exchanges generating transaction fees, motivating holding NBT outside parking to increase the velocity of NBT.  
+   
+Note: this motion doesn't not exclude the use of a so-called liquidity engine mentioned in competing motions. This can well be an excellent support for the peg and marketing, however I don't believe it can generates profits on itself.
+
+### Motion end  
+ ==================================
+   
+### Pros and Cons of this motion
+  
+**Advantages of keeping the peg at $1:**  
+- No developments, client or NuDroid updates are required beyond the protocol update and the voting option in the client.
+- Same marketing instruments can be used, brand can be re-established without major investments.
+- 1 NBT will stay 1 US$. This is great for brand recognition and uptake.
+- A number of NBT holders have a fair chance to see more back from their NuBits as long as they are patient and not been driven by direct gratification needs.
+
+But the main advantage is:   
+Shareholders will be in control of a sustainable revenue stream going forward which is embedded in the protocol. This will provide the confidence to keep the peg in a sustainable way and provides the best chance of an increase NSR value.
+
+No valuable proposals come without risks. Below the main disadvantages and risks. Please consider supporting this motion if you do believe that the advantages outweigh the risks.
+
+**Disadvantages of this proposal:  **
+
+- Centralized exchange support. Exchanges may increase their fees or de-list NBT. The centralized exchanges will need to invest or we need to support them to make changes. Instead of moving funds into cold wallet they will need to be parked in the client to maintain their value. Depending on their wallet structure this may be complicated.
+A line of thought may be that we don't need to rely on centralized exchanges going forward and that we can built our own fiat gateway and use decentralized exchanges for the NBT-crypto trading. So this might not be a big problem after all.
+
+
+###### Risks:
+- The biggest challenge is the switch. We need a high percentage of people switching. We might hit the same issues as we hit with B&C switching protocol. Reducing to e.g. 55% for the protocol switch is possible but comes with risks of competing forks. We only need to make these decisions after the proposal passes. The proposal really need to pass with 60%+ or higher as it would set the level we would need to switch the protocol.  
+
+- We will still need to rely on NSR selling to pay the ongoing bills before the peg is established. How much will depend on how much NBT will be parked and how fast we can achieve the 50% reserve ratio.  It might take some time before the peg can be re-established. This proposal aims for 3 months but this is not certain. There are strong dependencies on NSR sales and the amount of parking and burning. This requires some further modeling to find a balance between time, costs and risk. Shareholder voting guidance may be required in the first few months. Datafeeds can play their role in this.
+
+- Amount of parking vs NBT in circulation may not be 30% as assumed. The reduction of NBT liabilities might take longer or shorter therefore.  
+
+- Large scale NBT hoarding and parking takes place significantly delaying establishing the $1 peg as it will take longer to reach the 50% reserves mark.
+
+  
+### Background information and sources:
+
+Excerpt of explanation of the burning mechanism by Creon as posted in the forums:
+Both the events of parking and unparking are blockchain transactions and therefore naturally destroy the coinage of the outputs used. So people who park will pay the fee for the accumulated coin age at that moment and only the remainder gets actually parked.
+
+When the coins are un-parked, the fee also applies. This could be avoided on protocol level, not sure if those transactions pay a fee right now (edit Cybnate: this doesn't apply). But even if the fee applies, the customer will still make a plus (or even) as long as the parking rate for this time period is >= the fee. So by aligning park rates and coinage fee you can basically model "you lose 20% if you don't park, 10% if you park for 1 week, 5% if you park for 1 month, nothing if you park for 2 months and you gain 5% if you park for more time".
+
+First mentioning of fees proportional by coinage:  
+https://discuss.nubits.com/t/draft-volume-dependent-transaction-fees/2076/22
+
+Revenue models by Creon:  
+https://discuss.nubits.com/t/voting-no-nu-liquidity-without-a-revenue-model/4142/3
+
+Fiat gateways by mhps:  
+https://discuss.nubits.com/t/discussion-contract-to-create-web-interface-code-that-one-can-use-to-sell-buy-nubits-with-fiat-online/3567 
+
+Latest status fiat gateways (being worked on):
+https://discuss.nubits.com/t/discussion-contract-to-create-web-interface-code-that-one-can-use-to-sell-buy-nubits-with-fiat-online/3567/48
+
+Nu Cost overview by mhps:  
+https://discuss.nubits.com/t/how-much-revenue-does-nu-need-service-contractors-please-fill-in-info/4186
+  
+  
+That's it folks :-)
+
+---
+
+[Proposal](https://daology.org/p/3323face040b3005c6805230f6ae3740fea78a05) created with [Daology.org](https://daology.org) by [cybnate](https://daology.org/u/cybnate) for [Nu](https://daology.org/o/Nu)

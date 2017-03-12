@@ -1,0 +1,409 @@
+<!-- extend base layout -->
+
+<!doctype html>
+<html lang="">
+  <head>
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Daology</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/static/public/images/favicon.ico">
+
+    
+  
+  
+
+    
+      <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic|Lato:400,700|Inconsolata' rel='stylesheet' type='text/css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/highlight.js/latest/styles/github.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/flick/jquery-ui.css">
+      <link rel="stylesheet" href="/static/assets/stylesheets/_vendor/jquery.tagit.min.css">
+
+      <link rel="stylesheet" href="/static/public/stylesheets/dao.min.css">
+    
+
+    
+
+    
+
+  
+
+    
+  
+  
+
+    
+
+    
+      <script src="/static/assets/javascripts/vendor/moment.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/contrib/auto-render.min.js"></script>
+    
+
+    
+
+  
+
+  </head>
+  <body role="document">
+    <div id="fullpage_wrapper">
+    
+      <div id="app-navbar">
+  <nav class="navbar" role="navigation">
+    <div class="container-fluid">
+      <div class="brand-bar row">
+        <div class="col-md-12">
+          <button id="menu-toggle" type="button" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar bar1"></span>
+            <span class="icon-bar bar2"></span>
+            <span class="icon-bar bar3"></span>
+          </button>
+          <a class="word_mark" href="/" name="home_link">daology</a>
+          
+        </div>
+      </div>
+      <div class="primary_nav row">
+        <div class="col-md-12">
+          <div class="collapse navbar-collapse" id="app-navbar-collapse">
+            <ul class="subnav">
+              <li class="subnav-item"><a href="/organizations/" name="dao_list_link">Organizations</a></li>
+              <li class="subnav-item"><a href="/articles" name="dao_list_link">Articles</a></li>
+              <li class="subnav-item"><a href="/proposals" name="dao_list_link">Proposals</a></li>
+              
+              <li class="subnav-item"><a href="/login" name="login_link" class="signin_btn">Sign in with Github</a></li>
+              
+
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+</div>
+      
+  
+  
+
+
+      
+
+  
+
+  
+
+  
+
+  
+
+
+
+      <div class="main row">
+        <div class="container">
+          <header class="row page_title">
+            
+            <div class="row">
+              <div class="page_actions col-md-12 pull-right">
+                <ul>
+                
+  
+
+
+                
+                  
+
+
+
+                
+                </ul>
+              </div>
+            </div>
+            
+            
+            <div class="col-xs-9 col-md-11">
+              <span class="supertitle">
+                
+  Article 
+
+              </span>
+              <h1>
+                
+  What Is Daology?
+
+              </h1>
+            </div>
+          </header>
+          <section class="row page_content">
+            <div class="col-md-12">
+                
+<div class="row container">
+  
+  <div class="col-md-4 sidebar">
+
+    <div class="scroll_title">
+      <p class="supertitle">Article </p>
+      <p class="title">What is Daology?</p>
+      <p class="author">By 
+        coingame
+        
+      </p>
+      <p class="meta_text date">
+        <script>
+document.write(moment("2015-11-24T22:24:50 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+        &nbsp;|&nbsp;&nbsp;<span class="updated">Updated: <script>
+document.write(moment("2015-12-29T02:54:51 Z").calendar());
+</script></span>
+        
+      </p>
+      <hr>
+      <div class="content-toc"></div>
+    </div>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="meta_text">
+          <a href="/u/coingame/">
+            <img src="https://avatars.githubusercontent.com/u/7383066?v=3" class="profile">
+            <div class="authorname_block">
+                <div class="nolink">By coingame</div> 
+                <div class="nickname">@coingame</div>
+              </div>
+            
+          </a>
+        </p>
+        <div class="row">
+          <div class="col-md-12">
+            <p class="meta_text date">
+              <script>
+document.write(moment("2015-11-24T22:24:50 Z").format("MMM D YYYY, h:mm A"));
+</script>
+              
+              &nbsp;|&nbsp;&nbsp;
+              
+              <span class="updated">Updated: <script>
+document.write(moment("2015-12-29T02:54:51 Z").calendar());
+</script></span>
+              
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <hr>
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="sidebar_title">Tags</p>
+        
+        <script data-type="tagDataVar">
+    
+      var tagList = ["daology", "daology.com"];
+    
+  </script>
+  <ul class="readonly_tag_wrapper">
+  </ul>
+
+      </div>
+    </div>
+    
+
+    
+  </div>
+  
+
+
+  
+    <div class="content_body col-md-8">
+  
+
+    
+    <div class="reading-time-wrapper" data-target="8c499287339772491accc390e056ede0bc56a547">
+    <span class="reading-time"></span> read (<span class="word-count"></span> words)
+  </div>
+
+    <article class="rtCalc no-fouc" id="8c499287339772491accc390e056ede0bc56a547">
+      
+        <h2>What is Daology?</h2>
+<p>Daology wants to help distributed organizations operate more efficiently, and communicate more effectively. The site is still a work in progress and we haven't added all the great features we have lined up, but we think there's a great base to build from in meeting the above goal.</p>
+<h3>Organizations are driven by people and ideas</h3>
+<p>Organizations are driven by people and their ideas. So, first and foremost Daology is a place for people to create and share those ideas. We want to help content creators have the best tools that  allow them to create rich, expressive content. The two main content items that you can create are <a href="https://daology.org/articles">Articles</a> and <a href="https://daology.org/proposals">Proposals</a>.</p>
+<h4>Proposals</h4>
+<p>Proposals are intended to make some change within an organization. When creating proposals on Daology you first select the organization that it's intended for. This will make it really easy for members or followers of that organization to find it. It shows up right on their <a href="https://daology.org/organizations/">organization page</a>. Some organizations have specific proposal types and we try to work with communities on offering proposals types that fit within their organizational structure. Such as <a href="https://daology.org/proposals/new/Nu/custodian">Custodian</a> proposals for the <a href="https://daology.org/organizations/Nu">Nu organization</a>. Proposals will have a lot of tie-ins to other site functionality that isn't quite ready yet, but we hope to roll them out as soon as possible.</p>
+<h4>Articles</h4>
+<p>The key difference between an article and proposal is articles don't need to request a change. They could be used to share an opinion on proposed changes, or share general information/data relevant to an organization. When creating an article on Daology you can target which organization you're writing about assuring it will be seen by its intended audience. You don't have to target an organization though. We welcome writers to use Daology as a place to share their ideas on whatever subject they see fit, so articles are free some the organization selection constraint.</p>
+<h2>Creating content</h2>
+<h3>Markdown</h3>
+<p>Daology is a content creation platform first, and so we have (and will continue to) put a focus on giving writers the best tools to make their content awesome. Our editor is based on extended <a href="https://help.github.com/articles/markdown-basics/">Markdown</a> to make formatting simpler.</p>
+<p>Markdown lets you format things quickly like create headers to organize your content.</p>
+<p>This:</p>
+<pre><code># Header 1
+## Header 2
+### Header 3
+#### Header 4
+</code></pre>
+<p>Turns into this:</p>
+<h1>Header 1</h1>
+<h2>Header 2</h2>
+<h3>Header 3</h3>
+<h4>Header 4</h4>
+<h3>Table of contents</h3>
+<p>We take headers a bit further on the desktop site. On the left side you will see Daology automatically generates a table of contents when you use Markdown headers in your content. (Up to H3, after that they are ignored.)</p>
+<h3>Extended markdown</h3>
+<p>We support extended Markdown which means you can also do things like creating tables.</p>
+<p>This:</p>
+<pre><code>header 1 | header 2  
+------- | --------  
+row 1, column 1 | row 1, column 2  
+row 2, column 1 | row 2, column 2
+</code></pre>
+<p>Turns into this:</p>
+<table>
+<thead><tr>
+<th>header 1</th>
+<th>header 2  </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>row 1, column 1</td>
+<td>row 1, column 2  </td>
+</tr>
+<tr>
+<td>row 2, column 1</td>
+<td>row 2, column 2  </td>
+</tr>
+</tbody>
+</table>
+<h3>KaTeX</h3>
+<p>We hope daology will be useful for academic/scientific communities and organizations. One feature we've added to our editor is <a href="https://github.com/Khan/KaTeX">KaTeX</a> to assist those that are more mathmatically inclined. KaTeX is a math markup language that takes plain text and renders it into mathmatical equations.</p>
+<p>It turns this:</p>
+<pre><code>$$$
+c = \\pm\\sqrt{a^2 + b^2}
+$$$
+</code></pre>
+<p>Into this:</p>
+<p>$$$
+c = \pm\sqrt{a^2 + b^2}
+$$$</p>
+<p>You can also do add it inline with text using two $:</p>
+<pre><code>Like  $$c = \\pm\\sqrt{a^2 + b^2}$$  This
+</code></pre>
+<p>Like  $$c = \pm\sqrt{a^2 + b^2}$$  This</p>
+<h3>Content ID</h3>
+<p>Every content item on daology is given a unique ID which is displayed in the URL when looking at the content. For intance the ID for this article is 8c499287339772491accc390e056ede0bc56a547. This is what uniqely identifies your content on Daology and is used for other features of the site.</p>
+<h3>Content status</h3>
+<p>When creating content there are different status states which you can assign to the content. Each state will change the visibility and presentation of your content.</p>
+<table>
+<thead><tr>
+<th>Status</th>
+<th>Effects  </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Private</td>
+<td>Private content is only visible by the creator. This is the default status when you create new content.  </td>
+</tr>
+<tr>
+<td>Unlisted</td>
+<td>Unlisted content is publicly visible, but will not show up in any public listings on Daology. This is a good option if you would like to share the content with a few people.  </td>
+</tr>
+<tr>
+<td>Draft</td>
+<td>Draft content is publicly visible and shows up in all relevant public listings on Daology. It is marked as a draft and informs readers that content is not finalized.</td>
+</tr>
+<tr>
+<td>Published</td>
+<td>Published content is publicly visible and shows up in all relevant public listings on Daology. Published content is considered finalized.</td>
+</tr>
+<tr>
+<td> Archived</td>
+<td>Archived content is publicly visible but only shows up in a users archived listing.</td>
+</tr>
+</tbody>
+</table>
+<h3>Tags</h3>
+<p>  Tags offer more granular organization of your content. All of the tags used on proposals and articles can be found on the <a href="https://daology.org/tags">tags page</a>. You can enter up to eight tags, lowercase, without spaces.</p>
+<h3>Responses</h3>
+<p>On the content editor screen you'll see a "Response to" field. You can enter in the content ID of an article or proposal that your new content is in response to. When an article or proposalshas responses you'll be able to see them by clicking the responses button at the top of the page (the button will only show up is responses exist). This can be useful for submitting counter proposals or writing an article about existing content.</p>
+<h3>Raw view</h3>
+<p>By adding /raw to the end of a content URL you can see the pure Markdown text of your content. For instance you can see the raw view of this article <a href="https://daology.org/u/coingame/articles/8c499287339772491accc390e056ede0bc56a547/raw">here</a></p>
+
+      
+    </article>
+  </div>
+</div>
+
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div id="app-footer">
+  <footer class="footer footer-branded">
+
+    <div class="container">
+      <nav class="pull-left col-xs-12 col-md-10">
+        <ul>
+          <li role="presentation"><a href="/about">About Daology</a></li>
+          <li role="presentation"><a href="/terms">Terms</a></li>
+          <li role="presentation"><a href="/privacy">Privacy</a></li>
+          <li role="presentation"><a href="/cookies">Cookies</a></li>
+          <li role="presentation"><a href="/support">Support</a></li>
+        </ul>
+      </nav>
+      <div class="copyright col-xs-12 col-md-2 pull-right">
+        &copy; 2017 Daology, LLC
+      </div>
+    </div>
+  </footer>
+</div>
+    </div>
+      
+
+
+  
+  
+
+    
+
+    
+
+    
+      <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+      <script src="//code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/highlight.js/latest/highlight.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+      <script src="/static/public/javascripts/dao.min.js"></script>
+    
+
+  
+
+
+
+  <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='https://www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-62932153-1','auto');ga('send','pageview');
+  </script>
+
+  </body>
+  
+  
+</html>

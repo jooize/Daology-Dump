@@ -1,0 +1,353 @@
+<!-- extend base layout -->
+
+<!doctype html>
+<html lang="">
+  <head>
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Daology</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/static/public/images/favicon.ico">
+
+    
+  
+  
+
+    
+      <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic|Lato:400,700|Inconsolata' rel='stylesheet' type='text/css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/highlight.js/latest/styles/github.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/flick/jquery-ui.css">
+      <link rel="stylesheet" href="/static/assets/stylesheets/_vendor/jquery.tagit.min.css">
+
+      <link rel="stylesheet" href="/static/public/stylesheets/dao.min.css">
+    
+
+    
+
+    
+
+  
+
+    
+  
+  
+
+    
+
+    
+      <script src="/static/assets/javascripts/vendor/moment.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/contrib/auto-render.min.js"></script>
+    
+
+    
+
+  
+
+  </head>
+  <body role="document">
+    <div id="fullpage_wrapper">
+    
+      <div id="app-navbar">
+  <nav class="navbar" role="navigation">
+    <div class="container-fluid">
+      <div class="brand-bar row">
+        <div class="col-md-12">
+          <button id="menu-toggle" type="button" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar bar1"></span>
+            <span class="icon-bar bar2"></span>
+            <span class="icon-bar bar3"></span>
+          </button>
+          <a class="word_mark" href="/" name="home_link">daology</a>
+          
+        </div>
+      </div>
+      <div class="primary_nav row">
+        <div class="col-md-12">
+          <div class="collapse navbar-collapse" id="app-navbar-collapse">
+            <ul class="subnav">
+              <li class="subnav-item"><a href="/organizations/" name="dao_list_link">Organizations</a></li>
+              <li class="subnav-item"><a href="/articles" name="dao_list_link">Articles</a></li>
+              <li class="subnav-item"><a href="/proposals" name="dao_list_link">Proposals</a></li>
+              
+              <li class="subnav-item"><a href="/login" name="login_link" class="signin_btn">Sign in with Github</a></li>
+              
+
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+</div>
+      
+  
+  
+
+
+      
+
+  
+
+  
+
+  
+
+  
+
+
+
+      <div class="main row">
+        <div class="container">
+          <header class="row page_title">
+            
+            <div class="row">
+              <div class="page_actions col-md-12 pull-right">
+                <ul>
+                
+  
+
+
+                
+                  
+
+
+
+                
+                </ul>
+              </div>
+            </div>
+            
+            
+            <div class="col-xs-9 col-md-11">
+              <span class="supertitle">
+                
+  Article 
+
+              </span>
+              <h1>
+                
+  Building Companies That Live on the Internet Is the Killer App of the Blockchain Technology
+
+              </h1>
+            </div>
+          </header>
+          <section class="row page_content">
+            <div class="col-md-12">
+                
+<div class="row container">
+  
+  <div class="col-md-4 sidebar">
+
+    <div class="scroll_title">
+      <p class="supertitle">Article </p>
+      <p class="title">Building companies that live on the Internet is the killer app of the blockchain technology</p>
+      <p class="author">By 
+        cryptog
+        
+      </p>
+      <p class="meta_text date">
+        <script>
+document.write(moment("2016-06-02T08:14:20 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+        &nbsp;|&nbsp;&nbsp;<span class="updated">Updated: <script>
+document.write(moment("2016-06-02T08:19:55 Z").calendar());
+</script></span>
+        
+      </p>
+      <hr>
+      <div class="content-toc"></div>
+    </div>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="meta_text">
+          <a href="/u/cryptog/">
+            <img src="https://avatars.githubusercontent.com/u/10682008?v=3" class="profile">
+            <div class="authorname_block">
+                <div class="nolink">By cryptog</div> 
+                <div class="nickname">@cryptog</div>
+              </div>
+            
+          </a>
+        </p>
+        <div class="row">
+          <div class="col-md-12">
+            <p class="meta_text date">
+              <script>
+document.write(moment("2016-06-02T08:14:20 Z").format("MMM D YYYY, h:mm A"));
+</script>
+              
+              &nbsp;|&nbsp;&nbsp;
+              
+              <span class="updated">Updated: <script>
+document.write(moment("2016-06-02T08:19:55 Z").calendar());
+</script></span>
+              
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <hr>
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="sidebar_title">Tags</p>
+        
+        <script data-type="tagDataVar">
+    
+      var tagList = ["dao", "bitcoin", "nu", "nubits", "bce", "business", "decentralized", "dac"];
+    
+  </script>
+  <ul class="readonly_tag_wrapper">
+  </ul>
+
+      </div>
+    </div>
+    
+
+    
+  </div>
+  
+
+
+  
+    <div class="content_body col-md-8">
+  
+
+    
+    <div class="reading-time-wrapper" data-target="b6481c4329c7af83145385e62ec076523d9c89e5">
+    <span class="reading-time"></span> read (<span class="word-count"></span> words)
+  </div>
+
+    <article class="rtCalc no-fouc" id="b6481c4329c7af83145385e62ec076523d9c89e5">
+      
+        <p>Disclaimer: This is a repost of the post that I wrote in nuventures.org, <a href="http://nuventures.org/news/archives/23">here</a> on 13MAY16, minus the typos.</p>
+<p><img src="https://hyperborean.liberty.me/wp-content/uploads/sites/1553/2014/12/images141.jpg" alt=""></p>
+<p>(picture source: <a href="https://hyperborean.liberty.me/wp-content/uploads/sites/1553/2014/12/images141.jpg">https://hyperborean.liberty.me/wp-content/uploads/sites/1553/2014/12/images141.jpg</a>)</p>
+<p>As I mentioned briefly <a href="http://nuventures.org/news/archives/22">here</a>, I do believe that the killer app of the blockchain technology is the ability to create organizations that live on the Internet or in the Internet.
+It is because the shareholders and the employees of such organizations are scattered across the world, with no ability to meet physically in the same room.</p>
+<p>William Mougayar mentions <a href="http://techcrunch.com/2016/05/11/the-blockchain-is-the-new-google/">here</a> that the blockchain is the new Google but I think he missed the main point, which is the fact that the blockchain technology enables human organizations to live on the Internet without central authority, completely autonomously.</p>
+<p>Very recently, the “<a href="https://daohub.org/">the DAO</a>” project has showed that the world has a huge interest in decentralized autonomous organizations (DAO).</p>
+<p>In fact, Stephan Tual, the COO of SlockIt says <a href="https://www.youtube.com/watch?v=cnm7nh7LVPA">here</a> that “the DAO” is the third revolution after bitcoin (=decentralizing money), ethereum (=decentralizing smart contract):  the DAO project wants to decentralize organizations.
+I think they are right on the money in the way they see the importance of DAOs in general, although I am very skeptical regarding their actual technical implementation of the concept of the DAO and their ability to execute their plan.
+The main reason being that I see a big problem of scalability: why trying to build a platform that sustains every DAO that could exist in the whole world when you can create a dedicated blockchain for a particular DAO?
+I think they are making the same mistake as Ethereum...but this is probably the subject of another post.</p>
+<p>Furthermore, I do believe personally that the blockchain’s technology is in fact very inefficient compared to traditional technologies when it comes to doing simple things like sending tokens over the Internet for example or even clearing settlements as the recent report for <a href="http://www.cnbc.com/2016/05/10/swift-on-blockchain-unrealistic-expectaitons-may-arise-from-the-hype.html">SWIFT</a> alludes to.</p>
+<p>Instead, we must focus on the new things that the blockchain can enable and that no other technologies so far could enable.
+And I believe this would be building, operating and managing corporations that live on the Internet.</p>
+<p>Of course there is a legal problem from there since corporations need to live in a jurisdiction and on the Internet such jurisdiction does not exist.</p>
+<p>So that is why we should call them organizations but in essence they would be corporations or companies because the main motive would be the same: to make revenues and make money.</p>
+<p>But why building companies on the Internet would be valuable, you may ask?
+Well, I believe it is very valuable for at least 2 reasons.</p>
+<p>One of them being that you may be able to avoid paying taxes legally.
+But this reason is totally secondary, in fact. :)</p>
+<p>The main reason is that with organizations that live in the Internet, we would see literally an explosion in the number of businesses created by people.</p>
+<p>Imagine a physical bakery in Tokyo with some of its shareholders living in Africa or Antarctica?
+The impact on the world’s GDP would be tremendous.
+People that did not have the chance to be shareholders would have the chance to become so,
+It would break the barriers, enabling anybody to contribute to any business she or he likes, while sitting on a chair in front of a computer screen connected to the Net.
+It would basically increase drastically the productivity of Humans.
+People would be able to be involved with 10 businesses (DAOs) at the same time, getting revenues from 10 different sources, working only from home.</p>
+<p>We would see 10 times as many businesses as now, at least. Probably much more than that, in fact.</p>
+<p>So, the killer app of the blockchain is its ability to enable financially motivated human activities (businesses) to exist inside the Internet when shareholders and employees or any contributors cannot trust each other with the money involved.
+So decentralizedness would not be enough as the one we can see in say open source projects.
+This is trustless decentralizedness that is necessary.
+And this is exactly what the <a href="https://bitcoin.org/bitcoin.pdf">white paper</a> of Satoshi invented.
+No other technologies has been able to enable such thing so far.</p>
+<p>Last but not least, there are many financially-motivated human organizations or businesses in short.
+It could be a bakery, a consulting firm, a lottery, a car manufacturer etc….a central bank….</p>
+<p>So what needs to live on the Internet is the way the company is managed, rewards shareholders, assigns tasks and allocates budget, not the actual goods created by the organization, since it is still not feasible to digitize physical goods but one day that will be changed, I believe.</p>
+<p><a href="https://nubits.com/">Nu</a> (NuBits) is the first decentralized central bank in the world and the first real decentralized autonomous organization in my opinion.
+Then we have <a href="https://bcexchange.org/">B&amp;C Exchange</a>, the first really decentralized crypto assets exchange in the world.</p>
+<p>B&amp;C Exchange is a fork of Nu and Nu is a fork of <a href="http://peershares.net/">Peershares</a>.</p>
+<p>With Nu and B&amp;C Exchange you can vote for anything and get the consensus from shareholders for any motion.
+Such consensus is decided by the blockchain.
+In that sense, Nu and B&amp;C Exchange are the real first 2 DAOs, in my opinion, that the world has ever seen.</p>
+<p>I believe that Nu is the most solid template to build businesses that live on the Internet, right now.
+I believe Nu is one killer app.
+B&amp;C Exchange will be one too, once released.
+But there are countless of such killer apps that will be created over the next years.</p>
+<p>As we have seen countless of static web pages built on top of HTTP be created over the years, we will see countless of DAOs be created on top of the blockchain, and most probably as a fork of Nu.</p>
+<p>This is only my prediction.</p>
+<p><a href="https://www.linkedin.com/in/uploada">Pascal Hideki Hamonic</a> = <a href="https://twitter.com/cryptog1">cryptog</a> = <a href="https://twitter.com/uploada">uploada</a></p>
+
+      
+    </article>
+  </div>
+</div>
+
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div id="app-footer">
+  <footer class="footer footer-branded">
+
+    <div class="container">
+      <nav class="pull-left col-xs-12 col-md-10">
+        <ul>
+          <li role="presentation"><a href="/about">About Daology</a></li>
+          <li role="presentation"><a href="/terms">Terms</a></li>
+          <li role="presentation"><a href="/privacy">Privacy</a></li>
+          <li role="presentation"><a href="/cookies">Cookies</a></li>
+          <li role="presentation"><a href="/support">Support</a></li>
+        </ul>
+      </nav>
+      <div class="copyright col-xs-12 col-md-2 pull-right">
+        &copy; 2017 Daology, LLC
+      </div>
+    </div>
+  </footer>
+</div>
+    </div>
+      
+
+
+  
+  
+
+    
+
+    
+
+    
+      <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+      <script src="//code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/highlight.js/latest/highlight.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+      <script src="/static/public/javascripts/dao.min.js"></script>
+    
+
+  
+
+
+
+  <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='https://www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-62932153-1','auto');ga('send','pageview');
+  </script>
+
+  </body>
+  
+  
+</html>

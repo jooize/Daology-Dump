@@ -1,0 +1,342 @@
+<!-- extend base layout -->
+
+<!doctype html>
+<html lang="">
+  <head>
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Daology</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/static/public/images/favicon.ico">
+
+    
+  
+  
+
+    
+      <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic|Lato:400,700|Inconsolata' rel='stylesheet' type='text/css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/highlight.js/latest/styles/github.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/flick/jquery-ui.css">
+      <link rel="stylesheet" href="/static/assets/stylesheets/_vendor/jquery.tagit.min.css">
+
+      <link rel="stylesheet" href="/static/public/stylesheets/dao.min.css">
+    
+
+    
+
+    
+
+  
+
+    
+  
+  
+
+    
+
+    
+      <script src="/static/assets/javascripts/vendor/moment.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/contrib/auto-render.min.js"></script>
+    
+
+    
+
+  
+
+  </head>
+  <body role="document">
+    <div id="fullpage_wrapper">
+    
+      <div id="app-navbar">
+  <nav class="navbar" role="navigation">
+    <div class="container-fluid">
+      <div class="brand-bar row">
+        <div class="col-md-12">
+          <button id="menu-toggle" type="button" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar bar1"></span>
+            <span class="icon-bar bar2"></span>
+            <span class="icon-bar bar3"></span>
+          </button>
+          <a class="word_mark" href="/" name="home_link">daology</a>
+          
+        </div>
+      </div>
+      <div class="primary_nav row">
+        <div class="col-md-12">
+          <div class="collapse navbar-collapse" id="app-navbar-collapse">
+            <ul class="subnav">
+              <li class="subnav-item"><a href="/organizations/" name="dao_list_link">Organizations</a></li>
+              <li class="subnav-item"><a href="/articles" name="dao_list_link">Articles</a></li>
+              <li class="subnav-item"><a href="/proposals" name="dao_list_link">Proposals</a></li>
+              
+              <li class="subnav-item"><a href="/login" name="login_link" class="signin_btn">Sign in with Github</a></li>
+              
+
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+</div>
+      
+  
+  
+
+
+      
+
+  
+
+  
+
+  
+
+  
+
+
+
+      <div class="main row">
+        <div class="container">
+          <header class="row page_title">
+            
+            <div class="row">
+              <div class="page_actions col-md-12 pull-right">
+                <ul>
+                
+  <li class="action_btn"><a href="/proposals/d77faa99301af795fe6b3c1c8e3193906dbd359a/raw" target="_blank" class="btn btn-sm btn-primary">Raw</a></li>
+  
+
+
+                
+                  
+
+
+                
+                </ul>
+              </div>
+            </div>
+            
+            
+            <div class="col-xs-9 col-md-11">
+              <span class="supertitle">
+                
+  Proposal  <span style="breadcrumb-separator">// </span><a href="/organizations/Nu">Nu</a>
+
+              </span>
+              <h1>
+                
+  [Draft] Dual Side NuBot Gateways at Multiple Exchanges - masterOfDisaster
+
+              </h1>
+            </div>
+          </header>
+          <section class="row page_content">
+            <div class="col-md-12">
+              
+<div class="row container">
+
+  <div class="col-md-4 sidebar">
+
+    <div class="scroll_title">
+      <p class="supertitle">Proposal  <span style="breadcrumb-separator">//</span> Nu</p>
+      <p class="title">[Draft] Dual side NuBot gateways at multiple exchanges - masterOfDisaster</p>
+      <p class="author">By
+        lamz0rnewb
+        
+      </p>
+      <p class="meta_text date">
+        <script>
+document.write(moment("2016-06-03T10:14:11 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+        &nbsp;|&nbsp;&nbsp;<span class="updated">Updated: <script>
+document.write(moment("2016-06-06T05:34:20 Z").calendar());
+</script></span>
+        
+      </p>
+      <hr>
+      <div class="content-toc"></div>
+    </div>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="meta_text">
+          <a href="/u/lamz0rnewb/">
+            <img src="https://avatars.githubusercontent.com/u/5789219?v=3" class="profile">
+            <div class="authorname_block">
+                <div class="nolink">By lamz0rnewb</div>
+                <div class="nickname">@lamz0rnewb</div>
+              </div>
+            
+          </a>
+        </p>
+        <div class="row">
+          <div class="col-md-12">
+          <p class="meta_text date">
+            <script>
+document.write(moment("2016-06-03T10:14:11 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+            
+            &nbsp;|&nbsp;&nbsp;
+            
+            <span class="updated">Updated: <script>
+document.write(moment("2016-06-06T05:34:20 Z").calendar());
+</script></span>
+            
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="sidebar_title">Text Hash ( RIPEMD-160 )</p>
+        <p class="meta_text hash">7b61108ab5d94b2830f5fac226a9a2f1ca9a67ba  </p>
+      </div>
+    </div>
+    
+
+    
+
+    
+    
+
+  
+
+  
+
+
+
+  </div>
+
+  
+  
+    <div class="content_body col-md-8">
+  
+
+
+
+
+    
+    <div class="reading-time-wrapper" data-target="d77faa99301af795fe6b3c1c8e3193906dbd359a">
+    <span class="reading-time"></span> read (<span class="word-count"></span> words)
+  </div>
+
+    <article class="rtCalc no-fouc" id="d77faa99301af795fe6b3c1c8e3193906dbd359a">
+      
+        <h3>Intro</h3>
+<p>@masterOfDisaster - below called "the operator" - will be allowed to operate a NuBot on the exchanges mentioned below. The liquidity is being broadcast using a custodial address to allow tracking the liquidity situation of the bot. If the gateway needs funding, Nu (FSRT, FLOT, JordanLee, etc.) sends NBT or BTC to the exchange account deposit address.</p>
+<p>The status of the gateways can be tracked with the getliquiditydetails RPC.</p>
+<h3>Disclaimer</h3>
+<p>The operator offers no guarantee for anything - neither the availability of NuBot nor malfunctions of NuBot nor outages of the internet access nor the funds on the exchange.<br>
+The operator promises to send all NuOwned funds to FLOT upon request by FLOT or shareholders.<br>
+The operator is not responsible for tracking the funding level of the gateway.<br>
+The operator won't take any of the funds.<br>
+Nobody except Nu should deposit funds to the gateway as <strong>all</strong> funds will solely be sent to Nu addresses.<br>
+Funds that have been put on the exchange account by the operator for testing/monitoring purposes before the contract starts, are excluded from this rule.</p>
+<h3>Parameters</h3>
+<ul>
+<li>Operator: @masterOfDisaster</li>
+<li>Type: NuBot</li>
+<li>Exchanges: hitBTC.com, SouthXchange.com, Bittrex.com, bter.com, Poloniex.com</li>
+<li>NBT deposit addresses published here: <a href="https://discuss.nubits.com/t/flot-us-nbt-operations-sell-side/3118">https://discuss.nubits.com/t/flot-us-nbt-operations-sell-side/3118</a></li>
+<li>BTC deposit addresses published here: <a href="https://discuss.nubits.com/t/flot-btc-operations-buy-side/3117">https://discuss.nubits.com/t/flot-btc-operations-buy-side/3117</a></li>
+<li>Pair: NBT/BTC</li>
+<li>Mode: Dual side</li>
+<li>Sell Side Offset: as tight as possible, as big as necessary; market awareness is the proposition!</li>
+<li>Buy Side Offset: as tight as possible, as big as necessary; market awareness is the proposition!</li>
+<li>Liquidity broadcast address: B9gXptkoqAApF3AFrQyhUbhSzvuEudxupt (as long as it remains valid; will be replaced then or liquidity broadcasing ceases)</li>
+</ul>
+<h3>Evading BTC volatility</h3>
+<p>If BTC funds on the exchange are beyond a threshold (lacking experience I can't state numbers), BTC are allowed to be converted to USD, USDT or other USD quoted currencies, that are traded on the exchange with sufficient liquidty and tight spread.<br>
+The idea leans on what has been proposed long ago and has taken shape in this post:   <a href="https://discuss.nubits.com/t/a-gateway-with-a-build-in-usd-reserve/3997">https://discuss.nubits.com/t/a-gateway-with-a-build-in-usd-reserve/3997</a></p>
+<p><strong>It is known to shareholders that the USD or USDT (or alike) will stay on T2 at the exchange</strong>. They will never be withdrawn as such, but might be converted back to BTC and withdrawn to FLOT or NuSafe or alike (to be converted by NuSafe  or alike to USD again and kept that way, but in a decentralized manner).<br>
+The value of USD, USDT, etc. kept on exchange should not exceed the value of BTC that would be kept on the exchange.<br>
+This way the exchange risk is not increased, but the volatility risk mitigated.</p>
+<h3>Activation of the gateway / starting the contract</h3>
+<p>This motion gets prematurely activated for an exchange the day a Nu representative group or person (JordanLee, FLOT, FSRT) deposits funds at a deposit address of that exchange.<br>
+Shareholders are encouraged to initiate corrective actions, if they don't comply with that.</p>
+<hr>
+<p><a href="https://daology.org/p/d77faa99301af795fe6b3c1c8e3193906dbd359a">Proposal</a> created with <a href="https://daology.org">Daology.org</a> by <a href="https://daology.org/u/lamz0rnewb">lamz0rnewb</a> for <a href="https://daology.org/o/Nu">Nu</a></p>
+
+      
+    </article>
+  </div>
+</div>
+
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div id="app-footer">
+  <footer class="footer footer-branded">
+
+    <div class="container">
+      <nav class="pull-left col-xs-12 col-md-10">
+        <ul>
+          <li role="presentation"><a href="/about">About Daology</a></li>
+          <li role="presentation"><a href="/terms">Terms</a></li>
+          <li role="presentation"><a href="/privacy">Privacy</a></li>
+          <li role="presentation"><a href="/cookies">Cookies</a></li>
+          <li role="presentation"><a href="/support">Support</a></li>
+        </ul>
+      </nav>
+      <div class="copyright col-xs-12 col-md-2 pull-right">
+        &copy; 2017 Daology, LLC
+      </div>
+    </div>
+  </footer>
+</div>
+    </div>
+      
+
+
+  
+  
+
+    
+
+    
+
+    
+      <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+      <script src="//code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/highlight.js/latest/highlight.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+      <script src="/static/public/javascripts/dao.min.js"></script>
+    
+
+  
+
+
+
+  <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='https://www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-62932153-1','auto');ga('send','pageview');
+  </script>
+
+  </body>
+  
+  
+</html>

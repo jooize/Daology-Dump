@@ -1,0 +1,15 @@
+The buy side of the peg should be kept tight using non-network assets in reserve.  I will talk about cryptocurrency assets because they all have similar properties, but other forms of currency have been mentioned, such as USD sitting on exchange.  I am attempting to cultivate a general set of rules for any cryptocurrency shareholders wish to hold in T4 reserve.
+
+1. Multisig.  There are technical challenges associated with any new blockchain.  It might be best to open up a SLOT (second liquidity operations team) to handle the multisig and blockchain for each new crypto.
+
+2. Max % of circulating NBT.  If the reserve exceeds this value, an overflow will be used to buy BTC similar to how share buybacks are done.
+
+3.  Min % of circulating NBT.  This is actually an open question.  It is tempting to say "if the reserve drops below this value, start buying" but that means we subject ourselves to every black swan on the market.  Instead, we should only buy altcoins with the BTC overflow.
+
+The end result looks something like this:
+Each week the T4 people all figure out how they are relative to their targets.  Any altcoin with overflow sells for BTC.  If BTC has overflow, it gets divided into different streams.  The streams can be updated by motion each time a new SLOT is formed.  For example, 10% of the BTC overflow could be used like this:
+5% NSR, 2% PPC, 2% LTC, 1% BKS
+Now, this would have a very interesting effect because if both the altcoin and BTC are overflowing, T4 custodians will end up buying and selling a coin at the same time.  However, this is preferred because there is the possibility that they will both buy and sell at a spread rather than simply to each other.
+
+And finally:                       
+4) If T4 BTC funds drop below x%, start mortgaging altcoins.

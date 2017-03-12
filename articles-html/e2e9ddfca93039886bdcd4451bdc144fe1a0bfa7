@@ -1,0 +1,333 @@
+<!-- extend base layout -->
+
+<!doctype html>
+<html lang="">
+  <head>
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Daology</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/static/public/images/favicon.ico">
+
+    
+  
+  
+
+    
+      <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic|Lato:400,700|Inconsolata' rel='stylesheet' type='text/css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/highlight.js/latest/styles/github.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/flick/jquery-ui.css">
+      <link rel="stylesheet" href="/static/assets/stylesheets/_vendor/jquery.tagit.min.css">
+
+      <link rel="stylesheet" href="/static/public/stylesheets/dao.min.css">
+    
+
+    
+
+    
+
+  
+
+    
+  
+  
+
+    
+
+    
+      <script src="/static/assets/javascripts/vendor/moment.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/contrib/auto-render.min.js"></script>
+    
+
+    
+
+  
+
+  </head>
+  <body role="document">
+    <div id="fullpage_wrapper">
+    
+      <div id="app-navbar">
+  <nav class="navbar" role="navigation">
+    <div class="container-fluid">
+      <div class="brand-bar row">
+        <div class="col-md-12">
+          <button id="menu-toggle" type="button" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar bar1"></span>
+            <span class="icon-bar bar2"></span>
+            <span class="icon-bar bar3"></span>
+          </button>
+          <a class="word_mark" href="/" name="home_link">daology</a>
+          
+        </div>
+      </div>
+      <div class="primary_nav row">
+        <div class="col-md-12">
+          <div class="collapse navbar-collapse" id="app-navbar-collapse">
+            <ul class="subnav">
+              <li class="subnav-item"><a href="/organizations/" name="dao_list_link">Organizations</a></li>
+              <li class="subnav-item"><a href="/articles" name="dao_list_link">Articles</a></li>
+              <li class="subnav-item"><a href="/proposals" name="dao_list_link">Proposals</a></li>
+              
+              <li class="subnav-item"><a href="/login" name="login_link" class="signin_btn">Sign in with Github</a></li>
+              
+
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+</div>
+      
+  
+  
+
+
+      
+
+  
+
+  
+
+  
+
+  
+
+
+
+      <div class="main row">
+        <div class="container">
+          <header class="row page_title">
+            
+            <div class="row">
+              <div class="page_actions col-md-12 pull-right">
+                <ul>
+                
+  
+
+
+                
+                  
+
+
+
+                
+                </ul>
+              </div>
+            </div>
+            
+            
+            <div class="col-xs-9 col-md-11">
+              <span class="supertitle">
+                
+  Article  <span style="breadcrumb-separator">// </span> <a href="/organizations/Bitcoin">Bitcoin</a>
+
+              </span>
+              <h1>
+                
+  Cointoolkit Multisig Transaction
+
+              </h1>
+            </div>
+          </header>
+          <section class="row page_content">
+            <div class="col-md-12">
+                
+<div class="row container">
+  
+  <div class="col-md-4 sidebar">
+
+    <div class="scroll_title">
+      <p class="supertitle">Article  <span style="breadcrumb-separator">//</span> Bitcoin</p>
+      <p class="title">Cointoolkit multisig transaction</p>
+      <p class="author">By 
+        Esko
+        
+      </p>
+      <p class="meta_text date">
+        <script>
+document.write(moment("2016-03-31T14:20:04 Z").format("MMMM D YYYY, h:mm A"));
+</script>
+        &nbsp;|&nbsp;&nbsp;<span class="updated">Updated: <script>
+document.write(moment("2016-04-10T22:17:08 Z").calendar());
+</script></span>
+        
+      </p>
+      <hr>
+      <div class="content-toc"></div>
+    </div>
+
+    <div class="row sidebar_section">
+      <div class="col-md-12">
+        <p class="meta_text">
+          <a href="/u/jooize/">
+            <img src="https://avatars.githubusercontent.com/u/719371?v=3" class="profile">
+            <div class="authorname_block">
+                <div class="nolink">By Esko</div> 
+                <div class="nickname">@jooize</div>
+              </div>
+            
+          </a>
+        </p>
+        <div class="row">
+          <div class="col-md-12">
+            <p class="meta_text date">
+              <script>
+document.write(moment("2016-03-31T14:20:04 Z").format("MMM D YYYY, h:mm A"));
+</script>
+              
+              &nbsp;|&nbsp;&nbsp;
+              
+              <span class="updated">Updated: <script>
+document.write(moment("2016-04-10T22:17:08 Z").calendar());
+</script></span>
+              
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    
+  </div>
+  
+
+
+  
+    <div class="content_body col-md-8">
+  
+
+    
+    <div class="reading-time-wrapper" data-target="e2e9ddfca93039886bdcd4451bdc144fe1a0bfa7">
+    <span class="reading-time"></span> read (<span class="word-count"></span> words)
+  </div>
+
+    <article class="rtCalc no-fouc" id="e2e9ddfca93039886bdcd4451bdc144fe1a0bfa7">
+      
+        <h2>Requirements</h2>
+<ul>
+<li>Multisig address redeem script.</li>
+<li>Target address(es).</li>
+<li>Cointoolkit support for loading unspent inputs with the cryptocoin.</li>
+</ul>
+<h2>Procedure</h2>
+<ol>
+<li>Open <a href="https://ttutdxh-nubits.github.io/cointoolkit/">Cointoolkit</a>.</li>
+<li>Choose cryptocoin in the upper right corner dropdown list.</li>
+<li>Go to New → Transaction.</li>
+<li>Enter multisig address redeem script and press “Load”.</li>
+<li>Enter target addresses with intended amounts. Add more entries with the plus to the right.</li>
+<li>(optional) Go to the tab “Inputs”.</li>
+<li>(optional) Remove entries until the “Transaction Fee” number is as close to your intended transaction fee as possible <em>to reduce transaction size</em>.</li>
+<li>(optional) Return to the tab “Outputs”.</li>
+<li>Add entry with multisig address. <em>You can copy it from under the redeem script box.</em></li>
+<li>Set amount to multisig address to what the “Transaction Fee” box says minus intended transaction fee.</li>
+<li>Press “Generate”.</li>
+<li>Check the transaction fee against the resulting transaction size and judge whether it's appropriate (or ask).</li>
+<li>Copy the entire (raw) transaction text.</li>
+<li>Send the transaction to the signers or press “Continue to Sign” to sign.</li>
+<li><em>Make sure you trust GitHub and the author of the Cointoolkit version you're using. You may look at the GitHub commit history, but safer is to download and run it offline.</em></li>
+<li>Enter your multisig private key in WIF format and press “Sign”.</li>
+<li>Press “Verify and share” (or “Broadcast” if sufficiently signed).</li>
+<li>Check transaction, and send the shareable link at the bottom to the other signers. You may want to include the raw transaction (at the top) in the message to simplify for some signers.</li>
+</ol>
+<h2>Example</h2>
+<ol>
+<li>Acquire <a href="https://discuss.nubits.com/t/flot-operations-buy-side-btc-related/3117">multisig address redeem script</a>.<pre><code> 55210234139729dd413c84a71a0bfd6f236790be861b37311cef3240277c940e4b0c072102435b894b94b4b27dd24436b3f9ad0b9409d855ab4be6e91141d445804e84750b2102e2fcdfe246e9cd4864d9119b8af465487385eccd0ea30a8cb21d44d36818189f210312cd6eb361c9ebb0d90e44946492a237eab4c7a7d88a0db800f2f460937cc22f210326c19862fb329470c828ace6749b64c50b4d9a8da60d60e4e32ebe96b388b2ae21034b0bd0f653d4ac0a2e9e81eb1863bb8e5743f6cb1ea40d845b939c225a1a80ff2103661a4370dfcfbcea25d1800057220f4572b6eecab95bb0670e8676a9e34451dc2103da8082062298c40f0b473b74f3c95b57eaaebe3e67ed30ce56347b2e727915fb58ae
+</code></pre>
+</li>
+<li>Acquire target address (possibly from the same thread).</li>
+<li>Follow outlined procedure.</li>
+</ol>
+<h2>Improve</h2>
+<ul>
+<li>Calculate transaction size on the fly.</li>
+<li>Let user set transaction fee by number, and return excess to multisig address.</li>
+<li>Allow entering transaction fee per byte.</li>
+<li>Suggest transaction fee.</li>
+<li>Fetch appropriate transaction fee from <a href="https://bitcoinfees.21.co/">https://bitcoinfees.21.co/</a> (Bitcoin only).</li>
+<li>Links to verify transaction after creating transaction without having signed.</li>
+<li>Produce summary of transaction useful for other signers.</li>
+</ul>
+
+      
+    </article>
+  </div>
+</div>
+
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div id="app-footer">
+  <footer class="footer footer-branded">
+
+    <div class="container">
+      <nav class="pull-left col-xs-12 col-md-10">
+        <ul>
+          <li role="presentation"><a href="/about">About Daology</a></li>
+          <li role="presentation"><a href="/terms">Terms</a></li>
+          <li role="presentation"><a href="/privacy">Privacy</a></li>
+          <li role="presentation"><a href="/cookies">Cookies</a></li>
+          <li role="presentation"><a href="/support">Support</a></li>
+        </ul>
+      </nav>
+      <div class="copyright col-xs-12 col-md-2 pull-right">
+        &copy; 2017 Daology, LLC
+      </div>
+    </div>
+  </footer>
+</div>
+    </div>
+      
+
+
+  
+  
+
+    
+
+    
+
+    
+      <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+      <script src="//code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/highlight.js/latest/highlight.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+      <script src="/static/public/javascripts/dao.min.js"></script>
+    
+
+  
+
+
+
+  <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='https://www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-62932153-1','auto');ga('send','pageview');
+  </script>
+
+  </body>
+  
+  
+</html>

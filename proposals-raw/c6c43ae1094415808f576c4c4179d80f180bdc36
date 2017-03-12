@@ -1,0 +1,23 @@
+This proposal is an addendum to the LiquidBits term 7 proposal which passed on 21 Feb 2016 (UTC). Unfortunately it contained errors in the calculation of the rewards leading to current operations being funded inadequately for the next 60 days. More details in this thread: https://discuss.nubits.com/t/passed-liquidbits-term-7-grant-updated-automatic-liquidity-pool-alp/3488
+
+This proposal seeks to top up the funding to continue the operations as per the original proposal till the end of the 60 day term. The original proposal can be found here: https://daology.org/u/cybnate/proposals/f6349c0339f210f4a26a91acc10b085a03640a9b
+
+Here are the calculations substantiating the additional 990 NBT grant:
+
+Original grant:
+
+**with up to 4.5% per month (0.15% per day) on CCEDK’s NBT/EUR pair on both sell and buy side to a maximum of 3,750 NBT on each side ( max pay-out 315 NBT/60 days) **
+
+This should have been (( 2 x 3,750 ) / 100 x 0.15 ) x 60 days = 675 NBT max pay-out. Difference 360 NBT.
+
+Original grant:
+
+**with up to 4.2% per month (0.14% per day) on CCEDK’s NBT/USD pair on both sell and buy side to a maximum of 7,500 NBT on each side (max pay-out 630 NBT/60 days)**
+
+This should have been (( 2 x 7,500) / 100 x 0.14 ) x 60 days = 1260 NBT max pay-out. Difference 630 NBT
+
+***Total 360 + 630 = 990 NBT. ***
+
+---
+
+[Proposal](https://daology.org/p/c6c43ae1094415808f576c4c4179d80f180bdc36) created with [Daology.org](https://daology.org) by [cybnate](https://daology.org/u/cybnate) for [Nu](https://daology.org/o/Nu)
